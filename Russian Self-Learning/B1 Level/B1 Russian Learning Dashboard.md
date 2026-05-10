@@ -36,4 +36,4 @@ _Synthesized from professional and strategic goals._
     
 - **Nuance:** Use comparatives to analyze assets (**лучше чем**, **дороже чем**) in your financial watch reports.
     
-- **Professional:**Start reading short articles from RIA Novosti or RT (in Russian) to identify "Weak Signals" in the text.
+- **Professional:** Start reading short articles from RIA Novosti or RT (in Russian) to identify "Weak Signals" in the text.

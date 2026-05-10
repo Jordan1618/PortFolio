@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
+                "file": "Russian Self-Learning/Vocabulary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B1 Russian Learning Dashboard"
+              "title": "Vocabulary"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302
+    "width": 200
   },
   "right": {
     "id": "bd1eb7f14ada1f22",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
+                "file": "Russian Self-Learning/Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour B1 Russian Learning Dashboard"
+              "title": "Rétrolien pour Vocabulary"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
+                "file": "Russian Self-Learning/Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de B1 Russian Learning Dashboard"
+              "title": "Liens sortants de Vocabulary"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
+                "file": "Russian Self-Learning/Vocabulary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de B1 Russian Learning Dashboard"
+              "title": "Plan de Vocabulary"
             }
           }
         ]
@@ -186,10 +186,13 @@
   },
   "active": "94014f2835dd4b94",
   "lastOpenFiles": [
-    "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
-    "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
-    "Russian Self-Learning/B1 Level/AI Test To Pass.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
+    "Russian Self-Learning/A1 Level/AI Test To Pass.md",
+    "Russian Self-Learning/Vocabulary.md",
+    "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
+    "Russian Self-Learning/A2 Level/A2 Vocabulary.md",
+    "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
+    "Russian Self-Learning/B1 Level/AI Test To Pass.md",
     "Russian Self-Learning/A2 Level/AI Test To Pass.md",
     "README.md",
     "Russian Self-Learning/README.md",
@@ -197,7 +200,6 @@
     "n8n Projects (Automatization)/README.md",
     "Other Projects/Public Interest or Ethical Dating App",
     "Other Projects",
-    "Russian Self-Learning/A1 Level/AI Test To Pass.md",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
     "n8n Projects (Automatization)/Financial Market Intelligence on my own Investment",
     "KaramelIa/README.md",
