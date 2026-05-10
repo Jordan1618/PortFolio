@@ -78,12 +78,7 @@
 | 70                                  |                                     |                                     |                                     |
 | **EVALUATION IA N°2    /70**        |                                     |                                     |                                     |
 
-R = On prononce consonne + e = la consonne se mouille et le son è se passe vite donc pas de marquage d’où la prononciation « iè ou i » mais qui en vérité est tellement rapide que ça constitue un simple rappel de l’akanie + mouiller la consonne.
-
-Et quand le e n’est pas accentué on remarque encore plus le i .  
-  
 Le M = Masculin
-
 Le F = Féminin
 
 |   |   |   |   |
