@@ -11,7 +11,7 @@ Having mastered English, I am now tackling a new alphabet for its mental stimula
 
 ## Method:
 I follow a rigorous self-study system based on five pillars: **Grammar, Conjugation, Orthography, Pronunciation, and Daily Usage**. I transform raw data into atomic Markdown summaries to master sentence logic and word stress. My progress is tracked via a "X Vocabulary words" challenge with an AI audit every 30 words on all previous words.
-So i have 6 different levels with their own test : 
+So i have 6 different levels with their own test and [Planning](Planning.md) : 
 - A1 [A1 Russian Learning Dashboard](A1%20Russian%20Learning%20Dashboard.md)
 - A2 [A2 Russian Learning Dashboard](A2%20Russian%20Learning%20Dashboard.md)
 - B1 [B1 Russian Learning Dashboard](B1%20Russian%20Learning%20Dashboard.md)

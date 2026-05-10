@@ -4,17 +4,29 @@
 ---
 
 ## Learning Roadmap
-| Module                                 | Focus Area                                                                                                  | Progress       |
-| :------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :------------- |
-| **01 - Phonetics**                     | Cyrillic Alphabet & Akanie Rules                                                                            | ✅ 100%         |
-| **02 - Grammar**                       | Personal Pronouns & Verb Groups                                                                             | 🔄 In Progress |
-| **03 - Vocabulary**                    | 100 Essential Words Challenge [Vocabulary](Vocabulary.md)                                                   | 🔄 In Progress |
-| **04 - Tense**                         | Present and Negation                                                                                        | ✅ 100%         |
-| **05 - Grammatical Case**              | Subjective and Objective Case                                                                               | ✅ 100%         |
-| **06 - Tense and Interrogative Words** | The Past + Who/Why/When/Where & ...                                                                         | 🔄 In Progress |
-| **06.25 - Adverbs of Frequency**       | Essential for daily descriptions like "Always" (**всегда**), "Often" (**часто**), or "Never" (**никогда**). | 🔄 In Progress |
-| **06.5 - Numbers 1-100**               | Basic digits - full range for ages, prices, and phone numbers                                               | 🔄 In Progress |
-| **06.75 - Telling Time**               | "What time is it?" (**Который час?**) and periods of the day (morning, afternoon, evening)                  | 🔄 In Progress |
+
+| Module                                    | Focus Area                                                                                           | Progress       |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------- |
+| **01 - Phonetics**                        | Cyrillic Alphabet & Akanie Rules                                                                     | ✅ 100%         |
+| **02 - Grammar**                          | Personal Pronouns & Verb Groups                                                                      | 🔄 In Progress |
+| **02.25 - Gender**                        | Grammatical gender: Masculine / Feminine / Neuter — identifying gender by noun ending                | 🆕 Not Started |
+| **02.5 - Social Formulas**                | Greetings, introductions, farewells: Здравствуйте, Меня зовут..., До свидания, Пока                  | 🆕 Not Started |
+| **03 - Vocabulary**                       | 100 Essential Words Challenge [Vocabulary](Vocabulary.md)                                            | 🔄 In Progress |
+| **03.25 - Thematic Vocabulary I**         | Colours, days of the week, months, seasons — productive A1 lexical fields                            | 🆕 Not Started |
+| **03.5 - Expressions of Quantity**        | много, мало, немного, несколько, все — basic quantifiers without declension                          | 🆕 Not Started |
+| **04 - Tense**                            | Present Tense & Negation (particle Не)                                                               | ✅ 100%         |
+| **04.25 - Basic Adjectives (Nominative)** | Adjective agreement in gender & number in Nominative only: красивый / красивая / красивое / красивые | 🆕 Not Started |
+| **04.5 - Coordinating Conjunctions**      | Core connectors: и, а, но, или, тоже                                                                 | 🆕 Not Started |
+| **04.75 - Basic Prepositions of Place**   | в, на, у, рядом с, перед, за — simple locative use before entering case logic                        | 🆕 Not Started |
+| **05 - Grammatical Case**                 | Nominative & Accusative Cases                                                                        | ✅ 100%         |
+| **05.5 - Нет + Genitive (Absence)**       | Expressing absence: Здесь нет + Genitive — first contact with the Genitive                           | 🆕 Not Started |
+| **06 - Tense & Interrogative Words**      | Past Tense + кто, почему, когда, где, куда, откуда                                                   | 🔄 In Progress |
+| **06.1 - Question Formation**             | Yes/No questions by rising intonation vs. particle ли — contrast and usage                           | 🆕 Not Started |
+| **06.15 - Interrogative Pronouns**        | кто, что, какой, чей, сколько — forms and use in simple questions                                    | 🆕 Not Started |
+| **06.2 - Быть in Past & Future**          | был/была/было/были and буду/будешь/будет — быть as independent verb                                  | 🆕 Not Started |
+| **06.25 - Adverbs of Frequency**          | всегда, часто, иногда, редко, никогда                                                                | 🔄 In Progress |
+| **06.5 - Numbers 1–100**                  | Basic digits for ages, prices, phone numbers                                                         | 🔄 In Progress |
+| **06.75 - Telling Time**                  | Который час? — clock reading and time-of-day expressions                                             | 🔄 In Progress |
 #### Nb: For each, i use [My own notes](My%20own%20notes.md)
 ---
 
@@ -53,3 +65,15 @@
 - **Storage:** Private deep-documentation vault for detailed conjugation and declination tables.
 - **Exercices**: AI-assisted exercices to memorize, understand and go deeper.
 - **Pronunciation**: Instant feedback thanks to live conversation with Gemini
+
+---
+
+## 5 Russophone Sources — A1 Level
+
+|#|Source|Type|Where to find it|Why useful at A1|
+|---|---|---|---|---|
+|1|**Русский язык для всех (Глазунова)**|University textbook|Search: _Глазунова Русский язык для всех A1_|The standard RFL textbook used in Russian universities — phonetics-first, structured exercises|
+|2|**Мойдодыр et Тараканище (Чуковский)**|Children's poetry|Search: _Чуковский Мойдодыр читать_|Short, rhyming, repetitive — ideal for internalising phonetics and basic vocabulary|
+|3|**Lingvo Live**|Dictionary with audio|[lingvolive.com](https://www.lingvolive.com)|Russian monolingual and bilingual dictionary — verify pronunciation of every new word|
+|4|**Русский язык онлайн — gramota.ru**|Reference portal|[gramota.ru](http://gramota.ru)|The official Russian spelling and grammar reference — use it to check verb forms and endings|
+|5|**Простые диалоги — YouTube канал "русский с носителем"**|Video dialogues|Search on YouTube: _диалоги на русском языке для начинающих_|Slow, scripted everyday dialogues — matches your A1 social formula and vocabulary goals|
