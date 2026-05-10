@@ -1,6 +1,6 @@
 # The Knowledge Architecture & Automation Lab
 
-> **Documentation of a continuous, high-intensity learning journey toward future strategic opportunities and personal satisfaction.**
+> **Documentation of a continuous, high-intensity learning journey toward future strategic opportunities and personal fulfillment.**
 
 ## Vision & Purposes
 
@@ -35,7 +35,7 @@ Exploring the limits of automation to reduce the gap between idea and execution.
 - **Strategic Monitoring:** Advanced workflows for Financial and Cybersecurity "Threat Intelligence".
     
 - **Systemic Thinking:** Building logic gates and automated reporting systems that operate 24/7.
-    
+	
 ### [Russian](Russian%20Self-Learning/README.md) | _Linguistic & Geopolitical Asset_
 
 A long-term commitment to mastering a complex alphabet and a global strategic culture.
@@ -43,7 +43,9 @@ A long-term commitment to mastering a complex alphabet and a global strategic cu
 - **Objective:** Achieve **C1/C2 proficiency by December 2026**.
     
 - **Focus:** Deep diving into Russo-Mongol history, Orthodox roots, and the geostrategy of Eastern Europe.
-    
+	
+### [KaramelIa](KaramelIa/README.md)
+ - **KaramelIa:** A virtual AI with a hand-written lore that published music mixes and singles abundantly and rigourously from a coordination of prompts and various tools.
 
 ---
 
@@ -64,6 +66,6 @@ I rely on a strict **"Blueprint-First"** cycle. I don't just "try" things; I arc
 
 ## The Road Ahead
 
-This repository is the first milestone for my future professional opportunities. It tracks my evolution from a curious explorer to a curious strenghted profesional using its skills to provide always the best he can.
+This repository is the first milestone for my future professional opportunities. It tracks my evolution from a curious explorer to a **curious highly-skilled profesional** using its skills to provide always the best he can.
 
 - **December 2026 Milestone:** Full linguistic fluency and a fully autonomous intelligence-gathering ecosystem.
