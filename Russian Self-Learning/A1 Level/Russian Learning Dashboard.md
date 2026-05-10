@@ -4,14 +4,14 @@
 ---
 
 ## 📊 Learning Roadmap
-| Module              | Focus Area                       | Progress   |
-| :------------------ | :------------------------------- | :--------- |
-| **01 - Phonetics**  | Cyrillic Alphabet & Akanie Rules | ✅ 100%     |
-| **02 - Grammar**    | Personal Pronouns & Verb Groups  | 🔄 60%     |
-| **03 - Vocabulary** | 100 Essential Words Challenge    | 🔄 51/100  |
-| **04 - Tense**      | Present and Negation             | 📅 Next Up |
-| 05 -                | Sentence Building                |            |
-| 06 -                |                                  |            |
+| Module                | Focus Area                       | Progress   |
+| :-------------------- | :------------------------------- | :--------- |
+| **01 - Phonetics**    | Cyrillic Alphabet & Akanie Rules | ✅ 100%     |
+| **02 - Grammar**      | Personal Pronouns & Verb Groups  | 🔄 60%     |
+| **03 - Vocabulary**   | 100 Essential Words Challenge    | 🔄 51/100  |
+| **04 - Tense**        | Present and Negation             | 📅 Next Up |
+| 05 - Grammatical Case | Subjective and Objective Cas     |            |
+| 06 -                  |                                  |            |
 
 ---
 
