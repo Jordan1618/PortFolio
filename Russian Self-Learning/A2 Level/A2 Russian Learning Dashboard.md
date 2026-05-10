@@ -13,7 +13,7 @@
 |**10 - Aspect**|**Verbal Aspect**: Imperfective vs. Perfective|🔄 In Progress|
 |**11 - Movement**|**Verbs of Motion**: To go (foot vs. vehicle)|🔄 Not Started|
 |**12 - Tense**|**Future Imperfective**: The "Буду" construction|🔄 Not Started|
-
+#### Nb: For each, i use [My own notes 2](My%20own%20notes%202.md)
 ---
 
 ## Grammatical Foundations (Level A2)
