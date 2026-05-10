@@ -49,5 +49,5 @@
 - **Documentation:** Transforming extensive Word documents into atomic Markdown summaries.
 - **Verification:** AI-assisted pronunciation checks every 30 words.
 - **Storage:** Private deep-documentation vault for detailed conjugation and declination tables.
-- Exercice: AI-assisted exercices to memorize, understand and go deeper.
-- Pronounciation: Test d
+- **Exercices**: AI-assisted exercices to memorize, understand and go deeper.
+- **Pronunciation**: Instant feedback thanks to live conversation with Gemini
