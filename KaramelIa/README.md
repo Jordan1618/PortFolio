@@ -13,7 +13,7 @@
 	
 `##Method` : 
 	
-- I describe a feeling or a cinematic climax quote and let my prompts generate for me video, music and image prompts. I gather the AI-generated content in CapCut and i publish the final music mix on Youtube in less than 1Hour [Released mixes and singles](Released%20mixes%20and%20singles.md)
+- I describe a feeling or a cinematic climax quote and let my prompts generate for me video, music and image prompts. I gather the AI-generated content in CapCut and i publish the final music mix on Youtube in less than 1Hour [Released Mixes and Singles](Released%20Mixes%20and%20Singles.md)
 	
 `##Next Steps` : 
 	
