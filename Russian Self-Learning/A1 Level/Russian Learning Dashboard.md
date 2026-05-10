@@ -1,29 +1,32 @@
-# 🇷🇺 Russian Language Learning Dashboard
+# A1 Russian Language Learning Dashboard
 > **Current Objective:** Mastering Foundations & reaching 100 core vocabulary points.
 
 ---
 
 ## 📊 Learning Roadmap
-| Module | Focus Area | Progress |
-| :--- | :--- | :--- |
-| **01 - Phonetics** | Cyrillic Alphabet & Akanie Rules | ✅ 100% |
-| **02 - Grammar** | Personal Pronouns & Verb Groups | 🔄 60% |
-| **03 - Vocabulary** | 100 Essential Words Challenge | 🔄 51/100 |
-| **04 - Syntax** | Negation & Sentence Building | 📅 Next Up |
+| Module              | Focus Area                       | Progress   |
+| :------------------ | :------------------------------- | :--------- |
+| **01 - Phonetics**  | Cyrillic Alphabet & Akanie Rules | ✅ 100%     |
+| **02 - Grammar**    | Personal Pronouns & Verb Groups  | 🔄 60%     |
+| **03 - Vocabulary** | 100 Essential Words Challenge    | 🔄 51/100  |
+| **04 - Tense**      | Present and Negation             | 📅 Next Up |
+| 05 -                | Sentence Building                |            |
+| 06 -                |                                  |            |
 
 ---
 
-## 📚 Grammatical Foundations
+##  Grammatical Foundations
 *Synthesized from personal study records*
 
-### 1. Phonetics & Writing (The "Recoding" Phase)
+### 1. Phonetics & Writing
 - **The Alphabet:** Full mastery of the 33 letters, including "False Friends" (В, Е, Н, Р, С, У, Х) and specific Slavic characters (Б, Г, Д, Ж, З).
-- **The Akanie Rule:** Strategic focus on stressed vowels. When 'О' is unstressed, it is pronounced as 'А' (e.g., *Moskva* -> *Maskva*).
+- **The Akanie Rule:** Strategic focus on stressed vowels. When the 'О' is pronounced as 'А' or not (e.g., *Moskva* -> "*Maskva*").
 - **Special Signs:** Usage of the soft sign (ь) to modify consonant pronunciation.
 
 ### 2. Core Grammar Pillars
-- **Personal Pronouns:** - Singular: Я (Je), Ты (Tu), Он/Она/Оно (Il/Elle/Neutre).
-  - Plural: Мы (Nous), Вы (Vous), Они (Ils/Elles).
+- **Personal Pronouns:** 
+-  Singular: Я, Ты, Он/Она/Оно.
+- Plural: Мы, Вы, Они.
 - **The Present Tense:** - Zero-copula system (the verb "to be" is not used in the present).
   - Continuous usage of pronouns for clarity.
 - **Verb Conjugation Groups:**
