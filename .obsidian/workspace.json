@@ -11,10 +11,14 @@
             "id": "e38a975764f09e8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "A2 Russian Learning Dashboard"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour A2 Russian Learning Dashboard"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants"
+              "title": "Liens sortants de A2 Russian Learning Dashboard"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan"
+              "title": "Plan de A2 Russian Learning Dashboard"
             }
           }
         ]
@@ -179,6 +186,8 @@
   },
   "active": "e38a975764f09e8e",
   "lastOpenFiles": [
+    "Russian Self-Learning/Planning.md",
+    "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "Russian Self-Learning/B2 Level/B2 Russian Learning Dashboard.md",
     "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
     "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
@@ -190,7 +199,6 @@
     "Russian Self-Learning/C2 Level/My own notes 6.md",
     "Russian Self-Learning/C1 Level/My own notes 5.md",
     "Russian Self-Learning/B2 Level/My own notes 4.md",
-    "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
     "Russian Self-Learning/C2 Level/AI Test To Pass.md",
     "Russian Self-Learning/B2 Level/AI Test To Pass.md",
@@ -204,7 +212,6 @@
     "Russian Self-Learning/B1 Level/AI Test To Pass.md",
     "README.md",
     "Russian Self-Learning/README.md",
-    "Other Projects/README.md",
     "Other Projects/Public Interest or Ethical Dating App",
     "Other Projects",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
