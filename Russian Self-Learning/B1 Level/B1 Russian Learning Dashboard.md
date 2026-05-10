@@ -12,7 +12,7 @@
 |**16 - Comparison**|**Adjectives & Adverbs**: Comparative & Superlative|🔄 Not Started|
 |**17 - Verbs**|**Prefixation**: Changing verb meaning via prefixes|🔄 In Progress|
 |**18 - Modal**|**Possibility & Necessity**: _Можно_, _нужно_, _должен_|🔄 Not Started|
-
+#### Nb: For each, i use [My own notes 3](My%20own%20notes%203.md)
 ---
 
 ## Grammatical Foundations (Level B1)

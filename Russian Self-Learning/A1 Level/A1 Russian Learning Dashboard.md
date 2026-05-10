@@ -12,7 +12,7 @@
 | **04 - Tense**            | Present and Negation                                      | ✅ 100%         |
 | **05 - Grammatical Case** | Subjective and Objective Case                             | ✅ 100%         |
 | **06 - Tense**            | The Past                                                  | 🔄 In Progress |
-#### nb: For each, i use [[my]]
+#### Nb: For each, i use [My own notes](My%20own%20notes.md)
 ---
 
 ##  Grammatical Foundations
