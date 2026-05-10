@@ -5,15 +5,17 @@
 ---
 ## Learning Roadmap (Module A2)
 
-| **Module**                   | **Focus Area**                                                                   | **Progress**   |
-| ---------------------------- | -------------------------------------------------------------------------------- | -------------- |
-| **07 - Declensions**         | **Genitive Case**: Possession & Absence                                          | 🔄 Not Started |
-| **08 - Declensions**         | **Dative Case**: Recipient & Age                                                 | 🔄 Not Started |
-| **09 - Declensions**         | **Prepositional Case**: Location & Topics                                        | 🔄 Not Started |
-| **10 - Aspect**              | **Verbal Aspect**: Imperfective vs. Perfective                                   | 🔄 In Progress |
-| **11 - Movement**            | **Verbs of Motion**: To go (foot vs. vehicle)                                    | 🔄 Not Started |
-| **12 - Tense**               | **Future Imperfective**: The "Буду" construction                                 | 🔄 Not Started |
-| **12.5 - Verbs of Position** | - **State:** stand, lie, hang and sit<br>- **Action:** lay, down, stand up/place | 🔄 Not Started |
+| **Module**                    | **Focus Area**                                                                   | **Progress**   |
+| ----------------------------- | -------------------------------------------------------------------------------- | -------------- |
+| **07 - Declensions**          | **Genitive Case**: Possession & Absence                                          | 🔄 Not Started |
+| **08 - Declensions**          | **Dative Case**: Recipient & Age                                                 | 🔄 Not Started |
+| **09 - Declensions**          | **Prepositional Case**: Location & Topics                                        | 🔄 Not Started |
+| **10 - Aspect**               | **Verbal Aspect**: Imperfective vs. Perfective                                   | 🔄 In Progress |
+| **11 - Movement**             | **Verbs of Motion**: To go (foot vs. vehicle)                                    | 🔄 Not Started |
+| **12 - Tense**                | **Future Imperfective**: The "Буду" construction                                 | 🔄 Not Started |
+| **12.25 - Verbs of Position** | - **State:** stand, lie, hang and sit<br>- **Action:** lay, down, stand up/place | 🔄 Not Started |
+| **12.5 - Modal Verbs**        |                                                                                  |                |
+|                               |                                                                                  |                |
 #### Nb: For each, i use [My own notes 2](My%20own%20notes%202.md)
 ---
 
