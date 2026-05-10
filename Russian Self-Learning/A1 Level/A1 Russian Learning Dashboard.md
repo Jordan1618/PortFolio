@@ -12,7 +12,7 @@
 | **04 - Tense**            | Present and Negation                                      | ✅ 100%         |
 | **05 - Grammatical Case** | Subjective and Objective Case                             | ✅ 100%         |
 | **06 - Tense**            | The Past                                                  | 🔄 In Progress |
-#### Nb: For each, i use [My own notes](My%20own%20notes.md)
+#### nb: For each, i use [[my]]
 ---
 
 ##  Grammatical Foundations
@@ -38,10 +38,9 @@
 ---
 
 ## Study Log & Milestones
-- **Pho Mastered the "Akanie" logic in bold text for visual memory.
-- **[Grammar]** Successfully categorized verbs into Type I and Type II clusters.
-- **[Vocabulary](Vocabulary.md)** Reached point 51 (Slovar / Dictionnaire).
-- **[Next Focus]** Moving from isolated words to simple SVO (Subject-Verb-Object) sentences.
+- **Phonetics:** Mastered the "Akanie" logic in bold text for visual memory.
+- **Grammar:** Successfully categorized verbs into Type I and Type II clusters.
+- **[Vocabulary](Vocabulary.md):**  Reached point 51 (Slovar / Dictionnaire).
 
 ---
 
