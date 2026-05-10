@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "KaramelIa/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Released mixes and singles"
+              "title": "README"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "KaramelIa/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Released mixes and singles"
+              "title": "Rétrolien pour README"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "KaramelIa/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Released mixes and singles"
+              "title": "Liens sortants de README"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "KaramelIa/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Released mixes and singles"
+              "title": "Plan de README"
             }
           }
         ]
@@ -198,14 +198,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e5e7fbce3c3e3a7",
+  "active": "969683878ade0f46",
   "lastOpenFiles": [
-    "KaramelIa/README.md",
     "KaramelIa/Calendar/Released mixes and singles.md",
+    "KaramelIa/README.md",
     "README.md",
     "KaramelIa/Sans titre.canvas",
     "KaramelIa/Sans titre 2",
-    "KaramelIa/n8n Workflow",
+    "KaramelIa/n8n KaramelIa Workflow",
     "KaramelIa/Sans titre 1.md",
     "n8n projects (automatization)",
     "Russian Self-Learning",
