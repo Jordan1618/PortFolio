@@ -28,27 +28,19 @@
 |**12.75 - Basic Comparatives**|больше / меньше + чем — process vs. result nuance introduced|🔄 Not Started|
 #### Nb: For each, i use [My own notes 2](My%20own%20notes%202.md)
 ---
-
 ## Grammatical Foundations (Level A2)
 
-_Synthesized from personal study goals_.
+_Synthesized from personal study goals_
 
 ### 1. The Power of Declensions (Cases)
 
-- **The Genitive (Родительный):** 
-
-
-
-
----
+- **The Genitive (Родительный):** Possession, absence (нет + Gen.), quantity, negation.
+- **Prepositions are inseparable from cases** — every new case module includes its preposition set.
 
 ### 2. Verbal System: Beyond the Present
 
-- **The Future Tense:** 
-
-
-
-
+- **The Future Tense:** буду + imperfective infinitive for ongoing future actions.
+- **Aspect:** the perfective/imperfective opposition as a cognitive framework — result vs. process.
 ---
 
 ## Study Log & Milestones (A2 Targets)
@@ -58,3 +50,15 @@ _Synthesized from personal study goals_.
 - **Adjectives:** Align adjectives in gender and number with nouns in Nominative and Accusative cases.
     
 - **[Vocabulary](Vocabulary.md):** Moving toward the next 100-word milestone, focusing on daily life and professional contexts.
+
+---
+
+## 5 Russophone Sources — A2 Level
+
+|#|Source|Type|Where to find it|Why useful at A2|
+|---|---|---|---|---|
+|1|**Сайт "Учим русский язык"**|Grammar exercises|[uchimrussky.ru](http://uchimrussky.ru)|Interactive case and aspect drills — matches exactly the A2 declension modules|
+|2|**Книга "Русский язык. Практика" (Пахнова)**|Graded practice book|Search: _Пахнова Русский язык Практика A2_|Used in Russian secondary schools — authentic exercises on adjective agreement and case usage|
+|3|**РИА Новости — рубрика "Инфографика"**|Simplified visual news|[ria.ru/infografika](https://ria.ru/infografika)|Short captions with simple syntax — real Russian at A2/B1 boundary with visual context support|
+|4|**Русские народные сказки (Колобок, Репка)**|Folk tales|Search: _Колобок читать онлайн_|Repetitive structures, simple past tense, motion verbs in context — perfect for aspect and movement modules|
+|5|**Forvo.com**|Pronunciation database|[forvo.com](https://forvo.com/languages/ru/)|Native speaker recordings of any Russian word — essential at A2 when adjective endings multiply|
