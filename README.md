@@ -17,18 +17,18 @@ This portfolio is more than a collection of code; it is the **living proof of a 
 
 ## The Technical Core (Tech Stack)
 
-- **The Brain:** [README](n8n%20Projects%20(Automatization)/README.md) — Used as a central nervous system to build complex, self-sustaining digital architectures.
+- **The Brain:** [n8n](n8n%20Projects%20(Automatization)/README.md) — Used as a central nervous system to build complex, self-sustaining digital architectures.
     
-- **The Interface:** Obsidian — Transforming raw, chaotic information into "Atomic Knowledge" via Markdown.
+- **The Interface:** Obsidian — Transforming raw, chaotic information into Graphical and logical Knowledge via Markdown.
     
 - **The Vibe-Coding Framework:** Utilizing AI as a mentor to deconstruct and master the logic behind the code, ensuring I build from understanding, not just imitation.
     
 
 ---
 
-## 🏗️ Main Pillars of Mastery
+## Main Pillars of Mastery
 
-### ⚙️ [n8n Automation Lab](https://www.google.com/search?q=./n8n-projects) | _Engineering Efficiency_
+### [n8n](n8n%20Projects%20(Automatization)/README.md)| _Engineering Efficiency_
 
 Exploring the limits of automation to reduce the gap between idea and execution.
 
@@ -36,8 +36,7 @@ Exploring the limits of automation to reduce the gap between idea and execution.
     
 - **Systemic Thinking:** Building logic gates and automated reporting systems that operate 24/7.
     
-
-### 🇷🇺 [Russian Strategic Learning](https://www.google.com/search?q=./russian-learning) | _Linguistic & Geopolitical Asset_
+### [Russian](Russian%20Self-Learning/README.md) | _Linguistic & Geopolitical Asset_
 
 A long-term commitment to mastering a complex alphabet and a global strategic culture.
 
@@ -48,7 +47,7 @@ A long-term commitment to mastering a complex alphabet and a global strategic cu
 
 ---
 
-## 📈 Methodology: The Grind behind the Scenes
+## Methodology: The Grind behind the Scenes
 
 I rely on a strict **"Blueprint-First"** cycle. I don't just "try" things; I architect them:
 
@@ -63,8 +62,8 @@ I rely on a strict **"Blueprint-First"** cycle. I don't just "try" things; I arc
 
 ---
 
-## 🚀 The Road Ahead
+## The Road Ahead
 
-This repository is the baseline for my future professional opportunities. It tracks my evolution from a curious explorer to a **Strategic Systems Architect**.
+This repository is the first milestone for my future professional opportunities. It tracks my evolution from a curious explorer to a curious strenghted profesional using its skills to provide always the best he can.
 
-- **December 2026 Milestone:** Full linguistic fluency and a fully autonomous intelligence-gathering e
+- **December 2026 Milestone:** Full linguistic fluency and a fully autonomous intelligence-gathering ecosystem.
