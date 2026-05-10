@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "40a104c5d2e5bc34",
+        "id": "2d73fccf64f88ff0",
         "type": "tabs",
         "children": [
           {
-            "id": "94014f2835dd4b94",
+            "id": "e38a975764f09e8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "C1 Russian Learning Dashboard"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour C1 Russian Learning Dashboard"
+              "title": "Rétroliens"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de C1 Russian Learning Dashboard"
+              "title": "Liens sortants"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de C1 Russian Learning Dashboard"
+              "title": "Plan"
             }
           }
         ]
@@ -184,11 +177,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94014f2835dd4b94",
+  "active": "e38a975764f09e8e",
   "lastOpenFiles": [
-    "Russian Self-Learning/C1 Level/AI Test To Pass.md",
-    "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
     "Russian Self-Learning/B2 Level/B2 Russian Learning Dashboard.md",
+    "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
+    "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
+    "Russian Self-Learning/C1 Level/AI Test To Pass.md",
     "Russian Self-Learning/B1 Level/My own notes 3.md",
     "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
     "Russian Self-Learning/A2 Level/My own notes 2.md",
@@ -197,7 +191,6 @@
     "Russian Self-Learning/C1 Level/My own notes 5.md",
     "Russian Self-Learning/B2 Level/My own notes 4.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
-    "Russian Self-Learning/C1 Level/C1 Russian Learning Dashboard.md",
     "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
     "Russian Self-Learning/C2 Level/AI Test To Pass.md",
     "Russian Self-Learning/B2 Level/AI Test To Pass.md",
