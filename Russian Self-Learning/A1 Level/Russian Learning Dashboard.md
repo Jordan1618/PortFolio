@@ -3,7 +3,7 @@
 
 ---
 
-## 📊 Learning Roadmap
+## Learning Roadmap
 | Module                    | Focus Area                       | Progress       |
 | :------------------------ | :------------------------------- | :------------- |
 | **01 - Phonetics**        | Cyrillic Alphabet & Akanie Rules | ✅ 100%         |
@@ -37,7 +37,7 @@
 
 ---
 
-## 📈 Study Log & Milestones
+## Study Log & Milestones
 - **[Phonetics]** Mastered the "Akanie" logic in bold text for visual memory.
 - **[Grammar]** Successfully categorized verbs into Type I and Type II clusters.
 - **[Vocabulary]** Reached point 51 (Slovar / Dictionnaire).
@@ -45,7 +45,7 @@
 
 ---
 
-## 🛠️ Methodology & Sources
+## Methodology & Sources
 - **Documentation:** Transforming extensive Word documents into atomic Markdown summaries.
 - **Verification:** AI-assisted pronunciation checks every 30 words.
 - **Storage:** Private deep-documentation vault for detailed conjugation and declination tables.
