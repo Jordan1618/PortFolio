@@ -40,8 +40,8 @@ _Synthesized from personal study goals_.
 
 ## Study Log & Milestones (A2 Targets)
 
-- **The 4 cases Goal**: Decipher the gender-specific endings for the 4 cases learned so far.
+- **The 4 cases:** Decipher the gender-specific endings for the 4 cases learned so far.
     
-- **Adjectives, Objective:** Align adjectives in gender and number with nouns in Nominative and Accusative cases.
+- **Adjectives:** Align adjectives in gender and number with nouns in Nominative and Accusative cases.
     
-- **[Vocabulary** Moving toward the next 100-word milestone, focusing on daily life and professional contexts.
+- **Vocabulary:** Moving toward the next 100-word milestone, focusing on daily life and professional contexts.
