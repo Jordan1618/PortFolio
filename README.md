@@ -54,13 +54,13 @@ A long-term commitment to mastering a complex alphabet and a global strategic cu
 
 ## Methodology: The Grind behind the Scenes
 
-I
+I always **start with an idea &/or a motivation**. Then i ask a **very large pack of questions until i understand** the matter. And finally i start **build by repeating the 2 first parts relentlessly** step by step, brick after brick, i construct the monument with daily work.
     
 
 ---
 
 ## The Road Ahead
 
-This repository is the first milestone for my future professional opportunities. It tracks my evolution from a curious explorer to a **curious highly-skilled profesional** using its skills to provide always the best he can.
+This repository is the first milestone for my future professional opportunities. It tracks my evolution from a curious explorer to a **curious highly-skilled professional** using its skills to provide always the best he can.
 
 - **December 2026 Milestone:** Full linguistic fluency and a fully autonomous intelligence-gathering ecosystem.
