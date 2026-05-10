@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
+                "file": "KaramelIa/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Russian Learning Dashboard"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
+                "file": "KaramelIa/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Russian Learning Dashboard"
+              "title": "Rétrolien pour README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
+                "file": "KaramelIa/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Russian Learning Dashboard"
+              "title": "Liens sortants de README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
+                "file": "KaramelIa/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Russian Learning Dashboard"
+              "title": "Plan de README"
             }
           }
         ]
@@ -186,10 +186,10 @@
   },
   "active": "94014f2835dd4b94",
   "lastOpenFiles": [
+    "Russian Self-Learning/README.md",
     "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
     "Russian Self-Learning/A1 Level/AI Test To Pass.md",
     "Russian Self-Learning/A1 Level/Grammary.md",
-    "Russian Self-Learning/README.md",
     "Russian Self-Learning/C2 Level",
     "Russian Self-Learning/C1 Level",
     "Russian Self-Learning/B2 Level",
