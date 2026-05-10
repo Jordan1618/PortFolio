@@ -1,4 +1,5 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Pièces jointes"
+  "attachmentFolderPath": "Pièces jointes",
+  "useMarkdownLinks": true
 }
