@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Sans titre.md",
+                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sans titre"
+              "title": "Russian Learning Dashboard"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Sans titre.md",
+                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Sans titre"
+              "title": "Rétrolien pour Russian Learning Dashboard"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Sans titre.md",
+                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Sans titre"
+              "title": "Liens sortants de Russian Learning Dashboard"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Russian Self-Learning/A1 Level/Sans titre.md",
+                "file": "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Sans titre"
+              "title": "Plan de Russian Learning Dashboard"
             }
           }
         ]
@@ -187,7 +187,7 @@
   "active": "94014f2835dd4b94",
   "lastOpenFiles": [
     "Russian Self-Learning/A1 Level/AI Test To Pass.md",
-    "Russian Self-Learning/A1 Level/Sans titre.md",
+    "Russian Self-Learning/A1 Level/Russian Learning Dashboard.md",
     "Russian Self-Learning/A1 Level/Grammary.md",
     "Russian Self-Learning/README.md",
     "Russian Self-Learning/C2 Level",
