@@ -13,17 +13,21 @@
 | **22 - Hypotheticals** | **Unreal Conditionals:** Counterfactuals (если бы он знал...) | 🔄 Not Started |
 | **23 - Numerals**      | **Advanced Declensions:** 1 to 1000 in all cases              | 🔄 Not Started |
 | **24 - Voice**         | **Passive Voice:** Full construction with Instrumental agent  | 🔄 Not Started |
+Nb: For each, i use [My own notes 4](My%20own%20notes%204.md)
 
+---
 ## Grammatical Foundations (Level B2)
 
 1. The Narrative Engine
 
 - **Aspect & Time:** 
 
-#### **Study Log & Milestones (B2 Targets)**
 
-- **Logic:** Remplacer les propositions subordonnées par des gérondifs pour fluidifier l'expression écrite.
+---
+## Study Log & Milestones (B2 Targets)
+
+- **Logic:** Using gerunds (читая, прочитав) to replace long subordinate clauses for better flow.
     
-- **Nuance:** Maîtriser les alternances orthographiques complexes (sifflantes, chuintantes) pour une écriture sans faute.
+- **Nuance:** Handling counterfactual "what-if" scenarios in strategic analysis.
     
-- **Professional:** Analyse de rapports financiers russes pour repérer l'usage du passif et des participes.
+- **Professional:** Analyzing Russian financial reports to identify the use of passive voice and participial structures.
