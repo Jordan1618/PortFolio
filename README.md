@@ -1,58 +1,70 @@
-# Strategic Automation & Intelligence Lab
+# The Knowledge Architecture & Automation Lab
 
-> **Bridging Technical Orchestration, Geopolitical Intelligence, and Linguistic Mastery.**
+> **Documentation of a continuous, high-intensity learning journey toward future strategic opportunities and personal satisfaction.**
 
-## About the Project
+## Vision & Purposes
 
-This portfolio is a centralized hub for my work in **AI Automation** and **Strategic Learning**. I build systems that automate the complex (n8n, LLMs) to free up time for high-value intellectual pursuits, such as mastering the Russian language and analyzing global geostrategy.
+This portfolio is more than a collection of code; it is the **living proof of a colossal daily workload**. My goal is to build a future-proof skill set by merging high-level technical automation with deep geopolitical, linguistic mastery and different projects reflecting who i am and why i'm here.
 
-My philosophy is **"Vibe-Coding"**: using AI not just to get a result, but to deeply understand the underlying code and logic of every system I build.
-
----
-
-## The Tech Stack
-
-- **Orchestration:** [n8n](https://www.google.com/search?q=https://n8n.io/) (Self-hosted) for complex API and workflow logic.
+- **Skill Acquisition:** Mastering the tools of tomorrow (n8n, AI, API Orchestration) through experimentations.
     
-- **Intelligence:** Gemini 1.5 Pro & Specialized LLM Agents.
+- **Strategic Exploration:** Investigating the geopolitical and cultural roots of the Russophone world to gain a unique competitive edge.
     
-- **Creative AI:** Veo, Nano Banana 2, SunoAI.
-    
-- **Knowledge Base:** [Obsidian](https://www.google.com/search?q=https://obsidian.md/) (Atomic Markdown Documentation).
+- **Legacy & Traceability:** Providing a transparent, documented record of my daily/weekly commitment and curiosity.
     
 
 ---
 
-## Key Repositories
+## The Technical Core (Tech Stack)
 
-### [n8n Automation Lab](https://www.google.com/search?q=./n8n-projects)
-
-- **KaramelIa:** Fully automated music mix pipeline (SunoAI + CapCut + YouTube).
+- **The Brain:** [README](n8n%20Projects%20(Automatization)/README.md) — Used as a central nervous system to build complex, self-sustaining digital architectures.
     
-- **Market Intelligence:** Real-time financial watch & weak signal detection for "under-the-radar" assets.
+- **The Interface:** Obsidian — Transforming raw, chaotic information into "Atomic Knowledge" via Markdown.
     
-- **Cybersec Watch:** Automated CVE monitoring and threat intelligence.
-    
-
-### [Russian Self-Learning](https://www.google.com/search?q=./russian-learning)
-
-- **Goal:** C1/C2 Proficiency by December 2026.
-    
-- **Focus:** Geopolitical & Academic Russian, Russo-Mongol history, and Orthodox culture.
-    
-- **Method:** AI-assisted pronunciation audits and atomic grammar synthesis.
+- **The Vibe-Coding Framework:** Utilizing AI as a mentor to deconstruct and master the logic behind the code, ensuring I build from understanding, not just imitation.
     
 
 ---
 
-## My Strategic Method: "The Blueprint-First"
+## 🏗️ Main Pillars of Mastery
 
-Every project follows a strict engineering cycle to ensure 99.9% reliability and deep understanding:
+### ⚙️ [n8n Automation Lab](https://www.google.com/search?q=./n8n-projects) | _Engineering Efficiency_
 
-1. **Trigger:** Capturing signals via Webhooks or Cron jobs.
+Exploring the limits of automation to reduce the gap between idea and execution.
+
+- **Strategic Monitoring:** Advanced workflows for Financial and Cybersecurity "Threat Intelligence".
     
-2. **Expansion:** Data enrichment using LLMs and custom JavaScript.
+- **Systemic Thinking:** Building logic gates and automated reporting systems that operate 24/7.
     
-3. **Processing:** Applying logic gates and filters for precision.
+
+### 🇷🇺 [Russian Strategic Learning](https://www.google.com/search?q=./russian-learning) | _Linguistic & Geopolitical Asset_
+
+A long-term commitment to mastering a complex alphabet and a global strategic culture.
+
+- **Objective:** Achieve **C1/C2 proficiency by December 2026**.
     
-4. **Delivery:** Automated asset generation or strategic reporting.
+- **Focus:** Deep diving into Russo-Mongol history, Orthodox roots, and the geostrategy of Eastern Europe.
+    
+
+---
+
+## 📈 Methodology: The Grind behind the Scenes
+
+I rely on a strict **"Blueprint-First"** cycle. I don't just "try" things; I architect them:
+
+1. **Research:** Identifying the core logic and weak signals.
+    
+2. **Deconstruction:** Breaking down extensive data into atomic, manageable summaries.
+    
+3. **Orchestration:** Building the automation to make the knowledge scalable.
+    
+4. **Validation:** Continuous AI audits and real-world testing to ensure 99.9% reliability.
+    
+
+---
+
+## 🚀 The Road Ahead
+
+This repository is the baseline for my future professional opportunities. It tracks my evolution from a curious explorer to a **Strategic Systems Architect**.
+
+- **December 2026 Milestone:** Full linguistic fluency and a fully autonomous intelligence-gathering e
