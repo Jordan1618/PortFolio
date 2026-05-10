@@ -15,6 +15,6 @@ I follow a rigorous self-study system based on five pillars: **Grammar, Conjugat
 ## Next Steps:
 * **Goal:** Reach a C1/C2 proficiency level by December 2026.
 * [ ] Being able to have a natural discussion
-* [ ] Master A1 to C1 level at least
+* [ ] Master A1 through C1 milestones
 * [ ] Understand more russian people and the Eastern Europe Culture
-* [ ] Why not, having in the future, some profesionnal opportunities linked to that skill
+* [ ] Leverage this linguistic mastery for some professionnal opportunities linked to that skill
