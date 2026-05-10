@@ -14,7 +14,7 @@
 | **06 - Tense and Interrogative Words** | The Past + Who/Why/When/Where & ...                                                                         | 🔄 In Progress |
 | **06.25 - Adverbs of Frequency**       | Essential for daily descriptions like "Always" (**всегда**), "Often" (**часто**), or "Never" (**никогда**). | 🔄 In Progress |
 | **06.5 - Numbers 1-100**               | Basic digits - full range for ages, prices, and phone numbers                                               | 🔄 In Progress |
-| **06.75 - Telling Time                 | "What time is it?" (**Который час?**) and periods of the day (morning, afternoon, evening)                  | 🔄 In Progress |
+| **06.75 - Telling Time**               | "What time is it?" (**Который час?**) and periods of the day (morning, afternoon, evening)                  | 🔄 In Progress |
 #### Nb: For each, i use [My own notes](My%20own%20notes.md)
 ---
 
