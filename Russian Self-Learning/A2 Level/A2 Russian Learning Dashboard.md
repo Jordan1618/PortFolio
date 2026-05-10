@@ -1,6 +1,6 @@
 # A2 Russian Language Learning Dashboard: Structural Foundations
 
-**Current Objective:** Transitioning from isolated sentences to complex interactions and the improve my mastery of the case system.
+**Current Objective:** Filling the gap from isolated to more complex sentences and improving my mastery of the case system.
 
 ---
 ## Learning Roadmap (Module A2)
@@ -13,3 +13,35 @@
 |**10 - Aspect**|**Verbal Aspect**: Imperfective vs. Perfective|🔄 In Progress|
 |**11 - Movement**|**Verbs of Motion**: To go (foot vs. vehicle)|🔄 Not Started|
 |**12 - Tense**|**Future Imperfective**: The "Буду" construction|🔄 Not Started|
+
+---
+
+## Grammatical Foundations (Level A2)
+
+_Synthesized from personal study goals_.
+
+### 1. The Power of Declensions (Cases)
+
+- **The Genitive (Родительный):** 
+
+
+
+
+---
+
+### 2. Verbal System: Beyond the Present
+
+- **The Future Tense:** 
+
+
+
+
+---
+
+## Study Log & Milestones (A2 Targets)
+
+- **The 4 cases Goal**: Decipher the gender-specific endings for the 4 cases learned so far.
+    
+- **Adjectives, Objective:** Align adjectives in gender and number with nouns in Nominative and Accusative cases.
+    
+- **[Vocabulary** Moving toward the next 100-word milestone, focusing on daily life and professional contexts.
