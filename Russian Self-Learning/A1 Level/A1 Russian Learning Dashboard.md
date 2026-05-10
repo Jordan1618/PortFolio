@@ -4,14 +4,14 @@
 ---
 
 ## Learning Roadmap
-| Module                    | Focus Area                       | Progress       |
-| :------------------------ | :------------------------------- | :------------- |
-| **01 - Phonetics**        | Cyrillic Alphabet & Akanie Rules | ✅ 100%         |
-| **02 - Grammar**          | Personal Pronouns & Verb Groups  | 🔄 In Progress |
-| **03 - Vocabulary**       | 100 Essential Words Challenge    | 🔄 In Progress |
-| **04 - Tense**            | Present and Negation             | ✅ 100%         |
-| **05 - Grammatical Case** | Subjective and Objective Case    | ✅ 100%         |
-| **06 - Tense**            | The Past                         | 🔄 In Progress |
+| Module                    | Focus Area                                                | Progress       |
+| :------------------------ | :-------------------------------------------------------- | :------------- |
+| **01 - Phonetics**        | Cyrillic Alphabet & Akanie Rules                          | ✅ 100%         |
+| **02 - Grammar**          | Personal Pronouns & Verb Groups                           | 🔄 In Progress |
+| **03 - Vocabulary**       | 100 Essential Words Challenge [Vocabulary](Vocabulary.md) | 🔄 In Progress |
+| **04 - Tense**            | Present and Negation                                      | ✅ 100%         |
+| **05 - Grammatical Case** | Subjective and Objective Case                             | ✅ 100%         |
+| **06 - Tense**            | The Past                                                  | 🔄 In Progress |
 
 ---
 
@@ -40,7 +40,7 @@
 ## Study Log & Milestones
 - **[Phonetics]** Mastered the "Akanie" logic in bold text for visual memory.
 - **[Grammar]** Successfully categorized verbs into Type I and Type II clusters.
-- **[Vocabulary]** Reached point 51 (Slovar / Dictionnaire).
+- **[Vocabulary](Vocabulary.md)** Reached point 51 (Slovar / Dictionnaire).
 - **[Next Focus]** Moving from isolated words to simple SVO (Subject-Verb-Object) sentences.
 
 ---
