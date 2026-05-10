@@ -4,14 +4,16 @@
 
 ## Learning Roadmap (Module B1)
 
-|**Module**|**Focus Area**|**Progress**|
-|---|---|---|
-|**13 - Declensions**|**Instrumental Case**: Means, Tools & Company|🔄 Not Started|
-|**14 - Declensions**|**Plural Mastery**: All 6 cases in plural form|🔄 Not Started|
-|**15 - Syntax**|**Subordination**: Using _который_, _чтобы_, _потому что_|🔄 Not Started|
-|**16 - Comparison**|**Adjectives & Adverbs**: Comparative & Superlative|🔄 Not Started|
-|**17 - Verbs**|**Prefixation**: Changing verb meaning via prefixes|🔄 In Progress|
-|**18 - Modal**|**Possibility & Necessity**: _Можно_, _нужно_, _должен_|🔄 Not Started|
+| **Module**                   | **Focus Area**                                              | **Progress**   |
+| ---------------------------- | ----------------------------------------------------------- | -------------- |
+| **13 - Declensions**         | **Instrumental Case**: Means, Tools & Company               | 🔄 Not Started |
+| **14 - Declensions**         | **Plural Mastery**: All 6 cases in plural form              | 🔄 Not Started |
+| **15 - Syntax**              | **Subordination**: Using _который_, _чтобы_, _потому что_   | 🔄 Not Started |
+| **16 - Comparison**          | **Adjectives & Adverbs**: Comparative & Superlative         | 🔄 Not Started |
+| **17 - Verbs**               | **Prefixation**: Changing verb meaning via prefixes         | 🔄 In Progress |
+| **18 - Modal**               | **Possibility & Necessity**: _Можно_, _нужно_, _должен_     | 🔄 Not Started |
+| **18.5 - Relative Pronouns** | Using "**который**" (who/which) to link complex sentences   | 🔄 Not Started |
+| **18.75 - Adverbs**          | Formation of **adverbs from adjectives** (ending in **-о**) | 🔄 Not Started |
 #### Nb: For each, i use [My own notes 3](My%20own%20notes%203.md)
 ---
 
