@@ -1,7 +1,7 @@
 # n8n Automation Lab: Cross-Project Workflows
 
 ## Purposes
-This folder centralizes my laboratory for advanced automation and API orchestration. Beyond music production, I use n8n to build the logic of complex digital workflows. My goal is to train me, experiment new project, learn a very usefull knowledge in the world o.
+This folder centralizes my laboratory for advanced automation and API orchestration. Beyond music production, I use n8n to build the logic of complex digital workflows. My goal is to train myself, experiment new project, learn a very usefull knowledge in the world of tomorrow. I want to show here that i rely my skills on an everyday work and curiosity.
 
 ## Tech Stack & Planned Nodes
 * **Orchestrator:** n8n (Self-hosted/Cloud) for complex logic and branching.
