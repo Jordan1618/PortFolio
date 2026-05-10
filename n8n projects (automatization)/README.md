@@ -13,12 +13,12 @@ This folder centralizes my laboratory for advanced automation and API orchestrat
 ## Method
 I follow a strict **"Blueprint-First"** approach: every workflow is mapped in Obsidian before implementation. Each project follows a four-step sequence:
 1. **Trigger:** Capturing the initial signal (Markdown note, Webhook, or Time-based).
-2. **Expansion:** Using LLMs to enrich or parse the incoming data.
+2. **Expansion:** Using LLMs or noods to enrich or parse the incoming data.
 3. **Processing:** Applying logic gates and filters to ensure 99.9% reliability.
 4. **Delivery:** Final asset generation or notification to the end-platform.
 
 ## Next Steps
 * **KaramelIa Automation:** Fully automate the music mix pipeline to reduce "Idea-to-Publish" time by 3x.
-* **Market Intelligence:** Deploy an **Automated Financial Watch** system for real-time market tracking.
-* **Cybersecurity Watch:** Build an **Automated Threat Intelligence** workflow to monitor global vulnerability databases (CVE).
-* **Public Interest Tech:** Explore the backend logic for a **Public Interest Dating App** using ethical, non-predatory algorithms.
+* **Market Intelligence:** Deploy an **Automated Financial Watch** system for real-time, daily, monthly, 3 months and yearly market tracking with a personnal recap on right and worse decisions, how to improve and report on news with a 15min format and a 1H format with deeper Intelligence gathering Geopolitics/Politics/Economic and Financial News and their effects on specified assets or raw materials undercovered
+* **Cybersecurity Watch:** Build an **Automated Threat Intelligence** workflow to monitor global vulnerability databases (CVE), new patterns, which data leak, new products on the market and an estimated ratio cost/effect.
+* **Other Project:** What stimulates me, it 
