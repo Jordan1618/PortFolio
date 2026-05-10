@@ -19,6 +19,6 @@ I follow a strict **"Blueprint-First"** approach: every workflow is mapped in Ob
 
 ## Next Steps
 * **KaramelIa Automation:** Fully automate the music mix pipeline to reduce "Idea-to-Publish" time by 2-3x.
-* **Market Intelligence:** Deploy an **Automated Financial Watch** system for real-time, daily, monthly, 3 months and yearly market tracking with a personal recaps on decisions, how to improve and report on news with a 15min format and a 1H format with deeper Intelligence gathering Geopolitics/Politics/Economic and Financial News and their effects on specified assets or raw materials undercovered
+* **Market Intelligence:** Deploy an **Automated Financial Watch** system for real-time, daily, monthly, 3 months and yearly market tracking with a personal recaps on decisions, how to improve and report on news with a 15min format and a 1H format with deeper Intelligence gathering Geopolitics/Politics/Economic and Financial News and its effects on specified assets or Under-the-radar raw materials.
 * **Cybersecurity Watch:** Build an **Automated Threat Intelligence** workflow to monitor global vulnerability databases (CVE), new patterns, which data leak, new products on the market and an estimated ratio cost/effect.
-* **Other Project:** What stimulates me, it will be various, but it's a mirror of me : Curiosity and exploration that leads me on a new way.
+* **Other Project:** Various upcoming projects reflceting my core values: Curiosity and exploration that leads me on a new way.
