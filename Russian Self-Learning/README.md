@@ -11,10 +11,17 @@ Having mastered English, I am now tackling a new alphabet for its mental stimula
 
 ## Method:
 I follow a rigorous self-study system based on five pillars: **Grammar, Conjugation, Orthography, Pronunciation, and Daily Usage**. I transform raw data into atomic Markdown summaries to master sentence logic and word stress. My progress is tracked via a "X Vocabulary words" challenge with an AI audit every 30 words on all previous words.
+So i have 6 different levels with their own test : 
+- A1
+- A2
+- B1
+- B2
+- C1
+- C2
 
 ## Next Steps:
 * **Goal:** Reach a C1/C2 proficiency level by December 2026.
 * [ ] Being able to have a natural discussion
-* [ ] Master A1 through C1 milestones
+* [ ] Master [A1](A1%20Russian%20Learning%20Dashboard.md) through C1 milestones
 * [ ] Understand more russian people and the Eastern Europe Culture
 * [ ] Leverage this linguistic mastery for some professionnal opportunities linked to that skill
