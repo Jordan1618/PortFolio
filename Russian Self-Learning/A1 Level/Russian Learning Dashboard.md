@@ -4,14 +4,14 @@
 ---
 
 ## 📊 Learning Roadmap
-| Module                | Focus Area                       | Progress   |
-| :-------------------- | :------------------------------- | :--------- |
-| **01 - Phonetics**    | Cyrillic Alphabet & Akanie Rules | ✅ 100%     |
-| **02 - Grammar**      | Personal Pronouns & Verb Groups  | 🔄 60%     |
-| **03 - Vocabulary**   | 100 Essential Words Challenge    | 🔄 51/100  |
-| **04 - Tense**        | Present and Negation             | 📅 Next Up |
-| 05 - Grammatical Case | Subjective and Objective Cas     |            |
-| 06 -                  |                                  |            |
+| Module                    | Focus Area                       | Progress       |
+| :------------------------ | :------------------------------- | :------------- |
+| **01 - Phonetics**        | Cyrillic Alphabet & Akanie Rules | ✅ 100%         |
+| **02 - Grammar**          | Personal Pronouns & Verb Groups  | 🔄 In Progress |
+| **03 - Vocabulary**       | 100 Essential Words Challenge    | 🔄 In Progress |
+| **04 - Tense**            | Present and Negation             | ✅ 100%         |
+| **05 - Grammatical Case** | Subjective and Objective Case    | ✅ 100%         |
+| **06 - Tense**            | The Past                         | 🔄 In Progress |
 
 ---
 
@@ -49,3 +49,5 @@
 - **Documentation:** Transforming extensive Word documents into atomic Markdown summaries.
 - **Verification:** AI-assisted pronunciation checks every 30 words.
 - **Storage:** Private deep-documentation vault for detailed conjugation and declination tables.
+- Exercice: AI-assisted exercices to memorize, understand and go deeper.
+- Pronounciation: Test d
