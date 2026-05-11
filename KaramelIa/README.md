@@ -2,7 +2,7 @@
     
 `##Purposes` : 
 	
-- I wanted to make my own cinematic and powerfull music mixes to release them on YouTube. I did my own AI, its lore, its mood and its unique way to express itself.
+- I wanted to make my own cinematic and powerfull music mixes to release them on YouTube. I did my own AI, its lore, its mood and its unique way to express itself. 
     
 `##Tech Stack & Licenses`:
 	
@@ -14,6 +14,8 @@
 `##Method` : 
 	
 - I describe a feeling or a cinematic climax quote and let my prompts generate for me video, music and image prompts. I gather the AI-generated content in CapCut and i publish the final music mix on Youtube in less than 1Hour [Released Mixes and Singles](Released%20Mixes%20and%20Singles.md)
+	
+- I use [Project Evolution and Documentation](Project%20Evolution%20and%20Documentation.md) as an improvement and logging journal
 	
 `##Next Steps` : 
 	
