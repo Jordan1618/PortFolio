@@ -7,4 +7,5 @@
 
 ## 13/05/2026 :
 
-- I worked on the logo and some transition effects. I switched CapCut to DaVinci Resolve. It's an open source tool with more fe than CapCut and it's pro version hard costing.
+- I worked on the logo and some transition effects. I switched from CapCut to DaVinci Resolve. It's an open source tool with more features than CapCut and it's expensive "pro version".
+- Next Step : Make an Official Face and Animation for KaramelIa.
