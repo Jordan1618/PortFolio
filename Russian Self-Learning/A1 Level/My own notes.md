@@ -150,5 +150,3 @@ The Accusative case is used for the **direct object** (the object undergoing the
 - After the sibilants (Ж,Ч,Ш,Щ,Ц) we never use Ю but Y and Я but A
 
 - After the Г,K,X,Ж,Ч,Ш,Щ there is never a ending Ы but И
-
-- A
