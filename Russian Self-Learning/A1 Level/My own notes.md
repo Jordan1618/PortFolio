@@ -129,6 +129,8 @@ Examples:
 
 Note: Words like **Папа** (Dad), **Дедушка** (Grandpa), **Мужчина** (Man), and **Дядя** (Uncle) are masculine in meaning but follow feminine ending patterns.
 
+Words like 
+
 ---
 
 ## 4) The Accusative Case (Direct Object)
