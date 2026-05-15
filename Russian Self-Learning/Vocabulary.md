@@ -84,7 +84,7 @@ Le F = Féminin
 |     |         |           |         |
 | --- | ------- | --------- | ------- |
 | 71  | Teлeфoн | Telephone | Tilifon |
-| 72  | Пиcу    | Ecrire    |         |
+| 72  | Пиcatь  | Ecrire    | Pisat'  |
 | 73  |         |           |         |
 | 74  |         |           |         |
 | 75  |         |           |         |
@@ -113,3 +113,5 @@ Le F = Féminin
 | 98  |         |           |         |
 | 99  |         |           |         |
 | 100 |         |           |         |
+Nb : For Write, C became ш when conjugated. Some verbs have the same. To mark them, i have to look if it's an 1st group verb and finish by C,X,K or Г --> Ш,Ш,Ч and Ж 
+For 2nd group, it's only for
