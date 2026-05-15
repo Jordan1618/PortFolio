@@ -144,7 +144,8 @@ The Accusative case is used for the **direct object** (the object undergoing the
 
 - For Write C became ш when conjugated. Some verbs have the same. To mark them, i have to look if it's an 1st group verb and finish by C,X,K or Г -->(replaced by) Ш,Ш,Ч and Ж
 
-- For 2nd group, it's only for radical with B,M,П,Б -->(we add at the right) Л but only for Я
-  And radical with Д,T and C -->(replaced by) Ж,Ч and Ш but only for Я
+- For 2nd group, it's only for radical with B,M,П,Б,Ф -->(we add at the right) Л but only for Я
+  And radical with Д,З,T and C -->(replaced by) Ж,Ж,Ч and Ш but only for Я
 
-- After the chuintantes (Ж,Ч,Ш,Ц) we never use Ю but Y 
+- After the sibilants (Ж,Ч,Ш,Щ,Ц) we never use Ю but Y 
+-
