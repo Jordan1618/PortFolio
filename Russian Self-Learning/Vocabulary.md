@@ -113,5 +113,3 @@ Le F = Féminin
 | 98  |         |           |         |
 | 99  |         |           |         |
 | 100 |         |           |         |
-Nb : For Write, C became ш when conjugated. Some verbs have the same. To mark them, i have to look if it's an 1st group verb and finish by C,X,K or Г --> Ш,Ш,Ч and Ж 
-For 2nd group, it's only for radical with B,M,П,Б --> Л and radical with Д,T and C --> Ж,Ч and Ш but only for Я(first person with both radical case)

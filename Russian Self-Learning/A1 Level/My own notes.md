@@ -136,3 +136,12 @@ Words ending by -изнь are always feminine
 ## 4) The Accusative Case (Direct Object)
 
 The Accusative case is used for the **direct object** (the object undergoing the action of the verb) or to indicate a **direction/destination**.
+
+
+---
+
+## 5) Phonetic Shifts with verbs and non-labial sounds
+
+- For Write C became ш when conjugated. Some verbs have the same. To mark them, i have to look if it's an 1st group verb and finish by C,X,K or Г -->(we add at the right) Ш,Ш,Ч and Ж
+
+- For 2nd group, it's only for radical with B,M,П,Б -->(we add at the right) Л and radical with Д,T and C -->(we add at the right) Ж,Ч and Ш but only for Я(first person with both radical case)
