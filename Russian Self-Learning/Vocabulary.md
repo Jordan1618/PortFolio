@@ -76,7 +76,7 @@
 | 68                             | Mузeй                          | Musée                           | Mouziéy                        |
 | 69                             | Уtp**o**                       | Matin                           | Outra                          |
 | 70                             | Гaзeta                         | Journal                         | Gaziéta                        |
-| **EVALUATION IA N°2    /70**   |                                |                                 |                                |
+| **EVALUATION IA N°2    67/70** |                                |                                 |                                |
 
 Le M = Masculin
 Le F = Féminin
