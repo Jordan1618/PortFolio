@@ -60,13 +60,18 @@
     
 - **Constraint:** Never run an Exit Relay from a home connection. Use a dedicated VPS if I decide to support the network.
 
-**8) I asked to clarify the path of a packet.
-The difference is in "visibility":
+**8) I asked to clarify the path of a packet**. The difference is in "visibility":
 
-- **Normal Web:** Your PC $\rightarrow$ ISP $\rightarrow$ Website. Your ISP sees the specific URL and the website sees your home IP.
+- **Normal Web:** My PC $\rightarrow$ ISP $\rightarrow$ Website. The ISP sees the specific URL and the website sees my home IP.
     
-- **Tor Web:** Your PC $\rightarrow$ Guard $\rightarrow$ Middle $\rightarrow$ Exit $\rightarrow$ Website.
+- **Tor Web:** My PC $\rightarrow$ Guard $\rightarrow$ Middle $\rightarrow$ Exit $\rightarrow$ Website.
     
-    - Your ISP only sees a connection to a Tor node (it is blind to your destination).
+    - The ISP only sees a connection to a Tor node (it is blind to my destination).
         
-    - The website only sees the Exit node's IP (it is blind to your home location).
+    - The website only sees the Exit node's IP (it is blind to my home location).
+
+**9)I asked if nodes can log my connections to trace me.** It is very hard for them to do that:
+
+- **No Link:** No single node can link my IP to the website I visit.
+    
+- **Correlation Attack:** The only way to trace me is if a powerful attacker (like a government) controls _both_ the Guard node and the Exit node I am using at the same time. They could then use timing to match my traffic. This is very rare for normal users, but it is the main threat for people under state surveillance.
