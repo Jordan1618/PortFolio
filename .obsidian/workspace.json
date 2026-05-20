@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Some Doc/Tor - Concept and functionning.md",
+                "file": "Some Doc/Tor Network and Onion Routing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tor - Concept and functionning"
+              "title": "Tor Network and Onion Routing"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Some Doc/Tor - Concept and functionning.md",
+                "file": "Some Doc/Tor Network and Onion Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Tor - Concept and functionning"
+              "title": "Rétrolien pour Tor Network and Onion Routing"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Some Doc/Tor - Concept and functionning.md",
+                "file": "Some Doc/Tor Network and Onion Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Tor - Concept and functionning"
+              "title": "Liens sortants de Tor Network and Onion Routing"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Some Doc/Tor - Concept and functionning.md",
+                "file": "Some Doc/Tor Network and Onion Routing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Tor - Concept and functionning"
+              "title": "Plan de Tor Network and Onion Routing"
             }
           }
         ]
@@ -226,7 +226,7 @@
   "active": "b11bee50630b5d8b",
   "lastOpenFiles": [
     "KaramelIa/Calendar/Released Mixes and Singles.md",
-    "Some Doc/Tor - Concept and functionning.md",
+    "Some Doc/Tor Network and Onion Routing.md",
     "Some Doc",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/A1 Level/My own notes.md",
