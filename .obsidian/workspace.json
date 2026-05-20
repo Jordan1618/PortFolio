@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KaramelIa/Calendar/Released Mixes and Singles.md",
+                "file": "Some Doc/Tor - Concept and functionning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Released Mixes and Singles"
+              "title": "Tor - Concept and functionning"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KaramelIa/Calendar/Released Mixes and Singles.md",
+                "file": "Some Doc/Tor - Concept and functionning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Released Mixes and Singles"
+              "title": "Rétrolien pour Tor - Concept and functionning"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KaramelIa/Calendar/Released Mixes and Singles.md",
+                "file": "Some Doc/Tor - Concept and functionning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Released Mixes and Singles"
+              "title": "Liens sortants de Tor - Concept and functionning"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KaramelIa/Calendar/Released Mixes and Singles.md",
+                "file": "Some Doc/Tor - Concept and functionning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Released Mixes and Singles"
+              "title": "Plan de Tor - Concept and functionning"
             }
           }
         ]
@@ -225,10 +225,12 @@
   },
   "active": "b11bee50630b5d8b",
   "lastOpenFiles": [
+    "KaramelIa/Calendar/Released Mixes and Singles.md",
+    "Some Doc/Tor - Concept and functionning.md",
+    "Some Doc",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/A1 Level/My own notes.md",
     "KaramelIa/Project Evolution and Documentation.md",
-    "KaramelIa/Calendar/Released Mixes and Singles.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "KaramelIa/README.md",
     "n8n Projects (Automatization)/README.md",
@@ -250,7 +252,6 @@
     "Russian Self-Learning/C1 Level/My own notes 5.md",
     "Russian Self-Learning/C2 Level/AI Test To Pass.md",
     "Russian Self-Learning/B2 Level/AI Test To Pass.md",
-    "KaramelIa/n8n KaramelIa Workflow/Description of my Workflow.md",
     "Other Projects/Public Interest or Ethical Dating App",
     "Other Projects",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
@@ -260,7 +261,6 @@
     "Russian Self-Learning/B2 Level",
     "Russian Self-Learning/B1 Level",
     "Russian Self-Learning/A2 Level",
-    "Russian Self-Learning/A1 Level",
     "KaramelIa/Sans titre.canvas"
   ]
 }
