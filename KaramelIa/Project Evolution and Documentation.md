@@ -19,4 +19,9 @@
 
 ## 26/05/2026 :
 
-- I Have now the Official face for KaramelIA and i have automatize all my process with one prompt. I've standarized my teamplate on Capcut
+- I Have now the Official face for KaramelIA and i have automated my entire process with a single prompt. I've standardized my teamplates on Capcut and i established a rightfull publishing worflow.
+- Now my core steps will be :
+	1) Keep Publishing 2/week (a mix and a single)
+	2) Sign with a music distribution on an annual plan
+	3) Use my own music on TikTok and Instagram
+	4) Build TikTok and Instagram accounts and publish lore frequently. So I must have a creation process that doesn't exceed 10 min a post.
