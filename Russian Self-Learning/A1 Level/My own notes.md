@@ -151,4 +151,9 @@ The Accusative case is used for the **direct object** (the object undergoing the
 
 - After the Г,K,X,Ж,Ч,Ш,Щ there is never a ending Ы but И
 
-- A
+--- 
+## 6) Greetings
+
+- Здpabctbуйte = Hello (formal form) for salute an unknow, a teacher or few people "Zdrast-vuy-ti"
+- Пpиbet = Hi "Priviet"
+- 
