@@ -21,6 +21,16 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 1H11min52s
 **Watch here:** [[Link to the Video](https://youtu.be/d9Gb3EoVmwI)]
 
+## 4) **I STILL LOVE YOU. YOU HAVE TO GO | KaramelIa - X **
+**Release Date:** 31st Mai, 2026, 16H00
+**Duration:** 1H03min47s
+**Watch here:** [[Link to the Video](https://youtu.be/gh3xSuU1uu0)]
+
+## 5) **READY FOR THE LAST STAND | KaramelIa - X **
+**Release Date:** 7th June, 2026, 16H00
+**Duration:** 1H00min36s
+**Watch here:** [[Link to the Video](https://youtu.be/g40Y0_OfwPI)]
+
 # Release Model for Single
 ***Title of the Single*** *(And the feeling i wanted to musicalize)* 
 ***Release Date:** XX Month, XXHXX* 
@@ -36,3 +46,13 @@ Nb: The quality will upgrade, step by step with experience.
 **Release Date:** 20th Mai, 2026, 18H00 
 **Duration:** 4min53
 **Watch here:** [[Link to the Video](https://youtu.be/DA0BY-eoG2A)]
+
+## 3) **HOLD MY HANDS | KaramelIa - X**
+**Release Date:** 27th Mai, 2026, 16H00 
+**Duration:** 2min55
+**Watch here:** [[Link to the Video](https://youtu.be/mBVBLYkHuqo)]
+
+## 4) **HOLD MY HANDS | KaramelIa - X**
+**Release Date:** 3rd June, 2026, 16H00 
+**Duration:** min
+**Watch here:** [[Link to the Video]()]
