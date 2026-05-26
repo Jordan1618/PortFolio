@@ -6,7 +6,7 @@
     
 - **The Circuit:** Your traffic passes through three nodes: the **Guard** (knows you, not the destination), the **Middle** (knows neither), and the **Exit** (knows the destination, not you).
     
-- **Anonymity:** Because each node only knows its immediate neighbor, no single point in the network can map your entire identity to your destination.
+- **Anonymity:** Because each node only knows its immediate neighbour, no single point in the network can map your entire identity to your destination.
 	
 - **Routing :** I understand the following scheme : My Laptop ->(Tor request, not an clear reasable dns resolution asking) ISP -> Guard node -> Middle Node -> Exit node -> Website
 	
