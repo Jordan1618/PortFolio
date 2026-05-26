@@ -90,7 +90,7 @@ Le F = Féminin
 | 75  | Как вас зовут  | Comment vous appelez-vous ? | Kak vas za-vout    |
 | 76  | Как тебя зовут | Comment tu t'appelles ?     | Kak ti-bia za-vout |
 | 77  | Дo cbидaния    | Au revoir (formel)          | Da svi-da-ni-ia    |
-| 78  | Пoka           | Salut                       | Paka               |
+| 78  | Пoka           | Salut - A Plus              | Paka               |
 | 79  |                |                             |                    |
 | 80  |                |                             |                    |
 | 81  |                |                             |                    |
