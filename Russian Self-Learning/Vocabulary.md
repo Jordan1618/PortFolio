@@ -88,7 +88,7 @@ Le F = Féminin
 | 73  | Здpabctbуйte   | Bonjour                     | Zdrast-vuy-ti      |
 | 74  | Meня зobуt     | Je m'appelle                | Minia Zavout       |
 | 75  | Как вас зовут  | Comment vous appelez-vous ? | Kak vas za-vout    |
-| 76  | Как тебя зовут |                             | Kak ti-bia za-vout |
+| 76  | Как тебя зовут | Comment tu t'appelles ?     | Kak ti-bia za-vout |
 | 77  |                |                             |                    |
 | 78  |                |                             |                    |
 | 79  |                |                             |                    |
