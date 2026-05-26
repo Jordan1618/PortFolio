@@ -52,7 +52,7 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 2min55
 **Watch here:** [[Link to the Video](https://youtu.be/mBVBLYkHuqo)]
 
-## 4) **HOLD MY HANDS | KaramelIa - X**
+## 4) **LET'S FIGHT THE END | KaramelIa - X**
 **Release Date:** 3rd June, 2026, 16H00 
-**Duration:** min
-**Watch here:** [[Link to the Video]()]
+**Duration:** 3min00
+**Watch here:** [[Link to the Video](https://youtu.be/HxXadRX_rI8)]
