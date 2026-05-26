@@ -16,3 +16,7 @@
 - I made my logo, my intro and i have more professional prompt and branding. 
 - I made a new banner and profil picture for my youtube channel too
 - Next Step : Having the official face to KaramelIa. A universal model for each generation. Keep posting 2/week and build step by step a community. Maybe on day upgrade my lore too.
+
+## 26/05/2026 :
+
+- I Have now the Official face for KaramelIA and i have automatize all my process with one prompt. I've standarized my teamplate on Capcut
