@@ -157,4 +157,6 @@ The Accusative case is used for the **direct object** (the object undergoing the
 - Здpabctbуйte = Hello (formal form) for salute an unknow, a teacher or few people = "Zdrast-vuy-ti"
 - Пpиbet = Hi = "Priviet"
 - Meня зobуt = My name is  = "Minia zavout"
-- 
+- Kak bac зobуt = What's your name (formal form) = "Kak vas za-vout"
+- Kak teбя зoбуt = What's your name = "Kak tibia zavout"
+- Дo cbидaния = Good bye (formal form) = "Da svi-da-ni-ia" = Дo means "unti"
