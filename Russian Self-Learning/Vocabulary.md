@@ -89,8 +89,8 @@ Le F = Féminin
 | 74  | Meня зobуt     | Je m'appelle                | Minia Zavout       |
 | 75  | Как вас зовут  | Comment vous appelez-vous ? | Kak vas za-vout    |
 | 76  | Как тебя зовут | Comment tu t'appelles ?     | Kak ti-bia za-vout |
-| 77  |                |                             |                    |
-| 78  |                |                             |                    |
+| 77  | Дo cbидaния    | Au revoir (formel)          | Da svi-da-ni-ia    |
+| 78  | Пoka           | Salut                       | Paka               |
 | 79  |                |                             |                    |
 | 80  |                |                             |                    |
 | 81  |                |                             |                    |
