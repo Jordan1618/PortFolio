@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "My own notes"
             }
-          },
-          {
-            "id": "2b6c3d9a43a00c02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KaramelIa/Calendar/Released Mixes and Singles.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Released Mixes and Singles"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,19 +229,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 1024,
+        "x": 760,
         "y": 456,
-        "width": 512,
+        "width": 776,
         "height": 456,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "2b6c3d9a43a00c02",
+  "active": "93a1e8bcce839af0",
   "lastOpenFiles": [
-    "KaramelIa/Project Evolution and Documentation.md",
     "KaramelIa/Calendar/Released Mixes and Singles.md",
+    "KaramelIa/Project Evolution and Documentation.md",
     "Russian Self-Learning/A1 Level/My own notes.md",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
