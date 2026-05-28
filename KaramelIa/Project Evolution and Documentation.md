@@ -25,4 +25,5 @@
 	2) Sign with a music distribution on an annual plan
 	3) Use my own music on TikTok and Instagram
 	4) Build TikTok and Instagram accounts and publish lore frequently. So I must have a creation process that doesn't exceed 10 min a post.
-	5) Refine my lore before launching my own TikTok and Instgram accounts
+	5) Refine my lore before launching my own TikTok and Instagram accounts
+	6) Resize my youtube banner for phone and join 3 more people to KaramelIa music composition like 3 Ai members to emulate a real band
