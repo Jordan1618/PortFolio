@@ -228,16 +228,16 @@
           }
         ],
         "direction": "vertical",
-        "x": 872,
-        "y": 620,
-        "width": 664,
-        "height": 292,
+        "x": 902,
+        "y": 636,
+        "width": 634,
+        "height": 276,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "969683878ade0f46",
+  "active": "b11bee50630b5d8b",
   "lastOpenFiles": [
     "Other Projects/PromptShelves",
     "Russian Self-Learning/Vocabulary.md",
