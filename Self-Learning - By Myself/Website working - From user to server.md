@@ -14,7 +14,10 @@
 - Managed by ICANN (Internet Corporation for Assigned Names and Numbers) inside the IANA division (Internet Assigned Numbers Authority)
 - Two kind of TLD : The ccTLD (Country Code TLD) and the gTLD (Generic TLD) 
 - It has a very-high cost for an isolated user. Reachable only for big company.
-
+- Works on a system of Root Name Server - Judiciary responsible and high-avaibility unnegociable
+- 
+**3) The TLD :**
+- Managed
 
 
 
