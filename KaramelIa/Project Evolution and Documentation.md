@@ -36,4 +36,4 @@
 - Now, i want to build a new things :
 	1) A n8n workflow that can automate releasing on TikTok, Instagram and Youtube with integrated seo tags/title/description.
 	2) Subscribing to a musical distribution for a high and fast avaibility of my songs. I just need more money to complete that :)
-	3) Do a plan of how i will organise my lore's publication and around which main event
+	3) Do a calendar of how i will organise my lore's publication and around which main event
