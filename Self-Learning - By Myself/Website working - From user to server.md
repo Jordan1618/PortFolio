@@ -52,8 +52,10 @@
 
 **9) Database :**
 - It's the Memory of a website. It's what transform a static page in a dynamic one (commands, historic, names, profile pictures,...). 
-- Most used (Database)
-
+- Most used (SGBD Système de gestion de base de données) : MySQL/MariaDB (especialy via wordpress) / PostgreSQL / MongoDB
+- The process is easy : The webserver send a SQL request, the database looks for the requested item and send back it.
+- All data are stored inside tables, linked betwen them with unique key.
+- A big threat is SQL Injection : if there is no clean/check about everyting he user can type, he can send a sql command
 
 **10) Each layer has its own area of vulnerability and its common attacks :**
 
