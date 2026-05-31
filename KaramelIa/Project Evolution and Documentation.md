@@ -30,6 +30,6 @@
 
 ## 31/05/2026 :
 
-- I tried to build a n8n workflow operating on a automate publishing system "master prompt to youtube release". Due to the lack of APIs for Suno,Veo and Capcut, it's faster and easier to me to stick to my current manual process
-- SO I worked on my other points : I keep publishing and improve my production
-- AND I refined my lore by adding more realistic points and unexpected subjects. I want a real lore and story to share with a true purpose.  
+- I tried to build a n8n workflow operating on a automate publishing system "master prompt to youtube release". Due to the lack of APIs for Suno,Veo and Capcut, it's faster and easier for me to stick to my current manual process
+- SO I worked on my other areas of focus : I am continuing to publish while improving my production quality
+- AND I refined my lore by adding more realistic points and unexpected subjects. I want a real lore and story to share while taling true purposes. I added to different protagonists, antagonists and structures. I want a real human experience  
