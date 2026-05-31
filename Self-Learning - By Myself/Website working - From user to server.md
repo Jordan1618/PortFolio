@@ -11,17 +11,19 @@
 - Database = The shelves where everything is sorted and retrievable
 
 **3) The TLD :**
-- Managed by ICANN (Internet Corporation for Assigned Names and Numbers) inside the IANA division (Internet Assigned Numbers Authority)
-- Two kind of TLD : The ccTLD (Country Code TLD) and the gTLD (Generic TLD) 
-- It has a very-high cost for an isolated user. Reachable only for big company.
+- Managed by ICANN (Internet Corporation for Assigned Names and Numbers) through its IANA division (Internet Assigned Numbers Authority)
+- Two kind of TLD : ccTLD (Country Code TLD) and gTLD (Generic TLD) 
+- It has a very-high cost for an isolated user. Reachable only for big organisation.
 - Works on a system of Root Name Server - Judiciary responsible and high-avaibility unnegociable
 
 **4) The DNS :**
-- Based on a request (Query), the DNS Resolver (FAI or Google Service), Talks to the Root Server, that talk to the TLD servers, that talk to the Authoritative Name Server that gives the right IP Address
+- Based on a request (Query), the DNS Resolver (ISP or Google Service), Talks to the Root Server, that talk to the TLD servers, that talk to the Authoritative Name Server that gives the right IP Address
 - In a DNS we got many register : 
-		Register A = For Ipv4
-		Register AAAA = For Ipv6
-		Register CNAME = For username of a website that links the right 
+	- Register A = For Ipv4
+	- Register AAAA = For Ipv6
+	- Register CNAME = For
+	- Register MX = For email
+- To prevent about DNS Hijacking (Attack that corrupt DNS and redirect each flux to malicious website)
 
 
 
