@@ -26,17 +26,20 @@
 - To prevent about DNS Hijacking (Attack that corrupt DNS and redirect each flux to malicious website) there is a DNSSEC (Domain Name System Security Extension)
 
 **5) The Hosting :**
-- Two distinct approachs : The physical server and the VPS one (Virtual Private Server = Cloud)
-- 3 main caracteristics : 
-1) Accesibility 24/24, linked to internet and recold. 
-2) Connectivity with Network Bande passante je l'ai pas déso
-3) Physical Security like unauthorized physicial acces or DDos=S
+- Two distinct approaches : The physical server and the VPS one (Virtual Private Server = Cloud)
+- 3 main characteristics : 
+1) Accesibility 24/7, linked to internet and cooled. 
+2) Connectivity and bandwidth
+3) Physical Security like unauthorized physicial access or DDoS
 
 **6) The Connexion between the user and the server :**
-- Before sending one single data, they have to agree about a correct data sent protocol. The famous TCP by Three-Way-Handshake.
-- Three steps way : The SYN = the firts paquet to initiate ; The SYN-ACK = The answer to the request by the server ; The ACK = User accept to synchronise and connect.
-- Another security step for HTTPS, the TLS Handshake(Transport Layer Security) = User and server agree on digital certificate + cryption algorithm + generate a symetrical session key
+- Before sending any data, they have to agree about a correct communication protocol. The famous TCP by Three-Way-Handshake.
+- Three steps way : The SYN = the firts packet to initiate ; The SYN-ACK = The answer to the request by the server ; The ACK = User accept to synchronise and connect.
+- Another security step required for HTTPS, the TLS Handshake(Transport Layer Security) = User and server agree on a digital certificate + encryption algorithm + generate a symmetric session key
 
+**7) The Webserver :**
+- Link the HTTP Protocol outside him, to its own data. 
+- Most know software : Apache, Nginx,
 
 
 **10) Each layer has its own area of vulnerability and its common attacks :**
