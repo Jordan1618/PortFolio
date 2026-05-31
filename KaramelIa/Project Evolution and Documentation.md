@@ -32,4 +32,4 @@
 
 - I tried to build a n8n workflow operating on a automate publishing system "master prompt to youtube release". Due to the lack of APIs for Suno,Veo and Capcut, it's faster and easier for me to stick to my current manual process
 - SO I worked on my other areas of focus : I am continuing to publish while improving my production quality
-- AND I refined my lore by adding more realistic points and unexpected subjects. I want a real lore and story to share while taling true purposes. I added to different protagonists, antagonists and structures. I want a real human experience  
+- AND I refined my lore by adding more realistic points and unexpected subjects. I want a real lore and story to share while weaving (i discover this word by the way) true purposes. I have introduced various protagonists, antagonists and structures. I want a real human experience, a new Turing-proof modern tale
