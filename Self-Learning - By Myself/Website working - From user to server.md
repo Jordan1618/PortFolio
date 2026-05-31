@@ -29,3 +29,4 @@
 |**Protocols**|Communication Rules|**Man-in-the-Middle (MitM)** (if SSL is misconfigured), **SSL Stripping**, **Session hijacking**.|
 |**Code / CMS**|Business Logic|**Injections** (SQLi, XSS, RCE), **Vulnerable plugins/extensions**, **Local File Inclusion (LFI)**.|
 |**Database**|Archives|**SQL Injection (SQLi)**, **Data exfiltration** (Dumping), **Corruption attacks**.|
+ 
