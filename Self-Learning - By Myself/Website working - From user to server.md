@@ -39,7 +39,10 @@
 
 **7) The Webserver :**
 - Link the HTTP Protocol outside him, to its own data. 
-- Most know software : Apache, Nginx,
+- Most know software : Apache, Nginx, LiteSpeed/ IIS
+- It works on a hearing process on the port 80 and 443. He received an ask form the brower. If it's a static file, he send, otherwise it's a script and send it to a translater/executer like PHP or Python.
+- He communicates its error with correspond code : 200 (ok), 404 (no file found), 500 (code problem)
+- For HTTPS
 
 
 **10) Each layer has its own area of vulnerability and its common attacks :**
