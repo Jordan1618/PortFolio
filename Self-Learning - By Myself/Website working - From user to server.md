@@ -10,3 +10,5 @@
 - Code/CMS = Furniture inside the living
 - Database = Shelves where everything is sorted and findable
 
+**3) The TLD :**
+- Managed by ICANN (Internet Corporation for Assigned Names and Numbers)
