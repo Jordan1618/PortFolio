@@ -5,5 +5,8 @@
 **2) A right analogy : **
 - Domain = The physical adress
 - DNS = Annuary to find each address
-- Hosting = The building or the fie
+- Hosting = The building or the field
+- Webserver = The door keeper
+- Code/CMS = Furniture inside the living
+- Database = Shelves where everything is sorted and findable
 
