@@ -20,7 +20,7 @@ So i have 6 different levels with their own test and [Planning](Planning.md) :
 - C2 [C2 Russian Learning Dashboard](C2%20Russian%20Learning%20Dashboard.md)
 
 ## Next Steps:
-* **Goal:** Reach a C1/C2 proficiency level by December 2026.
+* **Goal:** Reach a B1/B2 proficiency level by December 2026.
 * [ ] Being able to have a natural discussion
 * [ ] Master [A1](A1%20Russian%20Learning%20Dashboard.md) through [C1](C1%20Russian%20Learning%20Dashboard.md) milestones
 * [ ] Understand more russian people and the Eastern Europe Culture
