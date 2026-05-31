@@ -47,18 +47,21 @@
 **8) The code and the CMS (Content Manage System) :**
 - The code and its two faces : The Front-end (client side) and the Back-end (server side).
 - The Front is made with HTML/CSS/JS for, in order : Structure, Design/Style and Interactivity.
-- The Back is made with PHP, Python, Ruby, Node.js for : Check a password, calculate a price, interrogate the database.
-- The CMS (WordPress, Drupal or Ghost) is a software pre-built to avoid coding everything, you just have a masterboard that recognise each word and 
+- The Back is made with PHP, Python, Ruby, Node.js for : Checking passwords, calculating prices, interrogating the database.
+- The CMS (WordPress, Drupal or Ghost) is a pre-built software to avoid coding everything, you just have an admin dashboard that  organises content and maps it to the database and design template
+
+**9) Database :**
+- The
 
 
 **10) Each layer has its own area of vulnerability and its common attacks :**
 
-|**Layer**|**Role**|**Primary Attack Vectors**|
-|---|---|---|
-|**Domain (TLD/DNS)**|Identifier / Directory|**DNS Hijacking**, **DNS Spoofing**, **Domain Shadowing**, **Typosquatting**.|
-|**Hosting / Network**|Physical Infrastructure|**DDoS** (Distributed Denial of Service), **Saturation attacks**, Hypervisor-level breaches.|
-|**Web Server**|The Doorkeeper|**Server software exploits** (e.g., Apache/Nginx), **Misconfiguration** (e.g., Directory Listing), **Brute-force attacks** (SSH/FTP).|
-|**Protocols**|Communication Rules|**Man-in-the-Middle (MitM)** (if SSL is misconfigured), **SSL Stripping**, **Session hijacking**.|
-|**Code / CMS**|Business Logic|**Injections** (SQLi, XSS, RCE), **Vulnerable plugins/extensions**, **Local File Inclusion (LFI)**.|
-|**Database**|Archives|**SQL Injection (SQLi)**, **Data exfiltration** (Dumping), **Corruption attacks**.|
+| **Layer**             | **Role**                | **Primary Attack Vectors**                                                                                                            |
+| --------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain (TLD/DNS)**  | Identifier / Directory  | **DNS Hijacking**, **DNS Spoofing**, **Domain Shadowing**, **Typosquatting**.                                                         |
+| **Hosting / Network** | Physical Infrastructure | **DDoS** (Distributed Denial of Service), **Saturation attacks**, Hypervisor-level breaches.                                          |
+| **Web Server**        | The Doorkeeper          | **Server software exploits** (e.g., Apache/Nginx), **Misconfiguration** (e.g., Directory Listing), **Brute-force attacks** (SSH/FTP). |
+| **Protocols**         | Communication Rules     | **Man-in-the-Middle (MitM)** (if SSL is misconfigured), **SSL Stripping**, **Session hijacking**.                                     |
+| **Code / CMS**        | Business Logic          | **Injections** (SQLi, XSS, RCE), **Vulnerable plugins/extensions**, **Local File Inclusion (LFI)**.                                   |
+| **Database**          | Archives                | **SQL Injection (SQLi)**, **Data exfiltration** (Dumping), **Corruption attacks**.                                                    |
  
