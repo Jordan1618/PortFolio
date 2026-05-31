@@ -17,7 +17,11 @@
 - Works on a system of Root Name Server - Judiciary responsible and high-avaibility unnegociable
 
 **4) The DNS :**
-- Managed
+- Based on a request (Query), the DNS Resolver (FAI or Google Service), Talks to the Root Server, that talk to the TLD servers, that talk to the Authoritative Name Server that gives the right IP Address
+- In a DNS we got many register : 
+		Register A = For Ipv4
+		Register AAAA = For Ipv6
+		Register CNAME = For username of a website that links the right 
 
 
 
