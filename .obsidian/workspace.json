@@ -228,9 +228,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 768,
+        "x": 872,
         "y": 620,
-        "width": 768,
+        "width": 664,
         "height": 292,
         "maximize": false,
         "zoom": 0
@@ -239,7 +239,7 @@
   },
   "active": "969683878ade0f46",
   "lastOpenFiles": [
-    "Other Projects/Prompts Dictionnary",
+    "Other Projects/PromptShelves",
     "Russian Self-Learning/Vocabulary.md",
     "Self-Learning - By Myself/Website working - From user to server.md",
     "Self-Learning - By Myself/Tor Network and Onion Routing.md",
@@ -266,7 +266,7 @@
     "Russian Self-Learning/A2 Level/AI Test To Pass.md",
     "Russian Self-Learning/C2 Level/My own notes 6.md",
     "Russian Self-Learning/C1 Level/My own notes 5.md",
-    "Other Projects/Public Interest or Ethical Dating App",
+    "Other Projects/Public Interest and Ethical Dating App",
     "Other Projects",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
     "n8n Projects (Automatization)/Financial Market Intelligence on my own Investment",
