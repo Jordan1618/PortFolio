@@ -27,6 +27,8 @@
 
 **5) The Connexion between the user and the server :**
 - Before sending one single data, they have to agree about a correct data sent protocol. The famous TCP by Three-Way-Handshake.
+- Three steps way : The SYN = the firts paquet to initiate ; The SYN-ACK = The answer to the request by the server ; The ACK = User accept to synchronise and connect.
+- Another security step for HTTPS, the TLS Handshake(Transport Layer Security) = User and server agree on digital certificate + cryption algorithm + generate a symetrical session key
 
 
 
