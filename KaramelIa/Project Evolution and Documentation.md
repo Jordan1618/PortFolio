@@ -34,4 +34,6 @@
 - SO I worked on my other areas of focus : I am continuing to publish while improving my production quality
 - AND I refined my lore by adding more realistic points and unexpected subjects. I want a real lore and story to share while weaving (i discover this word by the way) true purposes. I have introduced various protagonists, antagonists and structures. I want a real human experience, a new Turing-proof modern tale
 - Now, i want to build a new things :
-	1) A n8n workflow that can automate releasing on TikTok, Instagram and Youtube
+	1) A n8n workflow that can automate releasing on TikTok, Instagram and Youtube with integrated seo tags/title/description.
+	2) Subscribing to a musical distribution for a high and fast avaibility of my songs. I just need more money to complete that :)
+	3) Do a plan of how i will organise my lore's publication and around which main event
