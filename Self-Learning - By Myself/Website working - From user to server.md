@@ -51,7 +51,8 @@
 - The CMS (WordPress, Drupal or Ghost) is a pre-built software to avoid coding everything, you just have an admin dashboard that  organises content and maps it to the database and design template
 
 **9) Database :**
-- The
+- It's the Memory of a website. It's what transform a static page in a dynamic one (commands, historic, names, profile pictures,...). 
+- Most used (Database)
 
 
 **10) Each layer has its own area of vulnerability and its common attacks :**
