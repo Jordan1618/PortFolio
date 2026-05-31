@@ -38,11 +38,11 @@
 - Another security step required for HTTPS, the TLS Handshake(Transport Layer Security) = User and server agree on a digital certificate + encryption algorithm + generate a symmetric session key
 
 **7) The Webserver :**
-- Link the HTTP Protocol outside him, to its own data. 
-- Most know software : Apache, Nginx, LiteSpeed/ IIS
-- It works on a hearing process on the port 80 and 443. He received an ask form the brower. If it's a static file, he send, otherwise it's a script and send it to a translater/executer like PHP or Python.
+- Links the HTTP Protocol outside him, to its own data. 
+- Most know software : Apache, Nginx, LiteSpeed/ Microsoft IIS
+- It operates on a listening process on the port 80 and 443. He received a request form the brower. If it's a static file, he send. If it's a script/dynamic request, he send it to an interpreter like PHP or Python.
 - He communicates its error with correspond code : 200 (ok), 404 (no file found), 500 (code problem)
-- For HTTPS
+- For HTTPS and SSL/TLS there is a certificate system to encrypt the connection. No ISP or a malicious user on public wi-fi
 
 
 **10) Each layer has its own area of vulnerability and its common attacks :**
