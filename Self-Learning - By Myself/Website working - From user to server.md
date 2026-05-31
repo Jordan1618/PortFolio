@@ -13,7 +13,7 @@
 **3) The TLD :**
 - Managed by ICANN (Internet Corporation for Assigned Names and Numbers) through its IANA division (Internet Assigned Numbers Authority)
 - Two kind of TLD : ccTLD (Country Code TLD) and gTLD (Generic TLD) 
-- It has a very-high cost for an isolated user. Reachable only for big organisation.
+- It has a very-high cost for an isolated user that want to create one, fortunately it's affordable to rent one. Reachable only for big organisation.
 - Works on a system of Root Name Server - Judiciary responsible and high-avaibility unnegociable
 
 **4) The DNS :**
@@ -21,10 +21,12 @@
 - In a DNS we got many register : 
 	- Register A = For Ipv4
 	- Register AAAA = For Ipv6
-	- Register CNAME = For
+	- Register CNAME = For one domain name to another
 	- Register MX = For email
-- To prevent about DNS Hijacking (Attack that corrupt DNS and redirect each flux to malicious website)
+- To prevent about DNS Hijacking (Attack that corrupt DNS and redirect each flux to malicious website) there is a DNSSEC (Domain Name System Security Extensions)
 
+**5) The Connexion between the user and the server :**
+- Before sending one single data, they have to agree about a correct data sent protocol. The famous TCP by Three-Way-Handshake.
 
 
 
