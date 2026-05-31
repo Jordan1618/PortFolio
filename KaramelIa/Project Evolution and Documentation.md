@@ -27,3 +27,8 @@
 	4) Build TikTok and Instagram accounts and publish lore frequently. So I must have a creation process that doesn't exceed 10 min a post.
 	5) Refine my lore before launching my own TikTok and Instagram accounts
 	6) Resize my youtube banner for phone and join 3 more people to KaramelIa music composition like 3 Ai members to emulate a real band
+
+## 31/05/2026 :
+
+- I tried to build a n8n workflow operating on a automate publishing system "master prompt to youtube release". Due to the lack of APIs for Suno,Veo and Capcut, it's faster and easier to me to stick to my current manual process
+- SO I worked on 
