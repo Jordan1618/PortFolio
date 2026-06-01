@@ -1,3 +1,4 @@
-## Security, Functionning and 
+## Security and Functionning
 
-- It seems
+**1) I have looked into how a website works from A to Z : ** 
+- 
