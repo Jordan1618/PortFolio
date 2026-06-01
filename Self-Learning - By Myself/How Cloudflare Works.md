@@ -1,4 +1,4 @@
 ## Security and Functioning
 
-**1) I have looked into how a website works from A to Z : ** 
+**1) I have looked into how Cloudflare works from A to Z : ** 
 - 
