@@ -6,4 +6,6 @@
 - The .bat extension comes from the Batch language. It runs successive Dos commands in a single script.
 
 **2) SNMP : **
-- At
+- SNMP = Simple Network Management Protocol / use for SOC purposes like supervision, managing inventory, real-time incident detection.
+-  3 Step-working :
+	1) The Manager = 
