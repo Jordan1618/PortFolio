@@ -8,5 +8,6 @@
 **2) SNMP : **
 - SNMP = Simple Network Management Protocol / use for SOC purposes like supervision, managing inventory, real-time incident detection.
 -  3 Step-working :
-	1) The Manager = Supervision Console (Zaabix, PRTG, Centreon). It interrogates machines and centralize data to display graphics.
-	2) 
+	1) The Manager = Supervision Console (Zaabix, PRTG, Centreon). It interrogates devices and centralize data to display graphics.
+	2) The Agent = The service actived in each machine and return data requested by the manager
+	3) The 
