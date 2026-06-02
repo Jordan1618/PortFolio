@@ -11,4 +11,5 @@
 	1) The Manager = Supervision Console (Zaabix, PRTG, Centreon). It interrogates devices and centralize data to display graphics.
 	2) The Agent = The service actived in each device and return data requested by the manager
 	3) The Managed Device = The physical device or virtual one which cares the agent
-- The OID (Object Identifier) is the translater between the manager and the agent. Each piece of data has its own address 
+- The OID (Object Identifier) is the translater between the manager and the agent. Each piece of data has its own address made of points and digits succession, each is universal. That's the OID.
+- The MIB (Management Information Base) is a dictionnary that contains each OID-text translation 
