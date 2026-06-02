@@ -12,4 +12,10 @@
 	2) The Agent = The service actived in each device and return data requested by the manager
 	3) The Managed Device = The physical device or virtual one which cares the agent
 - The OID (Object Identifier) is the translater between the manager and the agent. Each piece of data has its own address made of points and digits succession, each is universal. That's the OID.
-- The MIB (Management Information Base) is a dictionnary that contains each OID-text translation 
+- The MIB (Management Information Base) is a dictionnary that contains each OID-name of the device translation 
+- Some commands (Listening on port UDP 161/162) :
+	1) GET =An Asking to an agent
+	2) GET-NEXT / GET-BULK = An Asking for a piece of data or all pieces
+	3) SET = An Ordering from the Manager to an Agent
+	4) (On porte 162) TRAP / INFORME = An Agent send to the Manager a critical piece of news.
+- SNMP Version : 
