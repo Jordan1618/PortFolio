@@ -28,3 +28,5 @@
 	1) On the device, install the service "SNMP".
 	2) Configuration of the version, creation of user/password and filling the IP Address of supervision server to receive the asking.
 	3) On the supervision software : Add the device with its IP Address and the same user/password
+
+- But he is a passive protocol, where a glpi agent is active, collect data and send it to the glpi server (the manager)
