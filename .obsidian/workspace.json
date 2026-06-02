@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning - By Myself/Why Dos, .Bat, SNMP and more.md",
+                "file": "Self-Learning - By Myself/Why Dos, .Bat and SNMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why Dos, .Bat, SNMP and more"
+              "title": "Why Dos, .Bat and SNMP"
             }
           },
           {
@@ -201,7 +201,7 @@
   "active": "b11bee50630b5d8b",
   "lastOpenFiles": [
     "Self-Learning - By Myself/How Cloudflare Works.md",
-    "Self-Learning - By Myself/Why Dos, .Bat, SNMP and more.md",
+    "Self-Learning - By Myself/Why Dos, .Bat and SNMP.md",
     "Self-Learning - By Myself/Website working - From user to server.md",
     "Russian Self-Learning/README.md",
     "Self-Learning - By Myself/Tor Network and Onion Routing.md",
