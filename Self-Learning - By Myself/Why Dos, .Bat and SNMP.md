@@ -17,17 +17,17 @@
 - The MIB (Management Information Base) is a translation dictionnary that contains each OID-name translation. 
 
 - Some commands (Listening on port UDP 161/162) :
-	1) GET =An Asking to an agent
-	2) GET-NEXT / GET-BULK = An Asking for a piece of data or all pieces
-	3) SET = An Ordering from the Manager to an Agent
-	4) (On porte 162) TRAP / INFORM = An Agent send to the Manager a critical piece of news.
+	1) GET = A request sent to an agent for a specific value
+	2) GET-NEXT / GET-BULK = A request sent for the next piece of data or a large block of data.
+	3) SET = An order from the Manager to an Agent to change a conf
+	4) (On porte 162) TRAP / INFORM = An Agent sends to the Manager a critical alert without being asked.
 
-- SNMP Version : The V1 is abandonned, The V2 is a misery of security too but add GET-BULK command and others. The V3 is the only secure because there is an encryption of data and an authentification by Id/Password on SHA/MD5
+- SNMP Version : The V1 is deprecated, The V2 is a misery of security too but add GET-BULK command and others. The V3 is the only secure because there is an encryption of data and an authentification by Id/Password on SHA/MD5
 
 - How to deploy ? 
-	1) On the device, install the service "SNMP".
+	1) On the device, enable or install the service "SNMP".
 	2) Configuration of the version, creation of user/password and filling the IP Address of supervision server to receive the asking.
 	3) On the supervision software : Add the device with its IP Address and the same user/password
 
 - But he is a passive protocol, where a glpi agent is active, collect data and send it to the glpi server (the manager).
-- Now he is outdated and had been vanished by Microsoft. He stayed only for some software that needs the UDP port 162 interruption service.
+- Now he is outdated and had been vanished by Microsoft. He stayed only for some software that needs the UDP port 162 interruption service and Windows Server supervision.
