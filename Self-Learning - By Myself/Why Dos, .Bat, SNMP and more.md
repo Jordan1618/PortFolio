@@ -27,4 +27,4 @@
 - How to deploy ? 
 	1) On the device, install the service "SNMP".
 	2) Configuration of the version, creation of user/password and filling the IP Address of supervision server to receive the asking.
-	3) On the supervision software : Add the device with its IP Address
+	3) On the supervision software : Add the device with its IP Address and the same user/password
