@@ -49,7 +49,12 @@ A long-term commitment to mastering a complex alphabet and a global strategic cu
  A virtual AI with a hand-written lore that published music mixes and singles abundantly and rigourously from a coordination of prompts and various tools.
 
 - **Focus:** Using prompt engineering and n8n to dismantle barriers to entry and unlock cross-disciplinary artistry.
-	
+
+### [Scripting](Scripting/README.md) | *Creation of my own tools & Learning at the same time*
+
+ A need for me to gain time and improve my technical skills and generate various tools for common usage, especially my working collegues.
+
+- **Focus:** Understanding each line and the under-jacent softwares or protocols and craft step by step more and more complex tools. Ev 
 ---
 
 ## Methodology: The Grind behind the Scenes
