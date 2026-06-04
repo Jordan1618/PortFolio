@@ -172,4 +172,17 @@ pause
 	 "set NAME=MYNAME
 	 echo Hello %NAME%"
 - There is some special var like :
-	1) %errorLevel
+	1) %errorLevel% = use for printing a value ( == 0 mean success and other = error)
+	2) %USERPROFILE% = C:\Users\Me
+	3) %SystemRoot% = C:\Windows
+	4) %TEMP% = Temporary file
+	5) %COMPUTERNAME% = Name of the computer
+	6) %DATE% = Actual date
+	7) %~dp0 = The repository containing the .bat itself
+
+5) RegAdd
+ - reg add "Key\Path\" /v "NomValeur" /t TYPE /d DONNEE /f 
+	 1) /v = nom de la valeur (sous-clé) 
+	 2) /t = type de données 
+	 3) /d = data to 
+	 4) /f = force (écraser sans confirmation)
