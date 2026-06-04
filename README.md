@@ -58,9 +58,9 @@ A long-term commitment to mastering a complex alphabet and a global strategic cu
 
 ### [Self-Learning](Self-Learning%20By%20Myself/README.md) | *Creation of my own tools & Learning at the same time*
 
-A need for me to save time and improve my technical skills and generate various tools for common use, especially for my working colleagues and our interventions.
+Autonomous research driven by pure technical curiosity and the obsession with understanding how complex systems operate under the hood. This section documents my independent deep dives into networking, security architectures, and system environments.
 
-- **Focus:** Understanding each line and the underlying software or protocols and crafting step by step more complex tools. With each passing day, I find PowerShell and Bash more and more fascinating. 
+- **Focus:** Deconstructing complex technical ecosystems step-by-step. Moving past basic usage to fully master the "why" and "how" of security protocols and modern infrastructure. 
 
 
 
