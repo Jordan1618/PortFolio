@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning - By Myself/How Cloudflare Works.md",
+                "file": "Self-Learning - By Myself/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How Cloudflare Works"
+              "title": "README"
             }
           }
         ]
@@ -186,10 +186,13 @@
   },
   "active": "3bb1310b6092d86f",
   "lastOpenFiles": [
-    "Self-Learning - By Myself/Why Dos, .Bat and SNMP.md",
-    "Self-Learning - By Myself/How Cloudflare Works.md",
-    "Self-Learning - By Myself/Website working - From user to server.md",
     "Russian Self-Learning/README.md",
+    "README.md",
+    "Self-Learning - By Myself/README.md",
+    "Self-Learning - By Myself/Sans titre.md",
+    "Self-Learning - By Myself/How Cloudflare Works.md",
+    "Self-Learning - By Myself/Why Dos, .Bat and SNMP.md",
+    "Self-Learning - By Myself/Website working - From user to server.md",
     "Self-Learning - By Myself/Tor Network and Onion Routing.md",
     "Russian Self-Learning/Vocabulary.md",
     "Other Projects/PromptShelves",
@@ -211,9 +214,6 @@
     "Russian Self-Learning/C1 Level/AI Test To Pass.md",
     "Russian Self-Learning/Planning.md",
     "Russian Self-Learning/B1 Level/My own notes 3.md",
-    "Russian Self-Learning/A2 Level/My own notes 2.md",
-    "Russian Self-Learning/A2 Level/AI Test To Pass.md",
-    "Russian Self-Learning/C2 Level/My own notes 6.md",
     "Other Projects/Public Interest and Ethical Dating App",
     "Other Projects",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
