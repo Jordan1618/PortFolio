@@ -1,6 +1,6 @@
-# The Knowledge I Learned by Myself and i want to let its print
+# Self-Learning & IT Discoveries
 
-> **Documentation of everything i wanted to know to improve my own skills and global comprehension of IT World.**
+> **Documentation of everything I want to explore to improve my technical skills and build a global comprehension of the IT World**
 
 ## Mai
 
