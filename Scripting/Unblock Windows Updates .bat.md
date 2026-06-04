@@ -1,9 +1,9 @@
-## A real need and i wanted to create my own tools
+### **To unblock the Windows Update Service and User Restrictions :** 
+- I needed to unblock for all users the ability to update their computers, schedulling updates by default at 8pm and includes facultative updates. Yes i use AI but i understand each lign and its my biggest success and it helps me to understand the regedit structure.
 
-**1) To unblock Windows Update Service and User Restrictions :** 
+---
 
-- I needed to unblock for all users the capacity to update their computer, by default planned them at 8pm and includes facultative updates. Yes i use AI but i understand each lign and its my biggest success and it helps me to understand the regedit structure.
-
+**Script Part :**
 
 @echo off
 :: UTF-8 encoding to correctly handle accents and special characters
