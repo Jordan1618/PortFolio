@@ -153,6 +153,15 @@ pause
 2) Commentary
 - :: XXX :: = Usual way to comment inside a .bat
 - rem is the old official syntax, sometime it's common
-- 
-3)
-- 
+
+3) Labels and goto
+- A label is like a var, it's defined by ": NAME" and execute following instructions (often recursives one)
+	- Example : 
+	 ":END
+	 Script end 
+     pause" 
+     OR
+     ":END_ERROR
+     echo Unexpected error 
+     pause"
+-  Goto redirect
