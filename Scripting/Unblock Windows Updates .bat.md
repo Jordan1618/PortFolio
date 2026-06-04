@@ -1,5 +1,5 @@
 ### **To unblock the Windows Update Service and User Restrictions :** 
-- I needed to unblock for all users the ability to update their computers, schedulling updates by default at 8pm and includes facultative updates. Yes i use AI but i understand each lign and its my biggest success and it helps me to understand the regedit structure.
+- I needed to unblock for all users the ability to update their computers, schedulling updates by default at 8pm and including optional updates. Yes i use AI but i understand each line, which is my biggest success and it helps me to understand the regedit structure.
 
 ---
 
@@ -137,3 +137,14 @@ echo by right-clicking on it -> "Run as administrator".
 :END [cite: 22]
 echo.
 pause
+
+
+
+---
+
+## **Commands explained : ** 
+
+- echo = print a textline in the shell
+	R = echo. just print an empty line
+- @echo off = silence all non explicit command line
+- 
