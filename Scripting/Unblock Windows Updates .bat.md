@@ -181,8 +181,19 @@ pause
 	7) %~dp0 = The repository containing the .bat itself
 
 5) RegAdd
- - reg add "Key\Path\" /v "NomValeur" /t TYPE /d DONNEE /f 
-	 1) /v = nom de la valeur (sous-clé) 
-	 2) /t = type de données 
-	 3) /d = data to 
-	 4) /f = force (écraser sans confirmation)
+ - reg add "Key\Path\" /v "NomValeur" /t TYPE /d DONNEE /f :
+	 1) /v = value key 
+	 2) /t = date type 
+	 3) /d = data to write 
+	 4) /f = force (change without confirmation)
+- Reg Data Type :
+	1) REG_DWORD 32 bits Number = 0, 1, 4, 20
+	2) REG_SZ = Simple String
+	3) REG_EXPAND_SZ = Text with Var (%SystemRoot%)
+	4) REG_MULTI_SZ = List of string
+	5) REG_BINARY = brut binary data
+- Main Shortcuts :
+	1) HKLM = HKEY_LOCAL_MACHINE 
+	2) HKCU = HKEY_CURRENT_USER
+	3) HKCR = HKEY_CLASSES_ROOT
+	4) HKU = HKEY_USERS —
