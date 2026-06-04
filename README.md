@@ -17,7 +17,7 @@ This portfolio is more than a collection of code; it is the **living proof of a 
 
 ## The Technical Core (Tech Stack)
 
-- **The Brain:** [n8n](n8n%20Projects%20(Automatization)/README.md) — Used as a central nervous system to build complex, self-sustaining digital architectures.
+- **The Brain:** [n8n](n8n%20projects%20(automations)/README.md) — Used as a central nervous system to build complex, self-sustaining digital architectures.
     
 - **The Interface:** Obsidian — Transforming raw, chaotic information into Graphical and logical Knowledge via Markdown.
     
@@ -28,7 +28,7 @@ This portfolio is more than a collection of code; it is the **living proof of a 
 
 ## Main Pillars of Mastery
 
-### [n8n](n8n%20Projects%20(Automatization)/README.md)| _Engineering Efficiency_
+### [n8n](n8n%20projects%20(automations)/README.md)| _Engineering Efficiency_
 
 Exploring the limits of automation to reduce the gap between idea and execution.
 

@@ -32,8 +32,8 @@ The automation script runs sequentially through 4  phases:
 
 1. **Triggering:** An internal Cron node wakes up the workflow at scheduled intervals (each Monday/Wednesday/Friday at 6am so i can read news in public transports and one time a week for a global cyber one to).
 2. **Ingestion:** HTTP nodes pull raw JSON data from public APIs
-3. **Sanitization:** A code block normalizes the data, filters unnecessary metadata, and uses a clean prompt to deliver a right .
-4. **AI Synthesis & Delivery:** The LLM summarizes the dataset into a concise markdown text, which is then wrapped in an email template and sent via Brevo (Port 587 TLS).
+3. **Sanitization:** A code block normalizes the data, filters unnecessary metadata, and uses a clean prompt to deliver the final synthesis.
+4. **AI Synthesis & Delivery:** The LLM summarizes the dataset into a concise markdown text, which is then sent in an email template and sent via Brevo (Port 587 TLS).
     
 
 ## ## 4. Security & Hardening Strategy
@@ -43,12 +43,9 @@ The automation script runs sequentially through 4  phases:
 To block any external intrusion vectors, the firewall rules are strictly hardened:
 
 - **Inbound Traffic:** Blocked by default (`ufw default deny incoming`).
-    
 - **n8n Binding:** Hard-bound to the local loopback adapter (`127.0.0.1:5678`), meaning the dashboard is completely invisible to the outside internet.
-    
-- **Inter-container Communication:** Services talk to each other via an internal Docker bridge network (`internal_secure_net`). No internal backend ports (like Ollama's `11434`) are mapped to the host OS.
-    
+- **Inter-container Communication:** Services talk to each other via an internal Docker bridge network (`internal_secure_net`). No internal backend ports (like Ollama) are mapped to the host OS.
 
 ### ### Secrets Management
 
-All sensitive variables (`N8N_ENCRYPTION_KEY`, API tokens, SMTP credentials) are managed through a restricted `.env` file (`chmod 600`) and are never hardcoded into the configuration files.
+All sensitive variables (`N8N_ENCRYPTION_KEY`, API tokens, SMTP credentials) are managed through a restricted `.env` file (`chmod 600`) and are never modified into the configuration files.
