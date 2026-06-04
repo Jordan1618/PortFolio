@@ -56,7 +56,7 @@ A long-term commitment to mastering a complex alphabet and a global strategic cu
 
 - **Focus:** Understanding each line and the underlying software or protocols and crafting step by step more complex tools. With each passing day, I find PowerShell and Bash more and more fascinating. 
 
-### [Self-Learning](Self-Learning - By Myself/README.md) | *Creation of my own tools & Learning at the same time*
+### [Self-Learning](Self-Learning%20By%20Myself/README.md) | *Creation of my own tools & Learning at the same time*
 
 A need for me to save time and improve my technical skills and generate various tools for common use, especially for my working colleagues and our interventions.
 
