@@ -6,7 +6,7 @@ This project aims to deploy a robust, **100% self-hosted, and zero-cost automati
 
 The entire architecture is designed with two non-negotiable constraints:
 
-- **Absolute Port Isolation:** No ports are exposed to the outside world to ensure maximum security.
+- **Absolute Port Isolation:** No ports are exposed to the outside world to ensure maximum security. NO AMERICAN LLM BACKDOORED.
 - **Zero-Budget Execution:** Every component used is free and/or open-source.
     
 
