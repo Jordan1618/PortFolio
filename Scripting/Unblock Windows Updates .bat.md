@@ -142,7 +142,7 @@ pause
 
 ---
 
-## **Commands explained : ** 
+## **Commands explained :**
 
 1) Echo commands
 - echo = print a textline in the shell
@@ -196,4 +196,7 @@ pause
 	1) HKLM = HKEY_LOCAL_MACHINE 
 	2) HKCU = HKEY_CURRENT_USER
 	3) HKCR = HKEY_CLASSES_ROOT
-	4) HKU = HKEY_USERS —
+	4) HKU = HKEY_USERS 
+
+6) General Syntax
+- 
