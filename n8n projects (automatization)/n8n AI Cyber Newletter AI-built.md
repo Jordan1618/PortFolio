@@ -30,12 +30,9 @@ The automation script runs sequentially through 4  phases:
  [Cron Trigger] ──> [Fetch Public APIs] ──> [Data Cleaning (JS)] ──> [LLM Synthesis] ──> [SMTP Email Egress]
 ```
 
-1. **Triggering:** An internal Cron node wakes up the workflow at scheduled intervals (each Monday/Wednesday/Friday at 6am so i can read news in public transports and one time a week for a global cyber one to ).
-    
-2. **Ingestion:** Asynchronous HTTP nodes pull raw JSON data from public APIs (Weather, News, Crypto, etc.).
-    
-3. **Sanitization:** A code block normalizes the data, filters unnecessary metadata, and creates a clean prompt.
-    
+1. **Triggering:** An internal Cron node wakes up the workflow at scheduled intervals (each Monday/Wednesday/Friday at 6am so i can read news in public transports and one time a week for a global cyber one to).
+2. **Ingestion:** HTTP nodes pull raw JSON data from public APIs
+3. **Sanitization:** A code block normalizes the data, filters unnecessary metadata, and uses a clean prompt to deliver a right .
 4. **AI Synthesis & Delivery:** The LLM summarizes the dataset into a concise markdown text, which is then wrapped in an email template and sent via Brevo (Port 587 TLS).
     
 
