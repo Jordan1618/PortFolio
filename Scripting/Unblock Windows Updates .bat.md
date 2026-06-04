@@ -164,4 +164,12 @@ pause
      ":END_ERROR
      echo Unexpected error 
      pause"
--  Goto redirect
+-  Goto redirect to the label define before
+
+4) Environment Var
+- %NAME% = %MYNAME%
+	- Before using we have to set it by :
+	 "set NAME=MYNAME
+	 echo Hello %NAME%"
+- There is some special var like :
+	1) %errorLevel
