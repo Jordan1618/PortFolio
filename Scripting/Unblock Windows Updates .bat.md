@@ -152,10 +152,10 @@ pause
 
 2) Commentary
 - :: XXX :: = Usual way to comment inside a .bat
-- rem is the old official syntax, sometime it's common
+- rem is the old official syntax, sometime it's used
 
 3) Labels and goto
-- A label is like a var, it's defined by ": NAME" and execute following instructions (often recursives one)
+- A label is like a var, it's defined by ": NAME" and executes the following instructions (often the most recursive)
 	- Example : 
 	 ":END
 	 Script end 
@@ -164,24 +164,24 @@ pause
      ":END_ERROR
      echo Unexpected error 
      pause"
--  Goto redirect to the label define before
+-  Goto redirects to the label defined before
 
-4) Environment Var
+3) Environment Variable
 - %NAME% = %MYNAME%
 	- Before using we have to set it by :
 	 "set NAME=MYNAME
 	 echo Hello %NAME%"
 - There is some special var like :
-	1) %errorLevel% = use for printing a value ( == 0 mean success and other = error)
+	1) %errorLevel% = use to check execution status ( == 0 mean success and other = error)
 	2) %USERPROFILE% = C:\Users\Me
 	3) %SystemRoot% = C:\Windows
-	4) %TEMP% = Temporary file
+	4) %TEMP% = Temporary files directory
 	5) %COMPUTERNAME% = Name of the computer
-	6) %DATE% = Actual date
+	6) %DATE% = Current date
 	7) %~dp0 = The repository containing the .bat itself
 
 5) RegAdd
- - reg add "Key\Path\" /v "NomValeur" /t TYPE /d DONNEE /f :
+ - reg add "Key\Path\" /v "NameValue" /t TYPE /d DATA /f :
 	 1) /v = value key 
 	 2) /t = date type 
 	 3) /d = data to write 
@@ -190,8 +190,8 @@ pause
 	1) REG_DWORD 32 bits Number = 0, 1, 4, 20
 	2) REG_SZ = Simple String
 	3) REG_EXPAND_SZ = Text with Var (%SystemRoot%)
-	4) REG_MULTI_SZ = List of string
-	5) REG_BINARY = brut binary data
+	4) REG_MULTI_SZ = List of strings
+	5) REG_BINARY = Raw binary data
 - Main Shortcuts :
 	1) HKLM = HKEY_LOCAL_MACHINE 
 	2) HKCU = HKEY_CURRENT_USER
@@ -205,11 +205,11 @@ pause
 	) else ( 
 	command if false 
 	)
-  R = the () must be in the same line as if/else
+  R = the () must be on the same line as if/else
 - Comparison Operators :
-	" == " = equal to
-	neq = Different
-	lss/gtr = Inferior/superior
+	" == " = Equal to
+	neq = Not Equal to so Different
+	lss/gtr = Less Than / Greater Than
 	exist = test existence
 	not = negation
 - Other :
