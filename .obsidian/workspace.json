@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "n8n projects (automations)/README.md",
+                "file": "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "The Project. Step by step"
             }
           }
         ]
@@ -184,10 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "969683878ade0f46",
+  "active": "3bb1310b6092d86f",
   "lastOpenFiles": [
-    "n8n projects (automations)/n8n AI Cyber Newletter AI-built.md",
+    "n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
+    "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
     "n8n projects (automations)/README.md",
+    "n8n projects (automations)/n8n AI Cyber Newletter AI-built",
     "Scripting/README.md",
     "Scripting/Unblock Windows Updates .bat.md",
     "Self-Learning By Myself/README.md",
@@ -214,14 +216,12 @@
     "Self-Learning By Myself",
     "n8n Projects (Automatization)/README.md",
     "[Link to the Video.md",
-    "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
     "Other Projects/Public Interest and Ethical Dating App",
     "Other Projects",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
     "n8n Projects (Automatization)/Financial Market Intelligence on my own Investment",
     "Russian Self-Learning/C2 Level",
     "Russian Self-Learning/C1 Level",
-    "Russian Self-Learning/B2 Level",
     "KaramelIa/Sans titre.canvas"
   ]
 }
