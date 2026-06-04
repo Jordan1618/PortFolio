@@ -144,7 +144,15 @@ pause
 
 ## **Commands explained : ** 
 
+1) Echo commands
 - echo = print a textline in the shell
-	R = echo. just print an empty line
+- echo. = just print an empty line
 - @echo off = silence all non explicit command line
+- command >nul or 2>&1 = redirect each error to nothing/the void
+
+2) Commentary
+- :: XXX :: = Usual way to comment inside a .bat
+- rem is the old official syntax, sometime it's common
+- 
+3)
 - 
