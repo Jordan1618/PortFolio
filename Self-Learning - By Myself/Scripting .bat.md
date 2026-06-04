@@ -1,7 +1,4 @@
-## A real need and a 
+## A real need and i wanted to create my own tools
 
-**1) I have looked into how Cloudflare works from A to Z : And i see the path**
-- Part 1 : The Traffic Interception
-- Part 2 : The Edge Performance
-- Part 3 : The Security Shell
-- Part 4 : The Modern Infrastructure
+**1) To unblock Windows Update Service and User Restrictions :** 
+- 
