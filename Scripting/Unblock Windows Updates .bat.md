@@ -210,14 +210,14 @@ pause
 	" == " = Equal to
 	neq = Not Equal to so Different
 	lss/gtr = Less Than / Greater Than
-	exist = test existence
-	not = negation
+	exist = Test the existence
+	not = Negation
 - Other :
-	chcp 65001 >nul = to use UTF-8
-	cls = CLear Screen like clear on linux, usefull at the begining
+	chcp 65001 >nul = To use UTF-8
+	cls = CLear Screen like clear on linux, usefull at the beginning
 	pause = to print "press any key to close the window"
 - Network commands :
 	1) net session = check admin rights (errorLevel 0 if true)
 	2) net start/stop = for a service
-	3) gpupdate /force = a classical one
+	3) gpupdate /force = a classic one
 	
