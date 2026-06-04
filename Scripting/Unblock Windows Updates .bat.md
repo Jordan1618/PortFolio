@@ -199,4 +199,20 @@ pause
 	4) HKU = HKEY_USERS 
 
 6) General Syntax
-- 
+- Structure if / else :
+	if CONDITION ( 
+	commande si vrai 
+	) else ( 
+	commande si faux 
+	)
+  R = les () doivent être sur la même ligne que le if/else
+- Comparison Operators :
+	" == " = Egal à 
+	neq = Différent
+	lss/gtr = Inférieur/supérieur
+	exist = tester existence
+	not = negation
+- Other :
+	chcp 65001 >nul = to use UTF-8
+	cls = CLear Screen like clear on linux, usefull at the beginni
+	
