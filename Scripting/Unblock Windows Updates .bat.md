@@ -145,9 +145,9 @@ pause
 ## **Commands explained :**
 
 1) Echo commands
-- echo = print a textline in the shell
-- echo. = just print an empty line
-- @echo off = silence all non explicit command line
+- echo = prints a textline in the shell
+- echo. = prints an empty line
+- @echo off = silences all non explicit command lines
 - command >nul or 2>&1 = redirect each error to nothing/the void
 
 2) Commentary
@@ -201,18 +201,23 @@ pause
 6) General Syntax
 - Structure if / else :
 	if CONDITION ( 
-	commande si vrai 
+	command if true
 	) else ( 
-	commande si faux 
+	command if false 
 	)
-  R = les () doivent être sur la même ligne que le if/else
+  R = the () must be in the same line as if/else
 - Comparison Operators :
-	" == " = Egal à 
-	neq = Différent
-	lss/gtr = Inférieur/supérieur
-	exist = tester existence
+	" == " = equal to
+	neq = Different
+	lss/gtr = Inferior/superior
+	exist = test existence
 	not = negation
 - Other :
 	chcp 65001 >nul = to use UTF-8
-	cls = CLear Screen like clear on linux, usefull at the beginni
+	cls = CLear Screen like clear on linux, usefull at the begining
+	pause = to print "press any key to close the window"
+- Network commands :
+	1) net session = check admin rights (errorLevel 0 if true)
+	2) net start/stop = for a service
+	3) gpupdate /force = a classical one
 	
