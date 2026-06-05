@@ -46,6 +46,7 @@
 		      DB_POSTGRESDB_USER: X
 		      DB_POSTGRESDB_PASSWORD: You won't have it too
 		      N8N_ENCRYPTION_KEY: Sorry Too Late
+		      N8N_SECURE_COOKIE: "false"
 		    depends_on:
 		      - postgres
 		    volumes:
