@@ -54,6 +54,5 @@
 		  postgres_data:
 		  n8n_data:
 
-- mkdir -p ~/n8n-stack
-   cd ~/n8n-stack
-	-  R = Create n8n dir
+- openssl rand -base64 32
+	- R= To generate a password
