@@ -20,3 +20,36 @@
    cd ~/n8n-stack
 	-  R = Create n8n dir
 
+- vim docker-compose.yml
+- The config :
+	- services:
+		  postgres:
+		    image: postgres:16-alpine
+		    container_name: postgres
+		    restart: unless-stopped
+		    environment:
+		      POSTGRES_USER: X
+		      POSTGRES_PASSWORD: You won't have it
+		      POSTGRES_DB: X
+		    volumes:
+		      - postgres_data:/X/X/X/X/X
+		  n8n:
+		    image: n8nio/n8n:latest
+		    container_name: n8n
+		    restart: unless-stopped
+		    ports:
+		      - "5678:5678"
+		    environment:
+		      DB_TYPE: postgresdb
+		      DB_POSTGRESDB_HOST: postgres
+		      DB_POSTGRESDB_DATABASE: X
+		      DB_POSTGRESDB_USER: X
+		      DB_POSTGRESDB_PASSWORD: You won't have it too
+		      N8N_ENCRYPTION_KEY: Sorry Too Late
+		    depends_on:
+		      - postgres
+		    volumes:
+		      - n8n_data:/X/X/X
+		volumes:
+		  postgres_data:
+		  n8n_data:
