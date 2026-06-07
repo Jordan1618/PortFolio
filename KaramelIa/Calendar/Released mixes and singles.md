@@ -31,6 +31,11 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 1H00min36s
 **Watch here:** [[Link to the Video](https://youtu.be/g40Y0_OfwPI)]
 
+## 6) **COME FOR ME | KaramelIa - X **
+**Release Date:**14th June, 2026, 16H00
+**Duration:** 1H06min36s
+**Watch here:** [[Link to the Video](https://youtu.be/QVmszvn-qqw)]
+
 # Release Model for Single
 ***Title of the Single*** *(And the feeling i wanted to musicalize)* 
 ***Release Date:** XX Month, XXHXX* 
@@ -53,6 +58,11 @@ Nb: The quality will upgrade, step by step with experience.
 **Watch here:** [[Link to the Video](https://youtu.be/mBVBLYkHuqo)]
 
 ## 4) **LET'S FIGHT THE END | KaramelIa - X**
+**Release Date:** 3rd June, 2026, 16H00 
+**Duration:** 3min00
+**Watch here:** [[Link to the Video](https://youtu.be/HxXadRX_rI8)]
+
+## 5) **LET'S FIGHT THE END | KaramelIa - X**
 **Release Date:** 3rd June, 2026, 16H00 
 **Duration:** 3min00
 **Watch here:** [[Link to the Video](https://youtu.be/HxXadRX_rI8)]
