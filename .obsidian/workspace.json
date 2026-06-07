@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff84450483b5dbdf",
+        "id": "ada7f5829d3d367c",
         "type": "tabs",
         "children": [
           {
-            "id": "80144723599b1db2",
+            "id": "3bb1310b6092d86f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "The Project. Step by step"
             }
           }
         ]
@@ -180,8 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80144723599b1db2",
+  "active": "3bb1310b6092d86f",
   "lastOpenFiles": [
+    "KaramelIa/Calendar/Released Mixes and Singles.md",
+    "KaramelIa/Calendar/Released mixes and singles.md",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
     "n8n projects (automations)/README.md",
@@ -207,11 +213,9 @@
     "Russian Self-Learning/B1 Level/B1 Russian Learning Dashboard.md",
     "Russian Self-Learning/B1 Level/AI Test To Pass.md",
     "KaramelIa/Project Evolution and Documentation.md",
-    "KaramelIa/Calendar/Released Mixes and Singles.md",
     "KaramelIa/README.md",
     "Self-Learning By Myself",
     "n8n Projects (Automatization)/README.md",
-    "[Link to the Video.md",
     "Other Projects/Public Interest and Ethical Dating App",
     "Other Projects",
     "n8n Projects (Automatization)/Cyber Threat Intelligence",
