@@ -62,7 +62,7 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 3min00
 **Watch here:** [[Link to the Video](https://youtu.be/HxXadRX_rI8)]
 
-## 5) **LET'S FIGHT THE END | KaramelIa - X**
+## 5) **MY CROWN IS YOUR GRAVE | KaramelIa - X**
 **Release Date:** 3rd June, 2026, 16H00 
 **Duration:** 3min00
 **Watch here:** [[Link to the Video](https://youtu.be/HxXadRX_rI8)]
