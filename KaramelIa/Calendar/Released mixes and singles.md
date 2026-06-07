@@ -36,6 +36,11 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 1H06min36s
 **Watch here:** [[Link to the Video](https://youtu.be/QVmszvn-qqw)]
 
+## 7) **I AM DANCING WITH MY SHADOW | KaramelIa - X **
+**Release Date:**21st June, 2026, 16H00
+**Duration:** 1H06min36s
+**Watch here:** [[Link to the Video](https://youtu.be/QVmszvn-qqw)]
+
 # Release Model for Single
 ***Title of the Single*** *(And the feeling i wanted to musicalize)* 
 ***Release Date:** XX Month, XXHXX* 
@@ -69,5 +74,5 @@ Nb: The quality will upgrade, step by step with experience.
 
 ## 6) **The Last Waltz I Owe You | KaramelIa - X**
 **Release Date:** 17th June, 2026, 16H00 
-**Duration:** 3min56
-**Watch here:** [[Link to the Video](https://youtu.be/e-DJJPLlRGw)]
+**Duration:** 4min59
+**Watch here:** [[Link to the Video](https://youtu.be/NI2l9jI4VQ0)]
