@@ -48,6 +48,13 @@
 	 EOF
      *R = Daemon.json creation about logs*
 	
-	- systemctl daemon-reload
-	 systemctl restart docker
-	 docker info | grep -i cgroup
+- systemctl daemon-reload
+  systemctl restart docker
+  docker info | grep -i cgroup
+
+- mkdir -p ~/ai-stack
+	cd ~/ai-stack
+	git init
+
+- docker network create ai-internal
+	*Inernal network*
