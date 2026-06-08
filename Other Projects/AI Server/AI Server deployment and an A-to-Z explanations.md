@@ -149,4 +149,7 @@
 	*R = Compose is to select all containers and up to sets them up and the -d tells docker to run its services in background.
 
 - docker exec -it ollama ollama pull mistral
-	 *R = Docker exec = execute a command inside a running container / -it is used to say interactive and terminal / ollama because it's the name of the container / ollama is for the called*
+	 *R = Docker exec = executes a command inside a running container / -it is used to enable interactive and terminal / ollama because it's the name of the container / ollama is for the application itself / pull mistral is to install mistrall from the ollama's librairy*
+
+- docker exec -it ollama ollama pull mistral
+	 *R = Docker exec = executes a command inside a running container / -it is used to enable interactive and terminal / ollama because it's the name of the container / ollama is for the application itself / pull mistral is to install mistrall from the ollama's librairy*
