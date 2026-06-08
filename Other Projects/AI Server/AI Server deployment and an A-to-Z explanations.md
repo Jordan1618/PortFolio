@@ -289,6 +289,9 @@
 	 docker compose down
 	 docker compose up -d
      docker ps
+- Testing the UI :
+	http://10.0.1.180:3000
+- Go to the connexion page of Open WebUI and switch off API Open AI Compatible + Go to API Ollama and put in the URL section : http://ollama:11434
 
 
 ## **Step 4 : Configure Netdata + Check Different Status
