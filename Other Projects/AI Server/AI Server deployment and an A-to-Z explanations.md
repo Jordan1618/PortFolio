@@ -23,4 +23,4 @@
 	 https://download.docker.com/linux/ubuntu \
 	 $(. /etc/os-release && echo $VERSION_CODENAME) stable" \
 	 | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-	 **
+	 *Install Docker CE + Compose (Docker.io is obsolete and docker CE stands for CommunityEdition) docker-ce = daemon / docker-ce-cli = for commands / containerd.io is the low level manager that communicates with the kernel / docker-build-plugin = allow to build complex architectury / docker-compose-plugin = *
