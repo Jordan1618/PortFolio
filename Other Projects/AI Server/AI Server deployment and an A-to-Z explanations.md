@@ -11,21 +11,43 @@
 ## **Step 2 : Configure Docker + systemd
 
 - We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
+	
 - We used : 
 	 Install -m 0755 -d /etc/apt/keyrings
 	 curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
 	  -o /etc/apt/keyrings/docker.asc
 	  chmod a+r /etc/apt/keyrings/docker.asc
+	  
 	 *Configure a secure GPG key repository to enforce signed verification during Docker updates.*
+	
 - After :
 	 echo \
 	 "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] \
 	 https://download.docker.com/linux/ubuntu \
 	 $(. /etc/os-release && echo $VERSION_CODENAME) stable" \
 	 | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-	 *Install Docker CE + Compose (Docker.io is obsolete and docker CE stands for CommunityEdition) docker-ce = daemon / docker-ce-cli = for commands / containerd.io is the low level manager that communicates with the kernel / docker-build-plugin = allow to build complex architectury / docker-compose-plugin = the go script that start alle the process*
+- 
+	 *Install Docker CE + Compose (Docker.io is obsolete and docker CE stands for CommunityEdition) docker-ce = daemon / docker-ce-cli = for commands / containerd.io is the low level manager that communicates with the kernel / docker-build-plugin = allow to build complex architectury / docker-compose-plugin = the go script that start alle the process
+	
 	 **Docker is a modular system so we have to "craft" our installation**
+	 
 - Adding the user to Docker's group :
 	 apt install util-linux-extra -y
 	 usermod -aG docker $USER
 	 newgrp docker
+	
+- mkdir -p /etc/docker ; tee /etc/docker/daemon.json <<'EOF'
+	 {
+	    "exec-opts": ["native.cgroupdriver=systemd"],
+	    "log-driver": "json-file",
+	    "log-opts": {
+	     "max-size": "20m",
+	     "max-file": "3"
+	    }
+	  }
+	 EOF
+     *R = Daemon.json creation about logs*
+	
+	- systemctl daemon-reload
+	 systemctl restart docker
+	 docker info | grep -i cgroup
