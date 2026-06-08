@@ -161,4 +161,10 @@
 - Mistral model wasn't usefull so we installed Mistral8x22B :
 	- docker exec -it ollama ollama run mistral
 	- docker exec -it ollama ollama rm mistral
-	- 
+	- cd ~/ai-stack
+	- docker compose up -d
+	- docker exec -it ollama ollama pull mixtral:8x22b
+
+## **Step 3 : Configure UFW + Check Different Status
+
+- We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
