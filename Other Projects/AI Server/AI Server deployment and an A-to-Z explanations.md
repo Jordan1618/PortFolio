@@ -163,7 +163,10 @@
 	- docker exec -it ollama ollama rm mistral
 	- cd ~/ai-stack
 	- docker compose up -d
-	- docker exec -it ollama ollama pull mixtral:8x22b
+	- docker exec -it ollama ollama pull mixtral:8x22B
+	- docker exec -it ollama ollama run mistral:8x22B
+	- 
+- Mistral8x22B model was too slow because we got a lack of GPU, so we try the :
 
 ## **Step 3 : Configure UFW + Check Different Status
 
