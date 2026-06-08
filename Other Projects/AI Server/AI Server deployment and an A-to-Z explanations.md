@@ -124,3 +124,23 @@
 		  n8n_data:
 		EOF
 	*R = Configure the following containers by mixing cat > X << 'EOF' 
+
+- cat > ~/ai-stack/litellm_config.yaml <<'EOF'
+		model_list:
+		  - model_name: mistral
+		    litellm_params:
+		      model: ollama/mistral
+		      api_base: http://ollama:11434
+		
+		  - model_name: llama3
+		    litellm_params:
+		      model: ollama/llama3
+		      api_base: http://ollama:11434
+		
+		litellm_settings:
+		  num_retries: 3
+		  request_timeout: 120
+		EOF 
+	 *R = Mistral is mathematical base, ollama the translater of mathematic to verbal brain and LiteLLM the translater between softwares and ollama*
+
+- Now we are
