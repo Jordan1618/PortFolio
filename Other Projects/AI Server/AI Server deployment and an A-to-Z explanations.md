@@ -177,6 +177,6 @@
 	- docker compose up -d
 	- docker exec -it ollama ollama run mixtral:8x7b
 
-## **Step 3 : Configure UFW + Check Different Status
+## **Step 3 : Configure Netdata + Check Different Status
 
 - We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
