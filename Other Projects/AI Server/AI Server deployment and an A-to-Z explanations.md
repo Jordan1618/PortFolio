@@ -143,4 +143,6 @@
 		EOF 
 	 *R = Mistral is mathematical base, ollama the translater of mathematic to verbal brain and LiteLLM the translater between softwares and ollama*
 
-- Now we are testing and lauch
+- Now we are testing and lauching them :
+	cd ~/ai-stack
+	docker compose up -d
