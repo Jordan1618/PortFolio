@@ -167,6 +167,8 @@
 	- docker exec -it ollama ollama run mistral:8x22B
 	- 
 - Mistral8x22B model was too slow because we got a lack of GPU, so we try the mistral:8x7 (means on a Meo Architecture 8experts of 7billions of settings) :
+	- docker exec -it ollama ollama rm mixtral:8x22b
+	- docker exec -it ollama ollama pull mixtral:8x7b
 
 ## **Step 3 : Configure UFW + Check Different Status
 
