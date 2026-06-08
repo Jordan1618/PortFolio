@@ -13,7 +13,8 @@
 - We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
 - We used : 
 	 Install -m 0755 -d /etc/apt/keyrings
-	  curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
+	 curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
 	  -o /etc/apt/keyrings/docker.asc
 	  chmod a+r /etc/apt/keyrings/docker.asc
+	 *Configure a secure GPG key repository to enforce signed verification during Docker updates.*
 - 
