@@ -57,4 +57,4 @@
 	git init
 
 - docker network create ai-internal
-	*Inernal network*
+	*Internal network*
