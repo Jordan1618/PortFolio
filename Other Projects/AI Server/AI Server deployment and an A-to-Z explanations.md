@@ -1,6 +1,8 @@
-## **Before entering the: Configure the Server
+## **Before entering the subject: The Stack and The Hardware
 
-- A clean session need to understand that :** **there is no root, disabled by default**, so I have
+- One main priority for this project is to have a Free-Open Source Stack
+- The stack thinked is : LTS Docker + Ollama + API REST + Mistral 22BQ6 + API Gateway + OpenWebUIInterface CHATGPT like n8n
+- In the hardware side is : Dell Server with ESXI + 218Go + 
 ## **Step 1 : Configure the Server
 
 - A clean session need to understand that :** **there is no root, disabled by default**, so I have to use sudo -i and a classic apt update & apt upgrade
