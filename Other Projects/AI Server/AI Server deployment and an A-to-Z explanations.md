@@ -141,9 +141,12 @@
 		  num_retries: 3
 		  request_timeout: 120
 		EOF 
-	 *R = Mistral is the mathematical base, ollama the translater of mathematics to the verbal brain and LiteLLM the translater between software applicatons and Ollama*
+	 *R = Mistral is the mathematical base, ollama the translater from mathematics to the verbal brain and LiteLLM the translater between software applicatons and Ollama*
 
-- Now we are testing and lauching them :
+- Now we are testing and launching them :
 	cd ~/ai-stack
 	docker compose up -d
-	*R = Compose is to select all containers and up to sets them up and the -d tells docker to run his services in background.
+	*R = Compose is to select all containers and up to sets them up and the -d tells docker to run its services in background.
+
+- docker exec -it ollama ollama pull mistral
+	 *R = Docker exec = execute a command inside a running container / -it is used to say interactive and terminal / ollama because it's the name of the container / ollama is for the called*
