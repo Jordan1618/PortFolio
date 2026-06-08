@@ -7,7 +7,8 @@
 
 - Seting up a Raid 5 Replication Storage
 - Installing a Ubuntu Resolute Raccoon 26.04 OS in CLI with a Rufus's Bootable USB Key
-- Configurating the *ssh key to my main computer with apt install openssh-server -y* + add a *right user with usermod -aG sudo NAME* +  *apt update && apt upgrade -y* + apt install *unattended-upgrades && dpkg-reconfigure --priority=low unattended-upgrades*
+- Configurating the *ssh key to my main computer with apt install openssh-server -y* + add a *right user with usermod -aG sudo NAME* +  *apt update && apt full-upgrade -y* + apt install *unattended-upgrades && dpkg-reconfigure --priority=low unattended-upgrades*
 ## **Step 2 : Configure Docker + systemd
 
+- We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
 - 
