@@ -11,10 +11,14 @@
             "id": "80144723599b1db2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "Released mixes and singles"
             }
           }
         ]
