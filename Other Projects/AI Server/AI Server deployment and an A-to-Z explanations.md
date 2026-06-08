@@ -3,11 +3,16 @@
 - One main priority for this project is to have a Free-Open Source Stack
 - The stack planned is : LTS Docker + Ollama + API REST + Mistral 22B(Q6) + API Gateway + OpenWebUI Interface + n8n + LiteLLM
 - On the hardware side it's : Dell Server with ESXI + 256GB RAM + 2 Intel Xeon 2.10Ghz + 8TB Storage
-## **Step 1 : Configure the Server
+## **Step 1 : Configure the Server + SSH + UFW
 
 - Seting up a Raid 5 Replication Storage
 - Installing a Ubuntu Resolute Raccoon 26.04 OS in CLI with a Rufus's Bootable USB Key
 - Configurating the *ssh key to my main computer with apt install openssh-server -y* + add a *right user with usermod -aG sudo NAME* +  *apt update && apt full-upgrade -y* + apt install *unattended-upgrades && dpkg-reconfigure --priority=low unattended-upgrades*
+- ufw default deny incoming
+  ufw default allow outgoing
+  ufw allow from 192.168.1.0/24 to any port 22 comment 'SSH' sudo ufw allow from 192.168.1.0/24 to any port 3000 comment 'Open WebUI' sudo ufw allow from 192.168.1.0/24 to any port 4000 comment 'LiteLLM Proxy' sudo ufw allow from 192.168.1.0/24 to any port 5678 comment 'n8n Automation' sudo ufw allow from 192.168.1.0/24 to any port 19999 comment 'Netdata Monitoring'
+  ufw enable
+- ubuntu-report send no
 ## **Step 2 : Configure Docker + systemd
 
 - We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
@@ -169,6 +174,8 @@
 - Mistral8x22B model was too slow because we got a lack of GPU, so we try the mistral:8x7 (means on a Meo Architecture 8experts of 7billions of settings) :
 	- docker exec -it ollama ollama rm mixtral:8x22b
 	- docker exec -it ollama ollama pull mixtral:8x7b
+	- docker compose up -d
+	- docker exec -it ollama ollama run mixtral:8x7b
 
 ## **Step 3 : Configure UFW + Check Different Status
 
