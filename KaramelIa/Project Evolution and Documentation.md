@@ -37,3 +37,11 @@
 	1) A n8n workflow that can automate releasing on TikTok, Instagram and Youtube with integrated seo tags/title/description.
 	2) Subscribing to a musical distribution for a high and fast avaibility of my songs. I just need more money to complete that :)
 	3) Do a calendar of how i will organise my lore's publication and around which main event
+
+## 08/06/2026 :
+
+- The same as before : 
+	1) A n8n workflow that can automate releasing on TikTok, Instagram and Youtube with integrated seo tags/title/description.
+	2) Subscribing to a musical distribution for a high and fast avaibility of my songs. I just need more money to complete that :)
+	3) Do a calendar of how i will organise my lore's publication and around which main event
+- I Just made some updates to the [Calendar](Released%20mixes%20and%20singles.md)
