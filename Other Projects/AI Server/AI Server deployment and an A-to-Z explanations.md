@@ -177,6 +177,12 @@
 	- docker compose up -d
 	- docker exec -it ollama ollama run mixtral:8x7b
 
-## **Step 3 : Configure Netdata + Check Different Status
+## **Step 3 : Configure OpenWebGUI + Modif conf files
+
+- It was a very hard setup to do :
+	- In ~/ai-stack/docker-compose.yml :
+		
+
+## **Step 4 : Configure Netdata + Check Different Status
 
 - We started prerequired for the following steps : sudo apt install -y curl git ca-certificates gnupg lsb-release
