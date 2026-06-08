@@ -158,4 +158,7 @@
   -d '{"model":"mistral","prompt":"Bonjour","stream":false}'
 	- *R = curl is to send request / -d is to send data in JSON form / The 3 settings especially "stream": false to only give the final sentence, not the stream of continuous words generating*
 	
-- 
+- Mistral model wasn't usefull so we installed Mistral8x22B :
+	- docker exec -it ollama ollama run mistral
+	- docker exec -it ollama ollama rm mistral
+	- 
