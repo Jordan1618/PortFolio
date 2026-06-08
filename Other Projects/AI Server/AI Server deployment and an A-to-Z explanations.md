@@ -58,3 +58,69 @@
 
 - docker network create ai-internal
 	*Internal network*
+
+- cat > ~/ai-stack/docker-compose.yml <<'EOF'
+		services:
+		
+		  ollama:
+		    image: ollama/ollama:latest
+		    container_name: ollama
+		    restart: unless-stopped
+		    networks:
+		      - ai-internal
+		    volumes:
+		      - ollama_data:/root/.ollama
+		    deploy:
+		      resources:
+		        limits:
+		          memory: 128g
+		
+		  litellm:
+		    image: ghcr.io/berriai/litellm:main-latest
+		    container_name: litellm
+		    restart: unless-stopped
+		    networks:
+		      - ai-internal
+		    ports:
+		      - "4000:4000"
+		    volumes:
+		      - ./litellm_config.yaml:/app/config.yaml
+		    command: ["--config", "/app/config.yaml", "--port", "4000"]
+		    depends_on:
+		      - ollama
+		    deploy:
+		      resources:
+		        limits:
+		          memory: 1g
+		
+		  n8n:
+		    image: n8nio/n8n:latest
+		    container_name: n8n
+		    restart: unless-stopped
+		    networks:
+		      - ai-internal
+		    ports:
+		      - "5678:5678"
+		    volumes:
+		      - n8n_data:/home/node/.n8n
+		    environment:
+		      - N8N_BASIC_AUTH_ACTIVE=true
+		      - N8N_BASIC_AUTH_USER=admin
+			  - N8N_BASIC_AUTH_PASSWORD=HEPHEPPASTOUCHE
+		      - N8N_HOST=localhost
+		      - N8N_PORT=5678
+		      - GENERIC_TIMEZONE=Europe/Paris
+		    deploy:
+		      resources:
+		        limits:
+		          memory: 2g
+		
+		networks:
+		  ai-internal:
+		    external: true
+		
+		volumes:
+		  ollama_data:
+		  n8n_data:
+		EOF
+	*R = Configure the following containers by mixing cat > X << 'EOF' 
