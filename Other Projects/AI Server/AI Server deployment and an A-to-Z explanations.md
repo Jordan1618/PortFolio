@@ -153,3 +153,9 @@
 
 - docker exec -it ollama ollama pull mistral
 	 *R = Docker exec = executes a command inside a running container / -it is used to enable interactive and terminal / ollama because it's the name of the container / ollama is for the application itself / pull mistral is to install mistrall from the ollama's librairy*
+
+- curl http://localhost:11434/api/generate \
+  -d '{"model":"mistral","prompt":"Bonjour","stream":false}'
+	- *R = curl is to send request / -d is to send data in JSON form / The 3 settings especially "stream": false to only give the final sentence, not the stream of continuous words generating*
+	
+- 
