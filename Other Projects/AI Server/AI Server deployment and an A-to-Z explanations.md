@@ -315,3 +315,7 @@ TimeoutStartSec=120
 [Install]
 WantedBy=multi-user.target
 EOF
+
+## **Step 3 : Configure OpenWebGUI + Modif conf files**
+
+- It was a ve
