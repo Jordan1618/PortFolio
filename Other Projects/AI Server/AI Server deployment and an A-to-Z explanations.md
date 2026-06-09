@@ -327,7 +327,9 @@
   systemctl status ai-stack
   *R= Commands for make the service works*
 
-  - 
+  - We're installing NetData : Good thing to know is that NetData carries natively a Nvidia collector
+	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
+	  - 
 
 
 ## **Step 5 : Final Securing**
