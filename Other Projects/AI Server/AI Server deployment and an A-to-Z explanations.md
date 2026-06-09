@@ -299,7 +299,7 @@
 ![](Pasted%20image%2020260608172826.png)
 
 
-## **Step 4 : Creating daemon + Check Different Status Netdata / Prometheus / Nginx
+## **Step 4 : Creating daemon + Check Different Status Netdata / Prometheus 
 
 - We create the daemon to make our stack working even the computer is closed.
 ```
