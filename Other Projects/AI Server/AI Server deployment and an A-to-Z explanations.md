@@ -329,15 +329,52 @@
 
   - We're installing NodeExporter (bcs NetData was trash) : Good thing to know is that NetData carries natively a Nvidia collector
 	  - mkdir -p ~/monitoring && cd ~/monitoring
-	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
+	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh (not sure for this one)
 	  - lspci | grep -i -E "vga|3d|display"
 	  *R = Looking for 3D Hardware Matérials and display them*
+	  - ufw allow 9100/tcp
 	  - http://<AI_SERVER_IP>:9100/metrics
 
 - Now the same for Prometheus:
-	- 
-	- 
+	- mkdir -p ~/monitoring && cd ~/monitoring
+	- cat << 'EOF' > prometheus.yml
+		global:
+		  scrape_interval: 10s
+		
+		scrape_configs:
+		  - job_name: 'serveur-ia-metrics'
+		    static_configs:
+		      - targets: ['127.0.0.1:9100']
+		EOF
+	- cat << 'EOF' > docker-compose.yml
+		services:
+		  node-exporter:
+		    image: prom/node-exporter:v1.8.1
+		    container_name: node-exporter
+		    restart: unless-stopped
+		    volumes:
+		      - /proc:/host/proc:ro
+		      - /sys:/host/sys:ro
+		      - /:/rootfs:ro
+		    command:
+		      - '--path.procfs=/host/proc'
+		      - '--path.sysfs=/host/sys'
+		      - '--path.rootfs=/rootfs'
+		    network_mode: host
+		  prometheus:
+		    image: prom/prometheus:v2.45.0
+		    container_name: prometheus
+		    restart: unless-stopped
+		    volumes:
+		      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+		    network_mode: host
+		EOF
+	- docker compose up -d
+	- ufw allow 9090/tcp
 	- http://<AI_SERVER_IP>:9090
+	lspci | grep -i -E "vga|3d|display"
+	  *R = Looking for 3D Hardware Matérials and display them*
+
 
 ## **Step 5 : Final Securing**
 
