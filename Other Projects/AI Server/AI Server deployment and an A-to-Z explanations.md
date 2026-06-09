@@ -299,7 +299,7 @@
 ![](Pasted%20image%2020260608172826.png)
 
 
-## **Step 4 : Creating daemon + Check Different Status Netdata / Prometheus
+## **Step 4 : Creating daemon + Check Different Status Netdata / Prometheus / Nginx
 
 - We create the daemon to make our stack working even the computer is closed.
 ```
@@ -331,6 +331,10 @@
 	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
 	  - lspci | grep -i -E "vga|3d|display"
 	  *R = Looking for 3D Hardware Matérials and display them*
+
+- Now the same for Nginx to setup Prometheus:
+	- apt update && apt install nginx -y
+	- 
 
 ## **Step 5 : Final Securing**
 
