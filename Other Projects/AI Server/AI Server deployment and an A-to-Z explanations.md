@@ -472,3 +472,4 @@
 	- curl -I http://127.0.0.1:9100/metrics
 - Any container has a right on the host
 	- docker inspect $(docker ps -q) | grep -i docker.sock || echo "Secured : No socket leaks found"
+
