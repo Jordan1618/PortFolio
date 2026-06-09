@@ -467,4 +467,8 @@
 - Cgroup systemd + version 2
 	- docker info | grep -i cgroup
 - The ai-stack service
-	- sudo systemctl status ai-stack.service
+	- systemctl status ai-stack.service
+- Prometheus works
+	- curl -I http://127.0.0.1:9100/metrics
+- Any container has a right on the host
+	- docker inspect $(docker ps -q) | grep -i docker.sock || echo "Secured : No socket leaks found"
