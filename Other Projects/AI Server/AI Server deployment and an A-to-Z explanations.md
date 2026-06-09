@@ -460,4 +460,11 @@
 		  }'
 - Authentification successful on OpenWebUI
 	- docker inspect open-webui | grep -i WEBUI_AUTH
-- There is my 4 conta
+- There is my 4 containers
+	- docker network inspect ai-internal
+- Ports 22 3000 3001 4000 5678 9090 9100 checks
+	- ufw status verbose
+- Cgroup systemd + version 2
+	- docker info | grep -i cgroup
+- The ai-stack service
+	- sudo systemctl status ai-stack.service
