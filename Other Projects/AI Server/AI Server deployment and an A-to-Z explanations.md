@@ -181,6 +181,8 @@
 
 - It was a very hard setup to do :
 	- In ~/ai-stack/docker-compose.yml :
+		````
+		```
 		cat > ~/ai-stack/docker-compose.yml <<'EOF'
 			services:
 			
@@ -270,7 +272,8 @@
 			  ollama_data:
 			  webui_data:
 			  n8n_data:
-			EOF
+			EOF 
+		````
 	-  In ~/ai-stack/litellm_config.yaml :
 		- cat > ~/ai-stack/litellm_config.yaml <<'EOF'
 		model_list:
@@ -298,7 +301,7 @@
 
 ## **Step 4 : Creating daemon + Check Different Status Netdata / Prometheus
 
-- We create the daemon to make our stack working even the computer is closed
+- We create the daemon to make our stack working even the computer is closed.
 ```
 	- sudo tee /etc/systemd/system/ai-stack.service <<'EOF'
 	[Unit]
@@ -318,6 +321,14 @@
 	WantedBy=multi-user.target
 	EOF
 ```
+- systemctl daemon-reload
+  systemctl enable --now ai-stack
+  systemctl status ai-stack
+  *R= Commands for make the service works*
+
+
+## **Step 5 : Final Securing**
+
 - 
 
 
