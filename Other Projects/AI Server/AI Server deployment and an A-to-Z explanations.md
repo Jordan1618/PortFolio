@@ -298,24 +298,24 @@
 
 ## **Step 4 : Creating daemon + Check Different Status Netdata
 
-- sudo tee /etc/systemd/system/ai-stack.service <<EOF
-[Unit]
-Description=AI Stack (Ollama + LiteLLM + n8n)
-Requires=docker.service
-After=docker.service network-online.target
+	- sudo tee /etc/systemd/system/ai-stack.service <<EOF
+		[Unit]
+		Description=AI Stack (Ollama + LiteLLM + n8n)
+		Requires=docker.service
+		After=docker.service network-online.target
+		
+		[Service]
+		Type=oneshot
+		RemainAfterExit=yes
+		WorkingDirectory=/home/${USER}/ai-stack
+		ExecStart=/usr/bin/docker compose up -d
+		ExecStop=/usr/bin/docker compose down
+		TimeoutStartSec=120
+		
+		[Install]
+		WantedBy=multi-user.target
+		EOF
 
-[Service]
-Type=oneshot
-RemainAfterExit=yes
-WorkingDirectory=/home/${USER}/ai-stack
-ExecStart=/usr/bin/docker compose up -d
-ExecStop=/usr/bin/docker compose down
-TimeoutStartSec=120
-
-[Install]
-WantedBy=multi-user.target
-EOF
-
-## **Step 3 : Configure OpenWebGUI + Modif conf files**
+## **END Step : Configure OpenWebGUI + Modif conf files**
 
 - It was a ve

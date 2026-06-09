@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Other Projects/AI Server/AI Server deployment and an A-to-Z explanations.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "The Project. Step by step"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +198,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86049a621e1fd054",
+  "active": "3bb1310b6092d86f",
   "lastOpenFiles": [
-    "Other Projects/AI Server/AI Server deployment and an A-to-Z explanations.md",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
+    "Other Projects/AI Server/AI Server deployment and an A-to-Z explanations.md",
+    "Other Projects/README.md",
     "Pièces jointes/Pasted image 20260608172826.png",
     "Pièces jointes",
     "n8n projects (automations)/README.md",
@@ -210,7 +210,6 @@
     "KaramelIa/README.md",
     "KaramelIa/Project Evolution and Documentation.md",
     "KaramelIa/Calendar/Released mixes and singles.md",
-    "Other Projects/README.md",
     "Other Projects/AI Server",
     "KaramelIa/Calendar/Released Mixes and Singles.md",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built",
