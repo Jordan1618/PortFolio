@@ -443,4 +443,21 @@
 	- docker stats ollama --no-stream
 - The project stays in memory
 	- docker inspect ollama | grep -i OLLAMA_KEEP_ALIVE
-- The authentification is running, routing too, OpenAI fo
+- The authentification is running, routing too, OpenAI format respected
+	- curl http://localhost:4000/v1/chat/completions \
+		  -H "Content-Type: application/json" \
+		  -H "Authorization: Bearer ma-cle-ia-2026" \
+		  -d '{
+		    "model": "mistral-large",
+		    "messages": [{"role": "user", "content": "Test de connexion"}]
+		  }'
+- Authentification rejection :
+	- curl -i -X POST http://localhost:4000/v1/chat/completions \
+		  -H "Content-Type: application/json" \
+		  -d '{
+		    "model": "mistral-large",
+		    "messages": [{"role": "user", "content": "Test"}]
+		  }'
+- Authentification successful on OpenWebUI
+	- docker inspect open-webui | grep -i WEBUI_AUTH
+- There is my 4 conta
