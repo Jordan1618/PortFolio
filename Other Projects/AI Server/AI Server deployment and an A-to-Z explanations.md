@@ -374,7 +374,7 @@
 	- lspci | grep -i -E "vga|3d|display"
 	  *R = Looking for 3D Hardware Matérials and display them*
 
-- And now the icing on the cake Grafana
+- And now the icing on the cake Grafana :
 	- cd ~/monitoring
 	- cat << 'EOF' > docker-compose.yml
 		services:
@@ -402,10 +402,9 @@
 		    image: grafana/grafana:10.2.0
 		    container_name: grafana
 		    restart: unless-stopped
-		    ports:
-		      - "3000:3000"
-		    environment:
-		      - GF_SECURITY_ADMIN_PASSWORD=admin  # Mot de passe par défaut (à changer à la 1ère connexion)
+		    environment: 
+			- GF_SERVER_HTTP_PORT=3001 
+			- GF_SECURITY_ADMIN_PASSWORD=YOU DONT HAVE TO KNOW
 		    volumes:
 		      - grafana-storage:/var/lib/grafana
 		    network_mode: host
@@ -413,7 +412,8 @@
 		  grafana-storage:
 		EOF
 
-		
+	- ufw allow 3001/tcp
+	- ufw enable
 	- docker compose up -d
 	- docker compose ps
 
