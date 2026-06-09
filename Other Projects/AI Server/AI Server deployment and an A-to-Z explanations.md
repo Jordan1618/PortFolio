@@ -329,7 +329,16 @@
 
 ## **Step 5 : Final Securing**
 
-- 
+- We configure UFW to take charge of docker's new ports
+	-    ufw allow 5678/tcp
+		ufw allow 4000/tcp
+		ufw allow 3000/tcp
+		ufw enable
+		ufw status verbose
+
+- We check if any container has the power to undertake my OS
+	- docker inspect $(docker ps -q) | grep -i docker.sock
+
 
 
 ## **END Step : What I Learned and I Doesn't Wrote Before**
