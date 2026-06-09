@@ -332,10 +332,12 @@
 	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
 	  - lspci | grep -i -E "vga|3d|display"
 	  *R = Looking for 3D Hardware Matérials and display them*
+	  - http://<AI_SERVER_IP>:9100/metrics
 
 - Now the same for Prometheus:
-	- apt update && apt install nginx -y
 	- 
+	- 
+	- http://<AI_SERVER_IP>:9090
 
 ## **Step 5 : Final Securing**
 
