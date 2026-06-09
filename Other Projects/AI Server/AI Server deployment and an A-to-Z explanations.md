@@ -417,6 +417,7 @@
 	- docker compose up -d
 	- docker compose ps
 
+- After we setup the connection (Prometeus) + the dashboard : import (code : 1860) = Dashboard cooked
 
 ## **Step 5 : Final Securing**
 
