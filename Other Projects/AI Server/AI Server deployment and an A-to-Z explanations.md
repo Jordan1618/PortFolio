@@ -299,7 +299,7 @@
 ![](Pasted%20image%2020260608172826.png)
 
 
-## **Step 4 : Creating daemon + Check Different Status NodeExporter / Prometheus 
+## **Step 4 : Creating daemon + Check Different Status NodeExporter / Prometheus / Grafana
 
 - We create the daemon to make our stack working even the computer is closed.
 ```
@@ -327,13 +327,7 @@
   systemctl status ai-stack
   *R= Commands for make the service works*
 
-  - We're installing NodeExporter (bcs NetData was trash) : Good thing to know is that NetData carries natively a Nvidia collector
-	  - mkdir -p ~/monitoring && cd ~/monitoring
-	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh (not sure for this one)
-	  - lspci | grep -i -E "vga|3d|display"
-	  *R = Looking for 3D Hardware Matérials and display them*
-	  - ufw allow 9100/tcp
-	  - http://<AI_SERVER_IP>:9100/metrics
+- We're installing NodeExporter (bcs NetData was trash) : Good thing to know is that NetData carries natively a Nvidia collector
 
 - Now the same for Prometheus:
 	- mkdir -p ~/monitoring && cd ~/monitoring
@@ -371,9 +365,57 @@
 		EOF
 	- docker compose up -d
 	- ufw allow 9090/tcp
+	- ufw allow 9100/tcp
 	- http://<AI_SERVER_IP>:9090
-	lspci | grep -i -E "vga|3d|display"
+	- http://<AI_SERVER_IP>:9100/metrics
+	- ufw enable
+	- docker compose ps
+	- curl -I "http://127.0.0.1:9100/metrics"
+	- lspci | grep -i -E "vga|3d|display"
 	  *R = Looking for 3D Hardware Matérials and display them*
+
+- And now the icing on the cake Grafana
+	- cd ~/monitoring
+	- cat << 'EOF' > docker-compose.yml
+		services:
+		  node-exporter:
+		    image: prom/node-exporter:v1.8.1
+		    container_name: node-exporter
+		    restart: unless-stopped
+		    volumes:
+		      - /proc:/host/proc:ro
+		      - /sys:/host/sys:ro
+		      - /:/rootfs:ro
+		    command:
+		      - '--path.procfs=/host/proc'
+		      - '--path.sysfs=/host/sys'
+		      - '--path.rootfs=/rootfs'
+		    network_mode: host
+		  prometheus:
+		    image: prom/prometheus:v2.45.0
+		    container_name: prometheus
+		    restart: unless-stopped
+		    volumes:
+		      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+		    network_mode: host
+		  grafana:
+		    image: grafana/grafana:10.2.0
+		    container_name: grafana
+		    restart: unless-stopped
+		    ports:
+		      - "3000:3000"
+		    environment:
+		      - GF_SECURITY_ADMIN_PASSWORD=admin  # Mot de passe par défaut (à changer à la 1ère connexion)
+		    volumes:
+		      - grafana-storage:/var/lib/grafana
+		    network_mode: host
+		volumes:
+		  grafana-storage:
+		EOF
+
+		
+	- docker compose up -d
+	- docker compose ps
 
 
 ## **Step 5 : Final Securing**
