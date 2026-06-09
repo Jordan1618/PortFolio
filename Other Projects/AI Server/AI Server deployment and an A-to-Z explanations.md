@@ -435,6 +435,6 @@
 - I used DPKG to debug some apt update issues. DPKG is the worker behind the command apt that commands to check what needs to be download (software applications - dependencies - ...). Some files were locked by a netdata user. So I had to override some permissions to fix the problem.
 
 
-## **END Step : What I Learned and I Doesn't Wrote Before**
+## **Project Specifications : Is everything right ?(Of course, I made it ah ah)**
 
-- Ollama
+- Mistra
