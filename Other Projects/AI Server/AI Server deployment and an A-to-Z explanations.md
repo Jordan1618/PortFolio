@@ -316,6 +316,7 @@
 		WantedBy=multi-user.target
 		EOF
 
-## **END Step : Configure OpenWebGUI + Modif conf files**
+## **END Step : What I Learned and I Doesn't Wrote Before**
 
-- It was a ve
+- Ollama is 2 things : A "Play Store" of AI and the engine that executes it.
+- The Importance of a GPU
