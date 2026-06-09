@@ -1,6 +1,6 @@
 ## **Before entering the subject: The Stack and The Hardware
 
-- One main priority for this project is to have a Free-Open Source Stack
+- One main priority for this project is to have a Free-Open Source Stack (FOSS)
 - The stack planned is : LTS Docker + Ollama + API REST + Mistral 22B(Q6) + API Gateway + OpenWebUI Interface + n8n + LiteLLM
 - On the hardware side it's : Dell Server with ESXI + 256GB RAM + 2 Intel Xeon 2.10Ghz + 8TB Storage
 ## **Step 1 : Configure the Server + SSH + UFW
@@ -66,7 +66,6 @@
 
 - cat > ~/ai-stack/docker-compose.yml <<'EOF'
 		services:
-		
 		  ollama:
 		    image: ollama/ollama:latest
 		    container_name: ollama
@@ -79,7 +78,6 @@
 		      resources:
 		        limits:
 		          memory: 128g
-		
 		  litellm:
 		    image: ghcr.io/berriai/litellm:main-latest
 		    container_name: litellm
@@ -97,7 +95,6 @@
 		      resources:
 		        limits:
 		          memory: 1g
-		
 		  n8n:
 		    image: n8nio/n8n:latest
 		    container_name: n8n
@@ -119,11 +116,9 @@
 		      resources:
 		        limits:
 		          memory: 2g
-		
 		networks:
 		  ai-internal:
 		    external: true
-		
 		volumes:
 		  ollama_data:
 		  n8n_data:
@@ -433,8 +428,8 @@
 
 ## **END Step : What I Learned and I Doesn't Wrote Before**
 
-- Ollama is 2 things : A "Play Store" of AI and the engine that executes it.
-- The Importance of a GPU
-- Open WebUI runs on the port 3000, He can be used to create specific AI profiles, talk to or send document to get work on.
+- Ollama is 2 things : A "Play Store" of AI and the engine that runs it.
+- The Importance of having a GPU
+- Open WebUI runs on the port 3000, It can be used to create specific AI profiles, chat or send document to work on.
 - n8n runs on the port 5678, He can be used to automate actions, in a workflow, with low-code tools
-- I used DPKG to debug some apt update issues. DPKG is the worker of the command apt that commands to check what has to be download (software applications - dependancies - ...). Some files were locked to a netdata user. So I had to override some permissions to fix the problem.
+- I used DPKG to debug some apt update issues. DPKG is the worker behind the command apt that commands to check what needs to be download (software applications - dependencies - ...). Some files were locked by a netdata user. So I had to override some permissions to fix the problem.
