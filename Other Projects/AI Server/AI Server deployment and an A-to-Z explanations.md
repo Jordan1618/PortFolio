@@ -348,4 +348,5 @@
 
 - Ollama is 2 things : A "Play Store" of AI and the engine that executes it.
 - The Importance of a GPU
-- R = Open WebUI runs on the port 3000, He can be used to create specific AI profiles, talk to or send document to get work on.
+- Open WebUI runs on the port 3000, He can be used to create specific AI profiles, talk to or send document to get work on.
+- n8n runs on the port 5678, He can be used to automate actions, in a workflow, with low-code tools
