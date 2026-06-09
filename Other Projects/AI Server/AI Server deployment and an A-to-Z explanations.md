@@ -437,3 +437,4 @@
 - The Importance of a GPU
 - Open WebUI runs on the port 3000, He can be used to create specific AI profiles, talk to or send document to get work on.
 - n8n runs on the port 5678, He can be used to automate actions, in a workflow, with low-code tools
+- I used DPKG to debug some apt update issues. DPKG is the worker of the command apt that commands to check what has to be download (software applications - dependancies - ...). Some files were locked to a netdata user. So I must override
