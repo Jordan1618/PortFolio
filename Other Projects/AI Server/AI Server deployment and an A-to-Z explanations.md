@@ -433,3 +433,8 @@
 - Open WebUI runs on the port 3000, It can be used to create specific AI profiles, chat or send document to work on.
 - n8n runs on the port 5678, He can be used to automate actions, in a workflow, with low-code tools
 - I used DPKG to debug some apt update issues. DPKG is the worker behind the command apt that commands to check what needs to be download (software applications - dependencies - ...). Some files were locked by a netdata user. So I had to override some permissions to fix the problem.
+
+
+## **END Step : What I Learned and I Doesn't Wrote Before**
+
+- Ollama
