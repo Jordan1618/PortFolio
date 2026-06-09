@@ -437,4 +437,10 @@
 
 ## **Project Specifications : Is everything right ?(Of course, I made it ah ah)**
 
-- Mistra
+- Mixtral:8x7b installed
+	- docker exec -it ollama ollama list
+- Right memory allocated
+	- docker stats ollama --no-stream
+- The project stays in memory
+	- docker inspect ollama | grep -i OLLAMA_KEEP_ALIVE
+- The authentification is running, routing too, OpenAI fo
