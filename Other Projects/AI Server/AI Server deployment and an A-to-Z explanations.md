@@ -274,19 +274,19 @@
 			  n8n_data:
 			EOF 
 		````
-	-  In ~/ai-stack/litellm_config.yaml :
+-  In ~/ai-stack/litellm_config.yaml :
 		- cat > ~/ai-stack/litellm_config.yaml <<'EOF'
-		model_list:
-			-model_name: mistral-large
-		    litellm_params:
-		      model: ollama/mixtral:8x7b
-		      api_base: http://ollama:11434
+				model_list:
+					-model_name: mistral-large
+				    litellm_params:
+				      model: ollama/mixtral:8x7b
+				      api_base: http://ollama:11434
+				litellm_settings:
+				  num_retries: 3   
+				  request_timeout: 600 
+				  telemetry: false 
+				EOF
 
-		litellm_settings:
-		  num_retries: 3   
-		  request_timeout: 600 
-		  telemetry: false 
-		EOF
 - Starting and initialisation of the Stack :
 	- cd ~/ai-stack
 	 docker compose down
@@ -321,10 +321,13 @@
 	WantedBy=multi-user.target
 	EOF
 ```
+
 - systemctl daemon-reload
   systemctl enable --now ai-stack
   systemctl status ai-stack
   *R= Commands for make the service works*
+
+  - 
 
 
 ## **Step 5 : Final Securing**
