@@ -329,8 +329,8 @@
 
   - We're installing NetData : Good thing to know is that NetData carries natively a Nvidia collector
 	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
-	  - 
-
+	  - lspci | grep -i -E "vga|3d|display"
+	  *R = Looking for 3D *
 
 ## **Step 5 : Final Securing**
 
