@@ -299,7 +299,7 @@
 ![](Pasted%20image%2020260608172826.png)
 
 
-## **Step 4 : Creating daemon + Check Different Status Netdata / Prometheus 
+## **Step 4 : Creating daemon + Check Different Status NodeExporter / Prometheus 
 
 - We create the daemon to make our stack working even the computer is closed.
 ```
@@ -327,12 +327,13 @@
   systemctl status ai-stack
   *R= Commands for make the service works*
 
-  - We're installing NetData : Good thing to know is that NetData carries natively a Nvidia collector
+  - We're installing NodeExporter (bcs NetData was trash) : Good thing to know is that NetData carries natively a Nvidia collector
+	  - mkdir -p ~/monitoring && cd ~/monitoring
 	  - wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
 	  - lspci | grep -i -E "vga|3d|display"
 	  *R = Looking for 3D Hardware Matérials and display them*
 
-- Now the same for Nginx to setup Prometheus:
+- Now the same for Prometheus:
 	- apt update && apt install nginx -y
 	- 
 
@@ -356,3 +357,4 @@
 - The Importance of a GPU
 - Open WebUI runs on the port 3000, He can be used to create specific AI profiles, talk to or send document to get work on.
 - n8n runs on the port 5678, He can be used to automate actions, in a workflow, with low-code tools
+- 
