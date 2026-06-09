@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Pièces jointes",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "smartIndentList": false
 }
