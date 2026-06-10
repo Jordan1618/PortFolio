@@ -1,3 +1,3 @@
-## **Project Specifications : Loki + n8n + Mistral**
+## **Project Specifications : Vector + Loki + Grafana + n8n**
 
 - One main
