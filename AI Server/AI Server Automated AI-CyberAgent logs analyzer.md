@@ -1,3 +1,3 @@
-## **Project Specifications : n8n + Headroom(Git Repo) + ** 
+## **Project Specifications : n8n + Headroom(Git Repo) +  
 
 - One main
