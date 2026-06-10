@@ -12,7 +12,8 @@
 
 ## **Loki Installation :**
 
-- Loki is a log storage with a search system crated by grafana.
+- Loki is a log storage with a search system crated by Grafana.
+- Loki is a 3 parts system Loki as the brain that stores and serarchs, Promtail as the collector that reads and sends to Loki and Grafana as the dashboard.
 - We need to configure the loki-config file :
 	- cat << EOF > loki-config.yml
 		auth_enabled: false
@@ -86,4 +87,6 @@
 ## **Loki Quick Notes (what actually broke my setup) :**
 
 - I didn't have Consul installed so the connection was refused and Loki kept crashing in a loop
-- Concept to master : 
+- Concept to master : A RIng, Scheduler, Consul/KV Store, TSDB, Fs storage, Standalone mode
+	1) The ring = the coordination system
+	2) Scheduler = system that distribut
