@@ -1,3 +1,3 @@
-## **Project Specifications : n8n + Headroom(Git Repo) + Loki**
+## **Project Specifications : Loki + n8n + Mistral**
 
 - One main
