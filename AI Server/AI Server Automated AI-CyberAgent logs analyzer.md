@@ -61,3 +61,6 @@
 		      - ./data:/loki
 		EOF
 	- mkdir -p data && chmod -R 777 data
+
+- After the usual docker command :
+	- docker compose up -d && docker ps
