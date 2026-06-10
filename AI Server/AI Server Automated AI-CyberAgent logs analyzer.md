@@ -41,4 +41,23 @@
 		  retention_period: 90d
 		EOF
 
--   We n
+- After we configure the docker-config file and create a date-file for loki's storage:
+	- cat <<EOF > docker-compose.yml
+		services:
+		  loki:
+		    image: grafana/loki:latest
+		    container_name: loki
+		
+		    restart: unless-stopped
+		
+		    ports:
+		      - "3100:3100"
+		
+		    command:
+		      - "-config.file=/etc/loki/local-config.yaml"
+		
+		    volumes:
+		      - ./loki-config.yml:/etc/loki/local-config.yaml
+		      - ./data:/loki
+		EOF
+	- mkdir -p data && chmod -R 777 data
