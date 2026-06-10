@@ -89,4 +89,8 @@
 - I didn't have Consul installed so the connection was refused and Loki kept crashing in a loop
 - Concept to master : A RIng, Scheduler, Consul/KV Store, TSDB, Fs storage, Standalone mode
 	1) The ring = the coordination system
-	2) Scheduler = system that distribut
+	2) Scheduler = system that distributes queries
+	3) Consul/KV Store = Stores shared data
+	4) TSDB (=Time Series Database Format)= Index + Stored
+	5) FsStorage = Logs saved on local disk
+	6) That make everything works
