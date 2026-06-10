@@ -13,7 +13,7 @@
 ## **Loki Installation :**
 
 - We need to configure the loki-config file :
-	- cat <<EOF > loki-config.yml
+	- cat << EOF > loki-config.yml
 		auth_enabled: false
 		
 		server:
@@ -21,7 +21,14 @@
 		
 		common:
 		  path_prefix: /loki
+		  storage:
+		    filesystem:
+		      chunks_directory: /loki/chunks
+		      rules_directory: /loki/rules
 		  replication_factor: 1
+		  ring:
+		    kvstore:
+		      store: inmemory
 		
 		schema_config:
 		  configs:
@@ -39,6 +46,13 @@
 		
 		limits_config:
 		  retention_period: 90d
+		
+		ruler:
+		  storage:
+		    type: local
+		    local:
+		      directory: /loki/rules
+		  rule_path: /loki/rules
 		EOF
 
 - After we configure the docker-config file and create a date-file for loki's storage:
@@ -64,3 +78,8 @@
 
 - After the usual docker command :
 	- docker compose up -d && docker ps
+
+- The clean command after each change in docker files : 
+	- docker compose down && rm -rf data/* && mkdir -p data/chunks data/rules && docker compose up -d
+
+## **Loki Quick Notes (what actually broke my setup)**
