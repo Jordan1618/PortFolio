@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Server/AI Server Deployment and an A-to-Z explanations.md",
+                "file": "AI Server/AI Server Automated AI-CyberAgent logs analyzer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Server Deployment and an A-to-Z explanations"
+              "title": "AI Server Automated AI-CyberAgent logs analyzer"
             }
           }
         ]
@@ -186,10 +186,10 @@
   },
   "active": "3bb1310b6092d86f",
   "lastOpenFiles": [
-    "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
     "AI Server/AI Server Deployment and an A-to-Z explanations.md",
-    "Other Projects/README.md",
     "AI Server/AI Server Automated AI-CyberAgent logs analyzer.md",
+    "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
+    "Other Projects/README.md",
     "Pièces jointes/Pasted image 20260609162652.png",
     "Pièces jointes/Pasted image 20260609162342.png",
     "Pièces jointes",
