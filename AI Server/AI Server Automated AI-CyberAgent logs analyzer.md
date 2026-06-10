@@ -12,6 +12,7 @@
 
 ## **Loki Installation :**
 
+- Loki is a log storage with a search system crated by grafana.
 - We need to configure the loki-config file :
 	- cat << EOF > loki-config.yml
 		auth_enabled: false
@@ -56,7 +57,7 @@
 		EOF
 
 - After we configure the docker-config file and create a date-file for loki's storage:
-	- cat <<EOF > docker-compose.yml
+	- cat << EOF > docker-compose.yml
 		services:
 		  loki:
 		    image: grafana/loki:latest
@@ -82,4 +83,7 @@
 - The clean command after each change in docker files : 
 	- docker compose down && rm -rf data/* && mkdir -p data/chunks data/rules && docker compose up -d
 
-## **Loki Quick Notes (what actually broke my setup)**
+## **Loki Quick Notes (what actually broke my setup) :**
+
+- I didn't have Consul installed so the connection was refused and Loki kept crashing in a loop
+- Concept to master : 
