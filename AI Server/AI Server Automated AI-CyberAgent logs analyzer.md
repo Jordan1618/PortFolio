@@ -260,4 +260,5 @@
 	- docker exec n8n wget -qO- http://loki:3100/ready
 		- Retry loki by n8n
 
-- Install Caddy
+- Installation of Caddy :
+	- 
