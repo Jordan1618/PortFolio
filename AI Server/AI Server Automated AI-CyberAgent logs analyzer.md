@@ -297,4 +297,4 @@
 
 ## **Setup Vector Aggregator (Agent and Central Server) :**
 
-- First we are looking for each 
+- First we are looking for each docker on central server 
