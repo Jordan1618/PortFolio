@@ -270,6 +270,7 @@
 		- Difference between tee and cat << EOF> 'EOF' : Tee writes in a doc and prints to screen while cat + EOF only writes in a doc. Tee is use by a sudo + | , when cat + EOF for a conf/script file
 	- Why Caddy ? Because no let's encrypt needed and clean HTTPS automatically by one only access port. 
 	- apt-get update && sudo apt-get install -y caddy
+
 - Configuration of Caddy :
 	- sudo tee /etc/caddy/Caddyfile << 'EOF'
 		https://192.168.X.X:8443 {
@@ -290,3 +291,6 @@
 		    }
 		}
 		EOF
+	- systemctl enable caddy
+	- systemctl restart caddy
+	- systemctl status caddy
