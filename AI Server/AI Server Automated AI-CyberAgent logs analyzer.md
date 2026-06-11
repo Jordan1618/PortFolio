@@ -299,4 +299,5 @@
 
 - First we are looking for each docker on central server (ai server), on which network they are 
 	- docker ps -q | xargs docker inspect --format '{{.Name}} → {{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
-		- docker ps -q gives IDs of containers; xargs transfers to the foloowing command; docker inspect --format tells "For each container you should give me the name "-->"
+		- docker ps -q gives IDs of containers; xargs transfers to the foloowing command; docker inspect --format tells "For each container give me the name and the network"; {{.NAME}} means the current (.) object name (NAME) on docker ( {{ }} ); range stands for "for i in range"; $k & $v are two variables inside the range; := means "filled with found values"; 
+		- docker has a syntax close to the GO langage so that's why it's unusual.
