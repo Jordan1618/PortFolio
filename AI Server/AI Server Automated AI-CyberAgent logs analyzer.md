@@ -303,4 +303,78 @@
 		- docker has a syntax close to the GO langage so that's why it's unusual.
 - After we chose to create him its container docker:
 	- mkdir -p /root/vector/config
-- Now we are configurating its files.
+- Now we are configurating its files :
+	- cat > /root/vector/config/aggregator.toml << 'EOF'  
+		[sources.http_agents]  
+		type = "http_server"  
+		address = "0.0.0.0:9000"  
+		encoding.codec = "json"
+		
+		[sources.syslog_legacy]  
+		type = "syslog"  
+		address = "0.0.0.0:9514"  
+		mode = "udp"
+		
+		[sources.internal_metrics]  
+		type = "internal_metrics"
+		
+		[transforms.enrich]  
+		type = "remap"  
+		inputs = ["http_agents", "syslog_legacy"]  
+		source = '''  
+		if !exists(.hostname) {  
+		.hostname = string(.host) ?? "unknown"  
+		}
+		
+		level_raw = downcase(string(.level ?? .severity ?? "info"))  
+		.level = if includes(["critical","crit","emerg","alert","fatal"], level_raw) {  
+		"critical"  
+		} else if includes(["error","err"], level_raw) {  
+		"error"  
+		} else if includes(["warning","warn"], level_raw) {  
+		"warning"  
+		} else {  
+		"info"  
+		}
+		
+		if exists(.MESSAGE) {  
+		.message = string!(.MESSAGE)  
+		del(.MESSAGE)  
+		}
+		
+		if !exists(.timestamp) {  
+		.timestamp = now()  
+		}
+		
+		del(.agent)  
+		del(.ecs)  
+		del(.input)  
+		del(.log)  
+		'''
+		
+		[sinks.loki_out]  
+		type = "loki"  
+		inputs = ["enrich"]  
+		endpoint = "[http://loki:3100](http://loki:3100/)"  
+		encoding.codec = "json"
+		
+		labels = {  
+		"job" = "vector",  
+		"hostname" = "{{ hostname }}",  
+		"level" = "{{ level }}",  
+		"log_type" = "{{ log_type }}",  
+		"os" = "{{ source_os }}",  
+		"site" = "default"  
+		}
+		
+		batch.max_bytes = 1048576  
+		batch.timeout_secs = 5  
+		request.retry_attempts = 3  
+		request.retry_initial_backoff_secs = 1
+		
+		[sinks.prometheus_exporter]  
+		type = "prometheus_exporter"  
+		inputs = ["internal_metrics"]  
+		address = "0.0.0.0:9598"  
+		EOF
+	- To put it in a nutshell, it helps to convert Linux and Windows logs into a unique format, readable by loki.
