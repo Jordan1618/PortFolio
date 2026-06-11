@@ -295,6 +295,6 @@
 	- systemctl restart caddy
 	- systemctl status caddy
 
-## **Connect n8n and Loki + Caddy on n8n to have secure cookies :**
+## **Setup Vector Aggregator (Agent and Central Server) :**
 
-- Co
+- First we are looking for each 
