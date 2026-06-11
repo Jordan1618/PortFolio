@@ -271,4 +271,22 @@
 	- Why Caddy ? Because no let's encrypt needed and clean HTTPS automatically by one only access port. 
 	- apt-get update && sudo apt-get install -y caddy
 - Configuration of Caddy :
-	- 
+	- sudo tee /etc/caddy/Caddyfile << 'EOF'
+		https://192.168.X.X:8443 {
+		    tls internal
+		
+		    reverse_proxy localhost:5678 {
+		        header_up X-Forwarded-Proto https
+		        header_up Host {host}
+		    }
+		}
+		
+		https://192.168.X.X:8444 {
+		    tls internal
+		
+		    reverse_proxy localhost:3000 {
+		        header_up X-Forwarded-Proto https
+		        header_up Host {host}
+		    }
+		}
+		EOF
