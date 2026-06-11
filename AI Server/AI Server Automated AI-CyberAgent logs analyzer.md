@@ -253,4 +253,5 @@
 		  n8n_data:
 		EOF
 
-- 
+- We activated :
+	- docker compose up -d n8n
