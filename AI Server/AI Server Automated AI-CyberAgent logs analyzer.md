@@ -267,5 +267,5 @@
 		- curl download, -1sLf are for force TLS v1 in silent with HTTP redirection and prints fail if happens
 		- | sends to gpg, gpg --dearmor converts text format to binary format, -o is for the destination repo, it stands for origin.
 	- curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' \ | sudo tee /etc/apt/sources.list.d/caddy-stable.list
-		- Difference between tee and cat << EOF> 'EOF' : Tee writes in a doc
-	- Why Caddy ? Because no let's encrypt needed and
+		- Difference between tee and cat << EOF> 'EOF' : Tee writes in a doc and prints to screen while cat + EOF only writes in a doc. Tee is use by a sudo + | , when cat + EOF for a conf/script file
+	- Why Caddy ? Because no let's encrypt needed and clean HTTPS automatically by one only access port. 
