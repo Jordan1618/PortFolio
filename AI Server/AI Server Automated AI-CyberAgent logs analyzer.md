@@ -301,3 +301,4 @@
 	- docker ps -q | xargs docker inspect --format '{{.Name}} → {{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
 		- docker ps -q gives IDs of containers; xargs transfers to the foloowing command; docker inspect --format tells "For each container give me the name and the network"; {{.NAME}} means the current (.) object name (NAME) on docker ( {{ }} ); range stands for "for i in range"; $k & $v are two variables inside the range; := means "filled with found values"; .NetworkSettings & .Network signifies the right property to take. And End to end the '' space.
 		- docker has a syntax close to the GO langage so that's why it's unusual.
+- After we chose to create him its own container.
