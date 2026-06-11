@@ -142,4 +142,11 @@
 
 ## **Connect n8n and Loki + Caddy on n8n to have secure cookies:**
 
-- docker network connect loki_default n8n
+- Command to check the state of the network, then connect if necessary: 
+	- docker network ls
+	- docker network inspect ai-internal
+	- docker network ls --format "{{.Name}}" | grep -E "monitor|loki"
+	- After :
+	- docker network connect loki_default n8n
+	- docker inspect n8n --format '{{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
+	- docker exec n8n wget -qO- http://loki:3100/ready
