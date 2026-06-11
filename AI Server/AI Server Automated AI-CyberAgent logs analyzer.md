@@ -291,6 +291,8 @@
 		    }
 		}
 		EOF
+
+		- Explainations : tls internal stands for internal Caddy's SSL Certificate; reverse_proxy to activate the redirection to other destination points; localhost because docker exposes n8n and others directly; headers means 
 	- systemctl enable caddy
 	- systemctl restart caddy
 	- systemctl status caddy
