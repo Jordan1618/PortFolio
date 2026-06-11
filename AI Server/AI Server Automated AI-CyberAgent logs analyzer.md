@@ -297,4 +297,6 @@
 
 ## **Setup Vector Aggregator (Agent and Central Server) :**
 
-- First we are looking for each docker on central server 
+- First we are looking for each docker on central server (ai server), on which network they are 
+	- docker ps -q | xargs docker inspect --format '{{.Name}} → {{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
+		- docker ps -q gives IDs of containers; xargs transfers to the foloowing command; docker inspect --format tells "For each container you should give me the name "-->"
