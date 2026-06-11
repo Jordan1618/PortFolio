@@ -150,3 +150,5 @@
 	- docker network connect loki_default n8n
 	- docker inspect n8n --format '{{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
 	- docker exec n8n wget -qO- http://loki:3100/ready
+
+- 
