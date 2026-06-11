@@ -261,4 +261,5 @@
 		- Retry loki by n8n
 
 - Installation of Caddy :
-	- 
+	- apt-get install -y debian-keyring debian-archive-keyring curl
+		- debian-keyring stands for debian packet signature and debian-archive-keyring is idem
