@@ -253,5 +253,11 @@
 		  n8n_data:
 		EOF
 
-- We activated :
+- We activate and check :
 	- docker compose up -d n8n
+	- docker inspect n8n --format '{{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
+		- Check n8n network after restart
+	- docker exec n8n wget -qO- http://loki:3100/ready
+		- Retry loki by n8n
+
+- Install Caddy
