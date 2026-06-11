@@ -275,16 +275,13 @@
 	- sudo tee /etc/caddy/Caddyfile << 'EOF'
 		https://192.168.X.X:8443 {
 		    tls internal
-		
 		    reverse_proxy localhost:5678 {
 		        header_up X-Forwarded-Proto https
 		        header_up Host {host}
 		    }
 		}
-		
 		https://192.168.X.X:8444 {
 		    tls internal
-		
 		    reverse_proxy localhost:3000 {
 		        header_up X-Forwarded-Proto https
 		        header_up Host {host}
@@ -297,3 +294,7 @@
 	- systemctl enable caddy
 	- systemctl restart caddy
 	- systemctl status caddy
+
+## **Connect n8n and Loki + Caddy on n8n to have secure cookies :**
+
+- Co
