@@ -94,3 +94,7 @@
 	4) TSDB (=Time Series Database Format)= Index + Stored
 	5) FsStorage = Logs saved on local disk
 	6) That make everything works
+
+## **Loki Quick Notes (what actually broke my setup) :**
+
+- I didn't
