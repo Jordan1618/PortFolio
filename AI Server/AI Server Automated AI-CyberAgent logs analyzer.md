@@ -262,4 +262,7 @@
 
 - Installation of Caddy :
 	- apt-get install -y debian-keyring debian-archive-keyring curl
-		- debian-keyring stands for debian packet signature and debian-archive-keyring is idem
+		- debian-keyring stands for debian packet signature and debian-archive-keyring is idem but for 3 more GPG key sources, there are very usefull for apt
+	- curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' \ | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+		- curl download, -1sLf are for force TLS v1 in silent with HTTP redirection and prints fail if happens
+		- | sends to gpg, gpg --dearmor converts text format to binary format, -o is for the destination repo, it stands for origin.
