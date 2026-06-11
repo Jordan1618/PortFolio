@@ -151,4 +151,51 @@
 	- docker inspect n8n --format '{{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
 	- docker exec n8n wget -qO- http://loki:3100/ready
 
+- Changes the n8n file to make caddy works and create a docker backup in case loki crashs :
+	- cd /root/ai-stack && \
+		cp -f docker-compose.yml docker-compose.yml.bak && \
+		cat > docker-compose.yml <<'EOF'
+		services:
+		
+		  n8n:
+		    image: n8nio/n8n:latest
+		    container_name: n8n
+		    restart: unless-stopped
+		
+		    ports:
+		      - "5678:5678"
+		
+		    environment:
+		      - N8N_BASIC_AUTH_ACTIVE=true
+		      - N8N_BASIC_AUTH_USER=admin
+		      - N8N_BASIC_AUTH_PASSWORD=password_test_n8n
+		      - GENERIC_TIMEZONE=Europe/Paris
+		
+		      - N8N_PROXY_HOPS=1
+		      - WEBHOOK_URL=https://10.0.1.180:8443/
+		
+		    networks:
+		      - ai-internal
+		      - loki_default
+		
+		    volumes:
+		      - n8n_data:/home/node/.n8n
+		
+		    depends_on:
+		      - litellm
+		
+		    deploy:
+		      resources:
+		        limits:
+		          memory: 4g
+		
+		networks:
+		  ai-internal:
+		    external: true
+		
+		  loki_default:
+		    external: true
+		    name: loki_default
+		EOF
+
 - 
