@@ -303,4 +303,4 @@
 		- docker has a syntax close to the GO langage so that's why it's unusual.
 - After we chose to create him its container docker:
 	- mkdir -p /root/vector/config
-	- 
+- Now we are configurating its files.
