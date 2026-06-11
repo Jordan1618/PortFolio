@@ -10,7 +10,50 @@
 		docker volume ls
 		ss -tulpn
 
-- Schema of 
+- Installation schema : 
+	- [SRV-LNX-01..N]  ── Vector Agent ──┐
+		[SRV-WIN-01..N]  ── Vector Agent ──┤
+		                                    ▼
+		                          [Vector Aggregator]
+		                          (port 9000, container séparé ou hôte)
+		                                    │
+		                                    ▼
+		                                 [Loki]
+		                            (stockage + index)
+		                                    │
+		                            [Grafana] ──┘  (lit Loki + Prometheus)
+		                                    │
+		                                    ▼
+		                    [n8n — Schedule toutes les 30min]
+		                                    │
+		                          ┌─────────┴──────────┐
+		                          ▼                    ▼
+		                    Requête Loki         (rien d'autre)
+		                          │
+		                          ▼
+		                   Prompt Mistral
+		                   "Analyse ces logs.
+		                    Si critique, commence
+		                    ta réponse par CRITIQUE:"
+		                          │
+		                          ▼
+		                  Parse réponse Mistral
+		                          │
+		                  ┌───────┴────────┐
+		                  │                │
+		            commence par      commence par
+		            "CRITIQUE:"       autre chose
+		                  │                │
+		                  ▼                ▼
+		           Mail immédiat     Attendre le prochain
+			           objet:            cycle de 30min
+		           "🚨 CRITIQUE: X"  (n8n ne fait rien,
+		                            le scheduler reviendra)
+		                  │                │
+		                  └───────┬────────┘
+		                          ▼
+		                       SMTP SITIV
+		                  → X.X@X.com
 
 ## **Loki Installation :**
 
@@ -97,6 +140,6 @@
 	5) FsStorage = Logs saved on local disk
 	6) That make everything works
 
-## **Loki Quick Notes (what actually broke my setup) :**
+## **Connect n8n and Loki + Caddy on n8n to have secure cookies:**
 
-- I didn't
+- docker network connect loki_default n8n
