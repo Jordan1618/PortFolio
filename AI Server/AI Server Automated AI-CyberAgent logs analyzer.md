@@ -10,7 +10,7 @@
 		docker volume ls
 		ss -tulpn
 
-- 
+- Schema of 
 
 ## **Loki Installation :**
 
