@@ -378,3 +378,5 @@
 		address = "0.0.0.0:9598"  
 		EOF
 	- To put it in a nutshell, it helps to convert Linux and Windows logs into a unique format, readable by loki.
+
+- 
