@@ -435,4 +435,11 @@
 
 ## **Configure n8n and Mistral :**
 
-- For beginning, 
+- For beginning, I go on my IP by HTTPS and port 8443, opened before and i log with my IDs. 
+- After I create a workflow, add a schedule trigger every 30minutes, after I add an HTTP Request node with 4 parameters :
+	- start / {{ Math.floor((Date.now() - 30 * 60 * 1000) / 1000) }}000000000
+	- end / {{ Math.floor(Date.now() / 1000) }}000000000
+	- query / {level=~"warning|error|critical"}
+	- limit / 200
+	- The method is GET and http://loki:3100/loki/api/v1/query_range
+- Therefore, I put a Code in JS node.
