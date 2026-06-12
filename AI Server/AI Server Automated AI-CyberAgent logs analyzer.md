@@ -556,17 +556,111 @@
 			- **Branch TRUE** leads to a `No Operation` node because no relevant logs occurred during the time frame.
 			- **Branch FALSE** implies logs are found, driving the workflow down to our localized LLM.
 		- Next, the HTTP Request node named `Analyse MIstral` posts the payload data to Ollama.
+			- {
+				  "model": "mistral",
+				  "prompt": {{ JSON.stringify($json.prompt) }},
+				  "stream": false,
+				  "options": {
+				    "temperature": 0.05,
+				    "num_predict": 1024
+				  }
+				}
 			- **URL** : `http://ollama:11434/api/generate`
 			- **Method** : POST
 			- **Body Content Type** : JSON
 			- **Why `mistral:latest` ?** We switched from Mixtral (26GB) to Mistral 7B (4.1GB) because running inference on dual Intel Xeon CPUs without a GPU caused heavy memory exhaustion, resulting in connection drops. The 7B model runs 10x faster and is perfectly stable.
 			- **Crucial formatting note** : The JSON Body field MUST be switched to **Expression mode (fx)** using `{{ JSON.stringify($json.prompt) }}` without wrapping quotes, ensuring string carriage returns don't break strict JSON syntax rules. We also append a custom 2-minute timeout option (`120000`).
 		- Then, another JavaScript Code Node named `Parser Réponse IA` intercepts the raw text block output from Ollama (`$json.response`). It reads line-by-line using regular expressions to capture the scoring metrics, security findings, and remediation actions. It dynamically formats the data payload and cooks a custom subject line based on whether the AI issued a `CRITIQUE:` or `RAPPORT:` header flag.
+			- // Récupération de la réponse brute d'Ollama et des données précédentes
+				const ollamaResp = $input.first().json;
+				const prevData = $('Parser Loki + Prompt').first().json;
+				
+				// Extraction du texte textuel généré par Mixtral
+				const rawResponse = (ollamaResp.response || '').trim();
+				
+				// Détection de la criticité (Est-ce que ça commence par CRITIQUE: ?)
+				const isCritical = rawResponse.toUpperCase().startsWith('CRITIQUE:');
+				
+				// Initialisation des variables à extraire
+				let score = 1;
+				let niveau = 'LOW';
+				let resume = '';
+				const findings = [];
+				const actions = [];
+				
+				// Découpage de la réponse ligne par ligne pour le parsing
+				const lines = rawResponse.split('\n');
+				let currentSection = null;
+				
+				for (const line of lines) {
+				  const cleanedLine = line.trim();
+				  
+				  if (cleanedLine.toUpperCase().startsWith('SCORE:')) {
+				    const match = cleanedLine.match(/\d+/);
+				    if (match) score = parseInt(match[0], 10);
+				  } else if (cleanedLine.toUpperCase().startsWith('NIVEAU:')) {
+				    niveau = cleanedLine.split(':')[1].trim().toUpperCase();
+				  } else if (cleanedLine.toUpperCase().startsWith('RESUME:')) {
+				    resume = cleanedLine.split(':')[1].trim();
+				  } else if (cleanedLine.toUpperCase().startsWith('FINDINGS:')) {
+				    currentSection = 'findings';
+				  } else if (cleanedLine.toUpperCase().startsWith('ACTIONS:')) {
+				    currentSection = 'actions';
+				  } else if (cleanedLine.startsWith('- ')) {
+				    const val = cleanedLine.substring(2).trim();
+				    if (currentSection === 'findings') {
+				      findings.push(val);
+				    } else if (currentSection === 'actions') {
+				      actions.push(val);
+				    }
+				  }
+				}
+				
+				// Calcul de l'heure locale pour l'objet du mail
+				const formattedTime = new Date().toLocaleTimeString('fr-FR', {
+				  timeZone: 'Europe/Paris',
+				  hour: '2-digit',
+				  minute: '2-digit'
+				});
+				
+				// Extraction de la première ligne pour le titre
+				const firstLine = rawResponse.split('\n')[0].replace(/^CRITIQUE:/i, '').replace(/^RAPPORT:/i, '').trim();
+				
+				// Construction dynamique du sujet du mail
+				const emailSubject = isCritical
+				  ? `🚨 ALERT CRITIQUE: ${firstLine}`
+				  : `[Rapport ${formattedTime}] Synthèse Logs - Score ${score}/10 - ${niveau}`;
+				
+				return [{
+				  json: {
+				    stats: prevData.stats,
+				    total_logs: prevData.total_logs,
+				    raw_ai_response: rawResponse,
+				    is_critical: isCritical,
+				    score: score,
+				    niveau: niveau,
+				    resume: resume,
+				    findings: findings,
+				    actions: actions,
+				    email_subject: emailSubject
+				  }
+				}]
 		- Finally, the output splits into two downstream targets:
 			1) `Print in n8n`: A debugging Code node displaying a clear, tabular view of the automated report within the n8n execution interface.
+				- const data = $input.first().json;
+					// Ce code permet d'afficher le résultat directement dans n8n
+					return [{
+					  json: {
+					    sujet_simule: data.email_subject,
+					    criticite: data.is_critical ? "🚨 CRITIQUE" : "🟢 NORMAL",
+					    score: data.score + "/10",
+					    resume_ia: data.resume,
+					    actions_proposees: data.actions
+					  }
+					}];
 			2) `Send an Email`: An SMTP node configured to send a clean, high-visibility HTML styled dashboard template tracking system anomalies straight to the mailbox, currently awaiting official  mail relay authorizations.
 
-## **Manual Log Injection Framework (Testing the core) :**
+## **Manual Log Injection Framework (Testing the workflow) :**
 
 - To validate the workflow end-to-end and force the IF conditions to process different alert thresholds, we execute raw API cURL entries from our central server command line to test our pipeline ingestion limits:
 
