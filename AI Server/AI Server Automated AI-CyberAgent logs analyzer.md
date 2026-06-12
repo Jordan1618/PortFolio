@@ -419,11 +419,11 @@
 		data = json.load(sys.stdin)
 		results = data.get('data', {}).get('result', [])
 		if not results:
-		    print('ECHEC : aucun log dans Loki')
+		    print('ECHEC : no log in Loki')
 		else:
 		    for stream in results:
 		        for ts, msg in stream.get('values', []):
 		            log = json.loads(msg)
 		            print(f'OK : [{log.get(\"level\",\"?\").upper()}] [{log.get(\"hostname\",\"?\")}] {log.get(\"message\",\"?\")}')
 		"
-		- explainations : Curl -s -X POST means to Http data sent to vector.
+		- explainations : Curl -s -X POST means to Http data sent to vector; H is for making vector understands the following data as json. The second curl is for Loki
