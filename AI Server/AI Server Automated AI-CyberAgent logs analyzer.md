@@ -401,5 +401,5 @@
 		    external: true
 		    name: loki_default
 		EOF
-
+		- This configuration speaks about the network and the container itself. The container has its image, name, restart option, listening ports, storage inside the container. Both networks leads to internal (docker) or external (the current server). Command stands for when starting, add more instructions.
 - 
