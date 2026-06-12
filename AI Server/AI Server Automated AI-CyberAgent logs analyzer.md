@@ -405,4 +405,5 @@
 
 - Next, we test the vector to check if each green flag is raised :
 	- cd /root/vector
-	- 
+	- sed -i '/^labels = {/,/^}/c\labels = { job = "vector", hostname = "{{ hostname }}", level = "{{ level }}", log_type = "{{ log_type }}", os = "{{ source_os }}", site = "default" }' /root/vector/config/aggregator.toml
+		- It's the necessary upgrade because the Parse tool, doesn't manage multiple columns, it prefers one long line.
