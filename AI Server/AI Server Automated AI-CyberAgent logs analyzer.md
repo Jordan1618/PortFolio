@@ -379,4 +379,27 @@
 		EOF
 	- To put it in a nutshell, it helps to convert Linux and Windows logs into a unique format, readable by loki.
 
+- After we make in form the Vector container :
+	- cat > /root/vector/docker-compose.yml << 'EOF'
+		services:
+		  vector:
+		    image: timberio/vector:0.38.0-alpine
+		    container_name: vector-aggregator
+		    restart: unless-stopped
+		    ports:
+		      - "0.0.0.0:9000:9000"
+		      - "0.0.0.0:9514:9514/udp"
+		      - "127.0.0.1:9598:9598"
+		    volumes:
+		      - /root/vector/config:/etc/vector:ro
+		    command: ["--config", "/etc/vector/aggregator.toml"]
+		    networks:
+		      - loki_default
+		
+		networks:
+		  loki_default:
+		    external: true
+		    name: loki_default
+		EOF
+
 - 
