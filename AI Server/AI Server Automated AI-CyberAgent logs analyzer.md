@@ -408,5 +408,22 @@
 	- sed -i 's|"--config", "/etc/vector/aggregator.toml"|"--config-toml", "/etc/vector/aggregator.toml"|g' /root/vector/docker-compose.yml
 		- It's the necessary upgrade because the Parse tool, doesn't manage multiple columns, it prefers one long line.
 	- sed -i 's/encoding\.codec = "json"/decoding.codec = "json"/' /root/vector/config/aggregator.toml
-sed -i '52s/decoding\.codec/encoding.codec/' /root/vector/config/aggregator.toml
-	- 
+	- sed -i '52s/decoding\.codec/encoding.codec/' /root/vector/config/aggregator.toml
+	- curl -s -X POST http://localhost:9000 \
+	  -H 'Content-Type: application/json' \
+	  -d '{"hostname":"srv-test","source_os":"linux","log_type":"syslog","level":"warning","message":"TEST PIPELINE OK"}' \
+		&& sleep 6 \
+		&& curl -s "http://localhost:3100/loki/api/v1/query_range?query=%7Bhostname%3D%22srv-test%22%7D&limit=5&start=$(date -d '5 minutes ago' +%s)000000000&end=$(date +%s)000000000" \
+		| python3 -c "
+		import sys, json
+		data = json.load(sys.stdin)
+		results = data.get('data', {}).get('result', [])
+		if not results:
+		    print('ECHEC : aucun log dans Loki')
+		else:
+		    for stream in results:
+		        for ts, msg in stream.get('values', []):
+		            log = json.loads(msg)
+		            print(f'OK : [{log.get(\"level\",\"?\").upper()}] [{log.get(\"hostname\",\"?\")}] {log.get(\"message\",\"?\")}')
+		"
+		- ex
