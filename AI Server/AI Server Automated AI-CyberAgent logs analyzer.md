@@ -435,4 +435,4 @@
 
 ## **Configure n8n and Mistral :**
 
-- First w
+- For beginning, 
