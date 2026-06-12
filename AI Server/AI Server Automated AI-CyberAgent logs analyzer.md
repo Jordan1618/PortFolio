@@ -405,5 +405,8 @@
 
 - Next, we test the vector to check if each green flag is raised :
 	- cd /root/vector
-	- sed -i '/^labels = {/,/^}/c\labels = { job = "vector", hostname = "{{ hostname }}", level = "{{ level }}", log_type = "{{ log_type }}", os = "{{ source_os }}", site = "default" }' /root/vector/config/aggregator.toml
+	- sed -i 's|"--config", "/etc/vector/aggregator.toml"|"--config-toml", "/etc/vector/aggregator.toml"|g' /root/vector/docker-compose.yml
 		- It's the necessary upgrade because the Parse tool, doesn't manage multiple columns, it prefers one long line.
+	- sed -i 's/encoding\.codec = "json"/decoding.codec = "json"/' /root/vector/config/aggregator.toml
+sed -i '52s/decoding\.codec/encoding.codec/' /root/vector/config/aggregator.toml
+	- 
