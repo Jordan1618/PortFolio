@@ -426,4 +426,4 @@
 		            log = json.loads(msg)
 		            print(f'OK : [{log.get(\"level\",\"?\").upper()}] [{log.get(\"hostname\",\"?\")}] {log.get(\"message\",\"?\")}')
 		"
-		- ex
+		- explainations : Curl -s -X POST means to Http data sent to vector.
