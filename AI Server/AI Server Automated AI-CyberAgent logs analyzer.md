@@ -435,11 +435,148 @@
 
 ## **Configure n8n and Mistral :**
 
-- For beginning, I go on my IP by HTTPS and port 8443, opened before and i log with my IDs. 
+- For beginning, I go on my IP by HTTPS and port 8443, opened before and I log with my IDs. 
 - After I create a workflow, add a schedule trigger every 30minutes, after I add an HTTP Request node with 4 parameters :
 	- start / {{ Math.floor((Date.now() - 30 * 60 * 1000) / 1000) }}000000000
 	- end / {{ Math.floor(Date.now() / 1000) }}000000000
 	- query / {level=~"warning|error|critical"}
 	- limit / 200
 	- The method is GET and http://loki:3100/loki/api/v1/query_range
-- Therefore, I put a Code in JS node.
+- Therefore, I put a Code in JS node named `Parser Loki + Prompt`. This node aggregates data streams, cleans Vector's JSON serialization string lines, and builds the strict engineering contextual cybersecurity prompt.
+	- // Extraction de la réponse Loki
+		const items = $input.all();
+		let extractedLogs = [];
+		
+		if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
+		  const results = items[0].json.data.result;
+		  
+		  for (const streamObj of results) {
+		    const labels = streamObj.stream || {};
+		    for (const valueArray of streamObj.values) {
+		      // valueArray[0] = timestamp nanoseconde, valueArray[1] = message brut
+		      const rawLine = valueArray[1];
+		      let message = rawLine;
+		      let level = labels.level || "UNKNOWN";
+		      let site = labels.site || "default";
+		      let hostname = labels.hostname || "unknown";
+		      let logType = labels.log_type || "generic";
+		      let os = labels.os || "linux";
+		      
+		      // Désérialisation du JSON envoyé par votre Vector Aggregator
+		      try {
+		        const parsed = JSON.parse(rawLine);
+		        message = parsed.message || parsed.msg || rawLine;
+		        if (parsed.level) level = parsed.level;
+		        if (parsed.site) site = parsed.site;
+		        if (parsed.hostname) hostname = parsed.hostname;
+		        if (parsed.log_type) logType = parsed.log_type;
+		        if (parsed.source_os) os = parsed.source_os;
+		      } catch (e) {
+		        // Pas du JSON, on conserve la ligne brute
+		      }
+		      
+		      extractedLogs.push({
+		        timestamp: new Date(parseInt(valueArray[0].substring(0, 13))).toISOString(),
+		        site: site,
+		        hostname: hostname,
+		        log_type: logType,
+		        os: os,
+		        level: level.toUpperCase(),
+		        message: message
+		      });
+		    }
+		  }
+		}
+		
+		// Validation : si aucun log n'est remonté, on lève l'indicateur d'arrêt
+		if (extractedLogs.length === 0) {
+		  return [{ json: { skip: true, prompt: "", total_logs: 0, stats: {} } }];
+		}
+		
+		// Tri strict par criticité décroissante (CRITICAL -> ERROR -> WARNING)
+		const priorityScore = { 'CRITICAL': 3, 'ERROR': 2, 'WARNING': 1, 'UNKNOWN': 0 };
+		extractedLogs.sort((a, b) => (priorityScore[b.level] || 0) - (priorityScore[a.level] || 0));
+		
+		// Collecte des statistiques globales pour le contexte du prompt
+		const totalLogs = extractedLogs.length;
+		const criticalCount = extractedLogs.filter(l => l.level === 'CRITICAL').length;
+		const errorCount = extractedLogs.filter(l => l.level === 'ERROR').length;
+		const warningCount = extractedLogs.filter(l => l.level === 'WARNING').length;
+		const distinctHosts = [...new Set(extractedLogs.map(l => l.hostname))].join(', ');
+		
+		// Limitation à 50 logs pour préserver la fenêtre de contexte de l'IA
+		const limitedLogs = extractedLogs.slice(0, 50);
+		
+		// Formatage de la liste textuelle des logs
+		let logLines = limitedLogs.map((l, i) => 
+		  `[${i+1}] [${l.level}] [Hôte: ${l.hostname}] [OS: ${l.os} / Type: ${l.log_type}] ${l.timestamp}\n     ${l.message}`
+		).join('\n');
+		
+		// Construction du prompt directif
+		let prompt = `Tu es IRAS, un ingénieur expert en cybersécurité pour une collectivité territoriale française.
+		Analyse le lot de logs système suivants récupérés au cours des 30 dernières minutes.
+		
+		Statistiques : ${totalLogs} logs détectés | ${criticalCount} critiques | ${errorCount} erreurs | ${warningCount} alertes.
+		Équipements concernés : ${distinctHosts}
+		
+		Logs à analyser :
+		${logLines}
+		
+		CONSIGNES STRICTES :
+		- Si tu détectes une menace active (intrusion, brute force, compromission, ransomware) ou une panne système paralysante : commence obligatoirement ta réponse par la mention exacte "CRITIQUE: " suivie d'un résumé du problème sur la même ligne.
+		- Sinon, commence obligatoirement ta réponse par la mention exacte "RAPPORT: " suivie d'un titre global sur la même ligne.
+		
+		Tu dois formater le reste de ta réponse en respectant rigoureusement la structure textuelle suivante :
+		---
+		SCORE: [Note globale de gravité de 1 à 10]
+		NIVEAU: [CRITICAL, HIGH, MEDIUM, ou LOW]
+		RESUME: [Résumé synthétique des événements en 2 ou 3 phrases]
+		FINDINGS:
+		- [Premier fait marquant identifié]
+		- [Second fait marquant identifié]
+		ACTIONS:
+		- [Action corrective immédiate conseillée]
+		- [Mesure préventive conseillée]`;
+		
+		return [{ 
+		  json: { 
+		    skip: false, 
+		    prompt: prompt, 
+		    total_logs: totalLogs,
+		    stats: {
+		      total: totalLogs,
+		      critical: criticalCount,
+		      error: errorCount,
+		      warning: warningCount,
+		      hosts: distinctHosts
+		    }
+		  } 
+		}];
+		- Following the prompt creation, an **IF Node** named `Logs présents ?` handles the filtering path. It uses a **Boolean** type validation checking if `={{ $json.skip }}` is equal to `true`.
+			- **Branch TRUE** leads to a `No Operation` node because no relevant logs occurred during the time frame.
+			- **Branch FALSE** implies logs are found, driving the workflow down to our localized LLM.
+		- Next, the HTTP Request node named `Analyse MIstral` posts the payload data to Ollama.
+			- **URL** : `http://ollama:11434/api/generate`
+			- **Method** : POST
+			- **Body Content Type** : JSON
+			- **Why `mistral:latest` ?** We switched from Mixtral (26GB) to Mistral 7B (4.1GB) because running inference on dual Intel Xeon CPUs without a GPU caused heavy memory exhaustion, resulting in connection drops. The 7B model runs 10x faster and is perfectly stable.
+			- **Crucial formatting note** : The JSON Body field MUST be switched to **Expression mode (fx)** using `{{ JSON.stringify($json.prompt) }}` without wrapping quotes, ensuring string carriage returns don't break strict JSON syntax rules. We also append a custom 2-minute timeout option (`120000`).
+		- Then, another JavaScript Code Node named `Parser Réponse IA` intercepts the raw text block output from Ollama (`$json.response`). It reads line-by-line using regular expressions to capture the scoring metrics, security findings, and remediation actions. It dynamically formats the data payload and cooks a custom subject line based on whether the AI issued a `CRITIQUE:` or `RAPPORT:` header flag.
+		- Finally, the output splits into two downstream targets:
+			1) `Print in n8n`: A debugging Code node displaying a clear, tabular view of the automated report within the n8n execution interface.
+			2) `Send an Email`: An SMTP node configured to send a clean, high-visibility HTML styled dashboard template tracking system anomalies straight to the mailbox, currently awaiting official  mail relay authorizations.
+
+## **Manual Log Injection Framework (Testing the core) :**
+
+- To validate the workflow end-to-end and force the IF conditions to process different alert thresholds, we execute raw API cURL entries from our central server command line to test our pipeline ingestion limits:
+
+```bash
+# Force a Critical Security Incident Scenario
+curl -s -X POST http://localhost:9000 \
+  -H 'Content-Type: application/json' \
+  -d '{"hostname":"SRV-AD-01","source_os":"windows","log_type":"security","level":"critical","message":"Auditing Success: Account logged on after 45 failures. TargetUserName: Administrator. IpAddress: 185.220.101.42","event_id":"4624","site":"default"}'
+
+# Force a Standard Warning Syslog Report Scenario
+curl -s -X POST http://localhost:9000 \
+  -H 'Content-Type: application/json' \
+  -d '{"hostname":"srv-proxy-lnx","source_os":"linux","log_type":"syslog","level":"warning","message":"WARNING: /dev/mapper/ubuntu--vg is 92% full. Free space: 4.2GB.","site":"default"}'
