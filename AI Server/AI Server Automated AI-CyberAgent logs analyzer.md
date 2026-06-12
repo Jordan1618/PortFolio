@@ -427,3 +427,12 @@
 		            print(f'OK : [{log.get(\"level\",\"?\").upper()}] [{log.get(\"hostname\",\"?\")}] {log.get(\"message\",\"?\")}')
 		"
 		- explainations : Curl -s -X POST means to Http data sent to vector; H is for making vector understands the following data as json. The second curl is for Loki
+
+## Setup Vector Agent (Part 2) :
+
+- First 
+
+
+## **Configure n8n and Mistral :**
+
+- First w
