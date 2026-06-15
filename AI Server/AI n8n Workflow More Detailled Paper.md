@@ -14,4 +14,5 @@
 
  ![](Pasted%20image%2020260615113653.png)
 
-- The GET + URL is a request to the API of Loki to get the data
+- The GET + URL is a request to the API of Loki to get the data and its range to avoid saturating the server.
+- 
