@@ -11,4 +11,7 @@
 
 ## **The Second Node : Http GET + Loki **
 
-- The easiest one, you just have to chose your interval. In my case : 15 minutes.
+
+ ![](Pasted%20image%2020260615113653.png)
+
+- The GET + URL is a request to the API of Loki to get the data
