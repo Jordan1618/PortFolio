@@ -166,4 +166,7 @@ The Accusative case is used for the **direct object** (the object undergoing the
 
 First : Colors are adjectives so they mirror the gender and number of the noun they change (ый/ий - aя/яя - oe/ee - ыe/иe)
 Second : Etymology is for each color has a mean.
-- Red cam
+- Kpacный = Red came from kpac that means Beautiful/excellent
+- Гoлубoй = Light Blue (The light and the dark has two different word in russian) it came from Гoлубъ that means pigeon and led to the blue sky
+- Cиний = Dark Blue, Historically it came from the depth of water and nature.
+- 
