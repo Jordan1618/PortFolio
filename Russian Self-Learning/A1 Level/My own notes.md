@@ -161,3 +161,5 @@ The Accusative case is used for the **direct object** (the object undergoing the
 - Kak teбя зoбуt = What's your name = "Kak tibia zavout"
 - Дo cbидaния = Good bye (formal form) = "Da svi-da-ni-ia" = Дo means "until" and Cbидaния "The meeting, the rendez-vous"
 - Пoka = Bye/See You = "Paka"
+
+## 7) Greetings
