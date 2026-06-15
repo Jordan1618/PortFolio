@@ -21,6 +21,8 @@
 - Why the command line is : {{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000
 	- This took the current milliseconds count and translate it into seconds by Math.floor and the following operation and the 9 zeros is a syntax for loki that requests a nanoseconds timestamp.
 
+### Now we go check inside the container of Loki
+
 - But there was some problem : Writing blocked
 	- 1) Granted UID Loki Property of files and wrx rights on parents
 		- chown -R 10001:10001 /root/monitoring/loki
@@ -84,6 +86,9 @@
 	- chown -R 10001:10001 /root/monitoring/loki && docker restart cbe86061a19a
 	- docker ps | grep loki
 	- docker logs cbe86061a19a 2>&1 | grep -E "Loki started|compactor" | head -n 10
+	- docker logs --tail 30 cbe86061a19a
+
+- If everything is right, we can go to the next node.
 
 ## **The Third Node : Http GET + Loki **
 
