@@ -98,4 +98,7 @@
 		3: let extractedLogs = [];
 	- const and let are the word use to define a constance of a variable
 	- The first is for store all before logs and the second is to prepare the empty plate to collect usefull logs
-- 
+- The Null-Check :
+	- 5: if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
+		6:   const results = items[0].json.data.result;
+	- The First line is to check
