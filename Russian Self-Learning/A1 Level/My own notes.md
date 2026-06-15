@@ -169,4 +169,4 @@ Second : Etymology is for each color has a mean.
 - Kpacный = Red came from kpac that means Beautiful/excellent
 - Гoлубoй = Light Blue (The light and the dark has two different word in russian) it came from Гoлубъ that means pigeon and led to the blue sky
 - Cиний = Dark Blue, Historically it came from the depth of water and nature.
-- 
+- Зeлёный =
