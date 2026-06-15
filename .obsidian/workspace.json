@@ -59,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -189,13 +189,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
@@ -230,18 +230,19 @@
         ],
         "direction": "vertical",
         "x": 676,
-        "y": 357,
-        "width": 860,
-        "height": 555,
+        "y": 356,
+        "width": 863,
+        "height": 560,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "2d0a692ab1b9be93",
+  "active": "d77914c996404c7f",
   "lastOpenFiles": [
-    "Russian Self-Learning/Vocabulary.md",
+    "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "Russian Self-Learning/A1 Level/My own notes.md",
+    "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/Planning.md",
     "AI Server/AI n8n Workflow More Detailled Paper.md",
     "Pièces jointes/Pasted image 20260615113653.png",
@@ -280,7 +281,6 @@
     "Scripting",
     "Russian Self-Learning/README.md",
     "Other Projects/PromptShelves",
-    "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
     "Self-Learning By Myself",
     "KaramelIa/Sans titre.canvas"
