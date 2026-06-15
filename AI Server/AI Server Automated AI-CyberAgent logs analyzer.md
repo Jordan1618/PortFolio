@@ -679,4 +679,4 @@ curl -s -X POST http://localhost:9000 \
 
 ![Pre-Final Workflow](n8n%20Cyber-AI%20Workflow.png)
 
-- And now, I have an automated self-hosted AI that filters each log to 
+- And now, I have an automated self-hosted AI that filters each log into syslogs and auth.logs
