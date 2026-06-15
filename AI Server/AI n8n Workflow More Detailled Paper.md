@@ -141,4 +141,14 @@
 
 ## **The Fifth Node : Http POST to Mistral by Ollama **
 
-- Check
+- Use previous data and instructions for requesting Ollama to send everything to Mistral :
+	- {
+		  "model": "mistral",
+		  "prompt": {{ JSON.stringify($json.prompt) }},
+		  "stream": false,
+		  "options": {
+		    "temperature": 0.05,
+		    "num_predict": 1024
+		  }
+		}
+	- JSON.stringify($json.prompt) is using the previous setup prompt 
