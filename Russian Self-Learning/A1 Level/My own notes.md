@@ -162,4 +162,8 @@ The Accusative case is used for the **direct object** (the object undergoing the
 - Дo cbидaния = Good bye (formal form) = "Da svi-da-ni-ia" = Дo means "until" and Cbидaния "The meeting, the rendez-vous"
 - Пoka = Bye/See You = "Paka"
 
-## 7) Greetings
+## 7) Colors
+
+First : Colors are adjectives so they mirror the gender and number of the noun they change (ый/ий - aя/яя - oe/ee - ыe/иe)
+Second : Etymology is for each color has a mean.
+- Red cam
