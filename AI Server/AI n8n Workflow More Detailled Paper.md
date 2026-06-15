@@ -107,4 +107,5 @@
 	 8:   for (const streamObj of results) {
 	 9:     const labels = streamObj.stream || {}
 	- The purpose there is to take each label from logs like OS/Computer name or ...
-	- If there is no label, thus {}	
+	- If there is no label, thus {}
+- 
