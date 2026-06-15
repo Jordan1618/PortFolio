@@ -15,4 +15,12 @@
  ![](Pasted%20image%2020260615113653.png)
 
 - The GET + URL is a request to the API of Loki to get the data and its range to avoid saturating the server.
-- 
+- The query and its "level=~" are used to target error levels named Warning/Error or Critical.
+- The start and the end module are there for pointing the last 15 minutes to analyze. 
+- The limit stands to protect the system from a logs tsunami attack.
+- Why the command line is : {{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000
+	- 
+
+## **The Third Node : Http GET + Loki **
+
+- The limit stands to protect the system from a logs tsunami attack.
