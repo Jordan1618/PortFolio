@@ -20,7 +20,9 @@
 - The limit stands to protect the system from a logs tsunami attack.
 - Why the command line is : {{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000
 	- This took the current milliseconds count and translate it into seconds by Math.floor and the following operation and the 9 zeros is a syntax for loki that requests a nanoseconds timestamp.
-- 
+
+- But there was some problem : 
+	- 
 
 ## **The Third Node : Http GET + Loki **
 
