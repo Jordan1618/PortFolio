@@ -111,4 +111,18 @@
 - Raw messages :
 	10:     for (const valueArray of streamObj.values) {
 	12:       const rawLine = valueArray[1];
-	- Open a "for" circle
+	- Open a "for" circle to check all label on each raw log
+- Parse the raw json :
+	- 21:       try {
+		22:         const parsed = JSON.parse(rawLine);
+		23:         message = parsed.message || parsed.msg || rawLine;
+		24:         if (parsed.level) level = parsed.level;
+		25:         if (parsed.site) site = parsed.site;
+		26:         if (parsed.hostname) hostname = parsed.hostname;
+		27:         if (parsed.log_type) logType = parsed.log_type;
+		28:         if (parsed.source_os) os = parsed.source_os;
+		29:       } catch (e) {
+		31:        }
+	- The purpose is to translate JSON obtained to raw message ready to be filtered.
+- Lines 33 to 44 are for defining a timestamp on each raw message
+- 
