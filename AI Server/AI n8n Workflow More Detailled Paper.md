@@ -28,7 +28,62 @@
 	- 2) Restart the container 
 		- docker restart cbe86061a19a
 
-- We made 
+- I made a backup before editing the conf :
+	- cp /root/monitoring/loki/loki-config.yml /root/monitoring/loki/loki-config.yml.bak
+	- cat << 'EOF' > /root/monitoring/loki/loki-config.yml
+		auth_enabled: false
+		
+		server:
+		  http_listen_port: 3100
+		
+		common:
+		  path_prefix: /loki
+		  storage:
+		    filesystem:
+		      chunks_directory: /loki/chunks
+		      rules_directory: /loki/rules
+		  replication_factor: 1
+		  ring:
+		    kvstore:
+		      store: inmemory
+		
+		schema_config:
+		  configs:
+		    - from: "2025-01-01"
+		      store: tsdb
+		      object_store: filesystem
+		      schema: v13
+		      index:
+		        prefix: index_
+		        period: 24h
+		
+		storage_config:
+		  filesystem:
+		    directory: /loki/chunks
+		
+		ruler:
+		  storage:
+		    type: local
+		    local:
+		      directory: /loki/rules
+		  rule_path: /loki/rules
+		
+		limits_config:
+		  retention_period: 336h
+		
+		compactor:
+		  working_directory: /loki/compactor
+		  compaction_interval: 10m
+		  retention_enabled: true
+		  delete_request_store: filesystem
+		  retention_delete_delay: 2h
+		  retention_delete_worker_count: 150
+		EOF
+
+- Now the conf is right with a 14days longs logs autocleaner :
+	- chown -R 10001:10001 /root/monitoring/loki && docker restart cbe86061a19a
+	- docker ps | grep loki
+	- docker logs cbe86061a19a 2>&1 | grep -E "Loki started|compactor" | head -n 10
 
 ## **The Third Node : Http GET + Loki **
 
