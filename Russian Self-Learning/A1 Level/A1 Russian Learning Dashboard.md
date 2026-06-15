@@ -10,8 +10,8 @@
 | **01 - Phonetics**                        | Cyrillic Alphabet & Akanie Rules                                                                     | ✅ 100%         |
 | **02 - Grammar**                          | Personal Pronouns & Verb Groups                                                                      | ✅ 100%         |
 | **02.25 - Gender**                        | Grammatical gender: Masculine / Feminine / Neuter — identifying gender by noun ending                | ✅ 100%         |
-| **02.5 - Social Formulas**                | Greetings, introductions, farewells: Здравствуйте, Меня зовут..., До свидания, Пока                  | 🆕 Not Started |
-| **03 - Vocabulary**                       | 100 Essential Words Challenge [Vocabulary](Vocabulary.md)                                            | 🔄 In Progress |
+| **02.5 - Social Formulas**                | Greetings, introductions, farewells: Здравствуйте, Меня зовут..., До свидания, Пока                  | ✅ 100%         |
+| **03 - Vocabulary**                       | 100 Essential Words Challenge [Vocabulary](Vocabulary.md)                                            | ✅ 100%         |
 | **03.25 - Thematic Vocabulary I**         | Colours, days of the week, months, seasons — productive A1 lexical fields                            | 🆕 Not Started |
 | **03.5 - Expressions of Quantity**        | много, мало, немного, несколько, все — basic quantifiers without declension                          | 🆕 Not Started |
 | **04 - Tense**                            | Present Tense & Negation (particle Не)                                                               | ✅ 100%         |

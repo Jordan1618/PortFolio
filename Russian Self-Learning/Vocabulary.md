@@ -74,7 +74,7 @@
 | 66                             | Д**e**pebo                     | Arbre                           | Diériéva                       |
 | 67                             | Kнигa                          | Livre                           | Kniga                          |
 | 68                             | Mузeй                          | Musée                           | Mouziéy                        |
-| 69                             | Уtp**o**                       | Matin                           | Outra                          |
+| 69                             | Уtpo                           | Matin                           | Outra                          |
 | 70                             | Гaзeta                         | Journal                         | Gaziéta                        |
 | **EVALUATION IA N°2    67/70** |                                |                                 |                                |
 
