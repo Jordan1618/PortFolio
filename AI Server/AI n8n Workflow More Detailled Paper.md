@@ -133,4 +133,12 @@
 - Then we extract each distinct host to not waste space on the storage.
 - We slice everything into an 100 more important logs classification that we will transform into a large textbloc.
 - After it's just a simple prompt with different layers and instructions + a role assigned.
-- At the end, we add metadata for the prompt
+- At the end, we add metadata for the prompt and a return that delivers the prompt.
+
+## **The Fourth Node : Skip or not **
+
+- Check if $json.skip , a previous define value is true or false. If true, it redirects on a "do nothing" and if false, it continue the workflow.
+
+## **The Fifth Node : Http POST to Mistral by Ollama **
+
+- Check
