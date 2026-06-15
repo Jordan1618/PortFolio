@@ -111,4 +111,4 @@
 - Raw messages :
 	10:     for (const valueArray of streamObj.values) {
 	12:       const rawLine = valueArray[1];
-	- 
+	- Open a "for" circle
