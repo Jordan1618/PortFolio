@@ -5,6 +5,10 @@
 
 ![](Pasted%20image%2020260615112121.png)
 
-## **Why I Wanted To Explain More ?**
+## **The First Node : Schedule Trigger**
 
-- A
+- The easiest one, you just have to chose your interval. In my case : 15 minutes.
+
+## **The Second Node : Http GET + Loki **
+
+- The easiest one, you just have to chose your interval. In my case : 15 minutes.
