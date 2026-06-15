@@ -92,4 +92,4 @@
 
 ## **The Third Node : Http GET + Loki **
 
-- The limit stands to protect the system from a logs tsunami attack.
+- I
