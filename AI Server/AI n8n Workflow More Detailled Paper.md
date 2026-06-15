@@ -125,4 +125,10 @@
 		31:        }
 	- The purpose is to translate JSON obtained to raw message ready to be filtered.
 - Lines 33 to 44 are for defining a timestamp on each raw message
+- A Skip part to not use AI for nothing :
+	- 48: if (extractedLogs.length === 0) { 
+	- 49: return [{ json: { skip: true, prompt: "", total_logs: 0, stats: {} } }];
+	- 50: }
+- After we make a little operation to obtain a priorityScore and we filter each to count how much of every categories we got.
+- Then we extract each distinct host to not waste space on the storage.
 - 
