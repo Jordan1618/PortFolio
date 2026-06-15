@@ -97,4 +97,5 @@
 		2: const items = $input.all();
 		3: let extractedLogs = [];
 	- const and let are the word use to define a constance of a variable
+	- The first is for store all before logs and the second is to prepare the empty plate to collect usefull logs
 - 
