@@ -101,4 +101,6 @@
 - The Null-Check :
 	- 5: if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
 		6:   const results = items[0].json.data.result;
-	- The First line is to check
+	- The First line is to check if there is something taken from loki or not.
+	- The Second is for create a syntax shortcut
+- 
