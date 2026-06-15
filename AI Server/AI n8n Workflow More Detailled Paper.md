@@ -108,4 +108,7 @@
 	 9:     const labels = streamObj.stream || {}
 	- The purpose there is to take each label from logs like OS/Computer name or ...
 	- If there is no label, thus {}
-- 
+- Raw messages :
+	10:     for (const valueArray of streamObj.values) {
+	12:       const rawLine = valueArray[1];
+	- 
