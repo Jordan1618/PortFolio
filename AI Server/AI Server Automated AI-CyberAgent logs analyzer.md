@@ -664,13 +664,19 @@
 
 - To validate the workflow end-to-end and force the IF conditions to process different alert thresholds, we execute raw API cURL entries from our central server command line to test our pipeline ingestion limits:
 
-```bash
-# Force a Critical Security Incident Scenario
+#### Force a Critical Security Incident Scenario
 curl -s -X POST http://localhost:9000 \
   -H 'Content-Type: application/json' \
   -d '{"hostname":"SRV-AD-01","source_os":"windows","log_type":"security","level":"critical","message":"Auditing Success: Account logged on after 45 failures. TargetUserName: Administrator. IpAddress: 185.220.101.42","event_id":"4624","site":"default"}'
 
-# Force a Standard Warning Syslog Report Scenario
+#### Force a Standard Warning Syslog Report Scenario
 curl -s -X POST http://localhost:9000 \
   -H 'Content-Type: application/json' \
   -d '{"hostname":"srv-proxy-lnx","source_os":"linux","log_type":"syslog","level":"warning","message":"WARNING: /dev/mapper/ubuntu--vg is 92% full. Free space: 4.2GB.","site":"default"}'
+
+
+#### What did it looks like ?
+
+![Pre-Final Workflow](n8n%20Cyber-AI%20Workflow.png)
+
+- And now, I have an automated self-hosted AI that filters each log to 
