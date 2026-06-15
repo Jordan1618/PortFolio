@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ada7f5829d3d367c",
+        "id": "b3b405ce20ae3e0b",
         "type": "tabs",
         "children": [
           {
-            "id": "3bb1310b6092d86f",
+            "id": "25657cfae50115b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3bb1310b6092d86f",
+  "active": "25657cfae50115b9",
   "lastOpenFiles": [
     "AI Server/AI n8n Workflow More Detailled Paper.md",
     "Pièces jointes/Pasted image 20260615113653.png",
