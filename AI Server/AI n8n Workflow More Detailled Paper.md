@@ -131,4 +131,4 @@
 	- 50: }
 - After we make a little operation to obtain a priorityScore and we filter each to count how much of every categories we got.
 - Then we extract each distinct host to not waste space on the storage.
-- 
+- We slice everything into an 100 more important logs classification that we will transform into a large textbloc.
