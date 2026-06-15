@@ -99,8 +99,12 @@
 	- const and let are the word use to define a constance of a variable
 	- The first is for store all before logs and the second is to prepare the empty plate to collect usefull logs
 - The Null-Check :
-	- 5: if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
-		6:   const results = items[0].json.data.result;
+	 5: if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
+	 6:   const results = items[0].json.data.result;
 	- The First line is to check if there is something taken from loki or not.
 	- The Second is for create a syntax shortcut
-- 
+- Extraction of labels :
+	 8:   for (const streamObj of results) {
+	 9:     const labels = streamObj.stream || {}
+	- The purpose there is to take each label from logs like OS/Computer name or ...
+	- If there is no label, thus {}	
