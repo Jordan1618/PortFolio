@@ -57,8 +57,8 @@
 
 ## **Loki Installation :**
 
-- Loki is a log storage with a search system crated by Grafana.
-- Loki is a 3 parts system Loki as the brain that stores and serarchs, Promtail as the collector that reads and sends to Loki and Grafana as the dashboard.
+- Loki is a log storage with a search system created by Grafana.
+- Loki is a 3 parts system Loki as the brain that stores and searchs, Promtail as the collector that reads and sends to Loki and Grafana as the dashboard.
 - We need to configure the loki-config file :
 	- cat << EOF > loki-config.yml
 		auth_enabled: false
@@ -138,7 +138,7 @@
 	3) Consul/KV Store = Stores shared data
 	4) TSDB (=Time Series Database Format)= Index + Stored
 	5) FsStorage = Logs saved on local disk
-	6) That make everything works
+	6) This makes everything work
 
 ## **Connect n8n and Loki + Caddy on n8n to have secure cookies:**
 
@@ -571,24 +571,19 @@
 			- **Why `mistral:latest` ?** We switched from Mixtral (26GB) to Mistral 7B (4.1GB) because running inference on dual Intel Xeon CPUs without a GPU caused heavy memory exhaustion, resulting in connection drops. The 7B model runs 10x faster and is perfectly stable.
 			- **Crucial formatting note** : The JSON Body field MUST be switched to **Expression mode (fx)** using `{{ JSON.stringify($json.prompt) }}` without wrapping quotes, ensuring string carriage returns don't break strict JSON syntax rules. We also append a custom 2-minute timeout option (`120000`).
 		- Then, another JavaScript Code Node named `Parser Réponse IA` intercepts the raw text block output from Ollama (`$json.response`). It reads line-by-line using regular expressions to capture the scoring metrics, security findings, and remediation actions. It dynamically formats the data payload and cooks a custom subject line based on whether the AI issued a `CRITIQUE:` or `RAPPORT:` header flag.
-			- // Récupération de la réponse brute d'Ollama et des données précédentes
-				const ollamaResp = $input.first().json;
+			- const ollamaResp = $input.first().json;
 				const prevData = $('Parser Loki + Prompt').first().json;
 				
-				// Extraction du texte textuel généré par Mixtral
 				const rawResponse = (ollamaResp.response || '').trim();
-				
-				// Détection de la criticité (Est-ce que ça commence par CRITIQUE: ?)
+		
 				const isCritical = rawResponse.toUpperCase().startsWith('CRITIQUE:');
-				
-				// Initialisation des variables à extraire
+			
 				let score = 1;
 				let niveau = 'LOW';
 				let resume = '';
 				const findings = [];
 				const actions = [];
 				
-				// Découpage de la réponse ligne par ligne pour le parsing
 				const lines = rawResponse.split('\n');
 				let currentSection = null;
 				
@@ -615,20 +610,17 @@
 				    }
 				  }
 				}
-				
-				// Calcul de l'heure locale pour l'objet du mail
+			
 				const formattedTime = new Date().toLocaleTimeString('fr-FR', {
 				  timeZone: 'Europe/Paris',
 				  hour: '2-digit',
 				  minute: '2-digit'
 				});
-				
-				// Extraction de la première ligne pour le titre
+			
 				const firstLine = rawResponse.split('\n')[0].replace(/^CRITIQUE:/i, '').replace(/^RAPPORT:/i, '').trim();
-				
-				// Construction dynamique du sujet du mail
+			
 				const emailSubject = isCritical
-				  ? `🚨 ALERT CRITIQUE: ${firstLine}`
+				  ? `🚨 CRITICAL ALERT: ${firstLine}`
 				  : `[Rapport ${formattedTime}] Synthèse Logs - Score ${score}/10 - ${niveau}`;
 				
 				return [{
@@ -652,7 +644,7 @@
 					return [{
 					  json: {
 					    sujet_simule: data.email_subject,
-					    criticite: data.is_critical ? "🚨 CRITIQUE" : "🟢 NORMAL",
+					    criticite: data.is_critical ? "🚨 CRITICAL" : "🟢 NORMAL",
 					    score: data.score + "/10",
 					    resume_ia: data.resume,
 					    actions_proposees: data.actions
@@ -675,7 +667,7 @@ curl -s -X POST http://localhost:9000 \
   -d '{"hostname":"srv-proxy-lnx","source_os":"linux","log_type":"syslog","level":"warning","message":"WARNING: /dev/mapper/ubuntu--vg is 92% full. Free space: 4.2GB.","site":"default"}'
 
 
-#### What did it looks like ?
+#### What did it look like ?
 
 ![Pre-Final Workflow](n8n%20Cyber-AI%20Workflow.png)
 

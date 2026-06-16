@@ -154,7 +154,7 @@
 	- JSON.stringify($json.prompt) is using the previous setup prompt with a total conversion in string to avoid crashes. 
 	- stream = false is to send the answer only when finished.
 	- num_predict is a limit set for reaching around 1.5K words.
-	- And after, I add a timeout of 150 seconds, in case there is a timeout condition or an answer too long.
+	- And after, I add a timeout of 150 seconds, in case there is an error or an answer too long.
 
 ## **The Sixth Node : Http POST to Mistral by Ollama **
 
