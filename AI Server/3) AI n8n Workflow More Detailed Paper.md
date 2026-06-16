@@ -163,4 +163,15 @@
 	- 2: const ollamaResp = $input.first().json;
 	 3: const prevData = $('Parser Loki + Prompt').first().json;
 	- The $input is to represent all previous data entering in the current node. The .first() is to go to the first item. The .JSON is to access to the file and its data.
-- 
+- Make the text extracted right :
+	- 6: const rawResponse = (ollamaResp.response || '').trim();
+	- It takes the response and deletes every useless blank and avoid crashing of no answer or empty one.
+- Is it Critical or not :
+	- 9: const isCritical = rawResponse.toUpperCase().startsWith('CRITIQUE:');
+- Declare each variable needed :
+	- 12: let score = 1;
+		13: let niveau = 'LOW';
+		14: let resume = '';
+		15: const findings = [];
+		16: const actions = [];
+	- let is used because 
