@@ -203,4 +203,4 @@
 		  }
 		}
 	- .toUpperCase converts the string in capital letters
-	- 
+	- currentSection is to locate which subjects and part of the answer is concerned
