@@ -205,3 +205,27 @@
 		}
 	- .toUpperCase converts the string in capital letters
 	- currentSection is to locate which subjects and part of the answer is concerned
+- The Title Line Extractor
+	- 55: const firstLine = rawResponse.split('\n')[0].replace(/^CRITIQUE:/i, '').replace(/^RAPPORT:/i, '').trim();
+	- Just a beauty upgrade
+- Dynamic Email Builder
+	- 58 : const emailSubject = isCritical 
+	 59: ? `🚨 ALERT CRITIQUE: ${firstLine}` 
+	 60: : `[Rapport ${formattedTime}] Synthèse Logs - Score ${score}/10 - ${niveau}`
+	- It checks if it's critical or not
+- The Email delivery
+	- 62: return [{
+		63:   json: {
+		64:     stats: prevData.stats,
+		65:     total_logs: prevData.total_logs,
+		66:     raw_ai_response: rawResponse,
+		67:     is_critical: isCritical,
+		68:     score: score,
+		69:     niveau: niveau,
+		70:     resume: resume,
+		71:     findings: findings,
+		72:     actions: actions,
+		73:     email_subject: emailSubject
+		74:   }
+		75: }];
+	- The purpose of this block is gathering each data in
