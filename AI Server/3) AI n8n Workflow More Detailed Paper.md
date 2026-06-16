@@ -228,4 +228,26 @@
 		73:     email_subject: emailSubject
 		74:   }
 		75: }];
-	- The purpose of this block is gathering each data in
+	- The purpose of this block is gathering each data and text and send them to a teamplate for an email sender.
+
+## **The Seventh Node : Brevo and automate sending **
+
+- Now the final part I have to create a credential, join an API and make the last code part :
+	- {{ $json.email_subject }}
+	- For the subject section, this is enough. We defined it before
+	- {{ $json.is_critical ? "⚠️ ALERTE CRITIQUE DÉTECTÉE SUR LE RÉSEAU ⚠️\n=========================================\n\n" : "" }}
+		Synthèse de l'analyse des logs système effectuée par l'I.A. (AISTC) :  
+		SCORE DE GRAVITÉ : {{ $json.score }}/10 
+		NIVEAU : {{ $json.niveau }}  
+		RÉSUMÉ DES ÉVÉNEMENTS : {{ $json.resume }}  
+		-------------------------------------------------- FAITS MARQUANTS IDENTIFIÉS (FINDINGS) : {{ $json.findings.map(f => "- " + f).join('\n') }}  
+		-------------------------------------------------- ACTIONS ET RECOMMANDATIONS : {{ $json.actions.map(a => "- " + a).join('\n') }}  
+		-------------------------------------------------- Statistiques globales du lot : 
+		- Nombre total de logs analysés : {{ $json.total_logs }} 
+		- Critiques : {{ $json.stats.critical }} 
+		Erreurs : {{ $json.stats.error }} 
+		Alertes : {{ $json.stats.warning }} 
+		- Équipements analysés : {{ $json.stats.hosts
+		}}  
+		Ce rapport automatisé a été généré par n8n.
+	- It's just gathering text with previous data parsed.
