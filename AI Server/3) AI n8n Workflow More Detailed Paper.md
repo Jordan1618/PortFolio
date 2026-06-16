@@ -202,4 +202,5 @@
 		    }
 		  }
 		}
+	- .toUpperCase converts the string in capital letters
 	- 
