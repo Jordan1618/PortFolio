@@ -159,6 +159,7 @@
 ## **The Sixth Node : Post-AI Parsing & Email Preparation in JS code node **
 
 - This is a Reverse-Engineering ETL code. The purpose is to take the long text response from Mixtral, split it into pieces to isolate every function, and prepare an email alert subject iterating every 15minutes.
+- If we don't send the AI's answer it's for 3 reasons : automate the process, sort the urgency and have a clean visual.
 - Retrieving of data and statistics :
 	- 2: const ollamaResp = $input.first().json;
 	 3: const prevData = $('Parser Loki + Prompt').first().json;
