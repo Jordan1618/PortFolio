@@ -162,4 +162,5 @@
 - Retrieving of data and statistics :
 	- 2: const ollamaResp = $input.first().json;
 	 3: const prevData = $('Parser Loki + Prompt').first().json;
-	- The .first
+	- The $input is to represent all previous data entering in the current node. The .first() is to go to the first item. The .JSON is to access to the file and its data.
+- 
