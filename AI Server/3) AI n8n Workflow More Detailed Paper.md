@@ -1,6 +1,6 @@
 ## **Why I Wanted To Explain More ?**
 
-- After reading again my before paper [2) AI Server Automated AI-CyberAgent logs analyzer](2)%20AI%20Server%20Automated%20AI-CyberAgent%20logs%20analyzer.md) I realized it's confusing for everyone reading it. I want to make a better explanation and go deeper into each node.
+- After reading again my previous paper [2) AI Server Automated AI-CyberAgent logs analyzer](2)%20AI%20Server%20Automated%20AI-CyberAgent%20logs%20analyzer.md) I realized it's confusing for everyone reading it. I want to make a better explanation and go deeper into each node.
 - Now you can see the Pre-Final Version. In the future each node will be upgraded. I want to add more logs to the final analyse, to have an "instant" mod for critical log, to upgrade some prompts and vector filters.
 
 ![](Pasted%20image%2020260615112121.png)
@@ -90,7 +90,7 @@
 
 - If everything is right, we can go to the next node.
 
-## **The Third Node : Http GET + Loki **
+## **The Third Node : ETL JS code node **
 
 - It's an ETL code : Extract, Transform, Load. And there is a prompt at the end for mistral.
 - Extraction of Loki data :
