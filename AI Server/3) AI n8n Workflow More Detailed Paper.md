@@ -90,9 +90,9 @@
 
 - If everything is right, we can go to the next node.
 
-## **The Third Node : ETL JS code node **
+## **The Third Node : ETL + Prompt in  JS code node **
 
-- It's an ETL code : Extract, Transform, Load. And there is a prompt at the end for mistral.
+- This is an ETL code : Extract, Transform, Load. And there is a prompt at the end for mistral.
 - Extraction of Loki data :
 		2: const items = $input.all();
 		3: let extractedLogs = [];
