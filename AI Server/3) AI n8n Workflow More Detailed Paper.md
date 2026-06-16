@@ -156,6 +156,10 @@
 	- num_predict is a limit set for reaching around 1.5K words.
 	- And after, I add a timeout of 150 seconds, in case there is an error or an answer too long.
 
-## **The Sixth Node : Http POST to Mistral by Ollama **
+## **The Sixth Node : Post-AI Parsing & Email Preparation in JS code node **
 
-- Use
+- This is a Reverse-Engineering ETL code. The purpose is to take the long text response from Mixtral, split it into pieces to isolate every function, and prepare an email alert subject iterating every 15minutes.
+- Retrieving of data and statistics :
+	- 2: const ollamaResp = $input.first().json;
+	 3: const prevData = $('Parser Loki + Prompt').first().json;
+	- The .first
