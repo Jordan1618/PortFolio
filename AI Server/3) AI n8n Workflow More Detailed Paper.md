@@ -97,7 +97,7 @@
 		2: const items = $input.all();
 		3: let extractedLogs = [];
 	- const and let are keywords use to define a constance or variables
-	- The first stores all previous logs and the second prepares an empty array to collect usefull logs
+	- The first stores all previous logs and the second prepares an empty array to collect relevant logs
 - The Null-Check :
 	 5: if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
 	 6:   const results = items[0].json.data.result;
@@ -106,12 +106,12 @@
 - Extraction of labels :
 	 8:   for (const streamObj of results) {
 	 9:     const labels = streamObj.stream || {}
-	- The purpose there is to take each label from logs like OS/Computer name or ...
+	- The purpose here is to take each label from logs such as OS/hostname or ...
 	- If there is no label, thus {}
 - Raw messages :
 	10:     for (const valueArray of streamObj.values) {
 	12:       const rawLine = valueArray[1];
-	- Open a "for" circle to check all label on each raw log
+	- Open a "for" loop to check all labels on each raw log
 - Parse the raw json :
 	- 21:       try {
 		22:         const parsed = JSON.parse(rawLine);
