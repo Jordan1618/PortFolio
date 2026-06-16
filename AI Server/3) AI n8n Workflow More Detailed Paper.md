@@ -174,4 +174,9 @@
 		14: let resume = '';
 		15: const findings = [];
 		16: const actions = [];
-	- let is used because 
+	- let is used because these values can be overwrite
+- Splitting answer for the parsing :
+	- 20: const lines = rawResponse.split('\n');
+	 21: let currentSection = null;
+	- The \n is used for cutting each part of this text block into separated sentences.
+- Initialisation of the loop and 
