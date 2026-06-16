@@ -179,4 +179,27 @@
 	- 20: const lines = rawResponse.split('\n');
 	 21: let currentSection = null;
 	- The \n is used for cutting each part of this text block into separated sentences.
-- Initialisation of the loop and 
+- Initialisation of the loop that parses AI's answer :
+	- for (const line of lines) {
+		  const cleanedLine = line.trim();
+		  if (cleanedLine.toUpperCase().startsWith('SCORE:')) {
+		    const match = cleanedLine.match(/\d+/);
+		    if (match) score = parseInt(match[0], 10);
+		  } else if (cleanedLine.toUpperCase().startsWith('NIVEAU:')) {
+		    niveau = cleanedLine.split(':')[1].trim().toUpperCase();
+		  } else if (cleanedLine.toUpperCase().startsWith('RESUME:')) {
+		    resume = cleanedLine.split(':')[1].trim();
+		  } else if (cleanedLine.toUpperCase().startsWith('FINDINGS:')) {
+		    currentSection = 'findings';
+		  } else if (cleanedLine.toUpperCase().startsWith('ACTIONS:')) {
+		    currentSection = 'actions';
+		  } else if (cleanedLine.startsWith('- ')) {
+		    const val = cleanedLine.substring(2).trim();
+		    if (currentSection === 'findings') {
+		      findings.push(val);
+		    } else if (currentSection === 'actions') {
+		      actions.push(val);
+		    }
+		  }
+		}
+	- 
