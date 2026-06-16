@@ -14,12 +14,12 @@
 
  ![](Pasted%20image%2020260615113653.png)
 
-- The GET + URL is a request to the API of Loki to get the data and its range to avoid saturating the server.
+- The GET + URL is a request to the API of Loki to get the data within a time range to avoid saturating the server.
 - The query and its "level=~" are used to target error levels named Warning/Error or Critical.
 - The start and the end module are there for pointing the last 15 minutes to analyze. 
-- The limit stands to protect the system from a logs tsunami attack.
+- The limit stands to protect the system from a log tsunami(flooding) attack.
 - Why the command line is : {{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000
-	- This took the current milliseconds count and translate it into seconds by Math.floor and the following operation and the 9 zeros is a syntax for loki that requests a nanoseconds timestamp.
+	- This takes the current millisecond count and converts it into seconds using Math.floor and the following operation and the 9 zeros is a syntax for loki that requests a nanoseconds timestamp.
 
 ### Now we go check inside the container of Loki
 
