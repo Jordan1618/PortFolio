@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol).md",
+                "file": "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The RDP Protocol (Remote Desktop Protocol)"
+              "title": "The RDP Protocol (Remote Desktop Protocol) and VNC"
             }
           }
         ]
@@ -186,7 +186,7 @@
   },
   "active": "c13a1e72ca81425d",
   "lastOpenFiles": [
-    "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol).md",
+    "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
     "Self-Learning By Myself/How Cloudflare Works.md",
     "Self-Learning By Myself/Tor Network and Onion Routing.md",
     "Self-Learning By Myself/README.md",

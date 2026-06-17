@@ -22,4 +22,8 @@
 	- The T.128 was designed to allow the multi-use of a same application. Microsoft bought a NetCentric Licence that evolves inside the corporation from NetMeeting to the current RDP
 - The TPKT (Transport Packet) is the translater from the OSI system to the TCP/IP system. Its role is to emulate OSI transport service over a TCP/IP network.4bits in front of each packet to give version number and length 
 - VNC is different because it transfers screenshots took constantly.
-- TeamViewer and AnyDesk works with their own server that secures connexion. Their protocols are proprietary and similar to VNC but very optimized
+- TeamViewer and AnyDesk works with their own server that secures connexion. Their protocols are proprietary and similar to VNC but very optimized. 
+
+**5) VNC :
+
+- VNC is based on RFB (Remote Framebuffer) protocol. RFB came from At&t in 90's
