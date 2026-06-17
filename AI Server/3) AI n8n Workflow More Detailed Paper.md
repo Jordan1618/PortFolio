@@ -251,4 +251,7 @@
 		}}  
 		Ce rapport automatisé a été généré par n8n.
 	- It's just gathering text with previous data parsed.
-- 
+
+### How to Use Brevo ?
+
+- You have to create an account and 
