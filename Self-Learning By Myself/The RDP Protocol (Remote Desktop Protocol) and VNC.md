@@ -7,14 +7,14 @@
 **2) The connexion path :
 
 - 1) The connexion : each part exchanges its layer of security, encryption protocol and what is supported or not.
-- 2) Multi Channel : open a different channel for each flux (keyboard, mouse, audio, ...)
-- 3) Authentification : request of IDs to grant the access
-- 4) Session : Once logged, the server starts loading gui towards the client.
+- 2) Multi Channel : opens a different channel for each flux (keyboard, mouse, audio, ...)
+- 3) Authentification : requests of IDs to grant access
+- 4) Session : Once logged in, the server starts loading gui towards the client.
 
 **3) How data is travelling :
 
-- There is no video flux. The server tells to the client to draw picture orders. For larger draws like a wallpaper, it splits it to a multitude of little square 64X64 pixels. 
-- To optimise again. It uses the client cache recursive visual items like desktop icon and it only changes what changed, it keeps the unchanged parts.
+- There is no video flux. The server tells the client to draw picture orders. For larger drawings like a wallpaper, it splits into a multitude of little 64X64 pixel squares. 
+- To optimise again. It uses the client's cache recursive visual items like desktop icon and it only changes what changed, it keeps the unchanged parts.
 
 **4) Protocols stack, why ?
 
@@ -29,4 +29,5 @@
 - VNC is based on RFB (Remote Framebuffer) protocol. RFB came from At&t in 90's. VNC is a free open-source application. 
 - RFB has a client ressource-less functioning, the server carries the weight. VNC client doesn't need calcul power.
 - The Framebuffer is the part of the RAM on the GPU that displays pixels on the screen. It just sees pixels grids.
-- The client is sending request to the server to make screen 
+- The client is sending request to the server to make screen modifications. And this loop is repeat again and again.
+- One main weakness is that it doesn't carry sound transmission.
