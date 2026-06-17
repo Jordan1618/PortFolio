@@ -9,4 +9,11 @@
 
 - Tables : Where data is stored with a key system (Primary keys (1/table))
 - Queries : Where instructions give life to tables
-- UI : A
+- UI : To help users while limiting risks
+- Reports : The part that converts date into inventories, monthly recaps or bills
+
+#### **3) Other Specifications**
+
+- The Engine is ACE and the program tool is VBA
+- Access isn't free, can't exceed 2GB, holds more than 15-20 users and not web friendly
+- Access is 
