@@ -26,4 +26,7 @@
 
 **5) VNC :
 
-- VNC is based on RFB (Remote Framebuffer) protocol. RFB came from At&t in 90's
+- VNC is based on RFB (Remote Framebuffer) protocol. RFB came from At&t in 90's. VNC is a free open-source application. 
+- RFB has a client ressource-less functioning, the server carries the weight. VNC client doesn't need calcul power.
+- The Framebuffer is the part of the RAM on the GPU that displays pixels on the screen. It just sees pixels grids.
+- The client is sending request to the server to make screen 
