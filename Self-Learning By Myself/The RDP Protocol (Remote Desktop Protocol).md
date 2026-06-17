@@ -13,4 +13,5 @@
 
 **3) How data is travelling :
 
-- 
+- There is no video flux. The server tells to the client to draw picture orders. For larger draws like a wallpaper, it splits it to a multitude of little square 64X64 pixels. 
+- To optimise again. It uses the client cache recursive visual items like desktop icon and it only changes what changed, it keeps the 
