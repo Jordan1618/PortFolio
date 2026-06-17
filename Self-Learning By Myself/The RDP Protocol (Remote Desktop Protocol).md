@@ -9,4 +9,4 @@
 - 1) The connexion : each part exchanges its layer of security, encryption protocol and what is supported or not.
 - 2) Multi Channel : open a different channel for each flux (keyboard, mouse, audio, ...)
 - 3) Authentification : request of IDs to grant the access
-- 4) Session
+- 4) Session : Once logged, 
