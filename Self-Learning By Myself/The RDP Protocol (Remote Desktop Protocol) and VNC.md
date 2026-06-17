@@ -6,9 +6,9 @@
 
 **2) The connection path :
 
-- 1) The connexion : each part exchanges its layer of security, encryption protocol and what is supported or not.
+- 1) The connexion : each party exchanges its layer of security, encryption protocol and what is supported or not.
 - 2) Multi Channel : opens a different channel for each flux (keyboard, mouse, audio, ...)
-- 3) Authentification : requests of IDs to grant access
+- 3) Authentication : requests of IDs to grant access
 - 4) Session : Once logged in, the server starts loading gui towards the client.
 
 **3) How data is travelling :
