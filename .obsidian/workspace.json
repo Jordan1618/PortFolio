@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b3b405ce20ae3e0b",
+        "id": "fcb4db2d025e47ae",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0a692ab1b9be93",
+            "id": "c13a1e72ca81425d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Server/3) AI n8n Workflow More Detailed Paper.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3) AI n8n Workflow More Detailed Paper"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -184,10 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d0a692ab1b9be93",
+  "active": "c13a1e72ca81425d",
   "lastOpenFiles": [
-    "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "AI Server/3) AI n8n Workflow More Detailed Paper.md",
+    "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
