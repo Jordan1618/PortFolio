@@ -254,4 +254,5 @@
 
 ### How to Use Brevo ?
 
-- You have to create an account and 
+- You have to create an account and go to SMTP and API section, then generate a new key and add your public IP in the "Authorized IP Addresses".
+- The free version is enough because it will send less than 300 mails in a single day.
