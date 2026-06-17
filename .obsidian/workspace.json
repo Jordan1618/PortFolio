@@ -11,10 +11,14 @@
             "id": "c13a1e72ca81425d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI Server/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "README"
             }
           }
         ]
@@ -182,6 +186,8 @@
   },
   "active": "c13a1e72ca81425d",
   "lastOpenFiles": [
+    "Self-Learning By Myself/Sans titre.md",
+    "AI Server/README.md",
     "AI Server/3) AI n8n Workflow More Detailed Paper.md",
     "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
@@ -221,9 +227,7 @@
     "Self-Learning By Myself/Why Dos, .Bat and SNMP.md",
     "Self-Learning.md",
     "Scripting",
-    "Russian Self-Learning/README.md",
     "Other Projects/PromptShelves",
-    "Russian Self-Learning/A2 Level/A2 Russian Learning Dashboard.md",
     "Self-Learning By Myself",
     "KaramelIa/Sans titre.canvas"
   ]
