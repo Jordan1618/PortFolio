@@ -7,4 +7,6 @@
 
 #### **2) The 4 main objects of Access**
 
-- Tables : Where data is storaged
+- Tables : Where data is stored with a key system (Primary keys (1/table))
+- Queries : Where instructions give life to tables
+- UI : A
