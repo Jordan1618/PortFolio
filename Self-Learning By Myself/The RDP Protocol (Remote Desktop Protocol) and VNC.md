@@ -21,13 +21,13 @@
 - A lot of these protocols came from the UIT (ITU International Telecommunication Union) which set in 90's, different norms with the T.120 for screen sharing.
 	- The T.128 was designed to allow multiple users to share the same application. Microsoft bought a NetCentric Licence that evolves inside the corporation from NetMeeting into to the current RDP
 - The TPKT (Transport Packet) is the translater from the OSI system to the TCP/IP system. Its role is to emulate OSI transport service over a TCP/IP network. 4 bytes in front of each packet to give version number and length 
-- VNC is different because it transfers screenshots took constantly.
+- VNC is different because it transfers screenshots taken constantly.
 - TeamViewer and AnyDesk works with their own server that secures connexion. Their protocols are proprietary and similar to VNC but very optimized. 
 
 **5) VNC :
 
 - VNC is based on RFB (Remote Framebuffer) protocol. RFB came from At&t in 90's. VNC is a free open-source application. 
-- RFB has a client ressource-less functioning, the server carries the weight. VNC client doesn't need calcul power.
+- RFB has a client ressource-less functioning, the server carries the weight. VNC client doesn't need calculation power.
 - The Framebuffer is the part of the RAM on the GPU that displays pixels on the screen. It just sees pixels grids.
-- The client is sending request to the server to make screen modifications. And this loop is repeat again and again.
+- The client is sending request to the server to make screen modifications. And this loop repeats again and again.
 - One main weakness is that it doesn't carry sound transmission.
