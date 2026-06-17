@@ -18,4 +18,5 @@
 
 **4) Protocols stack, why ?
 
-- A lot of these protocols came from the UIT (Union International of Telecommunication)
+- A lot of these protocols came from the UIT (Union International of Telecommunication) that sets in 90's, different norms with the T.120 for screen sharing.
+- The T.128 was designed to allow the multi-use of a same application. Microsoft bought a NetCentric Licence that evolve
