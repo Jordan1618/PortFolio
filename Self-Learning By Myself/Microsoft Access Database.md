@@ -16,4 +16,4 @@
 
 - The Engine is ACE and the program tool is VBA
 - Access isn't free, can't exceed 2GB, holds more than 15-20 users and not web friendly
-- Access is 
+- But Access is very accessible and is well design to develop an application
