@@ -21,3 +21,5 @@
 - A lot of these protocols came from the UIT (Union International of Telecommunication) that sets in 90's, different norms with the T.120 for screen sharing.
 	- The T.128 was designed to allow the multi-use of a same application. Microsoft bought a NetCentric Licence that evolves inside the corporation from NetMeeting to the current RDP
 - The TPKT (Transport Packet) is the translater from the OSI system to the TCP/IP system. Its role is to emulate OSI transport service over a TCP/IP network.4bits in front of each packet to give version number and length 
+- VNC is different because it transfers screenshots took constantly.
+- TeamViewer and AnyDesk works with their own server that secures connexion. Their protocols are proprietary and similar to VNC but very optimized
