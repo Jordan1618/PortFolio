@@ -19,3 +19,7 @@ AI Linked Subjects :
 - How to have a perfectly legal AI server in EU
 - Prompt Injection and How I Beat Gandalf The AI
 - Comparison of AI for each use case
+
+Already done bit never documented :
+- AD/GPO 
+- Firewall

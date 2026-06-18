@@ -7,7 +7,7 @@
 
 > **Aspiring Technology Watch Officer (Veilleur Technologique) specializing in Sovereign AI Deployment and European Regulatory Compliance.**
 > 
-> My long-term professional objective is to help organizations architect, audit, and deploy IT infrastructures and localized AI systems that are 100% compliant with European Union regulations (RGPD, EU AI Act). I am dedicated to proving that high-performance automation and state-of-the-art Local Intelligence can perfectly coexist with data privacy, intellectual property rights, and ethical digital sovereignty.
+> My long-term professional objective is to help organizations architect, audit, and deploy IT infrastructures and localized AI systems that are 100% compliant with European Union regulations (RGPD, EU AI Act). I am dedicated to proving that high-performance automation and Local Intelligence can perfectly coexist with data privacy, intellectual property rights, and ethical digital sovereignty.
 
 ---
 ## 📂 Project Directory & Portfolio Index
@@ -36,6 +36,18 @@
 
 ---
 
+## 🛠️ Technical Skills & Toolchain Matrix
+
+* **Virtualization & Infrastructure:** VMware ESXi, Linux Ubuntu/Debian Server CLI, Windows Server
+* **Containerization & System:** Docker, Docker Compose, systemd, Windows Registry (`regedit`), GPO, AD, RDP
+* **Logging & Telemetry:** Vector (Aggregator/Agents, VRL), Grafana Loki (TSDB)
+* **Monitoring & Observability:** Prometheus, NodeExporter, Grafana Dashboards
+* **Networking & Security:** UFW, Caddy Server (Reverse Proxy & automated TLS), Network Topology Segregation, Firewall, SIEM, Antivirus NDR-EDR
+* **Automation & Orchestration:** n8n, JavaScript, ETL Data Pipelines
+* **Sovereign Local AI:** Ollama (Mistral 7B (and others) & Mixtral optimization), LiteLLM Proxy API Gateway
+
+
+---
 ## 🛠️ Global Technology & Hardening Matrix
 
 | Infrastructure Layer | Technology Implemented | Core Operational Role | Hardening & Security Controls |
