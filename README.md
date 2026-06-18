@@ -6,4 +6,3 @@
 
 ## 👁️ Global Ecosystem & Infrastructure Data Flow
 
-Voici la cartographie des flux de données de mon infrastructure principale. Elle illustre comment mes serveurs et agents locaux communiquent de manière sécurisée et souveraine :
