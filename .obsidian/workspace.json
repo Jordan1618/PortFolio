@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Server/5) Deploying Agent on a Windows Server.md",
+                "file": "AI Server/4) Deploying Agent on a Windows Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5) Deploying Agent on a Windows Server"
+              "title": "4) Deploying Agent on a Windows Server"
             }
           }
         ]
@@ -186,8 +186,10 @@
   },
   "active": "c13a1e72ca81425d",
   "lastOpenFiles": [
+    "AI Server/3) AI n8n Workflow More Detailed Paper.md",
+    "AI Server/4) Deploying Agent on a Windows Server.md",
+    "AI Server/4) Asking The AI at the End, Which Other Log Should I Add.md",
     "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
-    "AI Server/5) Deploying Agent on a Windows Server.md",
     "AI Server/0) Conf Files For Global Looking.md",
     "Self-Learning By Myself/Sans titre.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
@@ -195,8 +197,6 @@
     "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
     "Self-Learning By Myself/Tor Network and Onion Routing.md",
     "Self-Learning By Myself/README.md",
-    "AI Server/4) Asking The AI at the End, Which Other Log Should I Add.md",
-    "AI Server/3) AI n8n Workflow More Detailed Paper.md",
     "AI Server/README.md",
     "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
     "Russian Self-Learning/Vocabulary.md",
