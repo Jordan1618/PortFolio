@@ -19,6 +19,16 @@ AI Linked Subjects :
 - How to have a perfectly legal AI server in EU
 - Prompt Injection and How I Beat Gandalf The AI
 - Comparison of AI for each use case
+- Automated Honeypot Deployment with n8n Trigger
+- SSH Brute-Force Automated IP Banning Workflow (6 attempts)
+- API Rate-Limiting Architecture for LiteLLM Gateways (Custom by OpenWebUi I guess)
+- Docker Container Escape Auditing & Hardening
+- Vector VRL Rules for Corporate Data Masking
+- Local RAG Document Expiry & Data Lifecycle Automation
+- Offline CVE Vulnerability Matching Pipeline
+- Local LLM Model Weight Integrity Verification
+
+More Advanced Ai Subje
 
 Already done bit never documented :
 - AD/GPO 
