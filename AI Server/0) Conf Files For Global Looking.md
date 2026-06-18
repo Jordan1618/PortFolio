@@ -5,25 +5,18 @@
 ### **AI Stack**
 
 - `/root/ai-stack/docker-compose.yml`
-    
 - `/root/ai-stack/litellm_config.yaml`
-    
 
 ### **Monitoring Stack**
 
-- `/root/monitoring/prometheus.yml`
-    
-- `/root/monitoring/netdata.conf`
-    
 - `/root/monitoring/docker-compose.yml`
-    
+- `/root/monitoring/prometheus.yml`
+- `/root/monitoring/netdata.conf`
 
 ### **Logging Stack**
 
 - `/root/monitoring/loki/docker-compose.yml`
-    
 - `/root/monitoring/loki/loki-config.yml`
-    
 
 ---
 
@@ -33,9 +26,8 @@
 
 ```yaml
 services:
-
   ollama:
-    image: ollama/ollama:latest
+    image: ollama/ollama
     container_name: ollama
     restart: unless-stopped
     environment:
@@ -51,7 +43,7 @@ services:
           memory: 150g
 
   litellm:
-    image: ghcr.io/berriai/litellm:main-latest
+    image: ghcr.io/berriai/litellm
     container_name: litellm
     restart: unless-stopped
     ports:
@@ -71,7 +63,7 @@ services:
           memory: 2g
 
   open-webui:
-    image: ghcr.io/open-webui/open-webui:main
+    image: ghcr.io/open-webui/open-webui
     container_name: open-webui
     restart: unless-stopped
     ports:
@@ -92,7 +84,7 @@ services:
           memory: 4g
 
   n8n:
-    image: n8nio/n8n:latest
+    image: n8nio/n8n
     container_name: n8n
     restart: unless-stopped
     ports:
@@ -103,7 +95,7 @@ services:
       - N8N_BASIC_AUTH_PASSWORD=password_test_n8n
       - GENERIC_TIMEZONE=Europe/Paris
       - N8N_PROXY_HOPS=1
-      - WEBHOOK_URL=https://10.0.1.180:8443/
+      - WEBHOOK_URL=[https://10.0.1.180:8443/](https://10.0.1.180:8443/)
     networks:
       - ai-internal
       - loki_default
@@ -119,7 +111,6 @@ services:
 networks:
   ai-internal:
     external: true
-
   loki_default:
     external: true
     name: loki_default
@@ -128,94 +119,5 @@ volumes:
   ollama_data:
   webui_data:
   n8n_data:
+  
 ```
-
-### **/root/ai-stack/litellm_config.yaml**
-
-```yaml
-model_list:
-  - model_name: mistral-large
-    litellm_params:
-      model: ollama/mixtral:8x7b
-      api_base: http://ollama:11434
-
-litellm_settings:
-  num_retries: 3
-  request_timeout: 600
-  telemetry: false
-```
-
-### **/root/monitoring/prometheus.yml**
-
-```yaml
-global:
-  scrape_interval: 10s
-
-scrape_configs:
-  - job_name: 'serveur-ia-metrics'
-    static_configs:
-      - targets: ['127.0.0.1:9100']
-```
-
-### **/root/monitoring/netdata.conf**
-
-```conf
-[web]
-    bind to = 0.0.0.0
-    allow connections from = localhost 127.0.0.1 172.16.0.0/12 192.168.0.0/16 10.0.0.0/8
-    allow metrics from = *
-```
-
-### **/root/monitoring/loki/loki-config.yml**
-
-```yaml
-auth_enabled: false
-
-server:
-  http_listen_port: 3100
-
-common:
-  path_prefix: /loki
-  storage:
-    filesystem:
-      chunks_directory: /loki/chunks
-      rules_directory: /loki/rules
-  replication_factor: 1
-  ring:
-    kvstore:
-      store: inmemory
-
-schema_config:
-  configs:
-    - from: "2025-01-01"
-      store: tsdb
-      object_store: filesystem
-      schema: v13
-      index:
-        prefix: index_
-        period: 24h
-
-storage_config:
-  filesystem:
-    directory: /loki/chunks
-
-ruler:
-  storage:
-    type: local
-    local:
-      directory: /loki/rules
-  rule_path: /loki/rules
-
-limits_config:
-  retention_period: 336h
-
-compactor:
-  working_directory: /loki/compactor
-  compaction_interval: 10m
-  retention_enabled: true
-  delete_request_store: filesystem
-  retention_delete_delay: 2h
-  retention_delete_worker_count: 150
-```
-
-_(Continue with the remaining files using the exact same pattern.)_
