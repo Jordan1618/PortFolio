@@ -24,7 +24,7 @@
 
 ### **/root/ai-stack/docker-compose.yml**
 
-```yaml
+```
 services:
   ollama:
     image: ollama/ollama
@@ -121,3 +121,229 @@ volumes:
   n8n_data:
   
 ```
+
+### **/root/ai-stack/litellm_config.yaml**
+
+YAML
+
+```
+model_list:
+  - model_name: mistral-large
+    litellm_params:
+      model: ollama/mixtral:8x7b
+      api_base: http://ollama:11434
+
+litellm_settings:
+  num_retries: 3
+  request_timeout: 600
+  telemetry: false
+```
+
+### **/root/monitoring/docker-compose.yml**
+
+YAML
+
+```
+services:
+  node-exporter:
+    image: prom/node-exporter.8.1
+    container_name: node-exporter
+    restart: unless-stopped
+    volumes:
+      - /proc:/host/proc
+      - /sys:/host/sys
+      - /:/rootfs
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--path.rootfs=/rootfs'
+    network_mode: host
+
+  prometheus:
+    image: prom/prometheus.45.0
+    container_name: prometheus
+    restart: unless-stopped
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    network_mode: host
+
+  grafana:
+    image: grafana/grafana:10.2.0
+    container_name: grafana
+    restart: unless-stopped
+    environment:
+      - GF_SERVER_HTTP_PORT=3001
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    network_mode: host
+
+volumes:
+  grafana-storage:
+```
+
+### **/root/monitoring/prometheus.yml**
+
+YAML
+
+```
+global:
+  scrape_interval: 10s
+
+scrape_configs:
+  - job_name: 'serveur-ia-metrics'
+    static_configs:
+      - targets: ['127.0.0.1:9100']
+```
+
+### **/root/monitoring/netdata.conf**
+
+Extrait de code
+
+```
+[web]
+    bind to = 0.0.0.0
+    allow connections from = localhost 127.0.0.1 172.16.0.0/12 192.168.0.0/16 10.0.0.0/8
+    allow metrics from = *
+```
+
+### **/root/monitoring/loki/docker-compose.yml**
+
+YAML
+
+```
+services:
+  loki:
+    image: grafana/loki
+    container_name: loki
+    restart: unless-stopped
+    ports:
+      - "3100:3100"
+    command:
+      - "-config.file=/etc/loki/local-config.yaml"
+    volumes:
+      - ./loki-config.yml:/etc/loki/local-config.yaml
+      - ./data:/loki
+```
+
+### **/root/monitoring/loki/loki-config.yml**
+
+YAML
+
+```
+auth_enabled: false
+
+server:
+  http_listen_port: 3100
+
+common:
+  path_prefix: /loki
+  storage:
+    filesystem:
+      chunks_directory: /loki/chunks
+      rules_directory: /loki/rules
+  replication_factor: 1
+  ring:
+    kvstore:
+      store: inmemory
+
+schema_config:
+  configs:
+    - from: "2025-01-01"
+      store: tsdb
+      object_store: filesystem
+      schema: v13
+      index:
+        prefix: index_
+        period: 24h
+
+storage_config:
+  filesystem:
+    directory: /loki/chunks
+
+ruler:
+  storage:
+    type: local
+    local:
+      directory: /loki/rules
+  rule_path: /loki/rules
+
+limits_config:
+  retention_period: 336h
+
+compactor:
+  working_directory: /loki/compactor
+  compaction_interval: 10m
+  retention_enabled: true
+  delete_request_store: filesystem
+  retention_delete_delay: 2h
+  retention_delete_worker_count: 150
+```
+
+## **3. Related & Orphan Runtime Information**
+
+### **Active Containers Without Config Files**
+
+- **vector-aggregator**
+    
+    - **Image**: `timberio/vector:0.38.0-alpine`
+        
+    - **Status**: Running (Up 27 hours)
+        
+    - **Network Mode**: `loki_default` (Bridge)
+        
+    - **Ports Exposed**: `0.0.0.0:9000->9000/tcp`, `0.0.0.0:9514->9514/udp`, `127.0.0.1:9598->9598/tcp`
+        
+    - **Note**: This container is actively processing, but its deployment source compose/config file was not found within the scanned path.
+        
+
+### **Orphan Docker Images (Unused)**
+
+- `netdata/netdata:latest` (ID: `b9ca8ca574a5` | Size: 1.11GB)
+    
+- `netdata/netdata:stable` (ID: `bcc822ec685d` | Size: 1.52GB)
+    
+
+### **Orphan Docker Volumes**
+
+- `netdatacache` (Size: 223.8MB)
+    
+- `netdataconfig` (Size: 10.89kB)
+    
+- `netdatalib` (Size: 5.028kB)
+    
+- `8aaf4545dbe71fe9d7640edaf35f720440f5f66fcce44a00e73685afbeb38c58` (Size: 270MB)
+    
+
+### **Global Network Topology**
+
+- **ai-internal**
+    
+    - **Driver**: `bridge`
+        
+    - **Scope**: `local`
+        
+    - **Type**: External
+        
+- **loki_default**
+    
+    - **Driver**: `bridge`
+        
+    - **Scope**: `local`
+        
+    - **Type**: External
+        
+- **host**
+    
+    - **Driver**: `host`
+        
+    - **Scope**: `local`
+        
+    - **Type**: Native System Network Mode
+        
+
+
+
+
+
+docker system prune -a --volumes
