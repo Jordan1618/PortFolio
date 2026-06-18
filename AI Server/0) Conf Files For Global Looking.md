@@ -1,3 +1,4 @@
+
 # AI Infrastructure & Monitoring Stack
 
 ## **1. Configuration File Inventory**
@@ -13,10 +14,12 @@
 - `/root/monitoring/prometheus.yml`
 - `/root/monitoring/netdata.conf`
 
-### **Logging Stack**
+### **Logging & Routing Stack**
 
 - `/root/monitoring/loki/docker-compose.yml`
 - `/root/monitoring/loki/loki-config.yml`
+- `/root/vector/docker-compose.yml`
+- `/root/vector/config/aggregator.toml`
 
 ---
 
@@ -24,7 +27,7 @@
 
 ### **/root/ai-stack/docker-compose.yml**
 
-```
+```yaml
 services:
   ollama:
     image: ollama/ollama
@@ -119,8 +122,7 @@ volumes:
   ollama_data:
   webui_data:
   n8n_data:
-  
-```
+````
 
 ### **/root/ai-stack/litellm_config.yaml**
 
@@ -280,40 +282,116 @@ compactor:
   retention_delete_worker_count: 150
 ```
 
+### **/root/vector/docker-compose.yml**
+
+YAML
+
+```
+services:
+  vector:
+    image: timberio/vector:0.38.0-alpine
+    container_name: vector-aggregator
+    restart: unless-stopped
+    ports:
+      # Réception logs agents — exposé sur toutes les interfaces LAN
+      - "0.0.0.0:9000:9000"
+      # Syslog UDP legacy
+      - "0.0.0.0:9514:9514/udp"
+      # Métriques Prometheus — loopback uniquement
+      # Prometheus est en mode host → localhost suffit
+      - "127.0.0.1:9598:9598"
+    volumes:
+      - /root/vector/config:/etc/vector:ro
+    command: ["--config-toml", "/etc/vector/aggregator.toml"]
+    networks:
+      - loki_default
+      # Vector a besoin de loki_default pour résoudre "loki"
+      # et y envoyer les logs via HTTP
+      # Pas besoin d'autres réseaux : Prometheus est en mode host
+      # et scrape directement localhost:9598
+
+networks:
+  loki_default:
+    external: true
+    name: loki_default
+```
+
+### **/root/vector/config/aggregator.toml**
+
+Ini, TOML
+
+```
+[sources.http_agents]
+type = "http_server"
+address = "0.0.0.0:9000"
+decoding.codec = "json"
+
+[sources.syslog_legacy]
+type = "syslog"
+address = "0.0.0.0:9514"
+mode = "udp"
+
+[sources.internal_metrics]
+type = "internal_metrics"
+
+[transforms.enrich]
+type = "remap"
+inputs = ["http_agents", "syslog_legacy"]
+source = '''
+if !exists(.hostname) {
+.hostname = string(.host) ?? "unknown"
+}
+
+level_raw = downcase(to_string(.level) ?? to_string(.severity) ?? "info")
+.level = if includes(["critical","crit","emerg","alert","fatal"], level_raw) {
+"critical"
+} else if includes(["error","err"], level_raw) {
+"error"
+} else if includes(["warning","warn"], level_raw) {
+"warning"
+} else {
+"info"
+}
+
+if exists(.MESSAGE) {
+.message = string!(.MESSAGE)
+del(.MESSAGE)
+}
+
+if !exists(.timestamp) {
+.timestamp = now()
+}
+
+del(.agent)
+del(.ecs)
+del(.input)
+del(.log)
+
+if !exists(.site) { .site = "default" }
+if !exists(.log_type) { .log_type = "generic" }
+if !exists(.source_os) { .source_os = "unknow" }
+'''
+
+[sinks.loki_out]
+type = "loki"
+inputs = ["enrich"]
+endpoint = "http://loki:3100"
+encoding.codec = "json"
+
+labels = { job = "vector", hostname = "{{ hostname }}", level = "{{ level }}", log_type = "{{ log_type }}", os = "{{ source_os }}", site = "{{site}}" }
+
+batch.max_bytes = 1048576
+batch.timeout_secs = 5
+request.retry_attempts = 3
+request.retry_initial_backoff_secs = 1
+
+[sinks.prometheus_exporter]
+type = "prometheus_exporter"
+inputs = ["internal_metrics"]
+address = "0.0.0.0:9598"
+```
+
 ## **3. Related & Orphan Runtime Information**
-
-### **Active Containers Without Config Files**
-
-- **vector-aggregator**
-    
-    - **Image**: `timberio/vector:0.38.0-alpine`
-        
-    - **Status**: Running (Up 27 hours)
-        
-    - **Network Mode**: `loki_default` (Bridge)
-        
-    - **Ports Exposed**: `0.0.0.0:9000->9000/tcp`, `0.0.0.0:9514->9514/udp`, `127.0.0.1:9598->9598/tcp`
-        
-    - **Note**: This container is actively processing, but its deployment source compose/config file was not found within the scanned path.
-        
-
-### **Orphan Docker Images (Unused)**
-
-- `netdata/netdata:latest` (ID: `b9ca8ca574a5` | Size: 1.11GB)
-    
-- `netdata/netdata:stable` (ID: `bcc822ec685d` | Size: 1.52GB)
-    
-
-### **Orphan Docker Volumes**
-
-- `netdatacache` (Size: 223.8MB)
-    
-- `netdataconfig` (Size: 10.89kB)
-    
-- `netdatalib` (Size: 5.028kB)
-    
-- `8aaf4545dbe71fe9d7640edaf35f720440f5f66fcce44a00e73685afbeb38c58` (Size: 270MB)
-    
 
 ### **Global Network Topology**
 
@@ -340,10 +418,3 @@ compactor:
     - **Scope**: `local`
         
     - **Type**: Native System Network Mode
-        
-
-
-
-
-
-docker system prune -a --volumes
