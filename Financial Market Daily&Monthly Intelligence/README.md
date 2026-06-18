@@ -1,32 +1,56 @@
+
 # 📊 Financial Market Daily & Monthly Intelligence
 
-## 🚧 Status: Work In Progress (Active Development)
+## 🚧 Status: Work In Progress (Active Production Mapping)
 
-> **This module is currently under active construction and pipeline testing. The project aims to deliver a hardened, local, and completely sovereign financial intelligence tool designed for long-term macro and micro asset tracking.**
-
----
-
-## 🎯 Project Scope & Core Targets
-
-The objective of this sub-repository is to build an automated asset management and market tracking system operating across three distinct operational cycles:
-
-1. **Daily Pipeline (07:30 AM Execution):** Low-overhead HTTP API pulling of market configurations, generating a highly synthesized performance email tailored for fast morning transit-reads.
-2. **Weekly Review (Saturday Operations):** Cross-correlation of daily technical pricing fluctuations and global economic macro trends, analyzing underlying long-term structural market reasons rather than short-term market noise.
-3. **Monthly Audit (Asset Weighting):** Manual ledger sync to recalculate the definitive weighting and cost-basis of registered shares, alongside tracking upcoming corporate Annual General Meetings (AGMs).
+> **This module implements a hardened, cloud-isolated financial intelligence pipeline designed for long-term macro and micro asset tracking. Built with strict structural boundaries, it isolates private asset intelligence from institutional lab hardware.**
 
 ---
 
-## 🛠️ Planned Core Architecture
+## 🎯 Project Scope & Core Cycles
 
-* **Data Collection Engine:** Native `n8n` HTTP Request triggers targeting public financial endpoints (Yahoo Finance, CoinGecko).
-* **Storage Options (Under Evaluation):** Testing a localized raw file layout (`JSON`/`CSV` parsing directly managed via JavaScript) versus an embedded relational schema (`SQLite` containerized micro-service).
-* **Delivery Infrastructure:** Secure SMTP routing configuration to deliver crisp, responsive markdown-to-HTML templates straight to the local operator mailbox.
+The system acts as an automated autonomous analyst, engineered for long-term value investing while avoiding daily short-term market noise. It operates across three tightly scheduled routines:
+
+1. **Daily Operational Pipeline (Mon-Fri @ 07:30 AM):** Low-overhead cron sequence fetching closing values and core economic shifts. It compiles data into a highly synthesized, responsive layout optimized for fast reading during morning transit commutes.
+2. **Weekly Strategic Review (Saturdays @ 08:00 AM):** Executed once markets are closed. Gathers the week's logs, processes data aggregates, and leverages localized European AI models to output a deep structural analysis on long-term trends and potential asset under-valuations.
+3. **Monthly Governance Portfolio Audit (1st of Each Month):** Triggers a secure configuration loop to recalibrate definitive portfolio weights, cost-basis changes, and monitors upcoming corporate Annual General Meetings (AGMs) for physical shareholder attendance and real-world networking.
 
 ---
 
-## 📅 Roadmap Milestones
+## ⚙️ Hybrid Technical Architecture
 
-- [x] Operational logic conceptualization and API endpoint mapping.
-- [/] Database schema layout definition (Asset tracking and AGM calendars).
-- [ ] Active n8n scheduling workflow creation and email template design.
-- [ ] Production pipeline implementation and hardware metrics check on the Dell cluster.
+To guarantee absolute reliability, the workload is bifurcated based on engineering best practices:
+
+* **The Deterministic Core (No-LLM Math):** Core asset ledgers, performance differentials, and percentage gains are strictly calculated via native JavaScript scripts. This guarantees mathematical integrity and completely eliminates AI hallucinations on financial metrics.
+* **The Semantic Layer (EU-Friendly AI):** European-hosted open models (Mistral AI APIs) are used exclusively for text summarization, macro-economic news correlation, and multi-source context synthesis during the weekend cycle.
+* **Infrastructure Isolation:** Hosted on an external, lightweight containerized cloud stack. This enforces strict administrative and ethical boundaries, ensuring zero overlap with public infrastructure systems.
+
+---
+
+## 🛠️ Data Flow & Storage Blueprint
+
+```
+
+[Time Trigger] ──► [n8n Orchestrator (Cloud Node)] ──► [HTTP Financial APIs]
+
+│
+
+▼
+
+[SMTP Mail Notification] ◄── [JS Parsing & Processing] ◄── [Local JSON/SQLite Storage]
+
+│
+
+└──► (If Saturday) ──► [Secure European Mistral API] ──► [Obsidian Note Output]
+
+```
+
+---
+
+## 📅 Roadmap & Milestones
+
+- [x] Functional requirements definition and market schedule blueprinting.
+- [x] Ethical framework validation & cloud migration architecture choice.
+- [/] Data schema definition for asset inputs and AGM calendar tracking.
+- [ ] Active n8n workflow deployment (JSON processing nodes & SMTP integration).
+- [ ] Prompt validation for Saturday's macro-economic structural reporting.
