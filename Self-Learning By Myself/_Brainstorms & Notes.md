@@ -7,6 +7,8 @@ Various Ideas :
 - Britanny Chiang and his PortFolio
 - BrunoSimon PortFolio Too
 - How Can I Structured Mine
+- Create a Nmap tool to scan if my infrastructure is compromized or backdoored / Check my attack's area
+- User Access Review Automation via Scripting (Admin and ...) + A Grafana displays why not on (most concerned Sites/Ip/User/...)
 
 AI Linked Subjects :
 - LLM Benchmarks for automation
@@ -28,7 +30,13 @@ AI Linked Subjects :
 - Offline CVE Vulnerability Matching Pipeline
 - Local LLM Model Weight Integrity Verification
 
-More Advanced Ai Subje
+More Advanced AI Subjects :
+- Memory Forensic Analysis on Hardened AI Hosts
+- Active Directory Kerberoasting Attack Remediation
+- PowerShell Constrained Language Mode Deployment
+- Hardware Temperature & CPU Alerts in Grafana & Automatic ShutDown if too Dangerous
+- Linux Kernel Knowledge
+- Ransomware Behavior Detection via File Canary Deployments
 
 Already done bit never documented :
 - AD/GPO 
@@ -39,4 +47,4 @@ Already done bit never documented :
 
 Protocols and concepts to master:
 - Kubernets
-- 
+- SSL/TLS Certificate Expiration
