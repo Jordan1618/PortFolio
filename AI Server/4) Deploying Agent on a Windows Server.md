@@ -8,4 +8,6 @@
 
 ## **What Am I Aiming To ?**
 
-- 1
+- 1) Collecting Various OS Event Logs
+- 2) Having a System Inventory
+- 3) Analyzing in real time my network traffic
