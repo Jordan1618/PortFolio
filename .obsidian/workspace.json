@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) AI Server Deployment and an A-to-Z explanations"
+              "title": "README"
             }
           }
         ]
@@ -184,17 +184,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "969683878ade0f46",
+  "active": "c13a1e72ca81425d",
   "lastOpenFiles": [
+    "Russian Self-Learning/README.md",
     "README.md",
+    "KaramelIa/Project Evolution and Documentation.md",
     "KaramelIa/README.md",
+    "Scripting/Unblock Windows Updates .bat.md",
+    "Scripting/README.md",
+    "Self-Learning By Myself/README.md",
+    "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
+    "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "Financial Market Daily&Monthly Intelligence/README.md",
     "Scripting.md",
     "Financial Market Daily&Monthly Intelligence.md",
-    "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
-    "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "Self-Learning By Myself/_Brainstorms & Notes.md",
-    "Self-Learning By Myself/README.md",
     "Self-Learning By Myself/Sans titre.md",
     "AI Server/Infrastructure Config and Backup Files.md",
     "AI Server/4) Deploying Agent on a Windows Server.md",
@@ -208,7 +212,6 @@
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "Russian Self-Learning/A1 Level/My own notes.md",
-    "Russian Self-Learning/Planning.md",
     "Pièces jointes/Pasted image 20260615113653.png",
     "Pièces jointes",
     "Pièces jointes/Pièces jointes/Pasted image 20260615112121.png",
@@ -217,13 +220,10 @@
     "Pièces jointes/_AttachedPiece",
     "Pièces jointes/_AttachedPiece/Pasted image 20260609162342.png",
     "Pièces jointes/_AttachedPiece/Pasted image 20260609162652.png",
-    "n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
-    "Other Projects/README.md",
     "Pièces jointe",
     "Pièces jointes/_AttachedPiece/Pasted image 20260609100534.png",
     "Pièces jointes/_AttachedPiece/Pasted image 20260608172826.png",
     "_Attached piece",
-    "n8n projects (automations)/README.md",
     "AI Server",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built",
     "Scripting",

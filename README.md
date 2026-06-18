@@ -3,7 +3,13 @@
 > **Welcome to my local knowledge base. This repository tracks my continuous learning journey, shows production-ready infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
 
 ---
+## 🎯 Executive Profile & Core Vision
 
+> **Aspiring Technology Watch Officer (Veilleur Technologique) specializing in Sovereign AI Deployment and European Regulatory Compliance.**
+> 
+> My long-term professional objective is to help organizations architect, audit, and deploy IT infrastructures and localized AI systems that are 100% compliant with European Union regulations (RGPD, EU AI Act). I am dedicated to proving that high-performance automation and state-of-the-art Local Intelligence can perfectly coexist with data privacy, intellectual property rights, and ethical digital sovereignty.
+
+---
 ## 📂 Project Directory & Portfolio Index
 
 ### 🛡️ Enterprise-Grade Cybersecurity & Local AI Stack
