@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "1) AI Server Deployment and an A-to-Z explanations"
             }
           }
         ]
@@ -186,21 +186,25 @@
   },
   "active": "969683878ade0f46",
   "lastOpenFiles": [
+    "README.md",
+    "KaramelIa/README.md",
+    "Financial Market Daily&Monthly Intelligence/README.md",
+    "Scripting.md",
+    "Financial Market Daily&Monthly Intelligence.md",
+    "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
+    "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "Self-Learning By Myself/_Brainstorms & Notes.md",
     "Self-Learning By Myself/README.md",
     "Self-Learning By Myself/Sans titre.md",
-    "README.md",
     "AI Server/Infrastructure Config and Backup Files.md",
     "AI Server/4) Deploying Agent on a Windows Server.md",
     "AI Server/3) AI n8n Workflow More Detailed Paper.md",
     "AI Server/4) Asking The AI at the End, Which Other Log Should I Add.md",
-    "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
     "Self-Learning By Myself/How Cloudflare Works.md",
     "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
     "Self-Learning By Myself/Tor Network and Onion Routing.md",
     "AI Server/README.md",
-    "AI Server/2) AI Server Automated AI-CyberAgent logs analyzer.md",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/A1 Level/A1 Russian Learning Dashboard.md",
     "Russian Self-Learning/A1 Level/My own notes.md",
@@ -220,10 +224,6 @@
     "Pièces jointes/_AttachedPiece/Pasted image 20260608172826.png",
     "_Attached piece",
     "n8n projects (automations)/README.md",
-    "n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
-    "KaramelIa/README.md",
-    "KaramelIa/Project Evolution and Documentation.md",
-    "KaramelIa/Calendar/Released mixes and singles.md",
     "AI Server",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built",
     "Scripting",
