@@ -9,6 +9,16 @@ Various Ideas :
 - How Can I Structured Mine
 - Create a Nmap tool to scan if my infrastructure is compromized or backdoored / Check my attack's area
 - User Access Review Automation via Scripting (Admin and ...) + A Grafana displays why not on (most concerned Sites/Ip/User/...)
+- UFW Firewall Rule Auditing and Logging
+- Basic SSH Banner Customization & Legal Warning
+- Creating a Custom AI System Prompt for IT Helpdesk Role (And with which mesure, only like a ChatBot or just in the n8n prompt)
+- Testing Basic Prompt Injection Techniques Locally
+- Linux Permissions and Commands Cheat-Sheet (and testing options)
+- Windows Event Viewer
+- Analysis of a Simple Phishing Email Example (inside campaigns explication topic I guess)
+- Disk Space Alert Script for Ubuntu Server (like 10%-20% and ...)
+- Automated Ping Test for Network Diagnostics on main switchs and servers and firewall
+- Windows Service Status Checker via PowerShell (and why not a global status checker on a Pc and why is it helpfull or not)
 
 AI Linked Subjects :
 - LLM Benchmarks for automation
@@ -48,3 +58,7 @@ Already done bit never documented :
 Protocols and concepts to master:
 - Kubernets
 - SSL/TLS Certificate Expiration
+
+n8n Workflow :
+- Simple n8n Workflow: Email Notification on Webhook Trigger
+- 
