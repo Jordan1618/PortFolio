@@ -61,4 +61,8 @@ Protocols and concepts to master:
 
 n8n Workflow :
 - Simple n8n Workflow: Email Notification on Webhook Trigger
-- 
+- Automated Git Backup for Obsidian Vault
+- Server Disk Space Monitor via Webhook
+- Automated Social Media Trend Alerts
+- Multi-Source Incident Correlation Engine
+- Automated Vulnerability Scanner & Patch Management Pipeline (n8n uses a nmap, lists each port open, compare to software application CVEs and send an alert with the patch method)
