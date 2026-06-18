@@ -1,4 +1,4 @@
-
+Nb : Before starting, yes I know the "cp -r X/X/X Y/Y/Y" command
 # AI Infrastructure & Monitoring Stack
 
 ## **1. Configuration File Inventory**
