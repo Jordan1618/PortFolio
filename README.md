@@ -20,7 +20,11 @@
 * **[[0) Conf Files For Global Looking|5) Infrastructure-as-Code Configuration Master Repo]]** : Centralized, structural repository hosting production-ready Infrastructure-as-Code setups: master `docker-compose.yml` configurations, VRL transformation rules (`aggregator.toml`), and LiteLLM security proxy specifications (`litellm_config.yaml`).
 
 ### 📊 Financial Data & Market Analytics
-* **[[Financial Market Daily&Monthly Intelligence/README|Financial Market Daily & Monthly Intelligence]]** : Engineering an automated quantitative and qualitative data pipeline targeting global financial assets. This project focuses on the collection, structured parsing, and execution of automated reporting scripts to generate periodic macro-market summaries and asset risk analytics through autonomous localized routines.
+* **[[Financial Market Daily&Monthly Intelligence/README|Financial Market Daily & Monthly Intelligence]]** : Engineering a deterministic quantitative asset tracker and corporate governance pipeline.
+    * **Daily Transport-Optimized Ingestion (07:30 AM):** Designed a low-overhead automated daily cron routine execution to pull asset closing values and key macroeconomic shifts, compiling them into a highly synthesized, readable layout sent via SMTP email for a daily/weekly/monthly briefing.
+    * **The Asset Ledger Architecture:** Open architectural options mapping flexible storage engines—evaluating a localized file-system layout (`JSON`/`CSV` files within Obsidian) for lightweight configurations against a decentralized local relational storage (`SQLite`) node for enhanced indexing.
+    * **Deterministic Performance Calculations:** Replaced probabilistic AI models with hard-coded, strict mathematical algorithms to process exact asset valuation differentials, acquisition tracking, and cost-basis analysis without processing hallucinations.
+    * **Corporate Governance Monitoring:** Implemented automated tracking routines for upcoming Annual General Meetings (AGM) to schedule physical attendance, network building, and real-world asset tracking.
 
 ### 🧠 Advanced Self-Learning & Knowledge Documentation
 * **[[Self-Learning By Myself/README|Core Knowledge Vault & Self-Learning Engine]]** : The absolute core and largest segment of my portfolio. This master repository aggregates my deep-dive documentation, research notes, and structured technical summaries on emerging systems, infrastructure paradigms, and computer science fundamentals, showcasing a non-stop, disciplined approach to technological mastery.
