@@ -7,4 +7,10 @@
 AI Linked Subjects :
 - LLM Benchmarks for automation
 - Harvard Open ClassRoom on Data Science
-- RAG Pipelines security risk
+- RAG Pipelines security risks analyze
+- Hardening
+- Hardening on a Self-hosted AI server
+- Which uses for which AI and how to have the correspondant framework
+- What is a "Conform" AI based on the European Digital Acts
+- How to have a perfectly legal AI server in EU
+- Prompt Injection and How I Beat Gandalf The AI
