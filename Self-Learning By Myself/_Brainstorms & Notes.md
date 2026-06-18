@@ -23,3 +23,10 @@ AI Linked Subjects :
 Already done bit never documented :
 - AD/GPO 
 - Firewall
+- RegEdit/WUpdate
+- SIEM/EDR-NDR/Antivirus
+- Phishing campaigns
+
+Protocols and concepts to master:
+- Kubernets
+- 

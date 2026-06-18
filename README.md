@@ -36,7 +36,7 @@
 
 ---
 
-## 🛠️ Technical Skills & Toolchain Matrix
+## 🛠️ Technical Skills & Tools Stack
 
 * **Virtualization & Infrastructure:** VMware ESXi, Linux Ubuntu/Debian Server CLI, Windows Server
 * **Containerization & System:** Docker, Docker Compose, systemd, Windows Registry (`regedit`), GPO, AD, RDP
@@ -46,24 +46,10 @@
 * **Automation & Orchestration:** n8n, JavaScript, ETL Data Pipelines
 * **Sovereign Local AI:** Ollama (Mistral 7B (and others) & Mixtral optimization), LiteLLM Proxy API Gateway
 
-
----
-## 🛠️ Global Technology & Hardening Matrix
-
-| Infrastructure Layer | Technology Implemented | Core Operational Role | Hardening & Security Controls |
-| :--- | :--- | :--- | :--- |
-| **Operating System** | Ubuntu 26.04 CLI LTS | Base Server Environment | UFW firewall strict subnet restriction (`192.168.1.0/24`), forced SSH keys, automated security patching. |
-| **Container Engine** | Docker CE / Compose | Micro-service Isolation | Non-root runtime contexts, memory hard-caps (`limits.memory: 150g`), isolated internal communication networks. |
-| **API Management** | LiteLLM Proxy Gateway | Unified Endpoint Mapping | Authentication tokens enforced, zero outside telemetry mode, strict timeout configurations. |
-| **Local Inference** | Ollama Engine | Core Intelligence Execution | Isolated in an internal-only bridge network (`ai-internal`), zero external API calls. |
-| **Log Management** | Vector Aggregator | ETL Log Parsing & Shipping | Port access restrictions, input size limitation to block log flooding attempts. |
-| **Log Database** | Grafana Loki | High-Performance Storage | Enforced file-system permissions, automatic data expiration and rolling retention policy. |
-| **Traffic Routing** | Caddy Server | HTTPS Reverse Proxy | Fully automated TLS/SSL lifecycle handling, secure session headers, local reverse-proxy containment. |
-
 ---
 
 ## 🎯 Strategic Principles & Engineering Mindset
 
 * **Absolute Data Sovereignty:** Zero logs, tokens, credentials, or network topologies ever exit the local infrastructure. The entire stack is built to be strictly airtight, adhering to the stringent compliance expectations of defense and government-grade deployments.
-* **The "Deep Understanding" Core:** Complete rejection of unverified copy-pasting. Every configuration parameter, custom JavaScript ETL block, registry switch, or bash operation is systematically researched, tested, and documented.
+* **The "Deep Understanding" Core:** Complete rejection of unverified copy-pasting. Every configuration parameter, custom JavaScript ETL block, registry switch, or bash operation is systematically researched, tested, and documented. It's taking time, but always worths it.
 * **Hardware-Constrained Engineering:** Proven capacity to architect resilient, high-availability monitoring layers, adapting complex localized LLM execution (Mistral 7B) to pure CPU computation clusters (Dual Intel Xeon) via rigorous memory management and bounded data ingestion pipelines.
