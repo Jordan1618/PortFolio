@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Server/4) Deploying Agent on a Windows Server.md",
+                "file": "Self-Learning By Myself/_Brainstorms & Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4) Deploying Agent on a Windows Server"
+              "title": "_Brainstorms & Notes"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "bd1eb7f14ada1f22",
@@ -175,20 +174,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "c13a1e72ca81425d",
   "lastOpenFiles": [
-    "AI Server/3) AI n8n Workflow More Detailed Paper.md",
     "AI Server/4) Deploying Agent on a Windows Server.md",
+    "Self-Learning By Myself/_Brainstorms & Notes.md",
+    "AI Server/3) AI n8n Workflow More Detailed Paper.md",
     "AI Server/4) Asking The AI at the End, Which Other Log Should I Add.md",
     "AI Server/1) AI Server Deployment and an A-to-Z explanations.md",
     "AI Server/0) Conf Files For Global Looking.md",
@@ -226,7 +226,6 @@
     "AI Server",
     "KaramelIa/Calendar/Released Mixes and Singles.md",
     "n8n projects (automations)/n8n AI Cyber Newletter AI-built",
-    "Scripting/README.md",
     "Scripting",
     "Other Projects/PromptShelves",
     "Self-Learning By Myself",
