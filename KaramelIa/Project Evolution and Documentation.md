@@ -48,4 +48,7 @@
 
 ## 19/06/2026 :
 
-- I Look to Update content on TikTok or Instagram and I don't want it now, I have other priorities to resolve before.
+- I look for updating content on TikTok or Instagram and I don't want it now, I have other priorities to resolve before.
+- For the musical distribution and Calendar I will made it later.
+- Actually I have worked on my knowledge of musical AI, I tried new music type and their functioning but no one really escape from a pop/rock mood. Even when clearly specified.
+- Now I want to upgrade again my master prompt to mix feeling + just a complex poetry generator to use the strength of Suno + resize which part is usefull
