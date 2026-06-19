@@ -308,4 +308,5 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 	- I Can use this one : C:\vector\vector.exe service install --config C:\vector\config\agent.toml ; sc.exe config vector obj= "LocalSystem" start= auto ; Start-Service vector ; Get-Service -Name vector | Select-Object Name, Status, StartType
 - NOW we will make the inventory script :
 	- New-Item -ItemType Directory -Path "C:\vector\scripts" -Force
-	- 
+	- .
+	- ......................
