@@ -433,37 +433,37 @@ address = "0.0.0.0:9598"
 
 ## **4. n8n Node Configurations (Cyber Stack)**
 
-### **Node 1: Schedule Trigger**
+#### **Node 1: Schedule Trigger**
 
-- **Intervalle** : Toutes les 15 minutes.
+- **Interval**: Every 15 minutes.
     
-- **Rôle** : Orchestrateur de récurrence automatique pour la surveillance continue.
+- **Role**: Automatic recurrence orchestrator for continuous monitoring.
     
 
-### **Node 2: Loki Logs (HTTP Request)**
+#### **Node 2: Loki Logs (HTTP Request)**
 
-- **Method** : `GET`
+- **Method**: `GET`
     
-- **URL** : `http://loki:3100/loki/api/v1/query_range`
+- **URL**: `http://loki:3100/loki/api/v1/query_range`
     
-- **Query Parameters** :
+- **Query Parameters**:
     
-    - `query` : `{site="saint-chamond"} | json | level=~"warning|error|critical" or log_type="generic"` _(Permet d'extraire simultanément les cyber-alertes et les flux d'inventaires)._
+    - `query`: `{site="saint-chamond"} | json | level=~"warning|error|critical" or log_type="generic"` _(Extracts both cyber-alerts and inventory streams simultaneously)._
         
-    - `start` : `{{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000`
+    - `start`: `{{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000`
         
-    - `end` : `{{ Math.floor(Date.now() / 1000) }}000000000`
+    - `end`: `{{ Math.floor(Date.now() / 1000) }}000000000`
         
-    - `limit` : `2000`
+    - `limit`: `2000`
         
 
-### **Node 3: Parser Loki + Prompt (Code JS)**
+#### **Node 3: Parser Loki + Prompt (JS Code)**
 
 JavaScript
 
 ```
 // ===============================
-// Extraction de la réponse Loki
+// Loki Response Extraction
 // ===============================
 const items = $input.all();
 let extractedLogs = [];
@@ -510,17 +510,17 @@ if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result
 }
 
 // ===============================
-// Si vide → stop
+// If empty → stop
 // ===============================
 if (extractedLogs.length === 0) {
-  return [{ json: { skip: true, prompt: "", total_logs: 0, total_risk_score: 0, incident_level: \"LOW\", stats: {} } }];
+  return [{ json: { skip: true, prompt: "", total_logs: 0, total_risk_score: 0, incident_level: "LOW", stats: {} } }];
 }
 
 // ===============================
-// CYBER RISK SCORING ENGINE (MODIFIÉ)
+// CYBER RISK SCORING ENGINE (MODIFIED)
 // ===============================
 function computeRisk(log) {
-  // AJUSTEMENT : Si c'est un flux d'inventaire, le risque cyber de sécurité est à 0 par défaut
+  // ADJUSTMENT: If it is an inventory stream, the cyber security risk is 0 by default
   if (log.log_type === "generic") return 0;
 
   let score = 0;
@@ -539,14 +539,14 @@ function computeRisk(log) {
   return score;
 }
 
-// enrichissement logs
+// Log enrichment
 extractedLogs = extractedLogs.map(l => ({
   ...l,
   risk_score: computeRisk(l)
 }));
 
 // ===============================
-// TRI PAR RISQUE (IMPORTANT)
+// RISK SORTING (IMPORTANT)
 // ===============================
 extractedLogs.sort((a, b) => b.risk_score - a.risk_score);
 
@@ -559,7 +559,7 @@ const errorCount = extractedLogs.filter(l => l.level === 'ERROR').length;
 const warningCount = extractedLogs.filter(l => l.level === 'WARNING').length;
 const distinctHosts = [...new Set(extractedLogs.map(l => l.hostname))].join(', ');
 
-// SCORE GLOBAL INCIDENT
+// GLOBAL INCIDENT SCORE
 const totalRiskScore = extractedLogs.reduce((acc, l) => acc + (l.risk_score || 0), 0);
 
 const incidentLevel =
@@ -568,44 +568,44 @@ const incidentLevel =
   totalRiskScore > 4 ? "MEDIUM" : "LOW";
 
 // ===============================
-// LIMITATION INTELLIGENTE
+// SMART LIMITATION
 // ===============================
 const limitedLogs = extractedLogs.slice(0, 30);
 
 // ===============================
-// FORMAT LOGS
+// LOG FORMATTING
 // ===============================
 let logLines = limitedLogs.map((l, i) =>
   `[${i+1}] [${l.level}] [RISK:${l.risk_score}] [${l.hostname}] [${l.os}/${l.log_type}] ${l.timestamp}\n     ${l.message}`
 ).join('\n');
 
 // ===============================
-// PROMPT IA
+// AI PROMPT
 // ===============================
-let prompt = `Tu es IASTC, un ingénieur expert en cybersécurité.
+let prompt = `You are IASTC, an expert cybersecurity engineer.
 
-IMPORTANT :
-Tu dois uniquement utiliser les données fournies. 
-Si une information n’est pas dans les logs, écris "UNKNOWN".
-Ne jamais inventer de CVE ou de vulnérabilités.
+IMPORTANT:
+You must only use the provided data. 
+If an information is not in the logs, write "UNKNOWN".
+Never invent any CVE or vulnerabilities.
 
 === INCIDENT SCORE SYSTEM ===
 Global Risk Score: ${totalRiskScore}
 Incident Level: ${incidentLevel}
 
-Analyse les logs suivants (15 dernières minutes).
+Analyse the following logs (last 15 minutes).
 
-Statistiques : ${totalLogs} logs | ${criticalCount} critiques | ${errorCount} erreurs | ${warningCount} warnings
-Hôtes : ${distinctHosts}
+Statistics: ${totalLogs} logs | ${criticalCount} critical | ${errorCount} errors | ${warningCount} warnings
+Hosts: ${distinctHosts}
 
-Logs :
+Logs:
 ${logLines}
 
-CONSIGNES :
-- Si menace active → "CRITIQUE:"
-- Sinon → "RAPPORT:"
+INSTRUCTIONS:
+- If active threat → "CRITIQUE:"
+- Else → "RAPPORT:"
 
-STRUCTURE :
+STRUCTURE:
 ---
 SCORE: 1-10
 NIVEAU: CRITICAL/HIGH/MEDIUM/LOW
@@ -618,7 +618,7 @@ ACTIONS:
 
 return [{
   json: {
-    skip: false, // Forcé à false pour assurer la transmission même si le score cyber de l'inventaire est nul
+    skip: false, // Forced to false to ensure transmission even if the inventory cyber score is zero
     prompt,
     total_logs: totalLogs,
     incident_level: incidentLevel,
@@ -634,22 +634,22 @@ return [{
 }];
 ```
 
-### **Node 4: Logs présents ? (IF Node)**
+#### **Node 4: Logs present? (IF Node)**
 
-- **Condition** : `{{ $json.total_logs }} >= 1`
+- **Condition**: `{{ $json.total_logs }} >= 1`
     
-- **Branche True** : Transmet au modèle LLM local.
+- **True Branch**: Forwards to the local LLM engine.
     
-- **Branche False** : Fin du processus (NoOp).
+- **False Branch**: Terminates the execution flow (NoOp).
     
 
-### **Node 5: Analyse Mistral (HTTP Request)**
+#### **Node 5: Mistral Analysis (HTTP Request)**
 
-- **Method** : `POST`
+- **Method**: `POST`
     
-- **URL** : `http://ollama:11434/api/generate`
+- **URL**: `http://ollama:11434/api/generate`
     
-- **Body JSON** :
+- **JSON Body**:
     
     JSON
     
@@ -666,9 +666,10 @@ return [{
     ```
     
 
-### **Node 6: Parser Réponse IA (Code JS)**
+#### **Node 6: Parse AI Response (JS Code)**
 
-Extraire la structure normalisée générée par Mistral via regex pour en faire des variables n8n exploitables par e-mail.
+- **Role**: Extracts the structured layout generated by Mistral using pattern matching/string manipulation to build accessible n8n environment tokens for email parsing.
+    
 
 JavaScript
 
@@ -710,15 +711,15 @@ const emailSubject = isCritical ? `🚨 ALERT CRITIQUE: ${firstLine}` : `[Rappor
 return [{ json: { stats: prevData.stats, total_logs: prevData.total_logs, raw_ai_response: rawResponse, is_critical: isCritical, score, niveau, resume, findings, actions, email_subject: emailSubject } }];
 ```
 
-### **Node 7: Score IA >= 3 ? (IF Node)**
+#### **Node 7: AI Score >= 3? (IF Node)**
 
-- **Condition** : `{{ $json.score }} >= 3`
+- **Condition**: `{{ $json.score }} >= 3`
     
-- **Rôle** : Coupe le flux si l'IA estime que l'incident ou l'état ne requiert aucune attention humaine (Zéro Spam).
+- **Role**: Drops the execution context if the AI engine labels the state as a non-event requiring no human operator evaluation (Zero Spam filter).
     
 
-### **Node 8: Mail Brevo to Zimbra (Brevo API Integration)**
+#### **Node 8: Mail Brevo to Zimbra (Brevo API Integration)**
 
-- **Subject** : `{{ $json.email_subject }}`
+- **Subject**: `{{ $json.email_subject }}`
     
-- **Format HTML** : Template stylisé embarquant les variables injectées (`{{ $json.score }}`, `{{ $json.resume }}`, mapping des listes `findings` et `actions`).
+- **HTML Format**: Stylized layout injection mapping runtime payload fields directly (`{{ $json.score }}`, `{{ $json.resume }}`, array indexing for bulleted `findings` and recommended mitigation `actions`).
