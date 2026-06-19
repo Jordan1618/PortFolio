@@ -308,5 +308,42 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 	- I Can use this one : C:\vector\vector.exe service install --config C:\vector\config\agent.toml ; sc.exe config vector obj= "LocalSystem" start= auto ; Start-Service vector ; Get-Service -Name vector | Select-Object Name, Status, StartType
 - NOW we will make the inventory script :
 	- New-Item -ItemType Directory -Path "C:\vector\scripts" -Force
-	- .
-	- ......................
+	- $script = @'
+	# AISTC-Inventory.ps1
+	$vectorLocal = "http://127.0.0.1:9001"
+	$hostname = $env:COMPUTERNAME
+	$ts = (Get-Date).ToUniversalTime().ToString("o")
+	function Send-Block {
+	    param([string]$LogType, [string]$Level, [string]$Msg, $Data)
+	    $body = @{ hostname=$hostname; source_os="windows"; site="saint-chamond"; log_type=$LogType; level=$Level; message=$Msg; timestamp=$ts; data=$Data } | ConvertTo-Json -Depth 8 -Compress
+	    try { Invoke-RestMethod -Uri $vectorLocal -Method POST -Body $body -ContentType "application/json" -TimeoutSec 15; Write-Host "[OK] $LogType envoyé" }
+	    catch { Write-Warning "[ERREUR] $LogType : $_" }
+	}
+	$softs = Get-ItemProperty "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*","HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" -ErrorAction SilentlyContinue | Where-Object { $_.DisplayName } | Select-Object DisplayName,DisplayVersion,Publisher | Sort-Object DisplayName
+	Send-Block "inventory_software" "info" "Inventaire : $($softs.Count) logiciels installes" $softs
+	try {
+	    $sess = New-Object -ComObject Microsoft.Update.Session
+	    $missing = $sess.CreateUpdateSearcher().Search("IsInstalled=0 and IsHidden=0").Updates | Select-Object Title,@{N="KB";E={$_.KBArticleIDs -join ","}},MsrcSeverity
+	    $lvl = if ($missing.Count -gt 5) {"critical"} elseif ($missing.Count -gt 0) {"warning"} else {"info"}
+	    Send-Block "inventory_patches" $lvl "Patchs manquants : $($missing.Count) MAJ en attente" $missing
+	} catch { Send-Block "inventory_patches" "warning" "Windows Update COM indisponible" @{} }
+	$conns = Get-NetTCPConnection -State Established,Listen -ErrorAction SilentlyContinue | Select-Object LocalAddress,LocalPort,RemoteAddress,RemotePort,State,@{N="Process";E={(Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue).Name}}
+	$externes = $conns | Where-Object { $_.State -eq "Established" -and $_.RemoteAddress -notmatch "^(127\.|10\.|192\.168\.|172\.(1[6-9]|2[0-9]|3[01])\.)" }
+	$lvl = if ($externes.Count -gt 0) {"warning"} else {"info"}
+	Send-Block "inventory_network" $lvl "Connexions : $($conns.Count) actives dont $($externes.Count) vers internet" $conns
+	$failedSvcs = Get-Service | Where-Object { $_.StartType -eq "Automatic" -and $_.Status -ne "Running" } | Select-Object Name,DisplayName,Status
+	$lvl = if ($failedSvcs.Count -gt 3) {"error"} elseif ($failedSvcs.Count -gt 0) {"warning"} else {"info"}
+	Send-Block "inventory_services" $lvl "Services auto non demarres : $($failedSvcs.Count)" $failedSvcs
+	$tasks = Get-ScheduledTask | Where-Object { $_.TaskPath -notmatch "^\\Microsoft\\" -and $_.State -ne "Disabled" } | Select-Object TaskName,TaskPath,State,@{N="Action";E={$_.Actions.Execute}}
+	$lvl = if ($tasks.Count -gt 10) {"warning"} else {"info"}
+	Send-Block "inventory_tasks" $lvl "Taches non-Microsoft actives : $($tasks.Count)" $tasks
+	$users = Get-LocalUser | Select-Object Name,Enabled,LastLogon,PasswordNeverExpires
+	$admins = (net localgroup Administrators 2>$null) | Where-Object { $_ -notmatch "^--|^La commande|^Membres|^Alias|^\s*$|^Le nom|^The command" }
+	$lvl = if (($users | Where-Object { $_.PasswordNeverExpires -and $_.Enabled }).Count -gt 0) {"warning"} else {"info"}
+	Send-Block "inventory_accounts" $lvl "Comptes : $($users.Count) locaux, $($admins.Count) admins" @{users=$users; admins=$admins}
+	$os = Get-CimInstance Win32_OperatingSystem
+	$disk = Get-CimInstance Win32_LogicalDisk -Filter "DriveType=3" | Select-Object DeviceID,@{N="Size_GB";E={[math]::Round($_.Size/1GB,1)}},@{N="Free_GB";E={[math]::Round($_.FreeSpace/1GB,1)}}
+	$sysinfo = @{ os=$os.Caption; os_version=$os.Version; uptime_h=[math]::Round((New-TimeSpan -Start $os.LastBootUpTime).TotalHours,1); ram_gb=[math]::Round($os.TotalVisibleMemorySize/1MB,1); disks=$disk }
+	Send-Block "inventory_system" "info" "Systeme : $($os.Caption) - uptime $($sysinfo.uptime_h)h" $sysinfo
+	Write-Host "AISTC Inventory terminé - $(Get-Date)"
+	'@ ; [System.IO.File]::WriteAllText("C:\vector\scripts\AISTC-Inventory.ps1", $script, (New-Object System.Text.UTF8Encoding($false))) ; powershell -ExecutionPolicy Bypass -File "C:\vector\scripts\AISTC-Inventory.ps1" ; $a = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-ExecutionPolicy Bypass -WindowStyle Hidden -File C:\vector\scripts\AISTC-Inventory.ps1" ; $t = New-ScheduledTaskTrigger -RepetitionInterval (New-TimeSpan -Hours 1) -Once -At (Get-Date) ; $p = New-ScheduledTaskPrincipal -UserId "SYSTEM" -LogonType ServiceAccount -RunLevel Highest ; Register-ScheduledTask -TaskName "AISTC-Inventory" -Action $a -Trigger $t -Principal $p -Force ; Get-ScheduledTask -TaskName "AISTC-Inventory" | Select-Object TaskName, State
