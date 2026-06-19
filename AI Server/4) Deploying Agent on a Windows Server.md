@@ -105,4 +105,100 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 	- C:\vector\vector.exe --version
 	- Get-ChildItem C:\vector -Recurse -Filter "vector.exe"
 		- This command helps to search for a vector.exe in case it wasn't with previous commands.
-	- 
+	- $config = @'
+		data_dir = "C:\\vector\\logs"
+		
+		[sources.win_security]
+		type = "windows_event_log"
+		channels = ["Security"]
+		
+		[sources.win_system]
+		type = "windows_event_log"
+		channels = ["System"]
+		
+		[sources.win_application]
+		type = "windows_event_log"
+		channels = ["Application"]
+		
+		[sources.win_updates]
+		type = "windows_event_log"
+		channels = ["Microsoft-Windows-WindowsUpdateClient/Operational"]
+		
+		[sources.inventory_http]
+		type = "http_server"
+		address = "127.0.0.1:9001"
+		decoding.codec = "json"
+		
+		[transforms.enrich_windows]
+		type = "remap"
+		inputs = ["win_security", "win_system", "win_application", "win_updates"]
+		source = '''
+		.hostname = get_hostname!()
+		.source_os = "windows"
+		.site = "saint-chamond"
+		
+		.log_type = if exists(.channel) {
+		  ch = downcase(to_string!(.channel))
+		  if contains(ch, "security") { "security" }
+		  else if contains(ch, "system") { "system" }
+		  else if contains(ch, "application") { "application" }
+		  else if contains(ch, "windowsupdate") { "windows_update" }
+		  else { "windows_generic" }
+		} else { "windows_generic" }
+		
+		level_raw = downcase(to_string(.level) ?? "info")
+		.level = if includes(["critical", "error"], level_raw) { "error" }
+		  else if includes(["warning", "warn"], level_raw) { "warning" }
+		  else { "info" }
+		
+		eid = to_int(.system.event_id.value) ?? 0
+		.event_id = to_string(eid)
+		.level = if includes([4625, 4740, 1102, 4648, 4719, 4964, 1074, 6008], eid) { "critical" }
+		  else { .level }
+		
+		.message = to_string(.message) ?? to_string(.rendered_message) ?? "no message"
+		if !exists(.timestamp) { .timestamp = now() }
+		'''
+		
+		[transforms.enrich_inventory]
+		type = "remap"
+		inputs = ["inventory_http"]
+		source = '''
+		.hostname = get_hostname!()
+		.source_os = "windows"
+		.site = "saint-chamond"
+		if !exists(.timestamp) { .timestamp = now() }
+		if !exists(.level) { .level = "info" }
+		if !exists(.message) { .message = "inventaire" }
+		'''
+		
+		[transforms.filter_noise]
+		type = "filter"
+		inputs = ["enrich_windows"]
+		condition = 'includes(["warning", "error", "critical"], .level)'
+		
+		[sinks.to_aggregator_logs]
+		type = "http"
+		inputs = ["filter_noise"]
+		uri = "http://10.0.1.180:9000"
+		encoding.codec = "json"
+		batch.max_bytes = 1048576
+		batch.timeout_secs = 5
+		request.retry_attempts = 5
+		
+		[sinks.to_aggregator_inventory]
+		type = "http"
+		inputs = ["enrich_inventory"]
+		uri = "http://10.0.1.180:9000"
+		encoding.codec = "json"
+		batch.max_bytes = 2097152
+		batch.timeout_secs = 10
+		request.retry_attempts = 5
+		'@
+		[System.IO.File]::WriteAllText("C:\vector\config\agent.toml", $config, (New-Object System.Text.UTF8Encoding($false)))
+
+		- GLOBAL EXPLAINATION : Everything has been told in my natural langage. But to resume : First a Metadata collect, Second a Log-type classification with a basic and a critical filters, Third a level hierarchy (no need to define because Vector, before each entry, has already converts JSON and we have only filtered one type, but level is another one we just called), Forth an Extraction and EID Treatment, Fifth a Critical-security-filter in case level triggers, Sixth it keeps the explicative message and put a timestamp or keeps the original, Seventh it takes data from inventory_http (we will define later), Eighth a anti-noise filter and Nineth the Both sinks to drop right data in right place.
+		
+	-  Invoke-WebRequest -Uri "https://github.com/vectordotdev/vector/releases/download/v0.38.0/vector-0.38.0-x86_64-pc-windows-msvc.zip" -OutFile "$env:TEMP\v_correct.zip" ; Expand-Archive "$env:TEMP\v_correct.zip" -DestinationPath "$env:TEMP\v_extract" -Force ; Move-Item (Get-ChildItem "$env:TEMP\v_extract" -Recurse -Filter "vector.exe").FullName "C:\vector\vector.exe" -Force ; Remove-Item "$env:TEMP\v_extract", "$env:TEMP\v_correct.zip" -Recurse -Force
+	- BUT AFTER MULTIPLE ATTEMPTS, IT FAILED CONSTANTLY, So I went on Vector website to find the right command : https://vector.dev/docs/setup/installation/package-managers/msi/ that gave me : powershell Invoke-WebRequest https://packages.timber.io/vector/0.56.0/vector-x64.msi -OutFile vector-0.56.0-x64.msi 
+	- msiexec /i vector-0.56.0-x64.msi
