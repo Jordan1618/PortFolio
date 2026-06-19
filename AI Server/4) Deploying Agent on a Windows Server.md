@@ -304,3 +304,5 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 	- Get-Service -Name vector | Select-Object Name, Status, StartType
 		- Running and Starting checks
 	- Set-Service -Name vector -StartupType Automatic ; Get-Service -Name vector | Select-Object Name, Status, StartType
+- OR 
+	- I Can use this one : C:\vector\vector.exe service install --config C:\vector\config\agent.toml ; sc.exe config vector obj= "LocalSystem" start= auto ; Start-Service vector ; Get-Service -Name vector | Select-Object Name, Status, StartType
