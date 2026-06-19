@@ -1,1 +1,2 @@
-@' '@ is used like a "cat << EOF > MyFile.txt" it's a Here-string, where cat EOF is a Here-Doc
+- @' '@ is used like a "cat << EOF > MyFile.txt" it's a Here-string, where cat EOF is a Here-Doc
+- | Out-File -Encoding utf8NoBOM "C:\vector\config\agent.toml" is used to set the encoding and the destination file. The "NoBom" is designed to 
