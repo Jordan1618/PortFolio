@@ -52,4 +52,13 @@
 - For the musical distribution and Calendar I will made it later.
 - Actually I have worked on my knowledge of musical AI, I tried new music type and their functioning but no one really escape from a pop/rock mood. Even when clearly specified.
 - Now I want to upgrade again my master prompt to mix feeling + just a complex poetry generator to use the strength of Suno + resize which part is usefull
-- I Add to give periodical advice, keep in memory vocal and visual KaramelIa's signature.
+- I Add to give periodical advice and to keep in memory vocal and visual KaramelIa's signature.
+
+
+# **Mix or Single Ideas**
+
+### Mix :
+- Military songs but on a rock instrumental
+
+### Single :
+- 
