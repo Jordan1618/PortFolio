@@ -45,3 +45,7 @@
 	2) Subscribing to a musical distribution for a high and fast avaibility of my songs. I just need more money to complete that :)
 	3) Do a calendar of how i will organise my lore's publication and around which main event
 - I Just made some updates to the [Calendar](Released%20mixes%20and%20singles.md)
+
+## 19/06/2026 :
+
+- I Look to Update content on TikTok or Instagram and I don't want it now, I have other priorities to resolve before.
