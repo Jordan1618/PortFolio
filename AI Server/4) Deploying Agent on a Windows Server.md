@@ -97,4 +97,7 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 
 - First :
 	- Invoke-WebRequest -Uri "https://packages.timber.io/vector/0.38.0/vector-0.38.0-x86_64-pc-windows-msvc.zip" -OutFile "$env:TEMP\vector.zip" ; Expand-Archive "$env:TEMP\vector.zip" -DestinationPath "C:\vector" -Force
-	- The pru
+		- The purpose is to get the Agent's Packets and zip-dezip la conf sous C:\Vector
+	- New-Item -ItemType Directory -Path "C:\vector\config" -Force ; New-Item -ItemType Directory -Path "C:\vector\logs" -Force
+		- We created two directories with the path and the execution now
+		- I'd remarked PowerSheel always add a command to add a type like -ItemType for Directory or -Path 
