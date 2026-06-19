@@ -59,6 +59,8 @@ Already done bit never documented :
 Protocols and concepts to master:
 - Kubernets
 - SSL/TLS Certificate Expiration
+- Shadow It
+- FireWall
 - MLPS
 - NAC
 - DNC
@@ -67,9 +69,9 @@ Protocols and concepts to master:
 - Kernel Linux
 - Kernel Windows
 - IIS
-- NIS2/RGPD
+- NIS2/RGPD (I will cry I guess)
 - Logs Functioning
-- Yaml
+- Yaml/TOML
 
 n8n Workflow :
 - Simple n8n Workflow: Email Notification on Webhook Trigger
