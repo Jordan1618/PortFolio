@@ -55,6 +55,8 @@
 - I Add to give periodical advice and to keep in memory vocal and visual KaramelIa's signature.
 - I have just finished now and I can tell you, it's a very big piece of my creation. Absolutely beautifull. Whether it’s about generating some 30 precise feelings through an emotional workflow that blends the soulful depth of each track I express, or the meaning of the lyrics, to which I’ve anchored the profound quality of a variable and adjustable workflow.
 
+- Currently I'm working on WW1 Military songs. They have such a soul. But It's very All-consuming. The French and The German are very beautifull. It will be a tribute for me and KaramelIA.
+
 
 # **Mix or Single Ideas**
 
