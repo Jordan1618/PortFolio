@@ -297,3 +297,10 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 		'@
 		[System.IO.File]::WriteAllText("C:\vector\config\agent.toml", $config, (New-Object System.Text.UTF8Encoding($false)))
 		- The right conf file to copy paste
+	- C:\vector\vector.exe validate --config-toml C:\vector\config\agent.toml
+		- To check
+	- C:\vector\vector.exe service install --config C:\vector\config\agent.toml ; sc.exe config vector obj= "LocalSystem" ; Start-Service vector
+		- Create Vector as a Service Windows
+	- Get-Service -Name vector | Select-Object Name, Status, StartType
+		- Running and Starting checks
+	- Set-Service -Name vector -StartupType Automatic ; Get-Service -Name vector | Select-Object Name, Status, StartType
