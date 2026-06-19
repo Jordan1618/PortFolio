@@ -61,4 +61,4 @@
 	
 	# Ajout d'un horodatage si absent
 	if !exists(.timestamp) { .timestamp = now() }
-	- Everything has been told in my natural langage. But to resume : First a Metadata collect, Second a Log-type classification with a basic and a critical filters, Third 
+	- Everything has been told in my natural langage. But to resume : First a Metadata collect, Second a Log-type classification with a basic and a critical filters, Third a level hierarchy (no need to define because Vector, before each entry, has already converts JSON and we have only filtered one type, but level is another one we just called)
