@@ -100,4 +100,5 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 		- The purpose is to get the Agent's Packets and zip-dezip la conf sous C:\Vector
 	- New-Item -ItemType Directory -Path "C:\vector\config" -Force ; New-Item -ItemType Directory -Path "C:\vector\logs" -Force
 		- We created two directories with the path and the execution now
-		- I'd remarked PowerSheel always add a command to add a type like -ItemType for Directory or -Path 
+		- I'd remarked PowerSheel always add a command to add a type like -ItemType for Directory or -Path for "C:\vector\logs". I think nothing is declared, each property has to be set up with an option.
+	- 
