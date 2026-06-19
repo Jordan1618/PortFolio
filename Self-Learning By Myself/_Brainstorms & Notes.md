@@ -55,6 +55,7 @@ Already done bit never documented :
 - RegEdit/WUpdate
 - SIEM/EDR-NDR/Antivirus
 - Phishing campaigns
+- TeamViewer GPO Updates
 
 Protocols and concepts to master:
 - Kubernets
