@@ -19,6 +19,7 @@ Various Ideas :
 - Disk Space Alert Script for Ubuntu Server (like 10%-20% and ...)
 - Automated Ping Test for Network Diagnostics on main switchs and servers and firewall
 - Windows Service Status Checker via PowerShell (and why not a global status checker on a Pc and why is it helpfull or not)
+- In Power
 
 AI Linked Subjects :
 - LLM Benchmarks for automation
