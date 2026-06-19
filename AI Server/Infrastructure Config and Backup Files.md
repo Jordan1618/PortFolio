@@ -21,6 +21,18 @@ Nb : Before starting, yes I know the "cp -r X/X/X Y/Y/Y" command
 - `/root/vector/docker-compose.yml`
 - `/root/vector/config/aggregator.toml`
 
+### **Automation Stack (n8n Workflow Nodes)**
+
+- `Node 1: Schedule Trigger` (Déclencheur temporel)
+- `Node 2: Loki Logs` (HTTP Request - Collecte inclusive)
+- `Node 3: Parser Loki + Prompt` (Code JS - Moteur cyber & Distingueur d'inventaire)
+- `Node 4: Logs présents ?` (IF Condition - Sécurité sur volume)
+- `Node 5: Analyse Mistral` (HTTP Request - Ollama API)
+- `Node 6: Parser Réponse IA` (Code JS - Extraction regex)
+- `Node 7: Score IA >= 3 ?` (IF Condition - Filtrage des faux positifs)
+- `Node 8: Mail Brevo to Zimbra` (Notification HTML enrichie)
+- `Node 9: Print in n8n Test` (Code JS - Visualisation debug)
+
 ---
 
 ## **2. Full Configuration Files**
@@ -418,3 +430,295 @@ address = "0.0.0.0:9598"
     - **Scope**: `local`
         
     - **Type**: Native System Network Mode
+
+## **4. n8n Node Configurations (Cyber Stack)**
+
+### **Node 1: Schedule Trigger**
+
+- **Intervalle** : Toutes les 15 minutes.
+    
+- **Rôle** : Orchestrateur de récurrence automatique pour la surveillance continue.
+    
+
+### **Node 2: Loki Logs (HTTP Request)**
+
+- **Method** : `GET`
+    
+- **URL** : `http://loki:3100/loki/api/v1/query_range`
+    
+- **Query Parameters** :
+    
+    - `query` : `{site="saint-chamond"} | json | level=~"warning|error|critical" or log_type="generic"` _(Permet d'extraire simultanément les cyber-alertes et les flux d'inventaires)._
+        
+    - `start` : `{{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000`
+        
+    - `end` : `{{ Math.floor(Date.now() / 1000) }}000000000`
+        
+    - `limit` : `2000`
+        
+
+### **Node 3: Parser Loki + Prompt (Code JS)**
+
+JavaScript
+
+```
+// ===============================
+// Extraction de la réponse Loki
+// ===============================
+const items = $input.all();
+let extractedLogs = [];
+
+if (items[0] && items[0].json && items[0].json.data && items[0].json.data.result) {
+  const results = items[0].json.data.result;
+
+  for (const streamObj of results) {
+    const labels = streamObj.stream || {};
+
+    for (const valueArray of streamObj.values) {
+      const rawLine = valueArray[1];
+
+      let message = rawLine;
+      let level = labels.level || "UNKNOWN";
+      let site = labels.site || "default";
+      let hostname = labels.hostname || "unknown";
+      let logType = labels.log_type || "generic";
+      let os = labels.os || "linux";
+
+      try {
+        const parsed = JSON.parse(rawLine);
+        message = parsed.message || parsed.msg || rawLine;
+
+        if (parsed.level) level = parsed.level;
+        if (parsed.site) site = parsed.site;
+        if (parsed.hostname) hostname = parsed.hostname;
+        if (parsed.log_type) logType = parsed.log_type;
+        if (parsed.source_os) os = parsed.source_os;
+
+      } catch (e) {}
+      
+      extractedLogs.push({
+        timestamp: new Date(parseInt(valueArray[0].substring(0, 13))).toISOString(),
+        site,
+        hostname,
+        log_type: logType,
+        os,
+        level: level.toUpperCase(),
+        message
+      });
+    }
+  }
+}
+
+// ===============================
+// Si vide → stop
+// ===============================
+if (extractedLogs.length === 0) {
+  return [{ json: { skip: true, prompt: "", total_logs: 0, total_risk_score: 0, incident_level: \"LOW\", stats: {} } }];
+}
+
+// ===============================
+// CYBER RISK SCORING ENGINE (MODIFIÉ)
+// ===============================
+function computeRisk(log) {
+  // AJUSTEMENT : Si c'est un flux d'inventaire, le risque cyber de sécurité est à 0 par défaut
+  if (log.log_type === "generic") return 0;
+
+  let score = 0;
+  const msg = (log.message || "").toLowerCase();
+
+  if (msg.includes("4625") || msg.includes("failed logon")) score += 3;
+  if (msg.includes("4624") && msg.includes("admin")) score += 4;
+  if (msg.includes("privilege")) score += 3;
+  if (msg.includes("powershell") || msg.includes("encodedcommand")) score += 4;
+  if (msg.includes("connection") && msg.includes("remote")) score += 2;
+  if (msg.includes("update") || msg.includes("patch")) score += 1;
+
+  if (log.level === "CRITICAL") score += 3;
+  if (log.level === "ERROR") score += 2;
+
+  return score;
+}
+
+// enrichissement logs
+extractedLogs = extractedLogs.map(l => ({
+  ...l,
+  risk_score: computeRisk(l)
+}));
+
+// ===============================
+// TRI PAR RISQUE (IMPORTANT)
+// ===============================
+extractedLogs.sort((a, b) => b.risk_score - a.risk_score);
+
+// ===============================
+// STATS
+// ===============================
+const totalLogs = extractedLogs.length;
+const criticalCount = extractedLogs.filter(l => l.level === 'CRITICAL').length;
+const errorCount = extractedLogs.filter(l => l.level === 'ERROR').length;
+const warningCount = extractedLogs.filter(l => l.level === 'WARNING').length;
+const distinctHosts = [...new Set(extractedLogs.map(l => l.hostname))].join(', ');
+
+// SCORE GLOBAL INCIDENT
+const totalRiskScore = extractedLogs.reduce((acc, l) => acc + (l.risk_score || 0), 0);
+
+const incidentLevel =
+  totalRiskScore > 20 ? "CRITICAL" :
+  totalRiskScore > 10 ? "HIGH" :
+  totalRiskScore > 4 ? "MEDIUM" : "LOW";
+
+// ===============================
+// LIMITATION INTELLIGENTE
+// ===============================
+const limitedLogs = extractedLogs.slice(0, 30);
+
+// ===============================
+// FORMAT LOGS
+// ===============================
+let logLines = limitedLogs.map((l, i) =>
+  `[${i+1}] [${l.level}] [RISK:${l.risk_score}] [${l.hostname}] [${l.os}/${l.log_type}] ${l.timestamp}\n     ${l.message}`
+).join('\n');
+
+// ===============================
+// PROMPT IA
+// ===============================
+let prompt = `Tu es IASTC, un ingénieur expert en cybersécurité.
+
+IMPORTANT :
+Tu dois uniquement utiliser les données fournies. 
+Si une information n’est pas dans les logs, écris "UNKNOWN".
+Ne jamais inventer de CVE ou de vulnérabilités.
+
+=== INCIDENT SCORE SYSTEM ===
+Global Risk Score: ${totalRiskScore}
+Incident Level: ${incidentLevel}
+
+Analyse les logs suivants (15 dernières minutes).
+
+Statistiques : ${totalLogs} logs | ${criticalCount} critiques | ${errorCount} erreurs | ${warningCount} warnings
+Hôtes : ${distinctHosts}
+
+Logs :
+${logLines}
+
+CONSIGNES :
+- Si menace active → "CRITIQUE:"
+- Sinon → "RAPPORT:"
+
+STRUCTURE :
+---
+SCORE: 1-10
+NIVEAU: CRITICAL/HIGH/MEDIUM/LOW
+RESUME: ...
+FINDINGS:
+- ...
+ACTIONS:
+- ...
+`;
+
+return [{
+  json: {
+    skip: false, // Forcé à false pour assurer la transmission même si le score cyber de l'inventaire est nul
+    prompt,
+    total_logs: totalLogs,
+    incident_level: incidentLevel,
+    total_risk_score: totalRiskScore,
+    stats: {
+      total: totalLogs,
+      critical: criticalCount,
+      error: errorCount,
+      warning: warningCount,
+      hosts: distinctHosts
+    }
+  }
+}];
+```
+
+### **Node 4: Logs présents ? (IF Node)**
+
+- **Condition** : `{{ $json.total_logs }} >= 1`
+    
+- **Branche True** : Transmet au modèle LLM local.
+    
+- **Branche False** : Fin du processus (NoOp).
+    
+
+### **Node 5: Analyse Mistral (HTTP Request)**
+
+- **Method** : `POST`
+    
+- **URL** : `http://ollama:11434/api/generate`
+    
+- **Body JSON** :
+    
+    JSON
+    
+    ```
+    {
+      "model": "mistral",
+      "prompt": {{ JSON.stringify($json.prompt) }},
+      "stream": false,
+      "options": {
+        "temperature": 0.05,
+        "num_predict": 2048
+      }
+    }
+    ```
+    
+
+### **Node 6: Parser Réponse IA (Code JS)**
+
+Extraire la structure normalisée générée par Mistral via regex pour en faire des variables n8n exploitables par e-mail.
+
+JavaScript
+
+```
+const ollamaResp = $input.first().json;
+const prevData = $('Parser Loki + Prompt').first().json;
+const rawResponse = (ollamaResp.response || '').trim();
+const isCritical = rawResponse.toUpperCase().startsWith('CRITIQUE:');
+
+let score = 1, niveau = 'LOW', resume = '';
+const findings = [], actions = [];
+const lines = rawResponse.split('\n');
+let currentSection = null;
+
+for (const line of lines) {
+  const cleanedLine = line.trim();
+  if (cleanedLine.toUpperCase().startsWith('SCORE:')) {
+    const match = cleanedLine.match(/\d+/);
+    if (match) score = parseInt(match[0], 10);
+  } else if (cleanedLine.toUpperCase().startsWith('NIVEAU:')) {
+    niveau = cleanedLine.split(':')[1].trim().toUpperCase();
+  } else if (cleanedLine.toUpperCase().startsWith('RESUME:')) {
+    resume = cleanedLine.split(':')[1].trim();
+  } else if (cleanedLine.toUpperCase().startsWith('FINDINGS:')) {
+    currentSection = 'findings';
+  } else if (cleanedLine.toUpperCase().startsWith('ACTIONS:')) {
+    currentSection = 'actions';
+  } else if (cleanedLine.startsWith('- ')) {
+    const val = cleanedLine.substring(2).trim();
+    if (currentSection === 'findings') findings.push(val);
+    if (currentSection === 'actions') actions.push(val);
+  }
+}
+
+const formattedTime = new Date().toLocaleTimeString('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit' });
+const firstLine = rawResponse.split('\n')[0].replace(/^CRITIQUE:/i, '').replace(/^RAPPORT:/i, '').trim();
+const emailSubject = isCritical ? `🚨 ALERT CRITIQUE: ${firstLine}` : `[Rapport ${formattedTime}] Synthèse Logs - Score ${score}/10 - ${niveau}`;
+
+return [{ json: { stats: prevData.stats, total_logs: prevData.total_logs, raw_ai_response: rawResponse, is_critical: isCritical, score, niveau, resume, findings, actions, email_subject: emailSubject } }];
+```
+
+### **Node 7: Score IA >= 3 ? (IF Node)**
+
+- **Condition** : `{{ $json.score }} >= 3`
+    
+- **Rôle** : Coupe le flux si l'IA estime que l'incident ou l'état ne requiert aucune attention humaine (Zéro Spam).
+    
+
+### **Node 8: Mail Brevo to Zimbra (Brevo API Integration)**
+
+- **Subject** : `{{ $json.email_subject }}`
+    
+- **Format HTML** : Template stylisé embarquant les variables injectées (`{{ $json.score }}`, `{{ $json.resume }}`, mapping des listes `findings` et `actions`).
