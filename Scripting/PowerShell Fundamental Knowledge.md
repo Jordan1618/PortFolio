@@ -17,3 +17,4 @@
   [sources.win_updates]
   type = "windows_event_log"
   channels = ["Microsoft-Windows-WindowsUpdateClient/Operational"]
+     - It defines core blocs with the type = API listens and channels to separate each log flux
