@@ -18,3 +18,8 @@
   type = "windows_event_log"
   channels = ["Microsoft-Windows-WindowsUpdateClient/Operational"]
      - It defines core blocs with the type = API listens and channels to separate each log flux
+ - [sources.inventory_http]
+	type = "http_server"
+	address = "127.0.0.1:9001"
+	decoding.codec = "json"
+	- It opens a mini webserver only on localhost on port 9001 in case he received inventory data
