@@ -101,4 +101,8 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 	- New-Item -ItemType Directory -Path "C:\vector\config" -Force ; New-Item -ItemType Directory -Path "C:\vector\logs" -Force
 		- We created two directories with the path and the execution now
 		- I'd remarked PowerSheel always add a command to add a type like -ItemType for Directory or -Path for "C:\vector\logs". I think nothing is declared, each property has to be set up with an option.
+	- Move-Item "C:\vector\bin\vector.exe" "C:\vector\vector.exe" -Force
+	- C:\vector\vector.exe --version
+	- Get-ChildItem C:\vector -Recurse -Filter "vector.exe"
+		- This command helps to search for a vector.exe in case it wasn't with previous commands.
 	- 

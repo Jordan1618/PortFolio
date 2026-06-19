@@ -19,7 +19,7 @@ Various Ideas :
 - Disk Space Alert Script for Ubuntu Server (like 10%-20% and ...)
 - Automated Ping Test for Network Diagnostics on main switchs and servers and firewall
 - Windows Service Status Checker via PowerShell (and why not a global status checker on a Pc and why is it helpfull or not)
-- In Power
+- The "vector" agent to decrypt folders inside
 
 AI Linked Subjects :
 - LLM Benchmarks for automation
@@ -59,6 +59,17 @@ Already done bit never documented :
 Protocols and concepts to master:
 - Kubernets
 - SSL/TLS Certificate Expiration
+- MLPS
+- NAC
+- DNC
+- EUFI/BIOS
+- CloudFlare
+- Kernel Linux
+- Kernel Windows
+- IIS
+- NIS2/RGPD
+- Logs Functioning
+- Yaml
 
 n8n Workflow :
 - Simple n8n Workflow: Email Notification on Webhook Trigger
