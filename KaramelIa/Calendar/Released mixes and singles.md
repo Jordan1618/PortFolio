@@ -43,7 +43,7 @@ Nb: The quality will upgrade, step by step with experience.
 
 ## 8) **REMEMBER THE LIGHTHOUSE SHADOW | KaramelIa - X **
 **Release Date:**28st June, 2026, 16H00
-**Duration:** 1H08min07s
+**Duration:** 44min36s
 **Watch here:** [[Link to the Video](https://youtu.be/qhUZM6uEc5E)]
 
 
