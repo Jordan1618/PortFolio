@@ -46,7 +46,7 @@
 	3) Do a calendar of how i will organise my lore's publication and around which main event
 - I Just made some updates to the [Calendar](Released%20mixes%20and%20singles.md)
 
-## 19/06/2026 :
+## 21/06/2026 :
 
 - I look for updating content on TikTok or Instagram and I don't want it now, I have other priorities to resolve before.
 - For the musical distribution and Calendar I will made it later.
