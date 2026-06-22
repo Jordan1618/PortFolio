@@ -48,7 +48,7 @@ Nb: The quality will upgrade, step by step with experience.
 
 ## 9) **CALM OF CONTROL | KaramelIa - X **
 **Release Date:**5th July, 2026, 16H00
-**Duration:** 44min36s
+**Duration:** 1H05min19s
 **Watch here:** [[Link to the Video](https://youtu.be/Tn8Easy-jAs)]
 
 
