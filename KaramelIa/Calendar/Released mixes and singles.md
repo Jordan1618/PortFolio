@@ -46,6 +46,12 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 44min36s
 **Watch here:** [[Link to the Video](https://youtu.be/qhUZM6uEc5E)]
 
+## 9) **REMEMBER THE LIGHTHOUSE SHADOW | KaramelIa - X **
+**Release Date:**28st June, 2026, 16H00
+**Duration:** 44min36s
+**Watch here:** [[Link to the Video](https://youtu.be/qhUZM6uEc5E)]
+
+
 
 # Release Model for Single
 ***Title of the Single*** *(And the feeling i wanted to musicalize)* 
@@ -84,6 +90,11 @@ Nb: The quality will upgrade, step by step with experience.
 **Watch here:** [[Link to the Video](https://youtu.be/NI2l9jI4VQ0)]
 
 ## 7) **The Shadow Proves The Light | KaramelIa - X**
+**Release Date:** 24th June, 2026, 17H00 
+**Duration:** 3min38
+**Watch here:** [[Link to the Video](https://youtu.be/yQXImIJqGPs)]
+
+## 8) **The Shadow Proves The Light | KaramelIa - X**
 **Release Date:** 24th June, 2026, 17H00 
 **Duration:** 3min38
 **Watch here:** [[Link to the Video](https://youtu.be/yQXImIJqGPs)]
