@@ -42,14 +42,14 @@ Nb: The quality will upgrade, step by step with experience.
 **Watch here:** [[Link to the Video](https://youtu.be/e6HzhuGdjXA)]
 
 ## 8) **REMEMBER THE LIGHTHOUSE SHADOW | KaramelIa - X **
-**Release Date:**28st June, 2026, 16H00
+**Release Date:**28th June, 2026, 16H00
 **Duration:** 44min36s
 **Watch here:** [[Link to the Video](https://youtu.be/qhUZM6uEc5E)]
 
-## 9) **REMEMBER THE LIGHTHOUSE SHADOW | KaramelIa - X **
-**Release Date:**28st June, 2026, 16H00
+## 9) **CALM OF CONTROL | KaramelIa - X **
+**Release Date:**5th July, 2026, 16H00
 **Duration:** 44min36s
-**Watch here:** [[Link to the Video](https://youtu.be/qhUZM6uEc5E)]
+**Watch here:** [[Link to the Video](https://youtu.be/Tn8Easy-jAs)]
 
 
 
@@ -94,7 +94,7 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 3min38
 **Watch here:** [[Link to the Video](https://youtu.be/yQXImIJqGPs)]
 
-## 8) **The Shadow Proves The Light | KaramelIa - X**
+## 8) **CALM OF CONTROL | KaramelIa - X**
 **Release Date:** 24th June, 2026, 17H00 
 **Duration:** 3min38
-**Watch here:** [[Link to the Video](https://youtu.be/yQXImIJqGPs)]
+**Watch here:** [[Link to the Video]()]
