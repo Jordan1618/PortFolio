@@ -53,7 +53,7 @@ Nb: The quality will upgrade, step by step with experience.
 
 ## 10) **YOU'RE CHILLING IN A PLAIN | KaramelIa - X **
 **Release Date:**12th July, 2026, 16H00
-**Duration:** 1H05min19s
+**Duration:** 1H29min44s
 **Watch here:** [[Link to the Video](https://youtu.be/O9gZixxnqWI)]
 
 
