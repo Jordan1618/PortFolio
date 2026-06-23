@@ -94,7 +94,7 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 3min38
 **Watch here:** [[Link to the Video](https://youtu.be/yQXImIJqGPs)]
 
-## 8) **CALM OF CONTROL | KaramelIa - X**
-**Release Date:** 24th June, 2026, 17H00 
-**Duration:** 3min38
-**Watch here:** [[Link to the Video]()]
+## 8) **THE EMINENCE GRISE | KaramelIa - X**
+**Release Date:** 1st July, 2026, 16H00 
+**Duration:** 6min11
+**Watch here:** [[Link to the Video](https://youtu.be/8uQb_TowfS0)]
