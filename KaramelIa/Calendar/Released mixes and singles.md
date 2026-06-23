@@ -103,3 +103,8 @@ Nb: The quality will upgrade, step by step with experience.
 **Release Date:** 1st July, 2026, 16H00 
 **Duration:** 6min11
 **Watch here:** [[Link to the Video](https://youtu.be/8uQb_TowfS0)]
+
+## 9) **OPEN GROUND | KaramelIa - X**
+**Release Date:** 8th July, 2026, 16H00 
+**Duration:** 4min46
+**Watch here:** [[Link to the Video](https://youtu.be/mhQx87hNECw)]
