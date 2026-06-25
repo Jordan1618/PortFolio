@@ -7,7 +7,8 @@
 
 > **Intelligence technologic agent(Personalized News Collector and Agregator)/Sovereign AI Deployment and various personal projects.**
 > 
-> My long-term professional objective is to help organizations to have their own AI in local system for produce, understand or decide. I'm learning how to use this new technology and make it usefull/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testin
+> My long-term professional objective is to help organizations to have their own AI in local system for produce, understand or decide. I'm learning how to use this new technology and make it usefull/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testing different protocols, mindsets, IT culture and more globally CyberSecurity Feature. 
+> To be honnest, I'm thinking IT is a very big world where it's difficult to know its place ou specialization so I use my curiosity to led me where I can develop my own Skills, Knowledge and Relationships. That's why this PortFolio is EnglishFull.
 
 ---
 ## 📂 Project Directory & Portfolio Index
