@@ -1,13 +1,13 @@
 # 🌐 Jordan's CV Hub & Portfolio
 
-> **Welcome to my local knowledge base. This repository tracks my continuous learning journey, shows production-ready infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
+> **Welcome to my local knowledge base. This repository tracks my learning journey, shows production infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
 
 ---
 ## 🎯 Executive Profile & Core Vision
 
-> **Aspiring Technology Watch Officer (Veilleur Technologique) specializing in Sovereign AI Deployment and European Regulatory Compliance.**
+> **Intelligence technologic agent(Personalized News Collector and Agregator)/Sovereign AI Deployment and various personal projects.**
 > 
-> My long-term professional objective is to help organizations architect, audit, and deploy IT infrastructures and localized AI systems that are 100% compliant with European Union regulations (RGPD, EU AI Act). I am dedicated to proving that high-performance automation and Local Intelligence can perfectly coexist with data privacy, intellectual property rights, and ethical digital sovereignty.
+> My long-term professional objective is to help organizations to have their own AI in local system for produce, understand or decide. I'm learning how to use this new technology and make it usefull/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testin
 
 ---
 ## 📂 Project Directory & Portfolio Index
