@@ -26,7 +26,7 @@
 |**38 - Literary Analysis**|**Close Reading in Russian**: Identifying free indirect discourse (несобственно-прямая речь), narrative voice shifts, and intertextual allusions|🔄 Not Started|
 |**38.5 - Legal & Diplomatic Russian**|Full mastery of treaty language, diplomatic formulae, and institutional syntax — договор, обязательство, настоящим удостоверяется|🆕 Not Started|
 
-#### Nb: For each module, I use My own notes 6
+#### Nb: For each module, I use [My own notes 6](My%20own%20notes%206.md)
 
 ---
 
