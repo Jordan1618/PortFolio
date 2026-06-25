@@ -57,3 +57,15 @@
 * **Absolute Data Sovereignty:** Zero logs, tokens, credentials, or network topologies ever exit the local infrastructure. The entire stack is built to be strictly airtight, adhering to the stringent compliance expectations of defense and government-grade deployments.
 * **The "Deep Understanding" Core:** Complete rejection of unverified copy-pasting. Every configuration parameter, custom JavaScript ETL block, registry switch, or bash operation is systematically researched, tested, and documented. It's taking time, but always worths it.
 * **Hardware-Constrained Engineering:** Proven capacity to architect resilient, high-availability monitoring layers, adapting complex localized LLM execution (Mistral 7B) to pure CPU computation clusters (Dual Intel Xeon) via rigorous memory management and bounded data ingestion pipelines.
+
+
+--- 
+
+## Summary
+
+- [AI Server](AI%20Server/README.md)
+- [Financial Market Intelligence Project](Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
+* [KaramelIA](KaramelIa/README.md)
+* [n8n Projects](n8n%20projects%20(automations)/README.md)
+* [Attached Pieces](Pièces%20jointes/README.md)
+* [README](Russian%20Self-Learning/README.md)
