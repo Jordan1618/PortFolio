@@ -3,13 +3,14 @@
 > **Welcome to my local knowledge base. This repository tracks my learning journey, showcases production infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
 
 ---
-## 🎯 Executive Profile & Core Vision
+## 🎯 My Vision and My Skills
 
-> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment and various personal projects.**
-> 
 > My long-term professional objective is to help organizations to deploy their own AI on local systems for produce, understand or make decisions. I'm learning how to use this new technology and make it useful/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testing different protocols, mindsets, IT culture and more globally CyberSecurity features. 
 > 
 > To be honest, I think IT is a very big world where it's difficult to know our place or specialization so I use my curiosity to lead me where I can develop my own Skills, Knowledge and Relationships. That's why this PortFolio is "English-Full".
+> 
+> My main projects are : 
+> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment (Log analyzer on a Production Infrastructure) and various personal projects (KaramelIA/Self-Learning Documentations/Financial assets tracking wit.**
 
 ---
 ## 📂 Project Directory & Portfolio Index
