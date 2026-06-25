@@ -1,14 +1,15 @@
 # 🌐 Jordan's CV Hub & Portfolio
 
-> **Welcome to my local knowledge base. This repository tracks my learning journey, shows production infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
+> **Welcome to my local knowledge base. This repository tracks my learning journey, showcases production infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
 
 ---
 ## 🎯 Executive Profile & Core Vision
 
-> **Intelligence technologic agent(Personalized News Collector and Agregator)/Sovereign AI Deployment and various personal projects.**
+> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment and various personal projects.**
 > 
-> My long-term professional objective is to help organizations to have their own AI in local system for produce, understand or decide. I'm learning how to use this new technology and make it usefull/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testing different protocols, mindsets, IT culture and more globally CyberSecurity Feature. 
-> To be honnest, I'm thinking IT is a very big world where it's difficult to know its place ou specialization so I use my curiosity to led me where I can develop my own Skills, Knowledge and Relationships. That's why this PortFolio is EnglishFull.
+> My long-term professional objective is to help organizations to deploy their own AI on local systems for produce, understand or make decisions. I'm learning how to use this new technology and make it useful/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testing different protocols, mindsets, IT culture and more globally CyberSecurity features. 
+> 
+> To be honest, I think IT is a very big world where it's difficult to know our place or specialization so I use my curiosity to lead me where I can develop my own Skills, Knowledge and Relationships. That's why this PortFolio is "English-Full".
 
 ---
 ## 📂 Project Directory & Portfolio Index
