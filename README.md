@@ -10,7 +10,7 @@
 > To be honest, I think IT is a very big world where it's difficult to know our place or specialization so I use my curiosity to lead me where I can develop my own Skills, Knowledge and Relationships. That's why this PortFolio is "English-Full".
 > 
 > My main projects are : 
-> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment (Log analyzer on a Production Infrastructure) and various personal projects (KaramelIA/Self-Learning Documentations/Financial assets tracking wit.**
+> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment (Log analyzer on a Production Infrastructure) and various personal projects (KaramelIA/Self-Learning Documentations/Financial assets on-mesure tracking).**
 
 ---
 ## 📂 Project Directory & Portfolio Index
