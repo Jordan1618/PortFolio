@@ -20,7 +20,7 @@
 * **[[0) Conf Files For Global Looking|5) Infrastructure-as-Code Configuration Master Repo]]** : Centralized, structural repository hosting production-ready Infrastructure-as-Code setups: master `docker-compose.yml` configurations, VRL transformation rules (`aggregator.toml`), and LiteLLM security proxy specifications (`litellm_config.yaml`).
 
 ### 📊 Financial Data & Market Analytics
-* **[[Financial Market Daily&Monthly Intelligence/README|Financial Market Daily & Monthly Intelligence]]** : Engineering a hybrid deterministic ledger and local AI-driven market intelligence pipeline.
+* **[[Other Projects/Financial Market Daily&Monthly Intelligence/README|Financial Market Daily & Monthly Intelligence]]** : Engineering a hybrid deterministic ledger and local AI-driven market intelligence pipeline.
     * **Deterministic Core Math (No-LLM):** Enforced strict JavaScript algorithmic routines for flawless portfolio auditing, precise asset cost-basis analysis, and exact performance calculation to eliminate LLM mathematical hallucinations.
     * **Daily Transport-Optimized Ingestion (07:30 AM):** Automated daily cron sequence compiling real-time asset market data into a highly synthesized layout routed via secure SMTP for morning transit-reads.
     * **Local AI Macro Analytics:** Leveraged a local AI model exclusively for natural language processing, semantic news aggregation, and long-term structural trend correlation during weekly reporting cycles.
@@ -65,10 +65,10 @@
 
 - [Attached Pieces](Pièces%20jointes/README.md)
 - [AI Server](AI%20Server/README.md)
-- [Financial Market Intelligence Project](Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
+- [Financial Market Intelligence Project(Inside Other Project)](Other%20Projects/Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
 * [KaramelIA](KaramelIa/README.md)
-* [n8n Projects](n8n%20projects%20(automations)/README.md)
+* [n8n Projects (Inside Other Projects)](Other%20Projects/n8n%20projects%20(automations)/README.md)
 * [Other Projects](Other%20Projects/README.md) (The Unstarted)
 * [Russian Self-Learning](Russian%20Self-Learning/README.md)
 * [Scripting](Scripting/README.md)
-* [Self-Learninf](Self-Learning%20By%20Myself/README.md)
+* [Self-Learning](Self-Learning%20By%20Myself/README.md)
