@@ -53,7 +53,7 @@
 - Actually I have worked on my knowledge of musical AI, I tried new music type and their functioning but no one really escape from a pop/rock mood. Even when clearly specified.
 - Now I want to upgrade again my master prompt to mix feeling + just a complex poetry generator to use the strength of Suno + resize which part is usefull
 - I Add to give periodical advice and to keep in memory vocal and visual KaramelIa's signature.
-- I have just finished now and I can tell you, it's a very big piece of my creation. Absolutely beautifull. Whether it’s about generating some 30 precise feelings through an emotional workflow that blends the soulful depth of each track I express, or the meaning of the lyrics, to which I’ve anchored the profound quality of a variable and adjustable workflow.
+- I have just finished now and I can tell you, it's a very big piece of my creation. Absolutely beautifull. Whether it’s about generating some 30 precise feelings through an emotional workflow that blends the soulful depth of each track I express, or the meaning of the lyrics, to which I’ve anchored the profound quality of a variable and adjustable workflow. It's consigned in : [DÉMO 1 — Feeling épique (Yes I made it in French)](DÉMO%201%20—%20Feeling%20épique%20(Yes%20I%20made%20it%20in%20French).md)
 
 - Currently I'm working on WW1 Military songs. They have such a soul. But It's very All-consuming. The French and The German are very beautifull. It will be a tribute for me and KaramelIA.
 
