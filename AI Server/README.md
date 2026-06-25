@@ -36,7 +36,7 @@ This repository tracks the deployment of a self-hosted AI infrastructure and the
 
 ## Architecture Layout & Data Flow
 
-```text
+```
 [SRV-LNX-01..N]  ──► Vector Agent ──┐
 [SRV-WIN-01..N]  ──► Vector Agent ──┤
                                     ▼
@@ -73,5 +73,12 @@ This repository tracks the deployment of a self-hosted AI infrastructure and the
                                                ▼                               ▼
                                          Instant Mail                   Cyclic Report
                                         Critical Alert                 Standard Summary
-                                        
-                                        
+````
+
+---
+## Summary
+
+* [1st Part AI Server Deployment and an A-to-Z explanations](1st%20Part%20AI%20Server%20Deployment%20and%20an%20A-to-Z%20explanations.md)
+* [2nd Part AI Server Automated AI-CyberAgent logs analyzer](2nd%20Part%20AI%20Server%20Automated%20AI-CyberAgent%20logs%20analyzer.md)
+* [3rd Part AI n8n Workflow More Detailed Paper](3rd%20Part%20AI%20n8n%20Workflow%20More%20Detailed%20Paper.md)
+* [4th Part Deploying Agent on a Windows Server](4th%20Part%20Deploying%20Agent%20on%20a%20Windows%20Server.md)
