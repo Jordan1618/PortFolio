@@ -63,9 +63,12 @@
 
 ## Summary
 
+- [Attached Pieces](Pièces%20jointes/README.md)
 - [AI Server](AI%20Server/README.md)
 - [Financial Market Intelligence Project](Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
 * [KaramelIA](KaramelIa/README.md)
 * [n8n Projects](n8n%20projects%20(automations)/README.md)
-* [Attached Pieces](Pièces%20jointes/README.md)
-* [README](Russian%20Self-Learning/README.md)
+* [Other Projects](Other%20Projects/README.md) (The Unstarted)
+* [Russian Self-Learning](Russian%20Self-Learning/README.md)
+* [Scripting](Scripting/README.md)
+* [Self-Learninf](Self-Learning%20By%20Myself/README.md)

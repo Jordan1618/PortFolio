@@ -25,3 +25,14 @@ So i have 6 different levels with their own test and [Planning](Planning.md) :
 * [ ] Master [A1](A1%20Russian%20Learning%20Dashboard.md) through [C1](C1%20Russian%20Learning%20Dashboard.md) milestones
 * [ ] Understand more russian people and the Eastern Europe Culture
 * [ ] Leverage this linguistic mastery for some professionnal opportunities linked to that skill
+
+--- 
+
+## Summary
+
+- [AI Test To Pass A1](Russian%20Self-Learning/A1%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass A2](Russian%20Self-Learning/A2%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass B1](Russian%20Self-Learning/B1%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass B2](Russian%20Self-Learning/B2%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass C1](Russian%20Self-Learning/C1%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass C2](Russian%20Self-Learning/C2%20Level/AI%20Test%20To%20Pass.md)
