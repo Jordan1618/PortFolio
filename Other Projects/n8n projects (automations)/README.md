@@ -27,4 +27,4 @@ I follow a strict **"Blueprint-First"** approach: every workflow is mapped in Ob
 
 ## Summary
 
-* [Cyber Intelligence Project](n8n%20projects%20(automations)/n8n%20AI%20Cyber%20Newletter%20AI-built/README.md)
+* [Cyber Intelligence Project](Other%20Projects/n8n%20projects%20(automations)/n8n%20AI%20Cyber%20Newletter%20AI-built/README.md)
