@@ -15,7 +15,7 @@
 ---
 ## 📂 Project Directory & Portfolio Index
 
-### 🛡️ Enterprise-Grade Cybersecurity & Local AI Stack
+### 🛡️ Cybersecurity & Local AI Stack
 * **[[1st Part AI Server Deployment and an A-to-Z explanations|1) AI Server Deployment & Hardening]]** : Technical architecture of a sovereign inference server running on corporate-grade hardware (Dell Server under ESXi, 2x Intel Xeon, 256GB RAM). Comprehensive documentation covering Docker deployment, strict network isolation (`ai-internal`), and resource hardening with a hard-capped memory allocation of 150GB to mitigate Log Flooding/Denial of Service (DoS) risks.
 * **[[2nd Part AI Server Automated AI-CyberAgent logs analyzer|2) AI Server Automated CyberAgent Logs Ingestion]]** : End-to-end design of an automated log ingestion pipeline. Configuration of lightweight Vector agents for semantic normalization of Windows Security Logs (EventID 4624) and Linux syslogs sent to a centralized Grafana Loki log database.
 * **[[3rd Part AI n8n Workflow More Detailed Paper|3) AI n8n Crisis Orchestration & Data Parsing]]** : Software engineering applied to crisis orchestration. Deep-dive into custom JavaScript parsing nodes executed inside n8n (handling null-checks, text-slicing for context-window constraints, and JSON payload restructuring) to format raw data before submitting it to the localized LLM.
