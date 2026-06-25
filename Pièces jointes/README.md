@@ -1,0 +1,1 @@
+Just a folder for attaches pieces in my Obsidian
