@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Self-Learning By Myself/Digital Identity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Digital Identity"
             }
           }
         ]
@@ -196,12 +196,14 @@
   },
   "active": "51fc20bf22cf3754",
   "lastOpenFiles": [
+    "Self-Learning By Myself/How Cloudflare Works.md",
+    "Self-Learning By Myself/README.md",
+    "Self-Learning By Myself/Digital Identity.md",
     "README.md",
     "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/README.md",
     "Russian Self-Learning/Planning.md",
-    "Self-Learning By Myself/README.md",
     "Pièces jointes/README.md",
     "Other Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
     "Other Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
@@ -220,8 +222,6 @@
     "Self-Learning By Myself/Sans titre.md",
     "Self-Learning By Myself/_Summary.md",
     "KaramelIa/Calendar/Released mixes and singles.md",
-    "Self-Learning By Myself/_Brainstorms & Notes.md",
-    "Other Projects/Automated Market Studies by AI FOSS",
-    "Russian Self-Learning/A1 Level/My own notes.md"
+    "Other Projects/Automated Market Studies by AI FOSS"
   ]
 }
