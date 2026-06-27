@@ -73,6 +73,8 @@ Protocols and concepts to master:
 - NIS2/RGPD (I will cry I guess)
 - Logs Functioning
 - Yaml/TOML
+- TypeScript
+- Go
 
 n8n Workflow :
 - Simple n8n Workflow: Email Notification on Webhook Trigger
