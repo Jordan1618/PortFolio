@@ -83,3 +83,6 @@ n8n Workflow :
 - Automated Social Media Trend Alerts
 - Multi-Source Incident Correlation Engine
 - Automated Vulnerability Scanner & Patch Management Pipeline (n8n uses a nmap, lists each port open, compare to software application CVEs and send an alert with the patch method)
+
+Annex things :
+- Family Office (business/patrimony)
