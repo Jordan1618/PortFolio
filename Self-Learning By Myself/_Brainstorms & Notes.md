@@ -40,6 +40,7 @@ AI Linked Subjects :
 - Local RAG Document Expiry & Data Lifecycle Automation
 - Offline CVE Vulnerability Matching Pipeline
 - Local LLM Model Weight Integrity Verification
+- Fine-tunning working
 
 More Advanced AI Subjects :
 - Memory Forensic Analysis on Hardened AI Hosts
