@@ -22,7 +22,7 @@ An investment in knowledge pays the best interest
 
 ## Summary
 
-- 
+- [AI Notes](Self-Learning%20By%20Myself/AI%20Notes/README.md)
 - [_Brainstorms & Notes / What I Have to Do](_Brainstorms%20&%20Notes.md)
 * [How Cloudflare Works](How%20Cloudflare%20Works.md)
 * [Microsoft Access Database](Microsoft%20Access%20Database.md)
@@ -31,6 +31,7 @@ An investment in knowledge pays the best interest
 - [Website working - From user to server](Website%20working%20-%20From%20user%20to%20server.md)
 - [Why Dos, .Bat and SNMP](Why%20Dos,%20.Bat%20and%20SNMP.md)
 - [Digital Identity](Digital%20Identity.md)
+- [Galera Cluster](Galera%20Cluster.md)
 
 
 --- 
