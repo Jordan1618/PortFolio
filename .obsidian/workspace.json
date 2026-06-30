@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/README.md",
+                "file": "Self-Learning By Myself/Galera Cluster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Galera Cluster"
             }
           }
         ]
@@ -196,14 +196,17 @@
   },
   "active": "513526ebeefbdfd4",
   "lastOpenFiles": [
-    "Self-Learning By Myself/AI Notes/README.md",
+    "Self-Learning By Myself/How Cloudflare Works.md",
+    "Self-Learning By Myself/Microsoft Access Database.md",
+    "Self-Learning By Myself/Galera Cluster.md",
+    "Self-Learning By Myself/Digital Identity.md",
     "Self-Learning By Myself/README.md",
     "README.md",
+    "Self-Learning By Myself/AI Notes/Untitled.md",
+    "Self-Learning By Myself/AI Notes/README.md",
     "Self-Learning By Myself/AI Notes",
     "Self-Learning By Myself/_Brainstorms & Notes.md",
     "Self-Learning By Myself/Website working - From user to server.md",
-    "Self-Learning By Myself/Digital Identity.md",
-    "Self-Learning By Myself/How Cloudflare Works.md",
     "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
     "Russian Self-Learning/Vocabulary.md",
     "Russian Self-Learning/README.md",
@@ -220,9 +223,6 @@
     "AI Server/3rd Part AI n8n Workflow More Detailed Paper.md",
     "AI Server/2nd Part AI Server Automated AI-CyberAgent logs analyzer.md",
     "AI Server/1st Part AI Server Deployment and an A-to-Z explanations.md",
-    "1 AI Server Deployment and an A-to-Z explanations.md",
-    "Scripting/README.md",
-    "Other Projects/README.md",
     "Other Projects/Automated Market Studies by AI FOSS"
   ]
 }
