@@ -8,4 +8,4 @@ Node sync: new or rejoining nodes catch up via IST (incremental, just the missin
 
 Deployment (3 nodes): install mariadb-server + galera-4, configure wsrep settings (cluster address, node address/name, SST method) identically on each node, bootstrap the first node with `galera_new_cluster`, then start the others normally to auto-sync. Check status via `wsrep_cluster_size` and `wsrep_cluster_status`.
 
-In production, it's typically paired with HAProxy (load-balancing, health-checked on wsrep sync state) and Keepalived (VIP for HA), similar to setups you've already built. Best practice: often route writes to a single active node via HAProxy to avoid certification conflicts, using multi-master purely for HA rather than write load-balancing.
+In production, it's paired with HAProxy (load-balancing, health-checked on wsrep sync state) and Keepalived (VIP for HA), similar to setups you've already built. Best practice: often route writes to a single active node via HAProxy to avoid certification conflicts, using multi-master purely for HA rather than write load-balancing.
