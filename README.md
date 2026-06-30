@@ -1,6 +1,6 @@
 # 🌐 Jordan's CV Hub & Portfolio
 
-> **Welcome to my local knowledge base. This repository tracks my learning journey, showcases production infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach.**
+> **Welcome to my local knowledge base. This repository tracks my learning journey, showcases production infrastructure deployments, custom AI automations, and side-projects built with a deep-understanding approach. I did all this ReadMe by Myself, I wanted to make it more personnal and very representative of who am i**
 
 ---
 ## 🎯 My Vision and My Skills
