@@ -74,6 +74,8 @@
     
 - **Local AI:** Ollama (Mistral 7B, Mixtral), LiteLLM Proxy
     
+- **Others:** Claude Caude (desktop and vscode)
+    
 
 ## 🎯 Strategic Principles
 
