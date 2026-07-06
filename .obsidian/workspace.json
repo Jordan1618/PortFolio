@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FreeLance Activity/README.md",
+                "file": "FreeLance Activity/Self-Host MULTICA (Git Project).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Self-Host MULTICA (Git Project)"
             }
           }
         ]
@@ -196,19 +196,21 @@
   },
   "active": "513526ebeefbdfd4",
   "lastOpenFiles": [
+    "Self-Learning By Myself/_Brainstorms & Notes.md",
+    "Self-Learning By Myself/Digital Identity.md",
+    "KaramelIa/Calendar/Released mixes and singles.md",
+    "FreeLance Activity/README.md",
+    "FreeLance Activity/Self-Host MULTICA (Git Project).md",
     "Self-Learning By Myself/README.md",
     "Self-Learning By Myself/AI Notes/Untitled.md",
     "Self-Learning By Myself/AI Notes/README.md",
-    "FreeLance Activity/README.md",
     "README.md",
     "FreeLance Activity",
     "Self-Learning By Myself/Galera Cluster.md",
     "Other Projects/Idea_Aggregator_For_Companies",
     "Self-Learning By Myself/How Cloudflare Works.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
-    "Self-Learning By Myself/Digital Identity.md",
     "Self-Learning By Myself/AI Notes",
-    "Self-Learning By Myself/_Brainstorms & Notes.md",
     "Self-Learning By Myself/Website working - From user to server.md",
     "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
     "Russian Self-Learning/Vocabulary.md",
@@ -223,8 +225,6 @@
     "KaramelIa/Project Evolution and Documentation.md",
     "AI Server/README.md",
     "AI Server/4th Part Deploying Agent on a Windows Server.md",
-    "AI Server/3rd Part AI n8n Workflow More Detailed Paper.md",
-    "AI Server/2nd Part AI Server Automated AI-CyberAgent logs analyzer.md",
     "Other Projects/Automated Market Studies by AI FOSS"
   ]
 }
