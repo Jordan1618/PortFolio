@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/Galera Cluster.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Galera Cluster"
+              "title": "README"
             }
           }
         ]
@@ -194,12 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "942655884387db5d",
+  "active": "513526ebeefbdfd4",
   "lastOpenFiles": [
+    "Self-Learning By Myself/Galera Cluster.md",
     "Other Projects/Idea_Aggregator_For_Companies",
     "Self-Learning By Myself/How Cloudflare Works.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
-    "Self-Learning By Myself/Galera Cluster.md",
     "Self-Learning By Myself/Digital Identity.md",
     "Self-Learning By Myself/README.md",
     "README.md",
