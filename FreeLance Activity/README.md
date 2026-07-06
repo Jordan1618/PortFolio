@@ -1,6 +1,7 @@
 # Working on Professional projects
 
- **Document of each thing, I can share to show my skills, products and knowledge learned**.
+ **Document of each thing, I can share to show my skills, products and knowledge learned and explain why this project step by step with confidentiality.**
+ 
 ---
 
 ## Main Topics
