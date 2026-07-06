@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513526ebeefbdfd4",
+  "active": "942655884387db5d",
   "lastOpenFiles": [
+    "Other Projects/Idea_Aggregator_For_Companies",
     "Self-Learning By Myself/How Cloudflare Works.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
     "Self-Learning By Myself/Galera Cluster.md",
@@ -222,7 +223,6 @@
     "AI Server/4th Part Deploying Agent on a Windows Server.md",
     "AI Server/3rd Part AI n8n Workflow More Detailed Paper.md",
     "AI Server/2nd Part AI Server Automated AI-CyberAgent logs analyzer.md",
-    "AI Server/1st Part AI Server Deployment and an A-to-Z explanations.md",
     "Other Projects/Automated Market Studies by AI FOSS"
   ]
 }
