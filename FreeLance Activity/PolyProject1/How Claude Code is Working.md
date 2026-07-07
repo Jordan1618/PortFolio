@@ -12,4 +12,5 @@ It can be used to create website/dashboard/automated local pentest tools/debug t
 
 Claude can carry skills to like a Hermes agent. Some skills can be added via skills.sh (a giant bookshelf). For instance : https://www.skills.sh/coreyhaines31/marketingskills/copywriting for copywriting checks and claims.
 
-Claude code can use connectors to automate some actions. 
+Claude code can use connectors to automate some actions. It disposes few more advanced features : Under-agents, tests-tracking, remote control, apercu integrated, MCP connectors.
+
