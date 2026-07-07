@@ -6,4 +6,4 @@ So I have to understand this tool, that is the best in its  category (go look at
 
 # **2) Claude Desktop / Web UI
 
-Claude proposes to use different thing like commands or a local/ssh
+Claude proposes to use different thing like commands or a local/ssh/shared folder
