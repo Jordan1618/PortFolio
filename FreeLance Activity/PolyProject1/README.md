@@ -1,6 +1,6 @@
 # **PolyProject1 - What is it ?**
 
- 
+ It's a dashboard all inclusive for clients who wants to automate by AI, simply, a large panel of features like mail/message/documentations actions. My mission are 
  
 ---
 
