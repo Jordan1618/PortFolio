@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FreeLance Activity/Self-Host MULTICA (Git Project).md",
+                "file": "FreeLance Activity/How Claude Code is Working.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-Host MULTICA (Git Project)"
+              "title": "How Claude Code is Working"
             }
           }
         ]
@@ -196,8 +196,9 @@
   },
   "active": "513526ebeefbdfd4",
   "lastOpenFiles": [
-    "FreeLance Activity/README.md",
     "FreeLance Activity/Self-Host MULTICA (Git Project).md",
+    "FreeLance Activity/How Claude Code is Working.md",
+    "FreeLance Activity/README.md",
     "Self-Learning By Myself/_Brainstorms & Notes.md",
     "Self-Learning By Myself/Digital Identity.md",
     "KaramelIa/Calendar/Released mixes and singles.md",
@@ -224,7 +225,6 @@
     "KaramelIa/DÉMO 1 — Feeling épique (Yes I made it in French).md",
     "KaramelIa/Project Evolution and Documentation.md",
     "AI Server/README.md",
-    "AI Server/4th Part Deploying Agent on a Windows Server.md",
     "Other Projects/Automated Market Studies by AI FOSS"
   ]
 }
