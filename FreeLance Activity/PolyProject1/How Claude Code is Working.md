@@ -10,4 +10,4 @@ Claude proposes to use different thing like commands or a local/ssh/shared folde
 
 It can be used to create website/dashboard/automated local pentest tools/debug tools and etcetera. It's very impressive compared to the old time on how creating a project.
 
-Claude can carry skills to like a Hermes agent
+Claude can carry skills to like a Hermes agent. Some skills can be added via skills.sh (a giant bookshelf). For instance : https://www.skills.sh/coreyhaines31/marketingskills/copywriting for copywriting checks and claims
