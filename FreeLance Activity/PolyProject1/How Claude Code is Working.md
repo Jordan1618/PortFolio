@@ -8,4 +8,5 @@ So I have to understand this tool, that is the best in its  category (go look at
 
 Claude proposes to use different thing like commands or a local/ssh/shared folder or a authorisation granter. We can use /compact to compress  the memory and we can ask for a CLAUDE.MD to take a brief memory for a new conversation and saves tokens to daily/weekly limitation.
 
-It can be used to create website/dashboard/automated local pentest tools/debug tools
+It can be used to create website/dashboard/automated local pentest tools/debug tools and etcetera. It's very impressive compared to the old time on how creating a project.
+
