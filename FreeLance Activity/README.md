@@ -20,7 +20,6 @@ This directory centralizes my personal research, technical comprehensions and id
 
 ## Summary
 
-- [Self-Host MULTICA (Git Project)](Self-Host%20MULTICA%20(Git%20Project).md)
-
+- [PolyProject1](FreeLance%20Activity/PolyProject1/README.md)
 
 --- 
