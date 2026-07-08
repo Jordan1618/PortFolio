@@ -1,3 +1,3 @@
-# **1) How Use Claude C :**
+# **1) How Use Claude Code for That :**
 
-VibeCoding is
+We can use claude on a terminal, install it then asks it by %Claude of use it.
