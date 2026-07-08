@@ -82,7 +82,10 @@ How to have a good management for models :
 Fable 5 is the more intelligent
 Haiku for reading docs or extracting from docs
 9/10 the problem don't come from the model but from us (wrong context uses/wrong skills/dumb zone come before the max tokens limit)
-Subagents = "deploy 100 agents and go make deep search - tokens costly but save context for main session"
+Subagents = "deploy 5 agents and go make deep search/take this personality/look for that/etc - tokens costly but save context for main session"
+R = Claude council = plug in to have multiple points of view
+Define access before problem because each thing claude can use, claude will use = Scooping API keys at the maximum
+Threaten the model don't work, it only increase the risk of hallucination
  
 
 
