@@ -46,11 +46,15 @@ Common traps :
 - Asking for several very different tasks
 - Contradictions
 - Hostility towards it
+- Define too much (marks,)
 Professional tips : 
 - Define success criteria
 - One modification at a time to see where the problem is
 - Use AI to upgrade your prompt by asking it
 - Once it's working, delete redundant sentences to save tokens
+More Explanations :
+1) Claude uses a "just in time"context approach by keeping in mind light references like folder ways or links instead of full files.
+2) For large context : Compact / Summary by AI like the CLAUDE.MD / Multi-agent synthesis
 
 
 
