@@ -30,6 +30,6 @@ The Feedback can now be automated by another agent (for example we can have a fa
 
 How to make this theory works ?
 5-8 iterations max
-Importance of a great Context :
+Importance of a great context : see skills and anthropic recommandations
 
 
