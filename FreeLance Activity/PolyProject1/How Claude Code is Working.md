@@ -81,7 +81,7 @@ Importance of having a second brain = a big file with all NOTES.md/TODO.md into 
 How to have a good management for models :
 Fable 5 is the more intelligent
 Haiku for reading docs or extracting from docs
-
+ 
 
 
 
