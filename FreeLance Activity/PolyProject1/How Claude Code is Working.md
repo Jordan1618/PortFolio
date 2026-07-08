@@ -72,6 +72,7 @@ An exemple of correct prompt is :
 
 Now come back to the video :
 
+There is a concept named the dumb zone, it's the token limitation after that AI starts being useless and aborts itself. Solution : take a larger model or/and do a /compact
 
 
 
