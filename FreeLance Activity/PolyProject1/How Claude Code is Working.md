@@ -26,5 +26,8 @@ The AI is stronger when iterating : 50% efficacity for the first and 5-10% per i
 We can use /loop /goal
 Claude loop works on a 3-steps cycle : Reason(planing next step)-Act(implement,exec)-Look the result(Screenshot+test)
 To put a good loop we ALWAYS need a right ending point : A metric to stop like when x = Y after n cycles
+The Feedback can now be automated by another agent (for example we can have a fable 5 agent for feedbacking what's right or not and a opus 4.6 to code and works - so it's time and tokens saving)
+
+
 
 
