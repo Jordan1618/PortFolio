@@ -75,7 +75,13 @@ Now come back to the video :
 There is a concept named the dumb zone, it's the token limitation after that AI starts being useless and aborts itself. Solution : take a larger model or/and do a /compact
 No need to tell everything to the agent, it can learn by discovering
 Create its own skills is important
-To save space inside context memory you to have the 3-steps checking : Compact/Write(its)
+To save space inside context memory you to have the 3-steps checking : Compact/Write(its statements/learnings : NOTES.md-TODO.md)/Isolate
+Importance of having a second brain = a big file with all NOTES.md/TODO.md into a CLAUDE.MD (we spoke about it before).
+
+How to have a good management for models :
+Fable 5 is the more intelligent
+Haiku for reading docs or extracting from docs
+
 
 
 
