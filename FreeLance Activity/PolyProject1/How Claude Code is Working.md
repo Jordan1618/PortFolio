@@ -81,6 +81,8 @@ Importance of having a second brain = a big file with all NOTES.md/TODO.md into 
 How to have a good management for models :
 Fable 5 is the more intelligent
 Haiku for reading docs or extracting from docs
+9/10 the problem don't come from the model but from us (wrong context uses/wrong skills/dumb zone come before the max tokens limit)
+Subagents = "deploy 100 agents and go make deep search - tokens costly but save context for main session"
  
 
 
