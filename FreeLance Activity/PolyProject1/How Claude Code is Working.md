@@ -38,6 +38,13 @@ In brief :
 2) Motivation/Final Goal (Vocabulary Calibration)
 3) For complex tasks (cut them into numerated steps)
 4) Give an example of a waited output/right answer
-5) Tells what's to do 
+5) Tells what's to do instead of what's to not do
+6) Give a role
+Use of XML marks like <instructions/>What you do</instructions/> (delete the final /) or <thinking/></thinking/> to put the AI thinking process inside
+Common traps :
+- Total Blurry
+- Asks for some very different tasks
+- Contradictions
+- 
 
 
