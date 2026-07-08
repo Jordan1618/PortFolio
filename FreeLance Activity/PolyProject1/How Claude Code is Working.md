@@ -26,11 +26,11 @@ The AI is stronger when iterating : 50% efficacity for the first try and 5-10% p
 We can use /loop /goal
 Claude loop works on a 3-steps cycle : Reason(planing next step)-Act(implement,exec)-Look at the result(Screenshot+test)
 To set up a good loop we ALWAYS need a clear endpoint : A metric to stop like when x = Y after n cycles
-The Feedback can now be automated by another agent (for example we can have a fable 5 agent for feedbacking what's right or not and a opus 4.6 to code and works - so it's time and tokens saving)
+The Feedback can now be automated by another agent (for example we can have a fable 5 agent for feedbacking what's right or wrong and a opus 4.6 to code and works - saving both time and tokens saving)
 
-# **3.1) How to make this theory works ?
+# **3.1) How to make this theory work ?
 
-5-8 iterations max (over, it's a waste of tokens and can add mistakes)
+5-8 iterations max (beyond that, it's a waste of tokens and can add mistakes)
 Importance of a great context : see skills and anthropic recommandations (https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 
 In brief : 
