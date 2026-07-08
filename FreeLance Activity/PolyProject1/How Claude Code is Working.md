@@ -16,7 +16,9 @@ Claude code can use connectors to automate some actions. It disposes few more ad
 
 # **2.1) How skills are working ?**
 
-Simply, skills are a .md with instructions oriented towards one or few missions. It's a file placed inside the agent folder. The usual command to add one is 
-````
-npx skills add https://github.com/THEREQUESTEDSKILL --skill NAME
-```
+Simply, skills are a .md with instructions oriented towards one or few missions. It's a file placed inside the agent folder. The usual command to add one is : npx skills add https://github.com/THEREQUESTEDSKILL --skill NAME
+
+# **3) Claude Code like an engineer 
+
+The source : https://www.youtube.com/watch?v=vvyIiacEl0I
+
