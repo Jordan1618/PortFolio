@@ -1,12 +1,12 @@
 # **1) Why Claude Code :**
 
-VibeCoding is a main part of project building especially when it came to understanding each layer on the project's stack and fundamental knowledge on how tools are functioning. 
+VibeCoding is a main part of project building especially when it comes to understanding each layer of the project's stack and fundamental knowledge on how tools function. 
 
-So I have to understand this tool, that is the best in its  category (go look at main benchmarks publicly available). 
+So I need to understand this tool, that is the best in its  category (go look at main benchmarks publicly available). 
 
 # **2) Claude Desktop / Web UI
 
-Claude proposes to use different thing like commands or a local/ssh/shared folder or a authorisation granter. We can use /compact to compress  the memory and we can ask for a CLAUDE.MD to take a brief memory for a new conversation and saves tokens to daily/weekly limitation.
+Claude proposes to use different things like commands or a local/ssh/shared folder or a authorization granter. We can use /compact to compress  the memory and we can ask for a CLAUDE.MD to take a brief memory for a new conversation and saves tokens to daily/weekly limitation.
 
 It can be used to create website/dashboard/automated local pentest tools/debug tools and etcetera. It's very impressive compared to the old time on how creating a project.
 
@@ -45,6 +45,11 @@ Common traps :
 - Total Blurry
 - Asks for some very different tasks
 - Contradictions
-- 
+- Hostility towards him
+Professional tips : 
+- Define success criteria
+- One modification by one to see where the problem is
+- Use AI to upgrade your prompt by asking it
+- Once it's working, delete the redundant sentences to save tokens
 
 
