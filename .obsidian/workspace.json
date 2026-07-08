@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FreeLance Activity/PolyProject1/How Claude Code is Working.md",
+                "file": "FreeLance Activity/PolyProject1/How To Build Its Own MultiAgent Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How Claude Code is Working"
+              "title": "How To Build Its Own MultiAgent Model"
             }
           }
         ]
@@ -194,15 +194,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "942655884387db5d",
+  "active": "513526ebeefbdfd4",
   "lastOpenFiles": [
-    "README.md",
-    "Projects/KaramelIa/README.md",
     "FreeLance Activity/PolyProject1/How Claude Code is Working.md",
-    "Projects/Auto PortFolio adder for my youtube last watched videos",
+    "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
+    "FreeLance Activity/PolyProject1/How To Build Its Own MultiAgent Model.md",
     "FreeLance Activity/PolyProject1/README.md",
     "FreeLance Activity/README.md",
-    "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
+    "README.md",
+    "Projects/KaramelIa/README.md",
+    "Projects/Auto PortFolio adder for my youtube last watched videos",
     "FreeLance Activity/PolyProject1.md",
     "FreeLance Activity/PolyProject1",
     "Self-Learning By Myself/_Brainstorms & Notes.md",
