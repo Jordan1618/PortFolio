@@ -34,7 +34,7 @@ The Feedback can now be automated by another agent (for example we can have a fa
 Importance of a great context : see skills and anthropic recommandations (https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 
 In brief : 
-1) Clarity and Maximum Specification (flexible, if/else possibility)
+1) Clarity and Maximum Specification (flexible)
 2) Motivation/Final Goal (Vocabulary Calibration)
 3) For complex tasks (cut them into numerated steps)
 4) Give an example of a expected output/right answer
@@ -46,7 +46,7 @@ Common traps :
 - Asking for several very different tasks
 - Contradictions
 - Hostility towards it
-- Define too much (marks, json code, etc)
+- Define too much (too precise)
 Professional tips : 
 - Define success criteria
 - One modification at a time to see where the problem is
@@ -73,6 +73,8 @@ An exemple of correct prompt is :
 Now come back to the video :
 
 There is a concept named the dumb zone, it's the token limitation after that AI starts being useless and aborts itself. Solution : take a larger model or/and do a /compact
+No need to tell everything to the agent, it can learn by discovering
+Create its own skills is important
 
 
 
