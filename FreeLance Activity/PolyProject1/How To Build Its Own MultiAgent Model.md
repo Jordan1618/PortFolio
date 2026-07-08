@@ -1,3 +1,3 @@
-# **1) Why Claude Code :**
+# **1) How Use Claude C :**
 
 VibeCoding is
