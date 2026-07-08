@@ -12,9 +12,9 @@ It can be used to create website/dashboard/automated local pentest tools/debug t
 
 Claude can carry skills just like a Hermes agent. Some skills can be added via skills.sh (a giant bookshelf). For instance : https://www.skills.sh/coreyhaines31/marketingskills/copywriting for copywriting checks and claims.
 
-Claude code can use connectors to automate some actions. It disposes few more advanced features : Under-agents, tests-tracking, remote control, apercu integrated, MCP connectors.
+Claude code can use connectors to automate some actions. It features several advanced capabilities : Under-agents, test-tracking, remote control, integrated preview, MCP connectors.
 
-# **2.1) How skills are working ?**
+# **2.1) How do skills work ?**
 
 Simply, skills are a .md with instructions oriented towards one or few missions. It's a file placed inside the agent folder. The usual command to add one is : npx skills add https://github.com/THEREQUESTEDSKILL --skill NAME
 
@@ -22,10 +22,10 @@ Simply, skills are a .md with instructions oriented towards one or few missions.
 
 The source : https://www.youtube.com/watch?v=vvyIiacEl0I
 
-The AI is stronger when iterating : 50% efficacity for the first and 5-10% per iteration.
+The AI is stronger when iterating : 50% efficacity for the first try and 5-10% per iteration after that.
 We can use /loop /goal
-Claude loop works on a 3-steps cycle : Reason(planing next step)-Act(implement,exec)-Look the result(Screenshot+test)
-To put a good loop we ALWAYS need a right ending point : A metric to stop like when x = Y after n cycles
+Claude loop works on a 3-steps cycle : Reason(planing next step)-Act(implement,exec)-Look at the result(Screenshot+test)
+To set up a good loop we ALWAYS need a clear endpoint : A metric to stop like when x = Y after n cycles
 The Feedback can now be automated by another agent (for example we can have a fable 5 agent for feedbacking what's right or not and a opus 4.6 to code and works - so it's time and tokens saving)
 
 # **3.1) How to make this theory works ?
