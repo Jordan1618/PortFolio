@@ -14,3 +14,9 @@ Claude can carry skills to like a Hermes agent. Some skills can be added via ski
 
 Claude code can use connectors to automate some actions. It disposes few more advanced features : Under-agents, tests-tracking, remote control, apercu integrated, MCP connectors.
 
+# **2.1) How skills are working ?**
+
+Simply, skills are a .md with instructions oriented towards one or few missions. It's a file placed inside the agent folder. The usual command to add one is 
+````
+npx skills add https://github.com/THEREQUESTEDSKILL --skill NAME
+```
