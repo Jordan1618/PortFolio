@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9bd56653173a96cd",
@@ -197,7 +196,7 @@
   },
   "active": "513526ebeefbdfd4",
   "lastOpenFiles": [
-    "Other Projects/Auto PortFolio adder for my youtube last watched videos",
+    "Projects/Auto PortFolio adder for my youtube last watched videos",
     "FreeLance Activity/PolyProject1/README.md",
     "FreeLance Activity/README.md",
     "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
@@ -213,7 +212,7 @@
     "README.md",
     "FreeLance Activity",
     "Self-Learning By Myself/Galera Cluster.md",
-    "Other Projects/Idea_Aggregator_For_Companies",
+    "Projects/Idea_Aggregator_For_Companies",
     "Self-Learning By Myself/How Cloudflare Works.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
     "Self-Learning By Myself/AI Notes",
@@ -223,10 +222,10 @@
     "Russian Self-Learning/README.md",
     "Russian Self-Learning/Planning.md",
     "Pièces jointes/README.md",
-    "Other Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
-    "Other Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
-    "Other Projects/n8n projects (automations)/README.md",
+    "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
+    "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
+    "Projects/n8n projects (automations)/README.md",
     "KaramelIa/README.md",
-    "Other Projects/Automated Market Studies by AI FOSS"
+    "Projects/Automated Market Studies by AI FOSS"
   ]
 }
