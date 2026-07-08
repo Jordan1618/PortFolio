@@ -6,11 +6,11 @@ So I need to understand this tool, that is the best in its  category (go look at
 
 # **2) Claude Desktop / Web UI
 
-Claude proposes to use different things like commands or a local/ssh/shared folder or a authorization granter. We can use /compact to compress  the memory and we can ask for a CLAUDE.MD to take a brief memory for a new conversation and saves tokens to daily/weekly limitation.
+Claude proposes to use different things like commands or a local/ssh/shared folder or a authorization granter. We can use /compact to compress  the memory and we can ask for a CLAUDE.MD to keep a brief summary for new conversations and saves tokens against daily/weekly limitations.
 
-It can be used to create website/dashboard/automated local pentest tools/debug tools and etcetera. It's very impressive compared to the old time on how creating a project.
+It can be used to create website/dashboard/automated local pentest tools/debug tools and so on(=etc). It's very impressive compared to the old time on how creating a project.
 
-Claude can carry skills to like a Hermes agent. Some skills can be added via skills.sh (a giant bookshelf). For instance : https://www.skills.sh/coreyhaines31/marketingskills/copywriting for copywriting checks and claims.
+Claude can carry skills just like a Hermes agent. Some skills can be added via skills.sh (a giant bookshelf). For instance : https://www.skills.sh/coreyhaines31/marketingskills/copywriting for copywriting checks and claims.
 
 Claude code can use connectors to automate some actions. It disposes few more advanced features : Under-agents, tests-tracking, remote control, apercu integrated, MCP connectors.
 
