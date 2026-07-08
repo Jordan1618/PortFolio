@@ -34,22 +34,23 @@ The Feedback can now be automated by another agent (for example we can have a fa
 Importance of a great context : see skills and anthropic recommandations (https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 
 In brief : 
-1) Clarity and Maximum Specification
+1) Clarity and Maximum Specification (flexible, if/else possibility)
 2) Motivation/Final Goal (Vocabulary Calibration)
 3) For complex tasks (cut them into numerated steps)
-4) Give an example of a waited output/right answer
-5) Tells what's to do instead of what's to not do
+4) Give an example of a expected output/right answer
+5) Tells it what to do instead of what's to not to do
 6) Give a role
 Use of XML marks like <instructions/>What you do</instructions/> (delete the final /) or <thinking/></thinking/> to put the AI thinking process inside
 Common traps :
-- Total Blurry
-- Asks for some very different tasks
+- Total blurriness
+- Asking for several very different tasks
 - Contradictions
-- Hostility towards him
+- Hostility towards it
 Professional tips : 
 - Define success criteria
-- One modification by one to see where the problem is
+- One modification at a time to see where the problem is
 - Use AI to upgrade your prompt by asking it
-- Once it's working, delete the redundant sentences to save tokens
+- Once it's working, delete redundant sentences to save tokens
+
 
 
