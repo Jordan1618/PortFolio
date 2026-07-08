@@ -22,3 +22,6 @@ Simply, skills are a .md with instructions oriented towards one or few missions.
 
 The source : https://www.youtube.com/watch?v=vvyIiacEl0I
 
+The AI is stronger when iterating : 50% efficacity for the first and 5-10% per iteration.
+We can use /loop /goal
+
