@@ -8,3 +8,4 @@
 
 - [How Claude Code is Working](How%20Claude%20Code%20is%20Working.md)
 - [Self-Host MULTICA (Git Project)](Self-Host%20MULTICA%20(Git%20Project).md)
+- [How To Build Its Own MultiAgent Model](How%20To%20Build%20Its%20Own%20MultiAgent%20Model.md)
