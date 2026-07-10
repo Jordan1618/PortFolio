@@ -13,7 +13,9 @@ Claude.MD contains : directories architecture, work rules, tones and styles aske
 6) Connect MCP if needed and scoop correctly generated API keys
 7) Agglomerate agents by naming them in a prompt and put an exit folder for every document susceptible to output. And "Make an agent team with X(or Y) agents of shared tasks like : 1) 2) 3)"
 
-# **2) Why a Second Brain ?
+# **2) A Second Video about Claude Code :
+
+https://www.youtube.com/watch?v=Wwkps2u4lp4&t=181s
 
 # **2) Why a Second Brain ?
 
