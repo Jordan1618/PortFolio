@@ -7,4 +7,6 @@ Claude.MD contains : directories architecture, work rules, tones and styles aske
 
 # **2) Why a Second Brain ?
 
+# **2) Why a Second Brain ?
+
 
