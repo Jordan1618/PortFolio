@@ -23,6 +23,6 @@ https://www.youtube.com/watch?v=Wwkps2u4lp4&t=181s
 4) He checks the version with claude --version then claude agents (to open the agents system)
 5) 
 
-# **2) Why a Second Brain ?
+# **3) Why a Second Brain ?
 
 
