@@ -8,7 +8,8 @@ Claude.MD contains : directories architecture, work rules, tones and styles aske
 1) Add files linked to your project
 2) Tells to Claude "init a Claude.MD file"
 3) Create or have a new .MD with a workflow or thinkflow like a procedure
-4) Ask to Claude to transform it into a skill + the skill name + the need AND IMPORTANT : check the context with CLAUDE.MD and other folders + skill must follow the pro
+4) Ask to Claude to transform it into a skill + the skill name + the need AND IMPORTANT : check the context with CLAUDE.MD and other folders + skill must follow the procedure + the tool to be use (model) + obligation to use "skill creator" to be skill-fitting
+5) 
 
 # **2) Why a Second Brain ?
 
