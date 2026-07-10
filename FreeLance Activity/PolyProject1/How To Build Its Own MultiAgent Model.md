@@ -1,4 +1,4 @@
-# **1) How Use Claude Code for That :**
+# **1) How Use Claude Code for That (for a linux instance) :**
 
 We can use Claude on a terminal, install it then asks it by %Claude of use it or VsCode or Desktop Gui
 We create some .MD
