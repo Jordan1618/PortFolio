@@ -5,6 +5,10 @@ We create some .MD
 We ask to Claude to init its Claude.MD (its root main file - To have the context and all memory)
 Claude.MD contains : directories architecture, work rules, tones and styles asked, personas, MCP, Skills ...
 
+1) Add files linked to your project
+2) Tells to Claude "init a Claude.MD file"
+3) 
+
 # **2) Why a Second Brain ?
 
 # **2) Why a Second Brain ?
