@@ -17,6 +17,11 @@ Claude.MD contains : directories architecture, work rules, tones and styles aske
 
 https://www.youtube.com/watch?v=Wwkps2u4lp4&t=181s
 
+1) He uses Claude on VCS and has a VPS on Hostinger for AI with 32Gb RAM
+2) He inserts an ssh command and link its vsc with its vps
+3) He opens its project in a terminal, then drag-and drops it into the code windows in vsc, it's looks like a ssh terminal
+4) He checks the version with claude --version
+
 # **2) Why a Second Brain ?
 
 
