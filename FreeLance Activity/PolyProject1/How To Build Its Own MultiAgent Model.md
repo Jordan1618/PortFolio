@@ -11,6 +11,7 @@ Claude.MD contains : directories architecture, work rules, tones and styles aske
 4) Ask to Claude to transform it into a skill + the skill name + the need AND IMPORTANT : check the context with CLAUDE.MD and other folders + skill must follow the procedure + the tool to be use (model) + obligation to use "skill creator" to be skill-fitting
 5) Create different directories according to your needs and fill them with your logicals and exemples
 6) Connect MCP if needed and scoop correctly generated API keys
+7) Agglomérer les différents agents dans un prompt pour faire 
 
 # **2) Why a Second Brain ?
 
