@@ -23,6 +23,9 @@ https://www.youtube.com/watch?v=Wwkps2u4lp4&t=181s
 4) He checks the version with claude --version then claude agents (to open the agents system)
 
 When I was trying, I Installed ClaudeCode on a PowerShell and it ends up to work. To be fair, I really enjoy the interface.
+I needed to add :
+$env:PATH += ";$env:USERPROFILE\.local\bin"
+After /ide and validated my vsc.
 I put a /bg to make a background working while I open a new powershell and used "claude agents" to access my targeted feature.
 
 Useful commands available in vscode :
