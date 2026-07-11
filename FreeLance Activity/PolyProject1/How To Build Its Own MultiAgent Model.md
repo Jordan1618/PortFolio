@@ -28,6 +28,11 @@ $env:PATH += ";$env:USERPROFILE\.local\bin"
 After /ide and validated my vsc.
 I put a /bg to make a background working while I open a new powershell and used "claude agents" to access my targeted feature.
 
+Technical point : Why The Path variable is important and what is an environmental variable ?
+- An environmental variable is a central point for each program to know where is located each requested ressources with its path.
+- When I type "claude" the program is looking into the path variable if claude.exe is located, therefore it sends back "command not found".
+- In our case we must create the link betwe
+
 Useful commands available in vscode :
 - /compact
 - /clear (not the files cleared)
