@@ -22,6 +22,9 @@ https://www.youtube.com/watch?v=Wwkps2u4lp4&t=181s
 3) He opens its project in a terminal, then drag-and drops it into the code windows in vsc, it's looks like a ssh terminal
 4) He checks the version with claude --version then claude agents (to open the agents system)
 
+When I was trying, I Installed ClaudeCode on a PowerShell and it ends up to work. To be fair, I really enjoy the interface.
+I put a /bg to make a background working while I open a new powershell and used "claude agents" to access my targeted feature.
+
 Useful commands available in vscode :
 - /compact
 - /clear (not the files cleared)
