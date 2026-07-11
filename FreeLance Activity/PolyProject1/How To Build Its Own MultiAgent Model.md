@@ -31,7 +31,9 @@ I put a /bg to make a background working while I open a new powershell and used 
 Technical point : Why The Path variable is important and what is an environmental variable ?
 - An environmental variable is a central point for each program to know where is located each requested ressources with its path.
 - When I type "claude" the program is looking into the path variable if claude.exe is located, therefore it sends back "command not found".
-- In our case we must create the link betwe
+- In our case we must create the link between the folder in claude code responsible for the execute and the path variable
+- The command : [Environment]::SetEnvironmentVariable("PATH", "$env:PATH;$env:USERPROFILE\.local\bin", [EnvironmentVariableTarget]::User)
+  Has many means : 1) Powershell method to write inside the registry 2) The name of the variable to modify 3) The old name +(;) the new folder to add 4) Only for the user not the system.
 
 Useful commands available in vscode :
 - /compact
