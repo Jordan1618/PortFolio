@@ -42,7 +42,6 @@ Useful commands available in vscode :
 - /model --> /model opus
 - /effort
 
-
 # **3) Why a Second Brain ?
 
 
