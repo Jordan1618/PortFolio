@@ -25,4 +25,6 @@ The Temp variable act as a temporary place to download files before deleting the
 
 I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20---%20Automated%20Updates%20V2%20On%20Asp....md)
 
-Added an email notification (via Brevo's API) that only triggers when something goes wrong, so I don't need to check every VM manually.
+- Added an email notification (via Brevo's API) that only triggers when something goes wrong, so I don't need to check every computer/server manually.
+- Added a restart-pending flag, for when some updates need a reboot to fully apply, and that is easy to implement across many machines.
+- Added cleanup of old runtime/SDK folders after a successful update, so versions don't stack like useful folders wasting space and storage over time.
