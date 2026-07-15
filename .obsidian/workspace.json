@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scripting - My Own Tools/Windows 11 Bypassing.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows 11 Bypassing"
+              "title": "Auto-Update .asp-.net-.core-VC+"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scripting - My Own Tools/Windows 11 Bypassing.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Windows 11 Bypassing"
+              "title": "Rétrolien pour Auto-Update .asp-.net-.core-VC+"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scripting - My Own Tools/Windows 11 Bypassing.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Windows 11 Bypassing"
+              "title": "Liens sortants de Auto-Update .asp-.net-.core-VC+"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scripting - My Own Tools/Windows 11 Bypassing.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Windows 11 Bypassing"
+              "title": "Plan de Auto-Update .asp-.net-.core-VC+"
             }
           }
         ]
@@ -186,14 +186,15 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
-    "Scripting - My Own Tools/Tool --- Inject Strengthen Keys.md",
     "Scripting - My Own Tools/Windows 11 Bypassing.md",
-    "Scripting - My Own Tools/Unblock Windows Updates .bat.md",
+    "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
+    "Scripting - My Own Tools/README.md",
+    "Scripting - My Own Tools/Tool --- Unblock Windows Update V2 (Strengthen).md",
+    "Scripting - My Own Tools/Tool --- Unblock Windows Updates V1.md",
+    "Scripting - My Own Tools/Tool --- Inject Strengthen Keys.md",
     "Scripting - My Own Tools/Tool --- Inject Keys.md",
-    "Scripting - My Own Tools/Tool --- Unblock Windows Update.md",
     "conflict-files-obsidian-git.md",
     "Scripting - My Own Tools/PowerShell Fundamental Knowledge.md",
-    "Scripting - My Own Tools/README.md",
     "FreeLance Activity/README.md",
     "Self-Learning By Myself/Galera Cluster.md",
     "Self-Learning By Myself/Digital Identity.md",
@@ -220,7 +221,6 @@
     "Projects",
     "Pièces jointes/README.md",
     "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
-    "FreeLance Activity/PolyProject1/README.md",
     "FreeLance Activity/PolyProject1"
   ]
 }

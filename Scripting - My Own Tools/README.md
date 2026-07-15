@@ -24,7 +24,14 @@ This directory centralizes my custom automation scripts, registry configurations
 ## Summary
 
 * [PowerShell Fundamental Knowledge](PowerShell%20Fundamental%20Knowledge.md)
-* [Unblock Windows Updates .bat](Unblock%20Windows%20Updates%20.bat.md)
+* [Windows 11 Bypassing](Windows%2011%20Bypassing.md)
+
+## My Own Tools 
+
+- [Tool --- Inject Keys](Tool%20---%20Inject%20Keys.md)
+- [Tool --- Inject Strengthen Keys](Tool%20---%20Inject%20Strengthen%20Keys.md)
+- [Tool --- Unblock Windows Updates V1](Tool%20---%20Unblock%20Windows%20Updates%20V1.md)
+- [Tool --- Unblock Windows Update V2 (Strengthen)](Tool%20---%20Unblock%20Windows%20Update%20V2%20(Strengthen).md)
 
 
 ---
