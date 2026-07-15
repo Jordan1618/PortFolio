@@ -4,6 +4,8 @@ I have a lot of computers and servers that need VC++ or different .asp/.net/.cor
 
 # **2) How it's working ?
 
-First for .net/.asp and .runtime, we need to get on the official
+First for .net/.asp and .runtime, we need to get on the official github repo and collect last version before taking the right given url and send a donwload request.
+
+For the VC++ Redist, we have to use the permanent url of Microsoft and an API key
 
 # **3) The total script (in case you need) :
