@@ -20,3 +20,11 @@ This directory centralizes my custom automation scripts, registry configurations
 *   **Deep Understanding:** Force myself to break down every single line of code and master the underlying software or protocols.
 
 ---
+
+## Summary
+
+* [PowerShell Fundamental Knowledge](PowerShell%20Fundamental%20Knowledge.md)
+* [Unblock Windows Updates .bat](Unblock%20Windows%20Updates%20.bat.md)
+
+
+---

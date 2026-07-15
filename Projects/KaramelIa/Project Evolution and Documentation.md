@@ -45,3 +45,23 @@
 	2) Subscribing to a musical distribution for a high and fast avaibility of my songs. I just need more money to complete that :)
 	3) Do a calendar of how i will organise my lore's publication and around which main event
 - I Just made some updates to the [Calendar](Released%20mixes%20and%20singles.md)
+
+## 21/06/2026 :
+
+- I look for updating content on TikTok or Instagram and I don't want it now, I have other priorities to resolve before.
+- For the musical distribution and Calendar I will made it later.
+- Actually I have worked on my knowledge of musical AI, I tried new music type and their functioning but no one really escape from a pop/rock mood. Even when clearly specified.
+- Now I want to upgrade again my master prompt to mix feeling + just a complex poetry generator to use the strength of Suno + resize which part is usefull
+- I Add to give periodical advice and to keep in memory vocal and visual KaramelIa's signature.
+- I have just finished now and I can tell you, it's a very big piece of my creation. Absolutely beautifull. Whether it’s about generating some 30 precise feelings through an emotional workflow that blends the soulful depth of each track I express, or the meaning of the lyrics, to which I’ve anchored the profound quality of a variable and adjustable workflow. It's consigned in : [DÉMO 1 — Feeling épique (Yes I made it in French)](DÉMO%201%20—%20Feeling%20épique%20(Yes%20I%20made%20it%20in%20French).md)
+
+- Currently I'm working on WW1 Military songs. They have such a soul. But It's very All-consuming. The French and The German are very beautifull. It will be a tribute for me and KaramelIA.
+
+
+# **Mix or Single Ideas**
+
+### Mix :
+- Military songs but on a rock instrumental
+
+### Single :
+- 

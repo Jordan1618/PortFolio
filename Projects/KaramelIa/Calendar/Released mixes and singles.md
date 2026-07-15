@@ -41,6 +41,23 @@ Nb: The quality will upgrade, step by step with experience.
 **Duration:** 1H08min07s
 **Watch here:** [[Link to the Video](https://youtu.be/e6HzhuGdjXA)]
 
+## 8) **REMEMBER THE LIGHTHOUSE SHADOW | KaramelIa - X **
+**Release Date:**28th June, 2026, 16H00
+**Duration:** 44min36s
+**Watch here:** [[Link to the Video](https://youtu.be/qhUZM6uEc5E)]
+
+## 9) **CALM OF CONTROL | KaramelIa - X **
+**Release Date:**5th July, 2026, 16H00
+**Duration:** 1H05min19s
+**Watch here:** [[Link to the Video](https://youtu.be/Tn8Easy-jAs)]
+
+## 10) **YOU'RE CHILLING IN A PLAIN | KaramelIa - X **
+**Release Date:**12th July, 2026, 16H00
+**Duration:** 1H29min44s
+**Watch here:** [[Link to the Video](https://youtu.be/O9gZixxnqWI)]
+
+
+
 # Release Model for Single
 ***Title of the Single*** *(And the feeling i wanted to musicalize)* 
 ***Release Date:** XX Month, XXHXX* 
@@ -76,3 +93,18 @@ Nb: The quality will upgrade, step by step with experience.
 **Release Date:** 17th June, 2026, 16H00 
 **Duration:** 4min59
 **Watch here:** [[Link to the Video](https://youtu.be/NI2l9jI4VQ0)]
+
+## 7) **The Shadow Proves The Light | KaramelIa - X**
+**Release Date:** 24th June, 2026, 17H00 
+**Duration:** 3min38
+**Watch here:** [[Link to the Video](https://youtu.be/yQXImIJqGPs)]
+
+## 8) **THE EMINENCE GRISE | KaramelIa - X**
+**Release Date:** 1st July, 2026, 16H00 
+**Duration:** 6min11
+**Watch here:** [[Link to the Video](https://youtu.be/8uQb_TowfS0)]
+
+## 9) **OPEN GROUND | KaramelIa - X**
+**Release Date:** 8th July, 2026, 16H00 
+**Duration:** 4min46
+**Watch here:** [[Link to the Video](https://youtu.be/mhQx87hNECw)]

@@ -19,3 +19,19 @@ An investment in knowledge pays the best interest
 *   **Deep Understanding:** Force myself to explain complex IT concepts simply.
 
 ---
+
+## Summary
+
+- [AI Notes](Self-Learning%20By%20Myself/AI%20Notes/README.md)
+- [_Brainstorms & Notes / What I Have to Do](_Brainstorms%20&%20Notes.md)
+* [How Cloudflare Works](How%20Cloudflare%20Works.md)
+* [Microsoft Access Database](Microsoft%20Access%20Database.md)
+* [The RDP Protocol (Remote Desktop Protocol) and VNC](The%20RDP%20Protocol%20(Remote%20Desktop%20Protocol)%20and%20VNC.md)
+- [Tor Network and Onion Routing](Tor%20Network%20and%20Onion%20Routing.md)
+- [Website working - From user to server](Website%20working%20-%20From%20user%20to%20server.md)
+- [Why Dos, .Bat and SNMP](Why%20Dos,%20.Bat%20and%20SNMP.md)
+- [Digital Identity](Digital%20Identity.md)
+- [Galera Cluster](Galera%20Cluster.md)
+
+
+--- 

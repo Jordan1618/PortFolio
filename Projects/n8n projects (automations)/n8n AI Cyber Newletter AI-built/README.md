@@ -49,3 +49,9 @@ To block any external intrusion vectors, the firewall rules are strictly hardene
 ### ### Secrets Management
 
 All sensitive variables (`N8N_ENCRYPTION_KEY`, API tokens, SMTP credentials) are managed through a restricted `.env` file (`chmod 600`) and are never modified into the configuration files.
+
+---
+
+## Summary
+
+* [The Project. Step by step](The%20Project.%20Step%20by%20step.md)

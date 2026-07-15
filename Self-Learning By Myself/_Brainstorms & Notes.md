@@ -40,6 +40,7 @@ AI Linked Subjects :
 - Local RAG Document Expiry & Data Lifecycle Automation
 - Offline CVE Vulnerability Matching Pipeline
 - Local LLM Model Weight Integrity Verification
+- Fine-tunning working
 
 More Advanced AI Subjects :
 - Memory Forensic Analysis on Hardened AI Hosts
@@ -73,6 +74,8 @@ Protocols and concepts to master:
 - NIS2/RGPD (I will cry I guess)
 - Logs Functioning
 - Yaml/TOML
+- TypeScript
+- Go
 
 n8n Workflow :
 - Simple n8n Workflow: Email Notification on Webhook Trigger
@@ -81,3 +84,6 @@ n8n Workflow :
 - Automated Social Media Trend Alerts
 - Multi-Source Incident Correlation Engine
 - Automated Vulnerability Scanner & Patch Management Pipeline (n8n uses a nmap, lists each port open, compare to software application CVEs and send an alert with the patch method)
+
+Annex things :
+- Family Office (business/patrimony)
