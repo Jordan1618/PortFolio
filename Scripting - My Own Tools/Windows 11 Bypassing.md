@@ -10,7 +10,7 @@ The Windows 11 was locked in 21H2 or 22H2 version
 They blocked updates system so I have to change something :
 Unblock Windows Update auto-update
 Inject keys into the regedit
-Mount W11 Iso
+Mount W11 Iso (the official is working but you need to download it on another SDD then plug this SSD on your computer / copy it on the desktop (faster than downloading it))
 Test if it's working
 
 # **2) How I solve it :
@@ -21,4 +21,4 @@ For 1 PC I had to create my own [Tool --- Inject Strengthen Keys](Tool%20---%20I
 
 # **3) How have built my tools ?
 
-Very important : I create my tools based on what I need and mostly
+Very important : I create/created my tools based on what I needed and what I want to learn. Having its own tools is a benediction for everybody who want to learn. After I test, I shared them with a procedure to all my team.
