@@ -98,3 +98,5 @@
 * [Scripting](Scripting%20-%20My%20Own%20Tools/README.md)
 * [Self-Learning](Self-Learning%20By%20Myself/README.md)
 * [Free Lance](FreeLance%20Activity/README.md)
+
+Nb : Sometime you will see French. It's normal, I'm French and some example can contain a little part of that. Be sure, I speak a fluent English and I'm learning more and more at each new documentation
