@@ -9,10 +9,12 @@ First for .net/.asp and .runtime, we need to get on the official github repo and
 For the VC++ Redist, we have to use the permanent url of Microsoft and an API key to download the last version and updates it.
 
 The path of the script :
+- Variables defining
 - Internet test
 - Download VC++
 - Get last versions of . files and download before comparing with installed
 - Clear resume
+
 
 The Temp variable act as a temporary place to download files before deleting them.
 # **3) The total script (in case you need) :
