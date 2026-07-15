@@ -20,3 +20,7 @@ The Temp variable act as a temporary place to download files before deleting the
 # **3) The total script (in case you need) :
 
 [Tool --- Automated Updates on AspCoreNetRuntimeVC++](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++.md)
+
+
+# **4) The final functioning after I add more features :
+
