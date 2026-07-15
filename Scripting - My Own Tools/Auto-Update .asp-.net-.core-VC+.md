@@ -6,6 +6,13 @@ I have a lot of computers and servers that need VC++ or different .asp/.net/.cor
 
 First for .net/.asp and .runtime, we need to get on the official github repo and collect last version before taking the right given url and send a donwload request.
 
-For the VC++ Redist, we have to use the permanent url of Microsoft and an API key
+For the VC++ Redist, we have to use the permanent url of Microsoft and an API key to download the last version and updates it.
 
+The path of the script :
+- Internet test
+- Download VC++
+- Get last versions of . files and download before comparing with installed
+- Clear resume
+
+The Temp variable act as a temporary place to download files before deleting them.
 # **3) The total script (in case you need) :
