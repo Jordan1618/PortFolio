@@ -4,6 +4,6 @@ I have a lot of computers and servers that need VC++ or different .asp/.net/.cor
 
 # **2) How it's working ?
 
-First, 
+First for .net/.asp and .runtime, we need to get on the official
 
 # **3) The total script (in case you need) :
