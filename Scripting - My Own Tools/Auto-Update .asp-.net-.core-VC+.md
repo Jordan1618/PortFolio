@@ -21,6 +21,8 @@ The Temp variable act as a temporary place to download files before deleting the
 
 [Tool --- Automated Updates on AspCoreNetRuntimeVC++](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++.md)
 
-
 # **4) The final functioning after I add more features :
 
+I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20---%20Automated%20Updates%20V2%20On%20Asp....md)
+
+Added an email notification (via Brevo's API) that only triggers when something goes wrong, so I don't need to check every VM manually.
