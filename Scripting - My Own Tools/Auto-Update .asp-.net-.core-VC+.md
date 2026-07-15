@@ -11,10 +11,12 @@ For the VC++ Redist, we have to use the permanent url of Microsoft and an API ke
 The path of the script :
 - Variables defining
 - Internet test
-- Download VC++
+- Compare and Download VC++
 - Get last versions of . files and download before comparing with installed
 - Clear resume
 
 
 The Temp variable act as a temporary place to download files before deleting them.
 # **3) The total script (in case you need) :
+
+[Tool --- Automated Updates on AspCoreNetRuntimeVC++](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++.md)
