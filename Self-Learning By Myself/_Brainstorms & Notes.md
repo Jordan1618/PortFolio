@@ -1,8 +1,5 @@
 ## **It's just an Ideas List / A Kind Of To Do List :**
 
-High Priority :
-- Add My Current Tools ans scripts and methods for Wuauserv/windows11update/25H2WuProblems : Problem - Proposed Solutions - Methods - Results
-
 Various Ideas :
 - Britanny Chiang and his PortFolio
 - BrunoSimon PortFolio Too

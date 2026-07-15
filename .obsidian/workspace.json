@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "c817493796dbb5a5",
+    "id": "ae7a5b5e9b42cc47",
     "type": "split",
     "children": [
       {
-        "id": "03fe624aeff51a72",
+        "id": "f3f3410679a5b8be",
         "type": "tabs",
         "children": [
           {
-            "id": "513526ebeefbdfd4",
+            "id": "9e8a33d07ecc89b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FreeLance Activity/PolyProject1/How To Build Its Own MultiAgent Model.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How To Build Its Own MultiAgent Model"
+              "title": "Auto-Update .asp-.net-.core-VC+"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e9cb403817930c0d",
+    "id": "500cdb9d21c8b96c",
     "type": "split",
     "children": [
       {
-        "id": "e9bc4bc3dbea38e1",
+        "id": "18a6e3e0ac112a1a",
         "type": "tabs",
         "children": [
           {
-            "id": "942655884387db5d",
+            "id": "f670e7a6e44ebe85",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "18d416df69c1f618",
+            "id": "9defbed90a050f85",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,51 +61,40 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Rechercher"
             }
           },
           {
-            "id": "80cc8e01ec6a5d98",
+            "id": "e332c3f5216bb684",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "ee10ccf7378faa3f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Signets"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "9bd56653173a96cd",
+    "id": "9f26e4882cdc12d5",
     "type": "split",
     "children": [
       {
-        "id": "54779c24582fcfcc",
+        "id": "13bf419f79b70e35",
         "type": "tabs",
         "children": [
           {
-            "id": "5580295236e9172a",
+            "id": "3cb169d5e337d070",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Released mixes and singles"
+              "title": "Rétrolien pour Auto-Update .asp-.net-.core-VC+"
             }
           },
           {
-            "id": "29da4ae5b6d0605d",
+            "id": "c2600892074d2128",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Released mixes and singles"
+              "title": "Liens sortants de Auto-Update .asp-.net-.core-VC+"
             }
           },
           {
-            "id": "9468bb385eb2cab2",
+            "id": "3aa1eaada9f08f53",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
-            "id": "e15012296ace1633",
+            "id": "f2d7bdfb70293013",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -158,22 +147,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Toutes les propriétés"
             }
           },
           {
-            "id": "6443cf0355c07c13",
+            "id": "baf3d70113e9d03c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "KaramelIa/Calendar/Released mixes and singles.md",
+                "file": "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Released mixes and singles"
+              "title": "Plan de Auto-Update .asp-.net-.core-VC+"
             }
           }
         ]
@@ -195,39 +184,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513526ebeefbdfd4",
+  "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
-    "FreeLance Activity/PolyProject1/README.md",
-    "FreeLance Activity/PolyProject1/How To Build Its Own MultiAgent Model.md",
-    "FreeLance Activity/PolyProject1/How Claude Code is Working.md",
-    "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
-    "FreeLance Activity/README.md",
-    "README.md",
-    "Projects/KaramelIa/README.md",
-    "Projects/Auto PortFolio adder for my youtube last watched videos",
-    "FreeLance Activity/PolyProject1.md",
-    "FreeLance Activity/PolyProject1",
-    "Self-Learning By Myself/_Brainstorms & Notes.md",
-    "Self-Learning By Myself/Digital Identity.md",
-    "Projects/KaramelIa/Calendar/Released mixes and singles.md",
+    "Scripting - My Own Tools/README.md",
+    "Scripting - My Own Tools/Tool --- Unblock Windows Updates V1.md",
+    "Scripting - My Own Tools/Tool --- Unblock Windows Updates V2 (Strengthen).md",
+    "Scripting - My Own Tools/Auto-Update .asp-.net-.core-VC+.md",
+    "Scripting - My Own Tools/Tool --- Automated Updates V2 On Asp....md",
+    "Self-Learning By Myself/Tor Network and Onion Routing.md",
+    "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
     "Self-Learning By Myself/README.md",
+    "Self-Learning By Myself/Microsoft Access Database.md",
+    "Self-Learning By Myself/How Cloudflare Works.md",
+    "Self-Learning By Myself/Galera Cluster.md",
+    "Self-Learning By Myself/Digital Identity.md",
+    "Self-Learning By Myself/_Brainstorms & Notes.md",
+    "Scripting - My Own Tools/Tool --- Automated Updates on AspCoreNetRuntimeVC++.md",
+    "Scripting - My Own Tools/Tool --- Inject Keys.md",
+    "Scripting - My Own Tools/Tool --- Inject Strengthen Keys.md",
+    "README.md",
+    "Pièces jointes/README.md",
+    "Scripting - My Own Tools/Windows 11 Bypassing.md",
+    "conflict-files-obsidian-git.md",
+    "Scripting - My Own Tools/PowerShell Fundamental Knowledge.md",
+    "FreeLance Activity/README.md",
     "Self-Learning By Myself/AI Notes/Untitled.md",
     "Self-Learning By Myself/AI Notes/README.md",
-    "FreeLance Activity",
-    "Self-Learning By Myself/Galera Cluster.md",
-    "Projects/Idea_Aggregator_For_Companies",
-    "Self-Learning By Myself/How Cloudflare Works.md",
-    "Self-Learning By Myself/Microsoft Access Database.md",
     "Self-Learning By Myself/AI Notes",
-    "Self-Learning By Myself/Website working - From user to server.md",
-    "Russian Self-Learning/C2 Level/C2 Russian Learning Dashboard.md",
-    "Russian Self-Learning/Vocabulary.md",
-    "Russian Self-Learning/README.md",
-    "Russian Self-Learning/Planning.md",
-    "Pièces jointes/README.md",
-    "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
+    "Scripting - My Own Tools",
     "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/The Project. Step by step.md",
-    "Projects/n8n projects (automations)/README.md",
-    "Projects/Automated Market Studies by AI FOSS"
+    "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built/README.md",
+    "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built",
+    "Projects/KaramelIa/n8n KaramelIa Workflow",
+    "Projects/KaramelIa/Calendar",
+    "Projects/n8n projects (automations)",
+    "Projects/KaramelIa",
+    "Projects/Financial Market Daily&Monthly Intelligence",
+    "Projects",
+    "FreeLance Activity/PolyProject1"
   ]
 }
