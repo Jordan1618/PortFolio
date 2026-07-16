@@ -17,6 +17,12 @@
 - wf.msc : Firewall Windows
 - lusrmgr.msc : Manages local Users and Groups (except the AD ones)
 
-# **3) General Dia
+# **3) General Diagnostics
 
-- secpol.msc : Displays all your security
+- devmgmt.msc : Device manager
+- diskmgmt.msc : Disk Manager
+- msconfig : System Conf
+- msinfo32 : All system Information
+- regedit : You know and I know
+- optionalfeatures : Enables or disables other features. (Needs it's own Cheat Sheet I guess)
+- cleanmgr : To clear unne
