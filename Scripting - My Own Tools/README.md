@@ -35,5 +35,7 @@ This directory centralizes my custom automation scripts, registry configurations
 - [Tool --- Automated Updates on AspCoreNetRuntimeVC++](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++.md)
 - [Tool --- Automated Updates V2 On Asp...](Tool%20---%20Automated%20Updates%20V2%20On%20Asp....md)
 
+- [Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them)](Cheat%20Sheet%20Windows%20Tools%20Essentials%20(Win+R)%20(there%20is%20too%20many%20of%20them).md)
+
 
 ---
