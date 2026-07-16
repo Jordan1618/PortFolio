@@ -35,9 +35,17 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 
 # **5) And how I automated it on my computer :
 
-1) I create an appropriate folder at my Pc's root :
+1) I created an appropriate folder at my Pc's root :
 	New-Item -Path "C:\ScriptsJordan" -ItemType Directory -Force
 2) cd "C:\ScriptsJordan"
 3) I authorized the script execution :
 	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-4
+4) I defined the program to execute and arguments linked :
+	$Action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument '-NoProfile -ExecutionPolicy Bypass -File "C:\ScriptsJordan\Update-DotNet-V2++.ps1"'
+5) I defined the trigger :
+	$Trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Wednesday -At 8pm
+6) I defined the UID for the execution of the task (there it is system) :
+	$Principal = New-ScheduledTaskPrincipal -UserId "SYSTEM" -LogonType ServiceAccount -RunLevel Highest
+7) I defined retry condition in cas of failure :
+	$Settings = New-ScheduledTaskSettingsSet -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 10) -StartWhenAvailable -DontStopOnIdleEnd
+8) I combined each variable defined before in a list of argument to create the 
