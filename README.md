@@ -95,7 +95,7 @@
 * [n8n Projects (Inside Other Projects)](Projects/n8n%20projects%20(automations)/README.md)
 * [Other Projects](Projects/README.md) (The Unstarted)
 * [Russian Self-Learning](Russian%20Self-Learning/README.md)
-* [Scripting](Scripting%20-%20My%20Own%20Tools/README.md)
+* [Scripting](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 * [Self-Learning](Self-Learning%20By%20Myself/README.md)
 * [Free Lance](FreeLance%20Activity/README.md)
 

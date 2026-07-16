@@ -2,15 +2,13 @@
 # A real need and i wanted to create my own tools
 
 ---
-# Scripting | Automation & System Tools
+# Automation & System Tools
 
 **Documentation of everything I craft and deploy to eliminate repetitive tasks, optimize environments, and accelerate my technical capabilities.**
 
 ---
-
 ## Main Topics
 This directory centralizes my custom automation scripts, registry configurations, and dives into shell scripting.
-
 
 ---
 
@@ -21,11 +19,6 @@ This directory centralizes my custom automation scripts, registry configurations
 
 ---
 
-## Summary
-
-* [PowerShell Fundamental Knowledge](PowerShell%20Fundamental%20Knowledge.md)
-* [Windows 11 Bypassing](Windows%2011%20Bypassing.md)
-
 ## My Own Tools 
 
 - [Tool --- Inject Keys](Tool%20---%20Inject%20Keys.md)
@@ -34,6 +27,8 @@ This directory centralizes my custom automation scripts, registry configurations
 - [Tool --- Unblock Windows Updates V2 (Strengthen)](Tool%20---%20Unblock%20Windows%20Updates%20V2%20(Strengthen).md)
 - [Tool --- Automated Updates on AspCoreNetRuntimeVC++](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++.md)
 - [Tool --- Automated Updates V2 On Asp...](Tool%20---%20Automated%20Updates%20V2%20On%20Asp....md)
+
+## My Cheat Sheets
 
 - [Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them)](Cheat%20Sheet%20Windows%20Tools%20Essentials%20(Win+R)%20(there%20is%20too%20many%20of%20them).md)
 
