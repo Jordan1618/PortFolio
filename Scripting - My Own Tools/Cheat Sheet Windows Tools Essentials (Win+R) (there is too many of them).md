@@ -13,6 +13,10 @@
 
 - secpol.msc : Displays all your security policies
 - gpedit.msc : Useful for testing locally before making any change
-- certmgr.msc : Manages certificates in internal / useful for HTTPS
+- certmgr.msc : Manages certificates in internal / useful for HTTPS or different access
 - wf.msc : Firewall Windows
-- lusrmgr.msc : Manages local Users and Groups
+- lusrmgr.msc : Manages local Users and Groups (except the AD ones)
+
+# **3) General Dia
+
+- secpol.msc : Displays all your security
