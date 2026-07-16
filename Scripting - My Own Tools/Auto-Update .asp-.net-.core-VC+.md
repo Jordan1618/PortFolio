@@ -48,4 +48,17 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 	$Principal = New-ScheduledTaskPrincipal -UserId "SYSTEM" -LogonType ServiceAccount -RunLevel Highest
 7) I defined retry condition in cas of failure :
 	$Settings = New-ScheduledTaskSettingsSet -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 10) -StartWhenAvailable -DontStopOnIdleEnd
-8) I combined each variable defined before in a list of argument to create the 
+8) I combined each variable defined before in a list of argument to create the task wished :
+	Register-ScheduledTask -TaskName "Update-DotNet-VCRedist" -Action $Action -Trigger $Trigger -Principal $Principal -Settings $Settings -Description "Automatic Updates for VcRedist and .net/core/..."
+	
+	Nb : We can see, I added a description and a name in arguments. We can use too the taskschd.msc to make it graphically. 
+9) Verifications and deleting :
+- Get-ScheduledTask -TaskName "Update-DotNet-VCRedist"
+	Is the task existing ?
+- Get-ScheduledTaskInfo -TaskName "Update-DotNet-VCRedist"
+	Get information on the task
+- Start-ScheduledTask -TaskName "Update-DotNet-VCRedist"
+	Launch it manually
+- Unregister-ScheduledTask -TaskName "Update-DotNet-VCRedist" -Confirm:$false
+	Delete the task
+
