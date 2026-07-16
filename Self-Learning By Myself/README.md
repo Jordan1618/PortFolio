@@ -23,7 +23,7 @@ An investment in knowledge pays the best interest
 ## Main Pools of Learning
 
 - [AI Notes](Self-Learning%20By%20Myself/AI%20Notes/README.md)
-- [Scripting/PowerShell](Self-Learning%20By%20Myself/Scripting%20&%20Automation/README.md)
+- [Scripting/PowerShell](Self-Learning%20By%20Myself/4%20-%20Scripting%20&%20Automation/README.md)
 
 ## Notes Summary 
 
