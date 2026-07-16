@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
+                "file": "Self-Learning By Myself/3 - Security & Anonymity/DLL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Auto-Update .asp-.net-.core-VC+"
+              "title": "DLL"
             }
           }
         ]
@@ -186,8 +186,10 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
-    "Self-Learning By Myself/3 - Security & Anonymity/README.md",
     "Self-Learning By Myself/3 - Security & Anonymity/Sysmon Windows.md",
+    "Self-Learning By Myself/3 - Security & Anonymity/DLL.md",
+    "Self-Learning By Myself/3 - Security & Anonymity/README.md",
+    "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them).md",
     "README.md",
     "Self-Learning By Myself/README.md",
@@ -217,10 +219,8 @@
     "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
     "Projects/Project To Do/README.md",
     "Projects/Project To Do",
-    "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
     "Self-Learning By Myself/4 - Scripting & Automation/PowerShell Fundamental Knowledge.md",
     "Self-Learning By Myself/4 - Scripting & Automation/Windows 11 Bypassing.md",
-    "My Own Tools - Cheat Sheets/Tool --- Automated Updates V2 On Asp....md",
     "Self-Learning By Myself/4 - Scripting & Automation"
   ]
 }
