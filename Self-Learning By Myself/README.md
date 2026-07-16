@@ -29,9 +29,8 @@ An investment in knowledge pays the best interest
 - [Digital Concepts & Database](Self-Learning%20By%20Myself/5%20-%20Digital%20Concepts%20&%20Database/README.md)
 - [Compliance & Governance](Self-Learning%20By%20Myself/6%20-%20Compliance%20&%20Governance/README.md)
 
----
-
 ## Toolbox :
 
 - [Personal Tools & Cheat Sheets](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 
+---
