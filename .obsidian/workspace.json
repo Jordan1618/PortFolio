@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/Scripting/README.md",
+                "file": "Projects/Project To Do/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,10 +186,12 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
+    "Self-Learning By Myself/Scripting/README.md",
+    "Projects/Project To Do/README.md",
+    "Projects/Project To Do",
     "My Own Tools - Cheat Sheets/README.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them).md",
-    "Self-Learning By Myself/Scripting/README.md",
     "Self-Learning By Myself/Scripting/Auto-Update .asp-.net-.core-VC+.md",
     "Self-Learning By Myself/Scripting/PowerShell Fundamental Knowledge.md",
     "Self-Learning By Myself/Scripting/Windows 11 Bypassing.md",
@@ -212,7 +214,6 @@
     "Pièces jointes/README.md",
     "conflict-files-obsidian-git.md",
     "FreeLance Activity/README.md",
-    "Self-Learning By Myself/AI Notes/Untitled.md",
     "Self-Learning By Myself/AI Notes",
     "My Own Tools - Cheat Sheets",
     "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built",
@@ -220,7 +221,6 @@
     "Projects/KaramelIa/Calendar",
     "Projects/n8n projects (automations)",
     "Projects/KaramelIa",
-    "Projects/Financial Market Daily&Monthly Intelligence",
-    "Projects"
+    "Projects/Financial Market Daily&Monthly Intelligence"
   ]
 }
