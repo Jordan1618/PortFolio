@@ -6,6 +6,7 @@
 - perfmon/resmon : To see/monitor what ressources and performances are used or free on disk/memory/CPU/network AND the PID
 	Nb : "Get-Process -Id <PID> | Format-List *" in a PowerShell Helps a lot to find more detail on a running task/service/program | IT IS VERY EFFICIENT AND FULFILL MY NEED
 	Nb2 : I can go further with Sysinternals (I just have to donwload it on a classic browser and unzip the suite) https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+	Then I exec in admin Process Explorer and enjoy this beautiful tool.
 	
   
 
