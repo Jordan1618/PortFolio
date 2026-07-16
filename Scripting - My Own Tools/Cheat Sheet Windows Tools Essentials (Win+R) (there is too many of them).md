@@ -9,7 +9,6 @@
 	Then I exec in admin Process Explorer and enjoy this beautiful tool.
 - compmgmt.msc : To have and control all the previous tools !!! Incredible. This + Process Explorer are game changer in AdminSys field.
   
-
-# **2) How it's working ?
+# **2) Security and Compliancy
 
 First for .net/.asp and .runtime, we need to get on the official github repo and collect last version before taking the right given url and send a donwload request.
