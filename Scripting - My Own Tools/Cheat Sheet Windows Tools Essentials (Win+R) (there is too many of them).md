@@ -11,4 +11,8 @@
   
 # **2) Security and Compliancy
 
-First for .net/.asp and .runtime, we need to get on the official github repo and collect last version before taking the right given url and send a donwload request.
+- secpol.msc : Displays all your security policies
+- gpedit.msc : Useful for testing locally before making any change
+- certmgr.msc : Manages certificates in internal / useful for HTTPS
+- wf.msc : Firewall Windows
+- lusrmgr.msc : Manages local Users and Groups
