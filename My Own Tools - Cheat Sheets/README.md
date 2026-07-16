@@ -31,6 +31,7 @@ This directory centralizes my custom automation scripts, registry configurations
 ## My Cheat Sheets
 
 - [Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them)](Cheat%20Sheet%20Windows%20Tools%20Essentials%20(Win+R)%20(there%20is%20too%20many%20of%20them).md)
+- [Cheat Sheet on Additional Features in Win+R](Cheat%20Sheet%20on%20Additional%20Features%20in%20Win+R.md)
 
 
 ---
