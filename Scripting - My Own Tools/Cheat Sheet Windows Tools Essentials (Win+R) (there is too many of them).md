@@ -4,6 +4,8 @@
 - eventvwr.msc : Display all important errors and warnings + informations in details even if not important.
 - services.msc : To manage service running in background or not / create one (I prefer the PowerShell in this case)
 - perfmon/resmon : To see/monitor what ressources and performances are used or free on disk/memory/CPU/network AND the PID
+	Nb : "Get-Process -Id <PID> | Format-List *" in a PowerShell Helps a lot to find more detail on a running task/service/program | IT IS VERY EFFICIENT AND FULFILL MY NEED
+	Nb2 : I can go further with Sysinternals (I just have to donwload it on )
   
 
 # **2) How it's working ?
