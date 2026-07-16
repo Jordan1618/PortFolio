@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
+                "file": "Self-Learning By Myself/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cheat Sheet on Additional Features in Win+R"
+              "title": "README"
             }
           }
         ]
@@ -184,10 +184,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e8a33d07ecc89b7",
+  "active": "f670e7a6e44ebe85",
   "lastOpenFiles": [
-    "Projects/Project To Do/README.md",
+    "Self-Learning By Myself/Browser",
+    "Self-Learning By Myself/Sans titre.md",
+    "FreeLance Activity/PolyProject1/How Claude Code is Working.md",
+    "Self-Learning By Myself/Infrastructure",
+    "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
+    "FreeLance Activity/PolyProject1/How To Build Its Own MultiAgent Model.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
+    "Projects/Project To Do/README.md",
     "Self-Learning By Myself/Scripting/README.md",
     "Projects/Project To Do",
     "My Own Tools - Cheat Sheets/README.md",
@@ -204,23 +210,17 @@
     "Self-Learning By Myself/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
     "Self-Learning By Myself/Microsoft Access Database.md",
     "Self-Learning By Myself/How Cloudflare Works.md",
-    "Self-Learning By Myself/Galera Cluster.md",
+    "Self-Learning By Myself/Infrastructure/Galera Cluster.md",
     "Self-Learning By Myself/Digital Identity.md",
     "Self-Learning By Myself/_Brainstorms & Notes.md",
     "My Own Tools - Cheat Sheets/Tool --- Automated Updates on AspCoreNetRuntimeVC++.md",
     "My Own Tools - Cheat Sheets/Tool --- Inject Keys.md",
-    "My Own Tools - Cheat Sheets/Tool --- Inject Strengthen Keys.md",
-    "README.md",
-    "Pièces jointes/README.md",
-    "conflict-files-obsidian-git.md",
-    "FreeLance Activity/README.md",
     "Self-Learning By Myself/AI Notes",
     "My Own Tools - Cheat Sheets",
     "Projects/n8n projects (automations)/n8n AI Cyber Newletter AI-built",
     "Projects/KaramelIa/n8n KaramelIa Workflow",
     "Projects/KaramelIa/Calendar",
     "Projects/n8n projects (automations)",
-    "Projects/KaramelIa",
-    "Projects/Financial Market Daily&Monthly Intelligence"
+    "Projects/KaramelIa"
   ]
 }
