@@ -20,7 +20,11 @@ An investment in knowledge pays the best interest
 
 ---
 
-## Summary
+## Main Pools of Learning
+
+
+
+## Notes Summary 
 
 - [AI Notes](Self-Learning%20By%20Myself/AI%20Notes/README.md)
 - [_Brainstorms & Notes / What I Have to Do](_Brainstorms%20&%20Notes.md)
