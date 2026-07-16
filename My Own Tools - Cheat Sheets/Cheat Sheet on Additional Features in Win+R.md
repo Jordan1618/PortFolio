@@ -65,7 +65,7 @@
 
 # **6) Printing, Documents & Web
 
-- Microsoft Print to PDF : Lets you "print" any document straight into a PDF file. Nb : PDF stands for Portable Document Format, a very common file type that looks the same on any device. This feature adds a virtual "printer" that, instead of printing on paper, saves the document as a PDF file on your computer.
+- Microsoft Print to PDF : Lets you "print" any document straight into a PDF file. Nb : PDF is a very common file type that looks the same on any device. This feature adds a virtual "printer" that, instead of printing on paper, saves the document as a PDF file on your computer.
     
 - Internet Information Services (IIS) : Windows' own built-in web server software. Nb : IIS stands for Internet Information Services. It's Microsoft's software for hosting websites and web applications, similar in purpose to Apache or Nginx on Linux. You need this turned on if you want your computer to serve a website or web app locally.
     
@@ -79,7 +79,7 @@
     
 - Windows Process Activation Service (WAS) : Helps IIS also handle non-website technical services. Nb : WAS stands for Windows Process Activation Service. Normally IIS only responds to web (HTTP) requests. WAS extends that so IIS can also host other types of technical services (like WCF services using other network protocols), not just websites.
     
-- Windows TIFF iFilter : Lets Windows Search read text inside TIFF image files. Nb : TIFF stands for Tagged Image File Format, a common type of image file often used for scanned documents. This feature lets Windows Search look inside TIFF images and find text in them (usually scanned text), so they show up properly in search results.
+- Windows TIFF iFilter : Lets Windows Search read text inside TIFF image files. Nb : TIFF stands for Tagged Image File Format, a common type of image file often used for scanned documents. They show up properly in search results.
     
 
 # **7) Media, Security & Misc
