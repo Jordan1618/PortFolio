@@ -14,4 +14,5 @@ This directory centralizes what I learn about detection, hardening, and staying 
 
 ## Summary
 
-- [[Tor Network and Onion Routing](Tor%20Network%20and%20Onion%20Routing.md)]
+- [Tor Network and Onion Routing](Tor%20Network%20and%20Onion%20Routing.md)
+- [Sysmon Windows](Sysmon%20Windows.md)
