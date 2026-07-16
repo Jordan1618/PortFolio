@@ -27,7 +27,7 @@
     
 - Microsoft NT Kernel Integration Virtual Device : A small internal driver Hyper-V uses to talk to the main Windows kernel. Nb : "NT" is just the name of Windows' core system architecture (short for "New Technology", from the 1990s). This driver is a low-level connector between Hyper-V and the main Windows kernel and usually turns on automatically when needed — you rarely touch it yourself.
     
-- Microsoft NT Kernel Integration VSC Driver : Another small internal Hyper-V connector, used from inside virtual machines. Nb : "VSC" stands for Virtualization Service Client. In Hyper-V's design, a VM contains a "client" (VSC) that talks to a "provider" (VSP) on the host to access devices like network or disk. This driver is that client-side piece.
+- Microsoft NT Kernel Integration VSC Driver : Another small internal Hyper-V connector, used from inside virtual machines. Nb : "VSC" stands for Virtualization Service Client.
     
 
 # **3) Linux & Developer Tools
@@ -39,7 +39,7 @@
 
 # **4) Networking & File Sharing
 
-- Data Center Bridging (DCB) : A networking feature that makes shared storage traffic run more smoothly. Nb : DCB stands for Data Center Bridging. It's a set of network rules mainly used in servers to make sure storage traffic (like iSCSI) doesn't get slowed down or interrupted by other network traffic on the same cable. Not relevant for normal desktop use.
+- Data Center Bridging (DCB) : A networking feature that makes shared storage traffic run more smoothly. It's a set of network rules mainly used in servers to make sure storage traffic (like iSCSI) doesn't get slowed down or interrupted by other network traffic on the same cable. Not relevant for normal desktop use.
     
 - Services for NFS : Lets Windows share files with Linux and Unix computers using their native method. Nb : NFS stands for Network File System, the standard way Linux and Unix computers share files with each other. This feature lets a Windows computer join in and share or access files using that same method, instead of Windows' own sharing system.
     
@@ -47,7 +47,7 @@
     
 - SMB Direct : A faster version of Windows file sharing, using special network hardware. Nb : SMB stands for Server Message Block, the protocol Windows normally uses to share files and printers over a network. "SMB Direct" is a faster version of it that uses RDMA-capable network cards to move data with less CPU effort — mostly useful for fast storage servers, not normal home use.
     
-- SMB 1.0 / CIFS File Sharing Support : The old, unsafe version of Windows file sharing. Nb : SMB stands for Server Message Block and CIFS stands for Common Internet File System — these are two names for the same old file-sharing protocol. This version is known for a serious security flaw that the WannaCry virus used to spread. It should stay off unless you truly need to connect to an old device (like an old NAS or printer) that only supports it.
+- SMB 1.0 / CIFS File Sharing Support : The old, unsafe version of Windows file sharing. Nb : CIFS stands for Common Internet File System — these are two names for the same old file-sharing protocol. This version is known for a serious security flaw that the WannaCry virus used to spread. It should stay off unless you truly need to connect to an old device (like an old NAS or printer) that only supports it.
     
 - Telnet Client : Connects to old network devices, but with no encryption. Nb : Telnet is an old, very simple way to remotely connect to another device and type commands into it. It sends everything, including passwords, as plain readable text over the network, which makes it unsafe. SSH (Secure Shell) is the modern, encrypted replacement and should be used instead whenever possible.
     
