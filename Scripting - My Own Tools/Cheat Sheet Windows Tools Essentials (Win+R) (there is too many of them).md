@@ -1,6 +1,7 @@
-# **1) The concept and the problem :
+# **1) Very useful all time :
 
-I have a lot of computers and servers that need VC++ or different .asp/.net/.core dependencies and each time I have to download them manually. It's long and can be automated. So I wanted to learn how to make that to save that time and understand more the structure of PowerShell script
+- taskschd.msc : Task Scheduler for automate scripts or some tasks freely of the GPO and only on your local post. I privilege GPO for Schedule on the infrastructure.
+- eventvwr.msc : Display all important errors and warnings + informations in details
 
 # **2) How it's working ?
 
