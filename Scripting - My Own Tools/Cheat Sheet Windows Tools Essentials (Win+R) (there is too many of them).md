@@ -25,4 +25,17 @@
 - msinfo32 : All system Information
 - regedit : You know and I know
 - optionalfeatures : Enables or disables other features. (Needs it's own Cheat Sheet I guess)
-- cleanmgr : To clear unne
+- cleanmgr : To clear unnecessary files
+
+# **4) Very Common and Useful Cli Commands
+
+- gpupdate /force 
+- gpresult /r
+- sfc /scannow
+- ipconfig /all
+- nslookup
+- netstat -ano
+- ping
+- Get-WinEvent
+
+Nb : Of course I know each one of them and use them regularly
