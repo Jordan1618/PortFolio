@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
+                "file": "Self-Learning By Myself/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test"
+              "title": "README"
             }
           }
         ]
@@ -186,8 +186,15 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
-    "Self-Learning By Myself/README.md",
+    "Self-Learning By Myself/0 - Brainstorms/README.md",
+    "Self-Learning By Myself/1 - Network & Protocols/README.md",
+    "Self-Learning By Myself/2 - Systems & Infrastructure/README.md",
+    "Self-Learning By Myself/3 - Security & Anonymity/README.md",
+    "Self-Learning By Myself/5 - Digital Concepts & Database/README.md",
+    "Self-Learning By Myself/4 - Scripting & Automation/Sans titre.md",
+    "Self-Learning By Myself/6 - Compliance & Governance/README.md",
     "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
+    "Self-Learning By Myself/README.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",
@@ -214,13 +221,6 @@
     "My Own Tools - Cheat Sheets/Tool --- Automated Updates V2 On Asp....md",
     "Self-Learning By Myself/4 - Scripting & Automation",
     "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V1.md",
-    "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V2 (Strengthen).md",
-    "Self-Learning By Myself/3 - Security & Anonymity/Tor Network and Onion Routing.md",
-    "Self-Learning By Myself/1 - Network & Protocols/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
-    "Self-Learning By Myself/5 - Digital Concepts & Database/Microsoft Access Database.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/How Cloudflare Works.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
-    "Self-Learning By Myself/5 - Digital Concepts & Database/Digital Identity.md",
-    "Self-Learning By Myself/0 - Brainstorms/_Brainstorms & Notes.md"
+    "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V2 (Strengthen).md"
   ]
 }
