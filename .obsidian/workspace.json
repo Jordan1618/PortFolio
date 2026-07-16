@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/README.md",
+                "file": "Self-Learning By Myself/0 - Brainstorms/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,8 +184,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e8a33d07ecc89b7",
+  "active": "f670e7a6e44ebe85",
   "lastOpenFiles": [
+    "Self-Learning By Myself/README.md",
     "Self-Learning By Myself/0 - Brainstorms/README.md",
     "Self-Learning By Myself/1 - Network & Protocols/README.md",
     "Self-Learning By Myself/2 - Systems & Infrastructure/README.md",
@@ -194,7 +195,6 @@
     "Self-Learning By Myself/4 - Scripting & Automation/Sans titre.md",
     "Self-Learning By Myself/6 - Compliance & Governance/README.md",
     "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
-    "Self-Learning By Myself/README.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",
