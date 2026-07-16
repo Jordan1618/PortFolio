@@ -2,4 +2,4 @@
 
 - Public interest dating app :
 	It could be useful to fight against the demographical decline in our countries, the loneliness suffering, mismatches due to the financial and private interests in dating apps.
-	This tech could includes : ID verification, a 50/50 women/men rates; pictures verification 
+	This tech could includes : ID verification, a 50/50 women/men rates; pictures verification by AI; a waiting list to keep the rate; a privacy of what is said; in case of absence period an automatic ban to keep the app alive; a report section for all sexual content; the purpose is to help people get to know each other and go on date. Some questions remain unanswered : What to do with the no-match people active (ban ? seduction/education formations to improve their chance ? physical or workout coaching ?  ALL this thing can be supported by public dispostifs ?)
