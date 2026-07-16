@@ -32,3 +32,12 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 - **Keeps a raw technical note for each error** : V1 only wrote a short line in the summary. V2 also saves the exact error, which command caused it, and when, so I can just copy-paste that into a debugging session instead of digging through the log.
 - **Knows when a restart is needed** : V1 mentioned it in the summary but didn't track it. V2 keeps a clear yes/no flag for "this machine needs a reboot", shows it at the end, and sends an email about it too, even if there was no real error.
 - **Works fine with no one watching** : V1 always waited for a keypress at the end, which is useless (and blocking) when the script runs by itself at night. V2 only waits for a keypress if someone launched it by hand, and closes cleanly on its own the rest of the time
+
+# **5) And how I automated it on my computer :
+
+1) I create an appropriate folder at my Pc's root :
+	New-Item -Path "C:\ScriptsJordan" -ItemType Directory -Force
+2) cd "C:\ScriptsJordan"
+3) I authorized the script execution :
+	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+4
