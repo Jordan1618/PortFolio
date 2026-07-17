@@ -1,4 +1,4 @@
-```
+```batch
 @echo off
 title Configuration Registre & Force Upgrade Windows 11 25H2
 chcp 65001 >nul
