@@ -29,11 +29,11 @@ There are 3 categories inside :
 
 #### Administration Templates
 
-The most used category by far, for sure. This is a succession of .adm/.adml that covers all path to keys in registry. The easiest to updates features or policies. Microsoft even releases NIS2-complaient files ready to be set up in GPO.
+The most used category by far, for sure. This is a succession of .adm/.adml that cover every path to keys in the registry. The easiest way to updates features or policies. Microsoft even releases NIS2-compliant files ready to be set up in GPO.
 
 ## **3) A brief point on OU and GPO topics**
 
-OU stands for Organizational Unit. An OU regroups in the AD one or several objects like user accounts, computers, groups or another OU.
+OU stands for Organizational Unit. An OU groups together, within the AD one or several objects like user accounts, computers, groups or another OU.
 It's important to split them into machines groups or users groups.
 
 GPO can only be applied on a Domain/Site/OU and under-OU by an inheritance system. 
