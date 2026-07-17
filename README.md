@@ -81,6 +81,9 @@ The receipts. Supporting files, screenshots, and references that back up everyth
 
 A hand-shaped, open-source library, nothing fancier than that. Reusable frameworks and prompt systems I put together so anyone, including future me, can actually pick them up and use them, not just admire them.
 
+A few example of my best Skills for AI :
+- 
+
 ---
 ## 🎯 Strategic Principles
 
