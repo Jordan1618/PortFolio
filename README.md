@@ -17,20 +17,20 @@
 ---
 ## 📂 Project Directory & Portfolio Index
 
-### 🛡️ Cybersecurity & Local AI Stack
-* 1. **I Server Deployment & Hardening:** Architecture of a local AI server on a Dell Server (ESXi, 2x Intel Xeon, 256GB RAM). Includes Docker deployment, strict network isolation (`ai-internal`), and a 150GB RAM limit to avoid DoS or crash risks.
-2. **Log Ingestion Pipeline:** Automatic log collection using Vector agents to normalize Windows Security Logs (EventID 4624) and Linux syslogs into a centralized Grafana Loki database.
-3. **n8n Data Parsing:** Custom JavaScript nodes inside n8n (null-checks, text-slicing for LLM context windows, and JSON restructuring) to clean and format raw data before sending it to the local AI.
-4. **Remote Telemetry:** Deployment of remote Vector sensors on production Windows servers for real-time security tracking.
-5. **Infrastructure-as-Code Repo:** Centralized repository for my production configs: `docker-compose.yml` master files, VRL rules (`aggregator.toml`), and LiteLLM proxy settings (`litellm_config.yaml`).
-    
+### 🖥️ AI Server (Sovereign Local AI Stack)
+
+This one runs alongside my actual job. I use it to push toward the skills I want to reach in infrastructure and sovereign AI, hardening a stack the same way I'd want to do it professionally, layer by layer, so that by the time I'm asked to do it for real, I've already done it once for myself.
 ### 💼 FreeLance Activity
 
 This ties back to my micro-enterprise on the side. I want to be taken seriously as a professional and show real interest in where tech is heading, not just where it's been. PolyProject1 is the clearest example: building multi-agent architecture with other people, on something real, while growing a bit of extra income from skills I actually trust myself to use.
 
 ### 🛠️ My Own Tools - Cheat Sheets
 
-This is where learning turns into something I can actually share to someone else. I build open-source tools and complete solutions, not just to have them, but because building the whole thing end to end is how I understand the mechanics underneath it. If I can't build a working version of something, I haven't really understood it yet.
+This is where learning turns into something I can actually share to someone else. I build open-source tools and complete solutions, not just to have them, but because building the whole thing helps me to understand the mechanics. If I can't build a working version of something, I haven't really understood it yet.
+
+### 📊 Projects
+
+A mix of practical and personal: numbers that have to be right (Financial Market Intelligence), automations I'd rather build once than repeat by hand, and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
 
 ### 🧠 Self-Learning & Knowledge Base
 
@@ -39,38 +39,24 @@ This is where learning turns into something I can actually share to someone else
 - **Systems Scripting:** A collection of lightweight sysadmin tools, local batch scripts, and cron maintenance routines.
     
 - **Windows OS Remediation Utility:** A shell script designed to bypass local UAC for standard users, modify specific HKLM registry keys, and automate mandatory updates at 8:00 PM.
-    
-
-### 🎨 KaramelIa: Automated Content System
-
-- **Content Pipeline:** An autonomous multimedia content generation system driven by AI workflows.
-    
-- **Video Processing & Publishing:** Dev logs tracking video automation, DaVinci Resolve workflows, and n8n sequences to auto-publish with SEO, descriptions, and schedules on YouTube, TikTok, and Instagram.
-    
 
 ### 🇷🇺 Language Learning
 
 - **Russian Acquisition Framework:** A workspace to track my progress, vocabulary, and grammar targets from beginner to advanced intermediate (A1 to B2).
-    
-
 ## 🛠️ Technical Skills & Tools Stack
 
-- **Infrastructure:** VMware ESXi, Linux Ubuntu/Debian CLI, Windows Server
-    
-- **Containers & Admin:** Docker, Docker Compose, systemd, Windows Registry, GPO, Active Directory, RDP
-    
-- **Logs & Telemetry:** Vector (VRL), Grafana Loki
-    
-- **Monitoring:** Prometheus, NodeExporter, Grafana Dashboards
-    
-- **Network & Security:** UFW, Caddy Server (Reverse Proxy & TLS), Network Segregation, Firewalls, SIEM, EDR/NDR
-    
-- **Automation:** n8n, JavaScript, ETL Pipelines
-    
-- **Local AI:** Ollama (Mistral 7B, Mixtral), LiteLLM Proxy
-    
-- **AI-Assisted Dev:** Claude Caude (desktop, terminal and vscode)
-    
+**Infrastructure:** VMware ESXi, Linux Ubuntu/Debian CLI, Windows Server
+**Containers & Admin:** Docker, Docker Compose, systemd, Windows Registry, GPO, Active Directory, RDP
+**Logs & Telemetry:** Vector (VRL), Grafana Loki
+**Monitoring:** Prometheus, NodeExporter, Grafana Dashboards
+**Network & Security:** UFW, Caddy Server (Reverse Proxy & TLS), Network Segregation, Firewalls, SIEM, EDR/NDR
+**Automation:** n8n, JavaScript, ETL Pipelines
+**Local AI:** Ollama (Mistral 7B, Mixtral), LiteLLM Proxy
+ **AI-Assisted Dev:** Claude Caude (desktop, terminal and vscode)
+
+### 📎 Pièces jointes
+
+The receipts. Supporting files, screenshots, and references that back up everything else in this vaul
 
 ## 🎯 Strategic Principles
 
