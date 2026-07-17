@@ -1,4 +1,4 @@
-# **1) .NET Framework & Old / Rarely Used Tools
+# **1) .NET Framework & Old / Rarely Used Tools**
 
 - .NET Framework 3.5 : An older toolkit that some apps still need to run. Nb : ".NET Framework" is a set of ready-made building blocks that many Windows apps are built on. Version 3.5 also includes versions 2.0 and 3.0 inside it. Some old software was built for this old version and won't run without it, so Windows lets you turn it on when needed.
     
@@ -9,7 +9,7 @@
 - MultiPoint Connector : A tool for connecting several computers to one shared PC. Nb : This is used in the "Windows MultiPoint Server" setup, where several people can use the same physical computer at the same time with separate monitors, keyboards and mice. Very niche, mostly seen in schools.
     
 
-# **2) Virtualization & Containers
+# **2) Virtualization & Containers**
 
 - Hyper-V : Microsoft's tool to run other operating systems inside your computer. Nb : Hyper-V is a "hypervisor" — a program that creates virtual computers (VMs) inside your real one. Each VM behaves like its own separate PC with its own operating system, but they all share your one physical machine.
     
@@ -30,14 +30,14 @@
 - Microsoft NT Kernel Integration VSC Driver : Another small internal Hyper-V connector, used from inside virtual machines. Nb : "VSC" stands for Virtualization Service Client.
     
 
-# **3) Linux & Developer Tools
+# **3) Linux & Developer Tools**
 
 - Windows Subsystem for Linux (WSL) : Lets you run real Linux directly inside Windows. Nb : WSL stands for Windows Subsystem for Linux. It lets you install an actual Linux system (like Ubuntu) and run Linux commands and programs right inside Windows, without needing a separate computer or a full virtual machine.
     
 - Windows Projected File System (ProjFS) : The hidden trick that lets WSL and OneDrive show files without fully downloading them first. Nb : ProjFS stands for Projected File System. It lets a program show you a full list of files and folders that look real, even though the actual content isn't stored on your disk yet — it gets fetched only when you open a file. WSL and OneDrive both use this behind the scenes.
     
 
-# **4) Networking & File Sharing
+# **4) Networking & File Sharing**
 
 - Data Center Bridging (DCB) : A networking feature that makes shared storage traffic run more smoothly. It's a set of network rules mainly used in servers to make sure storage traffic (like iSCSI) doesn't get slowed down or interrupted by other network traffic on the same cable. Not relevant for normal desktop use.
     
@@ -56,7 +56,7 @@
 - Remote Differential Compression (RDC) API Support : An old technology for syncing only the changed parts of a file. Nb : RDC stands for Remote Differential Compression. Instead of resending a whole file when it changes, RDC only sends the small parts that actually changed, saving network bandwidth. It was used by some old file-replication systems (like DFS Replication) and is rarely relevant today.
     
 
-# **5) Identity & Directory Services
+# **5) Identity & Directory Services**
 
 - Active Directory Lightweight Directory Services (AD LDS) : A small, standalone version of Active Directory. Nb : Active Directory (AD) is Microsoft's system for managing users, computers, and permissions across a company network, usually tied to a "domain." AD LDS is a lighter version that an individual app can use to keep its own simple directory of users or objects, without needing a full company domain behind it.
     
@@ -64,7 +64,7 @@
     
 
 # **6) Printing, Documents & Web
-
+**
 - Microsoft Print to PDF : Lets you "print" any document straight into a PDF file. Nb : PDF is a very common file type that looks the same on any device. This feature adds a virtual "printer" that, instead of printing on paper, saves the document as a PDF file on your computer.
     
 - Internet Information Services (IIS) : Windows' own built-in web server software. Nb : IIS stands for Internet Information Services. It's Microsoft's software for hosting websites and web applications, similar in purpose to Apache or Nginx on Linux. You need this turned on if you want your computer to serve a website or web app locally.
