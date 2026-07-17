@@ -25,4 +25,7 @@ Various features native of Windows, different from registry key. It's more like 
 There is 3 categories inside :
 - Scripts : Execution when computer or user restarts or logs in
 - Security Settings : Password policies / Users rights / Firewall or not / Restrictions
-- Preferences
+- Preferences : Various possibilities (Choose execution once or each time; Values by default can be edited by users or not; Range very large (registry, mappers, local users, printers, task scheduler; etcetera))
+
+#### Administration Templates
+
