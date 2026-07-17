@@ -6,4 +6,4 @@ This differentiation happens around only one question : Should this thing be don
 
 If it's yes --> Computer Configuration / Else --> User Configuration.
 
-Normally you have to choose between those branches every time and leave the other empty. And it's more secure to, no matters what, identify simply where a potential failure/error could come from. 
+Normally you have to choose between those branches every time and leave the other empty. And it's more secure to, no matter what, identify simply where a potential failure/error could come from. 
