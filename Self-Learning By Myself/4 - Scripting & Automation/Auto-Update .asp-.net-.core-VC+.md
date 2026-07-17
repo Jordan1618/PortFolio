@@ -19,11 +19,11 @@ The path of the script :
 The Temp variable act as a temporary place to download files before deleting them.
 # **3) The total script (in case you need) :**
 
-[Tool --- Automated Updates on AspCoreNetRuntimeVC++ .ps1](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++%20.ps1.md)
+[Tool --- Automated Updates on AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC.md)
 
 # **4) The final functioning after I add more features :**
 
-I use the following version : [Tool --- Automated Updates V2 AspCoreNetRuntimeVC++  .ps1](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC++%20%20.ps1.md)
+I use the following version : [Tool --- Automated Updates V2 AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
 
 - **Checks if it's Admin before doing anything** : V1 just ran and could fail halfway if it wasn't allowed to install something. V2 checks first, and stops right away with a clear message if the script wasn't launched as Administrator.
 - **Blocks itself from running twice at the same time** : if Task Scheduler retries the script while it's still running, V1 could end up with two copies working at once. V2 creates a small "lock" file at the start and checks for it, so a second copy won't start on top of the first.
