@@ -186,6 +186,10 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
+    "Skills & MasterPrompts/README.md",
+    "README.md",
+    "Self-Learning By Myself/2 - Systems & Infrastructure/GPO What is it really.md",
+    "Skills & MasterPrompts",
     "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
     "Self-Learning By Myself/6 - Compliance & Governance/README.md",
     "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
@@ -208,10 +212,7 @@
     "Self-Learning By Myself/4 - Scripting & Automation/PowerShell Fundamental Knowledge.md",
     "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
     "Self-Learning By Myself/3 - Security & Anonymity/Sysmon Windows.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/GPO What is it really.md",
     "Self-Learning By Myself/2 - Systems & Infrastructure/Website working - From user to server.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/README.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/How Cloudflare Works.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",
@@ -220,7 +221,6 @@
     "Self-Learning By Myself/1 - Network & Protocols",
     "Self-Learning By Myself/Browser",
     "Self-Learning By Myself/Infrastructure",
-    "Projects/Project To Do",
-    "Self-Learning By Myself/4 - Scripting & Automation"
+    "Projects/Project To Do"
   ]
 }
