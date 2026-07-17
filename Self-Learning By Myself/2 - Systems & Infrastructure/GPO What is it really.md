@@ -14,4 +14,10 @@ Be careful of these 2 common traps :
 
 ## **2) The 3 categories inside each branch :**
 
-1) The 
+#### Software Settings :
+
+Allow to install/uninstall/update software with msi packets. Currently outdated in comparison to Intune or SCCM
+Always working by restarting computer/user or gpupdate /force
+
+#### Windows Settings :
+
