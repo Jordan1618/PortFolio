@@ -76,7 +76,7 @@
     
 - **Local AI:** Ollama (Mistral 7B, Mixtral), LiteLLM Proxy
     
-- **Others:** Claude Caude (desktop and vscode)
+- **AI-Assisted Dev:** Claude Caude (desktop, terminal and vscode)
     
 
 ## 🎯 Strategic Principles
