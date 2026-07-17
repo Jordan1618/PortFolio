@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
+                "file": "Self-Learning By Myself/2 - Systems & Infrastructure/GPO What is it really.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Auto-Update .asp-.net-.core-VC+"
+              "title": "GPO What is it really"
             }
           }
         ]
@@ -186,10 +186,15 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
+    "Self-Learning By Myself/2 - Systems & Infrastructure/Website working - From user to server.md",
+    "Self-Learning By Myself/2 - Systems & Infrastructure/README.md",
+    "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
+    "Self-Learning By Myself/2 - Systems & Infrastructure/GPO What is it really.md",
+    "Self-Learning By Myself/2 - Systems & Infrastructure/How Cloudflare Works.md",
+    "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
     "Self-Learning By Myself/3 - Security & Anonymity/DLL.md",
     "Self-Learning By Myself/3 - Security & Anonymity/Sysmon Windows.md",
     "Self-Learning By Myself/3 - Security & Anonymity/README.md",
-    "Self-Learning By Myself/4 - Scripting & Automation/Auto-Update .asp-.net-.core-VC+.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them).md",
     "README.md",
     "Self-Learning By Myself/README.md",
@@ -197,7 +202,6 @@
     "My Own Tools - Cheat Sheets/README.md",
     "Self-Learning By Myself/5 - Digital Concepts & Database/README.md",
     "Self-Learning By Myself/4 - Scripting & Automation/README.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/README.md",
     "Self-Learning By Myself/1 - Network & Protocols/README.md",
     "Self-Learning By Myself/0 - Brainstorms/README.md",
     "Self-Learning By Myself/4 - Scripting & Automation/Sans titre.md",
@@ -216,11 +220,7 @@
     "Self-Learning By Myself/Infrastructure",
     "FreeLance Activity/PolyProject1/Self-Host MULTICA (Git Project).md",
     "FreeLance Activity/PolyProject1/How To Build Its Own MultiAgent Model.md",
-    "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
-    "Projects/Project To Do/README.md",
     "Projects/Project To Do",
-    "Self-Learning By Myself/4 - Scripting & Automation/PowerShell Fundamental Knowledge.md",
-    "Self-Learning By Myself/4 - Scripting & Automation/Windows 11 Bypassing.md",
     "Self-Learning By Myself/4 - Scripting & Automation"
   ]
 }
