@@ -5,12 +5,14 @@
 ---
 ## 🎯 My Vision and My Skills
 
-> My long-term professional objective is to help organizations to deploy their own AI on local systems for produce, understand or make decisions. I'm learning how to use this new technology and make it useful/legal (especially with the EU laws) and sovereign. Through this journey I'm learning and testing different protocols, mindsets, IT culture and more globally CyberSecurity features. 
+> I don't do things halfway. If I start learning something, I want to understand it down to the wiring, not just enough to sound competent about it. Half-understood knowledge bothers me more than not knowing at all, that's the actual reason this vault exists.
 > 
-> To be honest, I think IT is a very big world where it's difficult to know our place or specialization so I use my curiosity to lead me where I can develop my own Skills, Knowledge and Relationships. That's why this PortFolio is "English-Full".
+> To be honest, Right now I'm building the skill to deploy AI on infrastructure that answers to no one but its owner: sovereign, legal under EU rules, and genuinely useful, not just impressive in a demo. Cybersecurity, compliance, systems, automation, none of that feels like separate boxes to me, it's the same curiosity pointed in different directions depending on the week.
+> 
+> IT is too big a world to fake your way through, so I let curiosity pick my direction instead of a roadmap. Skills, knowledge, and the people I build things with, that's what I'm actually optimizing for. That's also why this vault is "English-Full", I'd rather train the language while I train everything else.
 > 
 > My main projects are : 
-> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment (Log analyzer on a Production Infrastructure) and various personal projects (KaramelIA/Self-Learning Documentations/Financial assets on-mesure tracking).**
+> **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment (Log analyzer on a Production Infra) and various personal projects (KaramelIA/Self-Learning Documentations/Financial assets on-mesure tracking).**
 
 ---
 ## 📂 Project Directory & Portfolio Index
@@ -88,15 +90,9 @@
 --- 
 ## Summary
 
-- [Attached Pieces](Pièces%20jointes/README.md)
 - [AI Server](AI%20Server/README.md)
-- [Financial Market Intelligence Project(Inside Other Project)](Projects/Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
-* [KaramelIA](Projects/KaramelIa/README.md)
-* [n8n Projects (Inside Other Projects)](Projects/n8n%20projects%20(automations)/README.md)
-* [Other Projects](Projects/README.md) (The Unstarted)
-* [Russian Self-Learning](Russian%20Self-Learning/README.md)
-* [Scripting](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
-* [Self-Learning](Self-Learning%20By%20Myself/README.md)
-* [Free Lance](FreeLance%20Activity/README.md)
+- [English Self-Learning](English%20Self-Learning/README.md)
+- [FreeLance Activity](FreeLance%20Activity/README.md)
+- [My Tools And Cheat Sheets](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 
 Nb : Sometime you will see French. It's normal, I'm French and some example can contain a little part of that. Be sure, I speak a fluent English and I'm learning more and more at each new documentation
