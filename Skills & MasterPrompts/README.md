@@ -21,11 +21,11 @@ This repository centralizes reusable capabilities I've engineered for Claude: st
 ## Summary :
 
 - [How To Prompt](How%20To%20Prompt.md)
+- 
 
 ## The template :
 
-- 
-
+- [Skill Doc Template](Skill%20Doc%20Template.md)
 
 ---
 ## How to Use
