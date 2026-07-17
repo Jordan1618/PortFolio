@@ -63,3 +63,7 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 - Unregister-ScheduledTask -TaskName "Update-DotNet-VCRedist" -Confirm:$false
 	Delete the task
 
+## **6) More added features
+
+1) A folder that contains every log for each automated execution
+
