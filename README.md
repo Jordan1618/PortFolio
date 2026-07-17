@@ -94,5 +94,10 @@
 - [English Self-Learning](English%20Self-Learning/README.md)
 - [FreeLance Activity](FreeLance%20Activity/README.md)
 - [My Tools And Cheat Sheets](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
+- [Pièces Jointes (Yes that's not beautiful)](Pièces%20jointes/README.md)
+- [Projects](Projects/README.md)
+- [Russian Self-Learning](Russian%20Self-Learning/README.md)
+- [Self-Learning By Myself](Self-Learning%20By%20Myself/README.md)
+- [Skills & MasterPrompts](Skills%20&%20MasterPrompts/README.md)
 
 Nb : Sometime you will see French. It's normal, I'm French and some example can contain a little part of that. Be sure, I speak a fluent English and I'm learning more and more at each new documentation
