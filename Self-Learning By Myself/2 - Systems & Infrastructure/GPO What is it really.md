@@ -44,5 +44,13 @@ This is very important for the inheritance and the enforced system. Always docum
 
 ## **4) Good habits to Have :**
 
-1) 
+1) One GPO = One clear Objective
+2) Name every GPO with : Range-DomainConcerned-Description
+3) Disable the unuse part of GPO
+4) Always testing a GPO on an OU test with 1-2 machines/users
+5) Never touch the Default Domain Policy, except for Kerberos or Password policies
+6) Always let a short description of "why this GPO"
+7) gpresults /h rapport.html to check if every GPO is ready and running or not
+8) gpresult /r for CLI check
+9) gpupdate /force
 
