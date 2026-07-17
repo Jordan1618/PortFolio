@@ -5,15 +5,13 @@ I use Claude a lot now : in chat, in Claude Code, and in my automation stack (n8
 # **2) How it's working ? (the basics) :**
 
 - **Be clear** : say exactly what you want. Don't make Claude trying to know the missing part.
-- **Give examples** : 1-2 examples of what you want (input → output) work better than a long explanation. (Personally I used others doc)
+- **Give examples** : 1-2 examples of what you want (input → output) work better than a long explanation. (Personally I used 2-3 documents hand-made)
 - **Separate the parts** : put your data, your instructions and your examples in clearly separated blocks (`<context>`, `<instructions>`...) so Claude doesn't mix them up.
 - **Set the role once** : say who Claude should "be" and what the rules are, at the start, not in every message.
-- **Ask for reasoning** : for anything with several steps or numbers, ask Claude to think step by step before answering.
+- **Ask for reasoning** : for anything with several steps or numbers, ask Claude to think step by step before answering. (Don't forget to tell explicitly to Claude or your AI "Explain to me all your thinking process step by step")
 - **Cut big tasks into small ones** : one prompt per step is slower, but far more reliable than one giant prompt.
-- **Say the format you want** : length, structure, tone. Don't leave it to guesswork.
-- **Know what "good" looks like before you start** : otherwise you're just guessing which version is better.
-- **Give edge cases too** : what should Claude do when the data is missing, weird, or contradicts itself ? Saying it up front avoids a wrong guess later.
-- **Ask Claude to check itself** : "before your final answer, check X, Y, Z" catches mistakes before they reach you.
+- **Say the format you want** : length, structure, tone. Don't leave it to guesswork. Ask it other parameter otherwise.
+- **Ask Claude to check itself** : "before your final answer, check X, Y, Z" catches mistakes before they reach you. IMPORTANT TO SAVE TIME
 
 # **3) Ready-to-use templates (detailed versions) :**
 
@@ -65,10 +63,11 @@ Style rules :
 - Length : similar to my other notes, don't pad it.
 ```
 
+To be fair, I prefer do it manually. Better comprehension and understanding.
 ### Template C — Debug a script (detailed diagnostic) :
 
 ```text
-Script : [paste code]
+Script : [paste code/documents]
 Environment : [OS, PowerShell/Python version, run as admin or not, interactive or Task Scheduler / cron]
 Error / behavior observed : [exact error message or wrong output]
 Expected behavior : [what it should do instead]
@@ -144,15 +143,7 @@ Output :
 ### KaramelIa — Suno / creative prompt (detailed) :
 
 ```text
-Track mood : [e.g. melancholic, triumphant, tense]
-Era / aesthetic : medieval cinematic, matches KaramelIa's visual identity
-Instrumentation cues : [e.g. choir, low strings, war drums — optional, only if it helps]
-Structure : [slow build / steady march / sudden climax]
-
-Give me :
-1. One single evocative sentence a listener could picture, no technical music terms.
-2. 2-3 keyword tags for reference.
-Avoid : modern instruments, cliché phrases ("epic", "journey"), full paragraphs.
+I have mine and I kept it private
 ```
 
 ### Diplomatic / negotiation message (Consulat, or real life) :
