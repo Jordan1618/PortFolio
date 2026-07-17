@@ -149,16 +149,7 @@ I have mine and I kept it private
 ### Diplomatic / negotiation message (Consulat, or real life) :
 
 ```text
-Who : [faction / person], relationship history : [ally, rival, neutral, past betrayal etc.]
-Situation : [what just happened, what triggered this message]
-My goal : [primary outcome wanted]
-Fallback : [acceptable outcome if the primary one fails]
-What I won't concede : [hard limits]
-
-Give me 2 versions :
-- Firm : protects my position, no room to push me around
-- Conciliatory : keeps the door open, de-escalates
-Tone : diplomat, not personal. Length : short, a few sentences, not a speech.
+Role : You are a training instructor for new diplomats of [le Consulat / organization]. Skill to train : [de-escalation, alliance-building, information gathering, crisis response...] Trainee level : [beginner / intermediate / advanced] Build a training scenario with : 1. Situation brief (2-3 lines : who's involved, what's at stake, tension level) 2. Counterpart profile : personality, what they say they want, what they actually want (hidden agenda) 3. 3 choices the trainee can make, each with its likely consequence - Choice A : [firm stance] → likely result - Choice B : [conciliatory stance] → likely result - Choice C : [information-gathering / stalling] → likely result 4. Evaluation grid : what makes a strong response vs a weak one - Tone control - Information given away vs kept - Goal achieved vs conceded 5. Debrief questions to ask the trainee after they answer Difficulty lever (optional) : [add a hidden betrayal / time pressure / conflicting orders] Output format : one scenario card, ready to hand to a trainee, no more than one page.
 ```
 
 ### PowerShell script hardening (like the .NET auto-update script) :
@@ -181,11 +172,4 @@ Tell me what's missing or weak, point by point. Don't rewrite what already works
 
 ---
 
-**Sources consultées le 17 juillet 2026 :**
-
-- Claude Docs — Prompt engineering overview : https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
-- Claude Docs — Prompting best practices : https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md
-- Anthropic — Prompt engineering best practices (blog) : https://claude.com/blog/best-practices-for-prompt-engineering
-- Claude Docs — Agent Skills overview : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
-- Claude Docs — Skill authoring best practices : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
-- Claude Code Docs — Extend Claude with skills : https://code.claude.com/docs/en/skills
+IMPORTANT : All this example are AI made, when I want a real skill I use my own skills to create it with the AI. But my work first.
