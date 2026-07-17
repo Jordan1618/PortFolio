@@ -13,6 +13,8 @@
 > 
 > My main projects are : 
 > **Intelligence technologic agent(Personalized News Collector and Aggregator)/Sovereign AI Deployment (Log analyzer on a Production Infra) and various personal projects (KaramelIA/Self-Learning Documentations/Financial assets on-mesure tracking).**
+> 
+> *For context: I started in IT in August 2025, and this portfolio has been running since around April 2026, roughly when KaramelIa started too. Everything here has been built in that window.*
 
 ---
 ## 📂 Project Directory & Portfolio Index
@@ -32,27 +34,32 @@ This is where learning turns into something I can actually share to someone else
 
 A mix of practical and personal: numbers that have to be right (Financial Market Intelligence), automations I'd rather build once than repeat by hand, and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
 
-### 🧠 Self-Learning & Knowledge Base
+### 🇷🇺 Russian Self-Learning
 
-- **Core Knowledge Vault:** The biggest part of my portfolio. A repository of my notes, research, and technical summaries on infrastructure, systems, and computer science.
-    
-- **Systems Scripting:** A collection of lightweight sysadmin tools, local batch scripts, and cron maintenance routines.
-    
-- **Windows OS Remediation Utility:** A shell script designed to bypass local UAC for standard users, modify specific HKLM registry keys, and automate mandatory updates at 8:00 PM.
+Learning Russian was never a career move, it was something that interested me. I wanted proof I could hold a structured, multi-year discipline on something nobody is paying or grading me for. A1 to B2, when I will have time.
 
-### 🇷🇺 Language Learning
+### 🧠 Self-Learning By Myself (Core Knowledge Vault)
 
-- **Russian Acquisition Framework:** A workspace to track my progress, vocabulary, and grammar targets from beginner to advanced intermediate (A1 to B2).
+The closest thing I have to a personal curriculum, organized around what I actually want to get good at:
+
+- **Networks and protocols**, because I need to know what's really happening underneath the abstraction
+- **Systems and infrastructure**, because I like designing things that don't fall over
+- **Security and anonymity**, because understanding how to break something is the only honest way to defend it
+- **Scripting and automation**, because doing anything manually twice is one time too many
+- **Digital identity**, because it is necessary in to me more than it probably should
+- **Compliance (RGPD, NIS2)**, because that's exactly what I want to become : The men that knows how the engine turns and legally and efficiently
+- *And underneath all of it, a running library of whatever I've already learned or still want to, wherever curiosity decides to point next*
+
 ## 🛠️ Technical Skills & Tools Stack
 
-**Infrastructure:** VMware ESXi, Linux Ubuntu/Debian CLI, Windows Server
-**Containers & Admin:** Docker, Docker Compose, systemd, Windows Registry, GPO, Active Directory, RDP
-**Logs & Telemetry:** Vector (VRL), Grafana Loki
-**Monitoring:** Prometheus, NodeExporter, Grafana Dashboards
-**Network & Security:** UFW, Caddy Server (Reverse Proxy & TLS), Network Segregation, Firewalls, SIEM, EDR/NDR
-**Automation:** n8n, JavaScript, ETL Pipelines
-**Local AI:** Ollama (Mistral 7B, Mixtral), LiteLLM Proxy
- **AI-Assisted Dev:** Claude Caude (desktop, terminal and vscode)
+- **Infrastructure:** VMware ESXi, Linux Ubuntu/Debian CLI, Windows Server
+- **Containers & Admin:** Docker, Docker Compose, systemd, Windows Registry, GPO, Active Directory, RDP
+- **Logs & Telemetry:** Vector (VRL), Grafana Loki
+- **Monitoring:** Prometheus, NodeExporter, Grafana Dashboards
+- **Network & Security:** UFW, Caddy Server (Reverse Proxy & TLS), Network Segregation, Firewalls, SIEM, EDR/NDR
+- **Automation:** n8n, JavaScript, ETL Pipelines
+- **Local AI:** Ollama (Mistral 7B, Mixtral), LiteLLM Proxy
+- **AI-Assisted Dev:** Claude Code (desktop, CLI and VS Code)
 
 ### 📎 Pièces jointes
 
@@ -61,9 +68,7 @@ The receipts. Supporting files, screenshots, and references that back up everyth
 ## 🎯 Strategic Principles
 
 - **Absolute Data Sovereignty:** Zero logs, tokens, or network data ever leave the local network. Everything is 100% local and airtight.
-    
 - **Deep Understanding:** No blind copy-pasting. Every config line, script, or registry switch is tested, researched, and documented. It takes time, but it's always worth it.
-    
 - **Hardware-Constrained:** Running local LLMs (Mistral 7B) on pure CPU clusters (Dual Xeon) through strict memory management and optimized pipelines.
 
 --- 
