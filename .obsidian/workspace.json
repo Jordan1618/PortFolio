@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
+                "file": "Self-Learning By Myself/2 - Systems & Infrastructure/GPO What is it really.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cheat Sheet on Additional Features in Win+R"
+              "title": "GPO What is it really"
             }
           }
         ]
@@ -186,6 +186,19 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
+    "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
+    "Self-Learning By Myself/6 - Compliance & Governance/README.md",
+    "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
+    "AI Server/4th Part Deploying Agent on a Windows Server.md",
+    "AI Server/Infrastructure Config and Backup Files.md",
+    "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V1.md",
+    "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V2 (Strengthen).md",
+    "My Own Tools - Cheat Sheets/Tool --- Inject Keys.md",
+    "My Own Tools - Cheat Sheets/Tool --- Automated Updates V2 On Asp....md",
+    "My Own Tools - Cheat Sheets/Tool --- Automated Updates on AspCoreNetRuntimeVC++.md",
+    "My Own Tools - Cheat Sheets/Tool --- Inject Strengthen Keys.md",
+    "My Own Tools - Cheat Sheets/Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them).md",
+    "My Own Tools - Cheat Sheets/Cheat Sheet on Additional Features in Win+R.md",
     "Self-Learning By Myself/1 - Network & Protocols/The RDP Protocol (Remote Desktop Protocol) and VNC.md",
     "Self-Learning By Myself/1 - Network & Protocols/Why Dos, .Bat and SNMP.md",
     "Self-Learning By Myself/5 - Digital Concepts & Database/README.md",
@@ -198,20 +211,7 @@
     "Self-Learning By Myself/2 - Systems & Infrastructure/GPO What is it really.md",
     "Self-Learning By Myself/2 - Systems & Infrastructure/Website working - From user to server.md",
     "Self-Learning By Myself/2 - Systems & Infrastructure/README.md",
-    "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
     "Self-Learning By Myself/2 - Systems & Infrastructure/How Cloudflare Works.md",
-    "Self-Learning By Myself/3 - Security & Anonymity/DLL.md",
-    "Self-Learning By Myself/3 - Security & Anonymity/README.md",
-    "My Own Tools - Cheat Sheets/Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them).md",
-    "README.md",
-    "Self-Learning By Myself/README.md",
-    "Self-Learning By Myself/6 - Compliance & Governance/README.md",
-    "My Own Tools - Cheat Sheets/README.md",
-    "Self-Learning By Myself/4 - Scripting & Automation/README.md",
-    "Self-Learning By Myself/1 - Network & Protocols/README.md",
-    "Self-Learning By Myself/0 - Brainstorms/README.md",
-    "Self-Learning By Myself/4 - Scripting & Automation/Sans titre.md",
-    "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",

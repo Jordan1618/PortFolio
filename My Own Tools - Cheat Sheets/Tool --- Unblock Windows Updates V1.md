@@ -1,4 +1,4 @@
-### **To unblock the Windows Update Service and User Restrictions :** 
+### **To unblock the Windows Update Service and User Restrictions :**
 - I needed to unblock for all users the ability to update their computers, schedulling updates by default at 8pm and including optional updates. Yes i use AI but i understand each line, which is my biggest success and it helps me to understand the regedit structure.
 
 ---
