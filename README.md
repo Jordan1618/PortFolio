@@ -31,8 +31,14 @@ This ties back to my micro-enterprise on the side. I want to be taken seriously 
 This is where learning turns into something I can actually share to someone else. I build open-source tools and complete solutions, not just to have them, but because building the whole thing helps me to understand the mechanics. If I can't build a working version of something, I haven't really understood it yet.
 
 A few examples taken from my repo :
-- [Tool --- Automated Updates V2 AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
-- 
+- [.NET / VC++ auto-update script](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
+	Checks and silently updates .NET runtimes and VC++ redistributables across machines, with email alerting on failure
+- [Windows Updates unblock & hardening script](Tool%20---%20Unblock%20Windows%20Updates%20V2%20(Strengthen).md)
+	Self-elevating cleanup and policy reset for machines with blocked update settings
+- [Windows 11 25H2 hardware-check bypass script](Tool%20---%20Inject%20Strengthen%20Keys.md)
+	Registry-level bypass (TPM/CPU/RAM/Secure Boot checks) plus auto-detection of a mounted install ISO, for upgrading otherwise-blocked hardware
+	
+	Nb : Done on old hardware at my place. Security stays my main purpose
 
 ### 📊 Projects
 
