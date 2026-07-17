@@ -1,3 +1,4 @@
+````
 # ==============================================================================================
 # .NET Core and VC++ Redistributable auto-update script
 # Single source: direct download from official Microsoft servers
@@ -633,3 +634,4 @@ if ([Environment]::UserInteractive -and $Host.Name -match "ConsoleHost") {
     Write-Host "Press any key to close this window..." -ForegroundColor Cyan
     $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 }
+```

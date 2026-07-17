@@ -1,3 +1,4 @@
+````
 @echo off
 title Configuration Registre - Passage Force Windows 11
 chcp 64001 >nul
@@ -38,3 +39,4 @@ echo ===================================================================
 echo.
 pause
 exit /b
+````

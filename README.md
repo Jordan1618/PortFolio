@@ -34,6 +34,8 @@ This is where learning turns into something I can actually share to someone else
 
 A mix of practical and personal: numbers that have to be right (Financial Market Intelligence), automations I'd rather build once than repeat by hand, and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
 
+**KaremelIA YouTube Link :" https://www.youtube.com/@KaramelIa_Music
+
 ### 🇷🇺 Russian Self-Learning
 
 Learning Russian was never a career move, it was something that interested me. I wanted proof I could hold a structured, multi-year discipline on something nobody is paying or grading me for. A1 to B2, when I will have time.

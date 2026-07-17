@@ -1,3 +1,4 @@
+````
 # ==============================================================================================
 # .NET Core and VC++ Redistributable auto-update script
 # Single source: direct download from official Microsoft servers
@@ -336,4 +337,5 @@ if ($Global:ErrorCount -gt 0) {
 }
 
 Write-Host "`nPress any key to close this window..." -ForegroundColor Cyan
-$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown") 
+````

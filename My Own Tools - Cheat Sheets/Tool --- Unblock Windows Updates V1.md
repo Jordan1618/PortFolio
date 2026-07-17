@@ -5,6 +5,7 @@
 
 **Script Part :**
 
+```
 @echo off
 :: UTF-8 encoding to correctly handle accents and special characters
 chcp 65001 >nul
@@ -220,4 +221,4 @@ pause
 	1) net session = check admin rights (errorLevel 0 if true)
 	2) net start/stop = for a service
 	3) gpupdate /force = a classic one
-	
+```
