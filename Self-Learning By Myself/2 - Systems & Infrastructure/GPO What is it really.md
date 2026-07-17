@@ -21,3 +21,8 @@ Always working by restarting computer/user or gpupdate /force
 
 #### Windows Settings :
 
+Various features native of Windows, different from registry key. It's more like system mechanics.
+There is 3 categories inside :
+- Scripts : Execution when computer or user restarts or logs in
+- Security Settings : Password policies / Users rights / Firewall or not / Restrictions
+- Preferences
