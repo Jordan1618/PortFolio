@@ -5,7 +5,7 @@
 
 **Script Part :**
 
-```
+```batch
 @echo off
 :: UTF-8 encoding to correctly handle accents and special characters
 chcp 65001 >nul

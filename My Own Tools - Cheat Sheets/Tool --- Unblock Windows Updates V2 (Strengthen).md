@@ -1,4 +1,4 @@
-```
+```batch
 @echo off
 :: Encodage UTF-8 pour gérer correctement les accents dans la console
 chcp 65001 >nul
