@@ -1,3 +1,4 @@
+```
 @echo off
 title Configuration Registre & Force Upgrade Windows 11 25H2
 chcp 65001 >nul
@@ -72,3 +73,4 @@ echo Lancement du processus d'installation...
 :: Exécution via l'argument /product server pour esquiver le contrôle d'éligibilité
 start "" "%drive_letter%:\setup.exe" /product server
 exit /b
+```
