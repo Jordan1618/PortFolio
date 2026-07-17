@@ -7,3 +7,7 @@ This differentiation happens around only one question : Should this thing be don
 If it's yes --> Computer Configuration / Else --> User Configuration.
 
 Normally you have to choose between those branches every time and leave the other empty. And it's more secure to, no matter what, identify simply where a potential failure/error could come from. 
+
+Be careful of these 2 common traps :
+1) For a same value on the same parameter, the computer's GPO always wins on a user's GPO
+2) If there is a user configuration applies on a group full of computers
