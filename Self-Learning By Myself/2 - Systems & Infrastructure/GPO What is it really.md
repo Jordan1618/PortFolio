@@ -34,13 +34,13 @@ The most used category by far, for sure. This is a succession of .adm/.adml that
 ## **3) A brief point on OU and GPO topics**
 
 OU stands for Organizational Unit. An OU groups together, within the AD one or several objects like user accounts, computers, groups or another OU.
-It's important to split them into machines groups or users groups.
+It's important to split them into machine groups or user groups.
 
-GPO can only be applied on a Domain/Site/OU and under-OU by an inheritance system. 
-For sorting a machine or an OS type we use a security sort or WMI sort
+A GPO can only be applied to a Domain/Site/OU and sub-OUs through an inheritance system. 
+To sort a machine or an OS type we use a security filter or WMI sfilter
 
 The main rule for priority is LSDOu : Local > Site > Domain > OU.
-This is very important for the inheritance and the enforced system. Always document each modification and do it only if it's very important because it's complexify the debug after.
+This is very important for the inheritance and the enforcement system. Always document each modification and only do it if it's very important because i complicates debugging afterward.
 
 ## **4) Good habits to Have :**
 
