@@ -1,8 +1,8 @@
-# **1) The concept and the problem :
+# **1) The concept and the problem :**
 
 I have a lot of computers and servers that need VC++ or different .asp/.net/.core dependencies and each time I have to download them manually. It's long and can be automated. So I wanted to learn how to make that to save that time and understand more the structure of PowerShell script
 
-# **2) How it's working ?
+# **2) How it's working ?**
 
 First for .net/.asp and .runtime, we need to get on the official github repo and collect last version before taking the right given url and send a donwload request.
 
@@ -17,11 +17,11 @@ The path of the script :
 
 
 The Temp variable act as a temporary place to download files before deleting them.
-# **3) The total script (in case you need) :
+# **3) The total script (in case you need) :**
 
 [Tool --- Automated Updates on AspCoreNetRuntimeVC++](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC++.md)
 
-# **4) The final functioning after I add more features :
+# **4) The final functioning after I add more features :**
 
 I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20---%20Automated%20Updates%20V2%20On%20Asp....md)
 
@@ -33,7 +33,7 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 - **Knows when a restart is needed** : V1 mentioned it in the summary but didn't track it. V2 keeps a clear yes/no flag for "this machine needs a reboot", shows it at the end, and sends an email about it too, even if there was no real error.
 - **Works fine with no one watching** : V1 always waited for a keypress at the end, which is useless (and blocking) when the script runs by itself at night. V2 only waits for a keypress if someone launched it by hand, and closes cleanly on its own the rest of the time
 
-# **5) And how I automated it on my computer :
+# **5) And how I automated it on my computer :**
 
 1) I created an appropriate folder at my Pc's root :
 	New-Item -Path "C:\ScriptsJordan" -ItemType Directory -Force
@@ -63,7 +63,7 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 - Unregister-ScheduledTask -TaskName "Update-DotNet-VCRedist" -Confirm:$false
 	Delete the task
 
-## **6) More added features
+## **6) More added features**
 
 1) A folder that contains every log for each automated execution
 
