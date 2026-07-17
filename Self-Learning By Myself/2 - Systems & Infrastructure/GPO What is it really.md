@@ -1,6 +1,6 @@
 ## **1) 2 Kinds of configuration :**
 
-A GPO (Group Object Policy) is used to apply policies to an OU (Object Unit : Computers or Users).
+A GPO (Group Policy Object) is used to apply policies to an OU (Organizational Unit : Computers or Users).
 
 This differentiation happens around only one question : Should this thing be done even if there is no user logged in ? 
 
@@ -29,4 +29,8 @@ There are 3 categories inside :
 
 #### Administration Templates
 
-The most used category by far, for sure. This is a succession of .adm/.adml that covers all path to keys in registry. The easiest to updates features or policies. Microsoft even releases NIS2 files ready to
+The most used category by far, for sure. This is a succession of .adm/.adml that covers all path to keys in registry. The easiest to updates features or policies. Microsoft even releases NIS2-complaient files ready to be set up in GPO.
+
+## **3) A brief point on OU topic**
+
+OU stands for Organizational Unit. An OU regrou
