@@ -1,4 +1,4 @@
-# **1) Very useful all time :
+# **1) Very useful all time :**
 
 - taskschd.msc : Task Scheduler for automate scripts or some tasks freely of the GPO and only on your local post. I privilege GPO for Schedule on the infrastructure.
 - eventvwr.msc : Display all important errors and warnings + informations in details even if not important.
@@ -9,7 +9,7 @@
 	Then I exec in admin Process Explorer and enjoy this beautiful tool.
 - compmgmt.msc : To have and control all the previous tools !!! Incredible. This + Process Explorer are game changer in AdminSys field.
   
-# **2) Security and Compliancy
+# **2) Security and Compliancy**
 
 - secpol.msc : Displays all your security policies
 - gpedit.msc : Useful for testing locally before making any change
@@ -17,7 +17,7 @@
 - wf.msc : Firewall Windows
 - lusrmgr.msc : Manages local Users and Groups (except the AD ones)
 
-# **3) General Diagnostics
+# **3) General Diagnostics**
 
 - devmgmt.msc : Device manager
 - diskmgmt.msc : Disk Manager
@@ -27,7 +27,7 @@
 - optionalfeatures : Enables or disables other features. (Needs it's own Cheat Sheet I guess)
 - cleanmgr : To clear unnecessary files
 
-# **4) Very Common and Useful Cli Commands
+# **4) Very Common and Useful Cli Commands**
 
 - gpupdate /force 
 - gpresult /r

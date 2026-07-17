@@ -63,8 +63,8 @@
 - Windows Identity Foundation 3.5 (WIF) : An old toolkit that helped apps handle logins and identity checks. Nb : WIF stands for Windows Identity Foundation. It's an older framework that let developers build apps which could check "who is this user" using standard identity tokens, instead of building their own login system from scratch. Mostly needed only by older .NET applications today.
     
 
-# **6) Printing, Documents & Web
-**
+# **6) Printing, Documents & Web**
+
 - Microsoft Print to PDF : Lets you "print" any document straight into a PDF file. Nb : PDF is a very common file type that looks the same on any device. This feature adds a virtual "printer" that, instead of printing on paper, saves the document as a PDF file on your computer.
     
 - Internet Information Services (IIS) : Windows' own built-in web server software. Nb : IIS stands for Internet Information Services. It's Microsoft's software for hosting websites and web applications, similar in purpose to Apache or Nginx on Linux. You need this turned on if you want your computer to serve a website or web app locally.
@@ -82,7 +82,7 @@
 - Windows TIFF iFilter : Lets Windows Search read text inside TIFF image files. Nb : TIFF stands for Tagged Image File Format, a common type of image file often used for scanned documents. They show up properly in search results.
     
 
-# **7) Media, Security & Misc
+# **7) Media, Security & Misc**
 
 - Media Features : The core components that let Windows play audio and video. Nb : This bundles the basic building blocks Windows needs to play music, videos, and use tools like Windows Media Player. Turning it off can break playback in many apps, not just Media Player itself.
     

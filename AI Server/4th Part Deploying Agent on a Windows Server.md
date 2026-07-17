@@ -93,7 +93,7 @@
 
 Before any problem, I copied each config file (docker/config/systemd/cron) in [Infrastructure Config and Backup Files](Infrastructure%20Config%20and%20Backup%20Files.md).
 
-## **2) Agent Deployment on a WS **
+## **2) Agent Deployment on a WS**
 
 - First :
 	- Invoke-WebRequest -Uri "https://packages.timber.io/vector/0.38.0/vector-0.38.0-x86_64-pc-windows-msvc.zip" -OutFile "$env:TEMP\vector.zip" ; Expand-Archive "$env:TEMP\vector.zip" -DestinationPath "C:\vector" -Force

@@ -12,4 +12,6 @@ Be careful of these 2 common traps :
 1) For a same value on the same parameter, the computer's GPO always wins on a user's GPO
 2) If a user configuration applies on a group full of computers, it will be silent and useless
 
-## **2) 
+## **2) The 3 categories inside each branch :**
+
+1) The 
