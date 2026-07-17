@@ -17,3 +17,4 @@ This directory centralizes my system administration knowledge and the real infra
  - [Galera Cluster](Galera%20Cluster.md)
  - [How Cloudflare Works](How%20Cloudflare%20Works.md)
  - [Website working - From user to server](Website%20working%20-%20From%20user%20to%20server.md)
+ - [GPO What is it really](GPO%20What%20is%20it%20really.md)
