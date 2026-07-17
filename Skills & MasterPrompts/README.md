@@ -22,6 +22,10 @@ This repository centralizes reusable capabilities I've engineered for Claude: st
 
 - [How To Prompt](How%20To%20Prompt.md)
 
+## The template :
+
+- 
+
 
 ---
 ## How to Use
