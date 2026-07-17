@@ -49,7 +49,7 @@ _Synthesized from personal study goals_
     
 - **Adjectives:** Align adjectives in gender and number with nouns in Nominative and Accusative cases.
     
-- **[Vocabulary](Vocabulary.md):** Moving toward the next 100-word milestone, focusing on daily life and professional contexts.
+- **[Vocabulary](Russian%20Self-Learning/Vocabulary.md):** Moving toward the next 100-word milestone, focusing on daily life and professional contexts.
 
 ---
 
