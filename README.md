@@ -19,25 +19,18 @@
 
 ### 🛡️ Cybersecurity & Local AI Stack
 * 1. **I Server Deployment & Hardening:** Architecture of a local AI server on a Dell Server (ESXi, 2x Intel Xeon, 256GB RAM). Includes Docker deployment, strict network isolation (`ai-internal`), and a 150GB RAM limit to avoid DoS or crash risks.
-    
 2. **Log Ingestion Pipeline:** Automatic log collection using Vector agents to normalize Windows Security Logs (EventID 4624) and Linux syslogs into a centralized Grafana Loki database.
-    
 3. **n8n Data Parsing:** Custom JavaScript nodes inside n8n (null-checks, text-slicing for LLM context windows, and JSON restructuring) to clean and format raw data before sending it to the local AI.
-    
 4. **Remote Telemetry:** Deployment of remote Vector sensors on production Windows servers for real-time security tracking.
-    
 5. **Infrastructure-as-Code Repo:** Centralized repository for my production configs: `docker-compose.yml` master files, VRL rules (`aggregator.toml`), and LiteLLM proxy settings (`litellm_config.yaml`).
     
-### 📊 Financial Data & Market Analytics
+### 💼 FreeLance Activity
 
-- **Deterministic Core Math (No-LLM):** Pure JavaScript routines for precise portfolio auditing and asset cost-basis tracking to eliminate AI math mistakes.
-    
-- **Daily Ingestion (07:30 AM):** A daily cron job compiling market data into a clean report sent via secure SMTP for my morning read.
-    
-- **Local AI Macro Analytics:** Local LLM used only for NLP, news aggregation, and finding trends for weekly reports.
-    
-- **Corporate Governance:** Automated tracking of upcoming Annual General Meetings (AGM) and registered shares (_"au nominatif"_).
-    
+This ties back to my micro-enterprise on the side. I want to be taken seriously as a professional and show real interest in where tech is heading, not just where it's been. PolyProject1 is the clearest example: building multi-agent architecture with other people, on something real, while growing a bit of extra income from skills I actually trust myself to use.
+
+### 🛠️ My Own Tools - Cheat Sheets
+
+This is where learning turns into something I can actually share to someone else. I build open-source tools and complete solutions, not just to have them, but because building the whole thing end to end is how I understand the mechanics underneath it. If I can't build a working version of something, I haven't really understood it yet.
 
 ### 🧠 Self-Learning & Knowledge Base
 
