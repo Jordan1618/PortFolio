@@ -17,16 +17,16 @@ Be careful of these 2 common traps :
 #### Software Settings :
 
 Allow to install/uninstall/update software with msi packages. Currently outdated in compared to Intune or SCCM
-Always working by restarting computer/user or gpupdate /force
+Always takes effect after restarting computer/user or gpupdate /force
 
 #### Windows Settings :
 
-Various features native of Windows, different from registry key. It's more like system mechanics.
+Various features native of Windows, different from registry keys. It's more like system mechanics.
 There are 3 categories inside :
-- Scripts : Execution when computer or user restarts or logs in
+- Scripts : Execution when the computer or user restarts or logs in
 - Security Settings : Password policies / Users rights / Firewall or not / Restrictions
-- Preferences : Various possibilities (Choose execution once or each time; Values by default can be edited by users or not; Range very large (registry, mappers, local users, printers, task scheduler; etcetera))
+- Preferences : Various possibilities (Choose execution once or every time; Values by default can be edited by users or not; Very wide range(registry, mappers, local users, printers, task scheduler; etcetera))
 
 #### Administration Templates
 
-The most used category by so far
+The most used category by far
