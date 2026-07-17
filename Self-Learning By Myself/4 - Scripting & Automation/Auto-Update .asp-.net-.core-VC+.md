@@ -38,6 +38,7 @@ I use the following version : [Tool --- Automated Updates V2 On Asp...](Tool%20-
 1) I created an appropriate folder at my Pc's root :
 	New-Item -Path "C:\ScriptsJordan" -ItemType Directory -Force
 2) cd "C:\ScriptsJordan"
+	And download the script inside
 3) I authorized the script execution :
 	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 4) I defined the program to execute and arguments linked :
