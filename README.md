@@ -72,9 +72,10 @@ A hand-shaped, open-source library, nothing fancier than that. Reusable framewor
 ---
 ## 🎯 Strategic Principles
 
-- **Absolute Data Sovereignty:** Zero logs, tokens, or network data ever leave the local network. Everything is 100% local and airtight.
-- **Deep Understanding:** No blind copy-pasting. Every config line, script, or registry switch is tested, researched, and documented. It takes time, but it's always worth it.
-- **Hardware-Constrained:** Running local LLMs (Mistral 7B) on pure CPU clusters (Dual Xeon) through strict memory management and optimized pipelines.
+- **Understanding Data, Not Just Storing It:** Knowing how data actually flows, where it goes, and what happens to it at each step, that's the base I'm building everything else on.
+- **EU-Compliant AI Infrastructure:** Learning to deploy AI infrastructure that actually holds up against RGPD and NIS2, not just technically capable but properly compliant.
+- **Deep Understanding:** No blind copy-pasting. Every config line, script, or registry switch is understood, and documented. It takes time, but it's always worth it.
+- **Where I'm Headed:** All of this is building toward a VIE or a well-paid real job in my path if I can get there, applying these skills for real.
 
 --- 
 ## Summary
