@@ -1,4 +1,4 @@
-## **1) 2 Kinds of configuration :
+## **1) 2 Kinds of configuration :**
 
 A GPO (Group Object Policy) is used to apply policies to an OU (Object Unit : Computers or Users).
 
