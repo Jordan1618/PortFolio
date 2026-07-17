@@ -37,4 +37,7 @@ OU stands for Organizational Unit. An OU regroups in the AD one or several objec
 It's important to split them into machines groups or users groups.
 
 GPO can only be applied on a Domain/Site/OU and under-OU by an inheritance system. 
-For sorting a machine t
+For sorting a machine or an OS type we use a security sort or WMI sort
+
+The main rule for prioriy is LSDOu : Local > Site > Domain > OU.
+This is very important for the inheritance and the enforced system. Always document each modification and do it only if it's very important because it's complexify the debug a
