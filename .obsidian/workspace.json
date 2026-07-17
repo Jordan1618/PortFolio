@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Skills & MasterPrompts/How To Prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "How To Prompt"
             }
           },
           {
@@ -200,11 +200,12 @@
   },
   "active": "9e8a33d07ecc89b7",
   "lastOpenFiles": [
-    "My Own Tools - Cheat Sheets/Tool --- Automated Updates V2 AspCoreNetRuntimeVC.md",
-    "README.md",
     "Skills & MasterPrompts/README.md",
-    "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V2 (Strengthen).md",
+    "Skills & MasterPrompts/How To Prompt.md",
+    "README.md",
     "Projects/README.md",
+    "My Own Tools - Cheat Sheets/Tool --- Automated Updates V2 AspCoreNetRuntimeVC.md",
+    "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V2 (Strengthen).md",
     "My Own Tools - Cheat Sheets/Tool --- Unblock Windows Updates V1.md",
     "My Own Tools - Cheat Sheets/Tool --- Inject Strengthen Keys.md",
     "My Own Tools - Cheat Sheets/Tool --- Inject Keys.md",
@@ -227,7 +228,6 @@
     "Self-Learning By Myself/5 - Digital Concepts & Database/README.md",
     "Self-Learning By Myself/5 - Digital Concepts & Database/Microsoft Access Database.md",
     "Self-Learning By Myself/5 - Digital Concepts & Database/Digital Identity.md",
-    "Self-Learning By Myself/4 - Scripting & Automation/Windows 11 Bypassing.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",
