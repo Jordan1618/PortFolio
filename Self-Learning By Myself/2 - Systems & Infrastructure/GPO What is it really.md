@@ -29,4 +29,4 @@ There are 3 categories inside :
 
 #### Administration Templates
 
-The most used category by far
+The most used category by far, for sure. This is a succession of .adm/.adml that covers all path to keys in registry. The easiest to updates features or policies. Microsoft even releases NIS2 files ready to
