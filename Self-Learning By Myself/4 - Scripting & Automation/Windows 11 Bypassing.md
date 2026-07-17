@@ -15,9 +15,9 @@ Test if it's working
 
 # **2) How I solve it :**
 
-I used the script in [Tool --- Unblock Windows Updates V2 (Strengthen)](Tool%20---%20Unblock%20Windows%20Updates%20V2%20(Strengthen).md) to reset correctly right keys inside the regedit. Next I used the [Tool --- Inject Keys](Tool%20---%20Inject%20Keys.md) to correct the system auto-blocking for Windows 11 new version update.
+I used the script in [Tool --- Unblock Windows Updates V2 (Strengthen) .bat](Tool%20---%20Unblock%20Windows%20Updates%20V2%20(Strengthen)%20.bat.md) to reset correctly right keys inside the regedit. Next I used the [Tool --- Inject Keys .bat](Tool%20---%20Inject%20Keys%20.bat.md) to correct the system auto-blocking for Windows 11 new version update.
 
-For 1 PC I had to create my own [Tool --- Inject Strengthen Keys](Tool%20---%20Inject%20Strengthen%20Keys.md) to bypass a very complex device.
+For 1 PC I had to create my own [Tool --- Inject Strengthen Keys .bat](Tool%20---%20Inject%20Strengthen%20Keys%20.bat.md) to bypass a very complex device.
 
 # **3) How have built my tools ?**
 
