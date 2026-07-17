@@ -42,11 +42,11 @@ Learning Russian was never a career move, it was something that interested me. I
 
 The closest thing I have to a personal curriculum, organized around what I actually want to get good at:
 
-- **Networks and protocols**, because I need to know what's really happening underneath the abstraction
-- **Systems and infrastructure**, because I like designing things that don't fall over
-- **Security and anonymity**, because understanding how to break something is the only honest way to defend it
-- **Scripting and automation**, because doing anything manually twice is one time too many
-- **Digital identity**, because it is necessary in to me more than it probably should
+- **Networks and protocols**, because I need to understand how my data travelling and changed from an A point to a Z one
+- **Systems and infrastructure**, because I want to know how things are working and be "The men who knows"
+- **Security and anonymity**, because understanding how to break something is the only way to defend it
+- **Scripting and automation**, because I like that. Automate everything is a key skill and I want to learn how to make it mine + it's a proof of work
+- **Digital identity**, because it is necessary in today's world
 - **Compliance (RGPD, NIS2)**, because that's exactly what I want to become : The men that knows how the engine turns and legally and efficiently
 - *And underneath all of it, a running library of whatever I've already learned or still want to, wherever curiosity decides to point next*
 
@@ -65,6 +65,11 @@ The closest thing I have to a personal curriculum, organized around what I actua
 
 The receipts. Supporting files, screenshots, and references that back up everything else in this vaul
 
+### 🧩 Skills & MasterPrompts
+
+A hand-shaped, open-source library, nothing fancier than that. Reusable frameworks and prompt systems I put together so anyone, including future me, can actually pick them up and use them, not just admire them.
+
+---
 ## 🎯 Strategic Principles
 
 - **Absolute Data Sovereignty:** Zero logs, tokens, or network data ever leave the local network. Everything is 100% local and airtight.
