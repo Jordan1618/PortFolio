@@ -30,6 +30,10 @@ This ties back to my micro-enterprise on the side. I want to be taken seriously 
 
 This is where learning turns into something I can actually share to someone else. I build open-source tools and complete solutions, not just to have them, but because building the whole thing helps me to understand the mechanics. If I can't build a working version of something, I haven't really understood it yet.
 
+A few examples taken from my repo :
+- [Tool --- Automated Updates V2 AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
+- 
+
 ### 📊 Projects
 
 A mix of practical and personal: numbers that have to be right (Financial Market Intelligence), automations I'd rather build once than repeat by hand, and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
