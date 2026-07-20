@@ -6,10 +6,10 @@ The classic trap is that in French, si covers both real conditions, like si tu v
 
 ### If versus whether
 
-|Word|Used for|Example|
-|---|---|---|
-|if|a real condition|If it rains, take an umbrella|
-|whether|an alternative or implicit choice between two options|I wonder whether you're coming or not|
+| Word    | Used for                                              | Example                               |
+| ------- | ----------------------------------------------------- | ------------------------------------- |
+| if      | a real condition                                      | If it rains, take an umbrella         |
+| whether | an alternative or implicit choice between two options | I wonder whether you're coming or not |
 
 A very reliable rule: if you can add ou non at the end of your French sentence and it still makes sense, use whether, not if. Check whether every GPO is running or not works, because there's an implicit binary choice. If it rains, take an umbrella works too, but there's no natural or not there, so if is correct.
 
