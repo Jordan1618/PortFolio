@@ -11,10 +11,14 @@
             "id": "7699ec7537d8291b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Skills & MasterPrompts/Skill Doc Template.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Skill Doc Template"
             }
           }
         ]
@@ -182,6 +186,8 @@
   },
   "active": "7699ec7537d8291b",
   "lastOpenFiles": [
+    "Skills & MasterPrompts/README.md",
+    "Skills & MasterPrompts/Untitled.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet Linux Scripting.md",
     "Self-Learning By Myself/4 - Scripting & Automation/README.md",
     "Self-Learning By Myself/4 - Scripting & Automation/Linux Script Auto-updates.md",
@@ -195,7 +201,6 @@
     "Projects/Projects To Do/README.md",
     "Projects/README.md",
     "Self-Learning By Myself/README.md",
-    "Skills & MasterPrompts/README.md",
     "Skills & MasterPrompts/Skill Doc Template.md",
     "Skills & MasterPrompts/How To Prompt.md",
     "My Own Tools - Cheat Sheets/Tool --- Automated Updates V2 AspCoreNetRuntimeVC.md",
@@ -209,7 +214,6 @@
     "English Self-Learning",
     "Skills & MasterPrompts",
     "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
-    "Self-Learning By Myself/6 - Compliance & Governance/README.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",
