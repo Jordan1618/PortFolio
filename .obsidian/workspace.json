@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills & MasterPrompts/Skill Doc Template.md",
+                "file": "Skills & MasterPrompts/Skills/Portfolio Tech Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Skill Doc Template"
+              "title": "Portfolio Tech Notes"
             }
           }
         ]
@@ -186,10 +186,10 @@
   },
   "active": "7699ec7537d8291b",
   "lastOpenFiles": [
-    "Skills & MasterPrompts/README.md",
-    "Skills & MasterPrompts/Skills/Document Creation Skill.md",
     "Skills & MasterPrompts/Skills/README.md",
     "Skills & MasterPrompts/Skill Doc Template.md",
+    "Skills & MasterPrompts/README.md",
+    "Skills & MasterPrompts/Skills/Portfolio Tech Notes.md",
     "Skills & MasterPrompts/Skills",
     "Skills & MasterPrompts/Untitled.md",
     "My Own Tools - Cheat Sheets/Cheat Sheet Linux Scripting.md",
