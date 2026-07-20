@@ -27,6 +27,7 @@ This directory centralizes my custom automation scripts, registry configurations
 - [Tool --- Unblock Windows Updates V2 (Strengthen)](Tool%20---%20Unblock%20Windows%20Updates%20V2%20(Strengthen).md)
 - [Tool --- Automated Updates on AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC.md)
 - [Tool --- Automated Updates V2 AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
+- [Tool --- Everything Production Server or VM Could Have Auto-Updater](Tool%20---%20Everything%20Production%20Server%20or%20VM%20Could%20Have%20Auto-Updater.md)
 
 ## My Cheat Sheets
 
