@@ -1,5 +1,5 @@
 
-To be fair : It's my 6th version in a row
+To be fair : It's my 6th version in a row and as you thought, I cut 50% of this script because you don't need to know everything about the structure I'm currently working within.
 
 ```powershell
 # ==============================================================================================
