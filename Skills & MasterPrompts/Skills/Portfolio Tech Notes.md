@@ -48,4 +48,4 @@ Generates Jordan's IT portfolio documentation in English, matching the exact ton
 
 ## The Skill
 
-Now covers 4 modes from one entry point (Step 0 routing): Course, Cheat Sheet, README (2 tiers), and English correction — each backed by its own reference file (`course-format.md`, `cheatsheet-format.md`, `readme-format.md`, `english-correction.md`). Hard constraints (English only, simple vocabulary, no invented commands/links, vault placement rules) apply to the 3 writing modes; correction mode runs on the opposite principle — keep Jordan's own wording, fix only actual errors.
+Now covers 4 modes from one entry point (Step 0 routing): Course, Cheat Sheet, README (2 tiers), and English correction — each backed by its own reference file (`course-format.md`, `cheatsheet-format.md`, `readme-format.md`, `english-correction.md`). Hard constraints (English only, simple vocabulary, no invented commands/links, vault placement rules) apply to the 3 writing modes; correction mode runs on the opposite principle keep my own wording, fix only actual errors.
