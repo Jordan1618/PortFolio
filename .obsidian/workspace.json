@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English Self-Learning/Mistakes Learned.md",
+                "file": "My Own Tools - Cheat Sheets/Cheat Sheet Linux Scripting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mistakes Learned"
+              "title": "Cheat Sheet Linux Scripting"
             }
           }
         ]
@@ -186,9 +186,12 @@
   },
   "active": "063c3f861616fbca",
   "lastOpenFiles": [
-    "English Self-Learning/Vocabulary.md",
-    "English Self-Learning/Mistakes Learned.md",
+    "Self-Learning By Myself/4 - Scripting & Automation/README.md",
+    "My Own Tools - Cheat Sheets/Cheat Sheet Linux Scripting.md",
+    "Self-Learning By Myself/4 - Scripting & Automation/Linux Script Auto-updates.md",
     "English Self-Learning/README.md",
+    "English Self-Learning/Mistakes Learned.md",
+    "English Self-Learning/Vocabulary.md",
     "English Self-Learning/Whether.md",
     "English Self-Learning/Within and its cousins.md",
     "README.md",
@@ -211,9 +214,6 @@
     "Skills & MasterPrompts",
     "Self-Learning By Myself/2 - Systems & Infrastructure/Galera Cluster.md",
     "Self-Learning By Myself/6 - Compliance & Governance/README.md",
-    "Self-Learning By Myself/6 - Compliance & Governance/Test.md",
-    "AI Server/4th Part Deploying Agent on a Windows Server.md",
-    "AI Server/Infrastructure Config and Backup Files.md",
     "Self-Learning By Myself/0 - Brainstorms",
     "Self-Learning By Myself/6 - Compliance & Governance",
     "Self-Learning By Myself/5 - Digital Concepts & Database",

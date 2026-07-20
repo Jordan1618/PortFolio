@@ -8,6 +8,7 @@
 - [Auto-Update .asp-.net-.core-VC+](Auto-Update%20.asp-.net-.core-VC+.md)
 * [PowerShell Fundamental Knowledge](PowerShell%20Fundamental%20Knowledge.md)
 * [Windows 11 Bypassing](Windows%2011%20Bypassing.md)
+* [Linux Script Auto-updates](Linux%20Script%20Auto-updates.md)
 
 ## Complementary Documentation :
 
