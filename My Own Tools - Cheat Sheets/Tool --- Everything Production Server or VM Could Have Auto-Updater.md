@@ -1,5 +1,5 @@
 
-```
+```powershell
 # ==============================================================================================
 # Cyberwatch findings remediation script - V3 (universal across VMs)
 # Updates every item from the Cyberwatch "Technologie" report EXCEPT Oracle Java and 7-Zip.
