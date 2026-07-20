@@ -1,4 +1,4 @@
-# **Within and its cousins*
+# **Within and its cousins**
 
 Within means inside, or at the core of something - a space, a group, a framework, a limit. For example, An OU groups objects within the AD means inside the AD, within its scope. The difference from in is that in is neutral and general purpose, while within emphasizes the idea of a boundary or framework. Within the budget, within the company - it sounds more formal and structural than in.
 
