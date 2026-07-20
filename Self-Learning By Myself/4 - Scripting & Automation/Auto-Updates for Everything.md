@@ -71,7 +71,7 @@ Get-HotFix -Id KB5099539 -ErrorAction SilentlyContinue
 The script only treats its own lock file as stale after 2 hours, mine was 24 minutes old, so I removed it by hand :
 
 ```powershell
-Remove-Item "C:\Users\poncet\AppData\Local\Temp\Update-CyberwatchSoftware-V2.lock" -Force
+Remove-Item "C:\Users\The\Full\Path\thefile.lock" -Force
 ```
 
 # **12) Reading an exit code I didn't expect :**
