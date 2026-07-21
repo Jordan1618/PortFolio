@@ -16,4 +16,5 @@
 3) ``HKLM + the *`` are for the regedit + a wildcard (taking all elements at this place)
 4) The , means "and take this thing too"
 5) ``-ErrorAction SilentlyContinue`` are standing for "if an error happens, continue without polluting"
-6) 
+6) The | transfers all outputs on his left into inputs on its right
+7) ``Where-Object`` is a filter for a list.
