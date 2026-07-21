@@ -21,6 +21,9 @@
 8) ``Select-Object`` means for each object, prints only these information : X,Y,Z . 
 9) DisplayName and Version are easy to understand. InstallLocation & UninstallString are for the file location and the uninstall command.
 
-- Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*","HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" -ErrorAction SilentlyContinue | Where-Object { $_.DisplayName -like "*Visual C++*" } |
-  Select-Object DisplayName, DisplayVersion |
-  Sort-Object DisplayName
+- Nb : It can be declined in many form by changing a filter or an object or a regedit path
+
+# **3) Checking whether the file exists ?**
+
+- Test-Path "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App"
+Get-ChildItem "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App" -ErrorAction SilentlyContinue
