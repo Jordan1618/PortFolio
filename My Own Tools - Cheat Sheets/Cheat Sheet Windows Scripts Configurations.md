@@ -25,5 +25,7 @@
 
 # **3) Checking whether the file exists ?**
 
-- Test-Path "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App"
-Get-ChildItem "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App" -ErrorAction SilentlyContinue
+- ``Test-Path "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App"``
+	``Get-ChildItem "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App" -ErrorAction SilentlyContinue``
+
+1) 
