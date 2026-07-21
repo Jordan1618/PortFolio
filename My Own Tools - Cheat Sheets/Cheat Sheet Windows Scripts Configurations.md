@@ -33,3 +33,14 @@
 
 - Other example :
 - ``Test-Path "C:\Windows\System32\msvcr100.dll"``
+
+# **4) A Template I Will Use Again**
+
+Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*","HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" -ErrorAction SilentlyContinue |
+  Where-Object { $_.DisplayName -like "*THE THING*" } |
+  Select-Object DisplayName, DisplayVersion, InstallLocation, UninstallString
+
+Test-Path "C:\path\to\look\for"
+
+Get-ChildItem "C:\Program Files","C:\Program Files (x86)" -Directory -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like "*THE THING*" }
