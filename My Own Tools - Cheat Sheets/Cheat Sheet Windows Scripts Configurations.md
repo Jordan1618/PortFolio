@@ -28,4 +28,8 @@
 - ``Test-Path "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App"``
 	``Get-ChildItem "C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App" -ErrorAction SilentlyContinue``
 
-1) 
+1) Test-Path is a Boolean that send True or False
+2) Get-ChildItem is to show everything inside
+
+- Other example :
+- ``Test-Path "C:\Windows\System32\msvcr100.dll"``
