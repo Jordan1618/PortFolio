@@ -11,4 +11,6 @@
     Select-Object DisplayName, DisplayVersion, InstallLocation, UninstallString``
 
 - There are many explanations :
-1) The backstick at the end of the first 3 lines
+1) Backsticks at the end of the first 3 lines are a pure commentary to say "go next line"
+2) 
+3) 
