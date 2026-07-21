@@ -5,4 +5,8 @@
 
 # **2) Looking into the Registry** 
 
-- 
+``Get-ItemProperty `
+    "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*", `"HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" `
+    -ErrorAction SilentlyContinue |
+    Where-Object { $_.DisplayName -like "*ASP.NET Core*" } |
+    Select-Object DisplayName, DisplayVersion, InstallLocation, UninstallString````
