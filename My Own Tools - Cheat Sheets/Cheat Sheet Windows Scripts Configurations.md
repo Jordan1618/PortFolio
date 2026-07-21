@@ -15,4 +15,5 @@
 2) ``Get-ItemProperty ``is to select a property of an element
 3) ``HKLM + the *`` are for the regedit + a wildcard (taking all elements at this place)
 4) The , means "and take this thing too"
-5) 
+5) ``-ErrorAction SilentlyContinue`` are standing for "if an error happens, continue without polluting"
+6) 
