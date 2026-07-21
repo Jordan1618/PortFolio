@@ -17,4 +17,4 @@
 4) The , means "and take this thing too"
 5) ``-ErrorAction SilentlyContinue`` are standing for "if an error happens, continue without polluting"
 6) The | transfers all outputs on his left into inputs on its right
-7) ``Where-Object`` is a filter for a list and we use a {...} (script block) ; $_ is used to name the current read file ; .DisplayName means (.) go look for the DisplayName (variable or a name of line) ; -like is for "is it containing that ?" and "ASP.NET* " is 
+7) ``Where-Object`` is a filter for a list and we use a {...} (script block) ; $_ is used to name the current read file ; .DisplayName means (.) go look for the DisplayName (variable or a name of line) ; -like is for "is it containing that ?" and "ASP.NET Core*" is for 
