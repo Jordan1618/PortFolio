@@ -12,5 +12,6 @@
 
 - There are many explanations :
 1) Backsticks at the end of the first 3 lines are a pure commentary to say "go next line"
-2) 
-3) 
+2) ``Get-ItemProperty ``is to select a property of an element
+3) ``HKLM + the *`` are for the regedit + a wildcard (taking all elements at this place)
+4) 
