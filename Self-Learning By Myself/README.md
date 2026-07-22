@@ -21,7 +21,7 @@ An investment in knowledge pays the best interest
 --- 
 ## Topics :
 
-- [Brainstorm (The Starting Point)](Self-Learning%20By%20Myself/0%20-%20Brainstorms/README.md)
+- [Brainstorm (The Starting Point)](Self-Learning%20By%20Myself/0%20-%20Brainstorms%20&%20Other/README.md)
 - [Network & Protocols](Self-Learning%20By%20Myself/1%20-%20Network%20&%20Protocols/README.md)
 - [Systems & Infrastructures](Self-Learning%20By%20Myself/2%20-%20Systems%20&%20Infrastructure/README.md)
 - [Security & Anonymity](Self-Learning%20By%20Myself/3%20-%20Security%20&%20Anonymity/README.md)
