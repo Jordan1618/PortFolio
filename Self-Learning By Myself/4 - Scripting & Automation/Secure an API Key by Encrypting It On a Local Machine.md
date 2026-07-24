@@ -1,6 +1,6 @@
 # **1) What I wanted to do :**
 
-I wanted to protect an API key sitting on a machine, instead of leaving it in plain text in a script's config file. I picked DPAPI, Windows' built-in encryption, because it does not need a separate password or key to manage : Windows ties the encryption to the machine itself, so only that machine can decrypt the value back later. I wrote a one-time setup script to ask for the key and encrypt it.
+I wanted to protect an API key sitting on a machine, instead of leaving it in plain text in a script's config file. I wrote a one-time setup script that asks for the key and encrypts it.
 
 # **2) What the script does :**
 
@@ -13,18 +13,15 @@ I wanted to protect an API key sitting on a machine, instead of leaving it in pl
 - Locks the destination folder down to SYSTEM and local admins only.
 - Cleans up the plaintext copy left in memory.
 
-# **3) First error :**
+# **3) Why DPAPI :**
 
-Running it gave me :
+- Windows ties the encryption to the machine's own identity : no password or master key for me to create, store, or rotate separately.
+- The result only decrypts on the machine that encrypted it, so a copy of the file is useless anywhere else.
+- Any account on that machine, including SYSTEM, can still decrypt it, which matters since the script reading the secret back runs as SYSTEM through Task Scheduler.
 
-```
-[ERROR] Failed to encrypt/store the secret: Type [Security.Cryptography.ProtectedData] introuvable.
-```
+# **4) Why bother at all :**
 
-I assumed it was a PowerShell edition problem, since the prompt showed I was in pwsh instead of Windows PowerShell 5.1. Forcing 5.1 gave the exact same error, so that theory was wrong.
+- Without this, the key would sit as plain text, readable by anyone with filesystem access to that folder.
+- Locking the folder's ACL to SYSTEM and admins only adds a second layer on top of the encryption itself.
 
-# **4) What I learned :**
-
-- Testing a theory fast, even when it turns out wrong, beats sitting on a guess I never actually check.
-- The error looked like a shell problem, but the real issue was one layer below that : how the underlying pieces get loaded before they can be used.
-- Once I stopped assuming and looked at where the error really came from, the fix took a single line.
+Nb : the key itself should also be scoped as narrowly as possible (read-only, least privilege). Encryption protects where it's stored, not what it can do once used.
