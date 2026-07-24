@@ -21,5 +21,6 @@ This directory tracks each Skill I build for Claude : the pain point that trigge
 ## My Skills
 
 - [Portfolio Tech Notes](Portfolio%20Tech%20Notes.md)
+- [Self-Help Book Learning](Self-Help%20Book%20Learning.md)
 
 ---
