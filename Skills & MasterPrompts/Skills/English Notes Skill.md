@@ -56,6 +56,8 @@ If the list gets long (roughly 8+ rows) or Jordan asks for it, group the table b
 
 Add a new theme only if a mistake clearly doesn't fit an existing one — don't multiply categories unnecessarily.
 
+The recap table is in the [Mistakes Learned](Mistakes%20Learned.md)
+
 ## Step 5 — Feeding the "Mistakes learned" Obsidian note
 
 When Jordan wants to add entries to his note, use this card format so he can paste it directly:

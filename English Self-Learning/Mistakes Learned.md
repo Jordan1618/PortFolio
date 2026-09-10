@@ -2,10 +2,10 @@
 
 #### Prepositions
 
-|Error|Why|General lesson|
-|---|---|---|
-|apply on vs apply to|literal translation of French "sur"|every English verb has its own fixed preposition, independent of French|
-|if vs whether|both translate to "si" in French but have different uses|whether = alternative/choice (often "or not"); if = real condition|
+| Error                | Why                                                      | General lesson                                                          |
+| -------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- |
+| apply on vs apply to | literal translation of French "sur"                      | every English verb has its own fixed preposition, independent of French |
+| if vs whether        | both translate to "si" in French but have different uses | whether = alternative/choice (often "or not"); if = real condition      |
 
 #### Word formation & derivation
 
