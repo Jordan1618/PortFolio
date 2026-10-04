@@ -3,7 +3,7 @@
 
 ## Main Topics
 
-This space centralizes everything I'm actively building outside of my day job & my [Freelance activity](../FreeLance%20Activity/README.md) : creative production, automation experiments, financial exploration, and the stack of ideas I don't want to lose.
+This space centralizes everything I'm actively building outside of my day job & my [Freelance activity](FreeLance%20Activity/README.md) : creative production, automation experiments, financial exploration, and the stack of ideas I don't want to lose.
 
 ---
 

@@ -36,7 +36,7 @@ Generates Jordan's IT portfolio documentation in English, matching the exact ton
 [follow reference file structure exactly; self-check against constraints]
 
 ## Step 4 — advise on placement in the vault
-[full vault folder map: AI Server, English Self-Learning, FreeLance Activity, My Own Tools - Cheat Sheets, Pièces jointes, Projects, Russian Self-Learning, Self-Learning By Myself (0-6), Skills & MasterPrompts — with routing rules, file naming convention, and instruction to state the suggested folder/filename alongside the file]
+[full vault folder map: Projects (AI Server, FreeLance Activity, KaramelIa, n8n, ...), Tools & Skills, Self-Learning By Myself (0-6), Side Learning (English, Russian), Pièces jointes — with routing rules, file naming convention, and instruction to state the suggested folder/filename alongside the file]
 ```
 
 ### Human Refinements

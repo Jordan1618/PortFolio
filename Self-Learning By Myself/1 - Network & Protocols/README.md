@@ -14,5 +14,5 @@ This directory centralizes my understanding of network protocols: how they're st
 
 ## Summary :
 
-- [The RDP Protocol (Remote Desktop Protocol) and VNC](The%20RDP%20Protocol%20(Remote%20Desktop%20Protocol)%20and%20VNC.md)
+- [The RDP Protocol (Remote Desktop Protocol) and VNC](The%20RDP%20Protocol%20%28Remote%20Desktop%20Protocol%29%20and%20VNC.md)
 - [Why Dos, .Bat and SNMP](Why%20Dos,%20.Bat%20and%20SNMP.md)

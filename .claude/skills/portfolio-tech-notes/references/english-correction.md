@@ -40,8 +40,8 @@ For each real mistake from Step 2 (skip pure vocabulary additions that don't nee
    - `Verb Structure & Conjugation`
    - `Technical Vocabulary` (false friends, wrong technical term)
    - Add a new category only if a mistake clearly doesn't fit any of the above — don't multiply categories unnecessarily.
-2. Folder: `English Self-Learning/<Category>/`. Create the folder if it doesn't exist yet.
-3. File: `English Self-Learning/<Category>/<short mistake title>.md`. If a file for this exact mistake already exists, update/extend it instead of duplicating.
+2. Folder: `Side Learning/English Self-Learning/<Category>/`. Create the folder if it doesn't exist yet.
+3. File: `Side Learning/English Self-Learning/<Category>/<short mistake title>.md`. If a file for this exact mistake already exists, update/extend it instead of duplicating.
 4. Lesson content structure:
    ```
    # <short mistake title>
@@ -71,7 +71,7 @@ Immediately after saving the lesson file(s), quiz Jordan on the mistake **direct
 
 ## Step 5 — Update "Mistakes Learned"
 
-Add a row to the matching theme table in `English Self-Learning/Mistakes Learned.md` (same categories as Step 3):
+Add a row to the matching theme table in `Side Learning/English Self-Learning/Mistakes Learned.md` (same categories as Step 3):
 
 ```
 | Error | Why | General lesson |
@@ -83,7 +83,7 @@ Add a row to the matching theme table in `English Self-Learning/Mistakes Learned
 
 ## Step 6 — Update vocabulary
 
-For genuinely new/unknown words (not grammar mistakes, not ignored typos — see Step 1's typo rule) add a row to `English Self-Learning/Vocabulary.md`:
+For genuinely new/unknown words (not grammar mistakes, not ignored typos — see Step 1's typo rule) add a row to `Side Learning/English Self-Learning/Vocabulary.md`:
 
 ```
 | Vocabulary | Meaning | Example |

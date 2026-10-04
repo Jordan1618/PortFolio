@@ -15,7 +15,7 @@
 
 | Project | Status | Where | Next step |
 |---|---|---|---|
-| AI Server (logs analyzer) | In progress | [AI Server](../../AI%20Server/README.md) | Windows agent deployment (4th part), Windows event logs into Loki |
+| AI Server (logs analyzer) | In progress | [AI Server](../AI%20Server/README.md) | Windows agent deployment (4th part), Windows event logs into Loki |
 | KaramelIa | In progress | [KaramelIa](../KaramelIa/README.md) | Automate the publishing flow with n8n, music distribution, TikTok and Instagram accounts |
 | Financial Market Intelligence | In progress | [Financial Market](../Financial%20Market%20Daily&Monthly%20Intelligence/README.md) | Data schema, n8n workflow deployment, prompt validation for the Saturday report |
 | Cyber Intelligence Newsletter | In progress | [n8n Cyber Newsletter](../n8n%20projects%20%28automations%29/n8n%20AI%20Cyber%20Newletter%20AI-built/README.md) | Weekly global cyber edition on top of the Monday/Wednesday/Friday ones |
@@ -102,7 +102,7 @@
 ---
 ## 4) Paused
 
-- **Russian:** paused to focus on other projects. A1 foundations are done, the rest of the roadmap is mapped but not started. See [Russian Self-Learning](../../Russian%20Self-Learning/README.md).
+- **Russian:** paused to focus on other projects. A1 foundations are done, the rest of the roadmap is mapped but not started. See [Russian Self-Learning](../../Side%20Learning/Russian%20Self-Learning/README.md).
 
 ---
 ## 5) Other

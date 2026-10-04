@@ -48,15 +48,11 @@ Read the matching reference file in full before writing. Follow its structure ex
 
 Vault folder map:
 
-- `AI Server` — AI server project notes (Tier B README candidate)
-- `English Self-Learning` — English study notes (written by the English correction mode, not by the 3 writing formats)
-- `FreeLance Activity` — freelance/business notes
-- `My Own Tools - Cheat Sheets` — tool docs and cheat sheets (Tier A README)
-- `Pièces jointes` — attachments, not documentation
-- `Projects` — project folders (KaramelIa, n8n, PolyProject1, etc. — usually Tier B README)
-- `Russian Self-Learning` — Russian study notes
-- `Self-Learning By Myself (0-6)` — general self-learning topics (Tier A README)
-- `Skills & MasterPrompts` — skill documentation (this folder)
+- `Projects/` — everything built: `AI Server`, `FreeLance Activity` (PolyProject1), `KaramelIa`, `Financial Market Daily&Monthly Intelligence`, `Instagram Messages Analytics`, `n8n projects (automations)`, `Projects To Do` (roadmap). Usually Tier B README
+- `Tools & Skills/` — `My Own Tools - Cheat Sheets` (tool docs and cheat sheets, Tier A README) and `Skills & MasterPrompts` (skill documentation)
+- `Self-Learning By Myself/` (0-6) — general self-learning topics (Tier A README)
+- `Side Learning/` — `English Self-Learning` (written by the English correction mode, not by the 3 writing formats) and `Russian Self-Learning`
+- `Pièces jointes/` — attachments, not documentation
 
 Routing rules:
 

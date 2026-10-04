@@ -31,6 +31,6 @@ An investment in knowledge pays the best interest
 
 ## Toolbox :
 
-- [Personal Tools & Cheat Sheets](../My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
+- [Personal Tools & Cheat Sheets](../Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 
 ---

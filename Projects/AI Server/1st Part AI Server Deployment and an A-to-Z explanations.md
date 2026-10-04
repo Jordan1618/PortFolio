@@ -291,7 +291,7 @@
 	http://IP_ACTUELLE:3000
 - Go to the connexion page of Open WebUI and switch off API Open AI Compatible + Go to API Ollama and put in the URL section : http://ollama:11434
 
-![](../Pi%C3%A8ces%20jointes/Pasted%20image%2020260608172826.png)
+![](../../Pi%C3%A8ces%20jointes/Pasted%20image%2020260608172826.png)
 
 
 ## **Step 4 : Creating daemon + Check Different Status NodeExporter / Prometheus / Grafana

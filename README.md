@@ -14,9 +14,9 @@
 
 If you only have five minutes, read these three:
 
-- **[AI Server](AI%20Server/README.md):** a self-hosted AI stack on a dual-Xeon server with no GPU. Linux and Windows logs go through Vector and Loki, a local Mistral model analyzes them in n8n, and critical alerts reach me by mail. Everything stays on-prem, with no third-party cloud API.
+- **[AI Server](Projects/AI%20Server/README.md):** a self-hosted AI stack on a dual-Xeon server with no GPU. Linux and Windows logs go through Vector and Loki, a local Mistral model analyzes them in n8n, and critical alerts reach me by mail. Everything stays on-prem, with no third-party cloud API.
 - **[Instagram Messages Analytics](Projects/Instagram%20Messages%20Analytics/Instagram%20Messages%20Analytics.md):** a local pipeline that turns my own Instagram export (about 446,000 messages and 46,000 voice messages) into four reports, with Whisper transcription on my own laptop. Nothing is uploaded.
-- **[My Own Tools](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md):** PowerShell tools I wrote to fix real problems at work: silent .NET / VC++ updates with email alerting, and an update unblock script for locked machines.
+- **[My Own Tools](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/README.md):** PowerShell tools I wrote to fix real problems at work: silent .NET / VC++ updates with email alerting, and an update unblock script for locked machines.
 
 ---
 ## 🎯 My Vision and My Skills
@@ -35,24 +35,24 @@ If you only have five minutes, read these three:
 ---
 ## 📂 Project Directory & Portfolio Index
 
-### 🖥️ [AI Server (Sovereign Local AI Stack)](AI%20Server/README.md)
+### 🖥️ [AI Server (Sovereign Local AI Stack)](Projects/AI%20Server/README.md)
 
 This one runs alongside my actual job. I use it to push toward the skills I want to reach in infrastructure and sovereign AI, hardening a stack the same way I'd want to do it professionally, layer by layer, so that by the time I'm asked to do it for real, I've already done it once for myself.
 
-### 💼 [FreeLance Activity](FreeLance%20Activity/README.md)
+### 💼 [FreeLance Activity](Projects/FreeLance%20Activity/README.md)
 
 This ties back to my micro-enterprise on the side. I want to be taken seriously as a professional and show real interest in where tech is heading, not just where it's been. PolyProject1 is the clearest example: building multi-agent architecture with other people, on something real, while growing a bit of extra income from skills I actually trust myself to use.
 
-### 🛠️ [My Own Tools - Cheat Sheets](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
+### 🛠️ [My Own Tools - Cheat Sheets](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 
 This is where learning turns into something I can actually share with someone else. I build open-source tools and complete solutions, not just to have them, but because building the whole thing helps me to understand the mechanics. If I can't build a working version of something, I haven't really understood it yet.
 
 A few examples taken from my repo :
-- [.NET / VC++ auto-update script](My%20Own%20Tools%20-%20Cheat%20Sheets/Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
+- [.NET / VC++ auto-update script](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
 	Checks and silently updates .NET runtimes and VC++ redistributables across machines, with email alerting on failure
-- [Windows Updates unblock & hardening script](My%20Own%20Tools%20-%20Cheat%20Sheets/Tool%20---%20Unblock%20Windows%20Updates%20V2%20%28Strengthen%29.md)
+- [Windows Updates unblock & hardening script](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/Tool%20---%20Unblock%20Windows%20Updates%20V2%20%28Strengthen%29.md)
 	Self-elevating cleanup and policy reset for machines with blocked update settings
-- [Windows 11 25H2 hardware-check bypass script](My%20Own%20Tools%20-%20Cheat%20Sheets/Tool%20---%20Inject%20Strengthen%20Keys.md)
+- [Windows 11 25H2 hardware-check bypass script](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/Tool%20---%20Inject%20Strengthen%20Keys.md)
 	Registry-level bypass (TPM/CPU/RAM/Secure Boot checks) plus auto-detection of a mounted install ISO, for upgrading otherwise-blocked hardware
 	
 	Nb : Done on old hardware at my place. Security stays my main purpose
@@ -93,14 +93,14 @@ The closest thing I have to a personal curriculum, organized around what I actua
 
 The receipts. Supporting files, screenshots, and references that back up everything else in this vault.
 
-### 🧩 [Skills & MasterPrompts](Skills%20&%20MasterPrompts/README.md)
+### 🧩 [Skills & MasterPrompts](Tools%20&%20Skills/Skills%20&%20MasterPrompts/README.md)
 
 A hand-shaped, open-source library, nothing fancier than that. Reusable frameworks and prompt systems I put together so anyone, including future me, can actually pick them up and use them, not just admire them.
 
 A few examples of my best Skills for AI :
-- [Portfolio Tech Notes](Skills%20&%20MasterPrompts/Skills/Portfolio%20Tech%20Notes.md): writes my vault documentation in three fixed formats (Course, Cheat Sheet, README) and corrects my English
-- [Self-Help Book Learning](Skills%20&%20MasterPrompts/Skills/Self-Help%20Book%20Learning.md): learn a book by practicing real situations, not by reading a summary
-- [English Notes Skill](Skills%20&%20MasterPrompts/Skills/English%20Notes%20Skill.md): corrects my English and tracks my mistakes in [Mistakes Learned](English%20Self-Learning/Mistakes%20Learned.md)
+- [Portfolio Tech Notes](Tools%20&%20Skills/Skills%20&%20MasterPrompts/Skills/Portfolio%20Tech%20Notes.md): writes my vault documentation in three fixed formats (Course, Cheat Sheet, README) and corrects my English
+- [Self-Help Book Learning](Tools%20&%20Skills/Skills%20&%20MasterPrompts/Skills/Self-Help%20Book%20Learning.md): learn a book by practicing real situations, not by reading a summary
+- [English Notes Skill](Tools%20&%20Skills/Skills%20&%20MasterPrompts/Skills/English%20Notes%20Skill.md): corrects my English and tracks my mistakes in [Mistakes Learned](Side%20Learning/English%20Self-Learning/Mistakes%20Learned.md)
 - Instagram Messages Analytics skills: two private skills I wrote for that project, not published
 
 ---
@@ -114,22 +114,22 @@ A few examples of my best Skills for AI :
 ---
 ## 🌱 Personal / Side Learning
 
-### 🇷🇺 [Russian Self-Learning](Russian%20Self-Learning/README.md)
+### 🇷🇺 [Russian Self-Learning](Side%20Learning/Russian%20Self-Learning/README.md)
 
 Learning Russian was never a career move, it was something that interested me. I wanted proof I could hold a structured discipline on something nobody is paying or grading me for. It is paused for now, because I focus on other projects, but I did learn some: the A1 foundations are done and the full A1 to C2 roadmap is mapped for when I have time.
 
 --- 
 ## Summary
 
-- [AI Server](AI%20Server/README.md)
-- [English Self-Learning](English%20Self-Learning/README.md)
-- [FreeLance Activity](FreeLance%20Activity/README.md)
-- [My Tools And Cheat Sheets](My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
+- [AI Server](Projects/AI%20Server/README.md)
+- [English Self-Learning](Side%20Learning/English%20Self-Learning/README.md)
+- [FreeLance Activity](Projects/FreeLance%20Activity/README.md)
+- [My Tools And Cheat Sheets](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 - [Pièces jointes](Pi%C3%A8ces%20jointes/README.md)
 - [Projects](Projects/README.md)
 - [Roadmap - Everything I Plan To Do](Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)
-- [Russian Self-Learning](Russian%20Self-Learning/README.md)
+- [Russian Self-Learning](Side%20Learning/Russian%20Self-Learning/README.md)
 - [Self-Learning By Myself](Self-Learning%20By%20Myself/README.md)
-- [Skills & MasterPrompts](Skills%20&%20MasterPrompts/README.md)
+- [Skills & MasterPrompts](Tools%20&%20Skills/Skills%20&%20MasterPrompts/README.md)
 
 Nb : Sometimes you will see French. It's normal, I'm French and some examples can contain a little part of that. Be sure, I speak fluent English and I'm learning more and more with each new document

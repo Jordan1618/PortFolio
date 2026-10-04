@@ -669,6 +669,6 @@ curl -s -X POST http://localhost:9000 \
 
 #### What did it look like ?
 
-![Pre-Final Workflow](../Pi%C3%A8ces%20jointes/n8n%20Cyber-AI%20Workflow.png)
+![Pre-Final Workflow](../../Pi%C3%A8ces%20jointes/n8n%20Cyber-AI%20Workflow.png)
 
 - And now, I have an automated self-hosted AI that filters each log into syslogs and auth.logs

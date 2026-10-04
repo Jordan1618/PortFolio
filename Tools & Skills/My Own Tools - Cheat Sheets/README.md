@@ -24,14 +24,14 @@ This directory centralizes my custom automation scripts, registry configurations
 - [Tool --- Inject Keys](Tool%20---%20Inject%20Keys.md)
 - [Tool --- Inject Strengthen Keys](Tool%20---%20Inject%20Strengthen%20Keys.md)
 - [Tool --- Unblock Windows Updates V1](Tool%20---%20Unblock%20Windows%20Updates%20V1.md)
-- [Tool --- Unblock Windows Updates V2 (Strengthen)](Tool%20---%20Unblock%20Windows%20Updates%20V2%20(Strengthen).md)
+- [Tool --- Unblock Windows Updates V2 (Strengthen)](Tool%20---%20Unblock%20Windows%20Updates%20V2%20%28Strengthen%29.md)
 - [Tool --- Automated Updates on AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20on%20AspCoreNetRuntimeVC.md)
 - [Tool --- Automated Updates V2 AspCoreNetRuntimeVC](Tool%20---%20Automated%20Updates%20V2%20AspCoreNetRuntimeVC.md)
 - [Tool --- Everything Production Server or VM Could Have Auto-Updater](Tool%20---%20Everything%20Production%20Server%20or%20VM%20Could%20Have%20Auto-Updater.md)
 
 ## My Cheat Sheets
 
-- [Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them)](Cheat%20Sheet%20Windows%20Tools%20Essentials%20(Win+R)%20(there%20is%20too%20many%20of%20them).md)
+- [Cheat Sheet Windows Tools Essentials (Win+R) (there is too many of them)](Cheat%20Sheet%20Windows%20Tools%20Essentials%20%28Win+R%29%20%28there%20is%20too%20many%20of%20them%29.md)
 - [Cheat Sheet on Additional Features in Win+R](Cheat%20Sheet%20on%20Additional%20Features%20in%20Win+R.md)
 
 
