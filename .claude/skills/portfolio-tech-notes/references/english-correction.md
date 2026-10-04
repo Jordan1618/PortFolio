@@ -1,9 +1,7 @@
----
-name: english-correction
-description: Corrects Jordan's English text (grammar, prepositions, word choice, word order), explains every fix inline in chat, saves a lesson file per mistake into the right category folder under "English Self-Learning", quizzes Jordan on the spot in chat to drill it, and logs the mistake/new vocabulary into his vault recap files. Use whenever Jordan asks to correct, check, proofread, or review a piece of English text, or asks "why" about a specific English mistake. Does NOT apply to writing new portfolio docs (Course/Cheat Sheet/README) — that's the portfolio-tech-notes skill.
----
 
-# English Correction
+# English correction (Part B of the skill)
+
+Use this file when Jordan gives English text to correct, or asks why a correction was made. Part B runs on the opposite principle of Part A (writing new docs): keep Jordan's own words, never simplify his vocabulary, fix only the real errors.
 
 Jordan is a French native speaker learning technical English (IT/sysadmin/cybersecurity vocabulary in particular). This skill corrects his English text, teaches the underlying rule, drills it live, and keeps his vault recap files up to date — so nothing gets fixed once and forgotten.
 

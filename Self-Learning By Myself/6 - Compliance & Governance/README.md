@@ -1,6 +1,6 @@
 ## Main Topics
 
-This directory centralizes my understanding of compliance frameworks and how they apply to real infrastructure, starting with what I already manage at the mairie and building toward finance-sector requirements.
+This directory centralizes my understanding of compliance frameworks and how they apply to real infrastructure, starting with what I already manage at my public-sector employer and building toward finance-sector requirements.
 
 ---
 

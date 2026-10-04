@@ -120,7 +120,7 @@ description: [what it does, short]. Use when [what the user would actually say].
 
 # **7) Other detailed templates, for things I already do :**
 
-### Log / alert triage (mairie monitoring stack : Vector → Loki → n8n → Mistral) :
+### Log / alert triage (public-sector monitoring stack : Vector → Loki → n8n → Mistral) :
 
 ```text
 Alert : [paste raw log / alert content]

@@ -6,25 +6,25 @@
 
 |Module|Focus Area|Progress|
 |---|---|---|
-|**13 - Declensions**|**Instrumental Case**: Means, Tools & Company (с + Instr., быть + Instr.)|🔄 Not Started|
+|**13 - Declensions**|**Instrumental Case**: Means, Tools & Company (с + Instr., быть + Instr.)|⏸️ Paused|
 |**13.25 - Fixed Expressions with Instrumental**|быть врачом, стать учителем, работать инженером — profession and identity constructions|🆕 Not Started|
 |**13.5 - Reflexive Pronoun себя**|Declension and usage of себя across all cases: себя, себе, собой, о себе|🆕 Not Started|
-|**14 - Declensions**|**Plural Mastery**: All 6 cases in plural form|🔄 Not Started|
+|**14 - Declensions**|**Plural Mastery**: All 6 cases in plural form|⏸️ Paused|
 |**14.5 - Declined Personal Pronouns**|Full declension of personal pronouns: меня, тебя, его, её, нас, вас, их — including prepositional forms него/неё/них|🆕 Not Started|
-|**15 - Syntax**|**Subordination**: который, чтобы, потому что|🔄 Not Started|
+|**15 - Syntax**|**Subordination**: который, чтобы, потому что|⏸️ Paused|
 |**15.5 - Subordinating Conjunctions (Extended)**|когда, пока, после того как, хотя, несмотря на то что, раз, так как — temporal and concessive connectors|🆕 Not Started|
-|**16 - Comparison**|**Adjectives & Adverbs**: Comparative & Superlative forms|🔄 Not Started|
-|**17 - Verbs**|**Prefixation**: Changing verb meaning via prefixes (на-, вы-, пере-, раз-, за-...)|🔄 In Progress|
+|**16 - Comparison**|**Adjectives & Adverbs**: Comparative & Superlative forms|⏸️ Paused|
+|**17 - Verbs**|**Prefixation**: Changing verb meaning via prefixes (на-, вы-, пере-, раз-, за-...)|⏸️ Paused|
 |**17.25 - Prefixes of Motion (Dedicated)**|при-, у-, вы-, до-, пере-, об- attached to motion verbs — a self-contained subsystem of directional meaning|🆕 Not Started|
 |**17.5 - Reflexive Verbs (-ся / -сь)**|одеваться, учиться, бояться, смеяться — passive, reciprocal, and inherently reflexive patterns|🆕 Not Started|
-|**18 - Modal**|**Possibility & Necessity**: можно, нужно, должен|🔄 Not Started|
+|**18 - Modal**|**Possibility & Necessity**: можно, нужно, должен|⏸️ Paused|
 |**18.1 - Advanced Negation (Double Negative)**|никто, ничего, нигде, никогда, никуда — obligatory double negation in Russian (Никто ничего не знает)|🆕 Not Started|
 |**18.2 - Verb Government (Управление глагола)**|Verbs that govern a specific case: ждать + Gen., интересоваться + Instr., просить + Acc./Infin. — high-frequency list|🆕 Not Started|
-|**18.25 - Relative Pronouns**|который (who/which) to link complex sentences — declension in all cases|🔄 Not Started|
+|**18.25 - Relative Pronouns**|который (who/which) to link complex sentences — declension in all cases|⏸️ Paused|
 |**18.3 - Short-Form Participles as Predicates**|он женат, она замужем, окно открыто, дверь закрыта — fixed predicative forms, high frequency|🆕 Not Started|
-|**18.5 - Adverbs**|Formation of adverbs from adjectives (ending in -о): быстрый → быстро|🔄 Not Started|
-|**18.75 - Indefinite Pronouns & Imperative Mood**|кто-то/кто-нибудь/никто — someone specific vs. anyone / commands and advice|🔄 Not Started|
-|**18.9 - Ordinal Numbers & Verbs of Position (Extended)**|первый, второй... / класть vs. ставить — action of placing objects|🔄 Not Started|
+|**18.5 - Adverbs**|Formation of adverbs from adjectives (ending in -о): быстрый → быстро|⏸️ Paused|
+|**18.75 - Indefinite Pronouns & Imperative Mood**|кто-то/кто-нибудь/никто — someone specific vs. anyone / commands and advice|⏸️ Paused|
+|**18.9 - Ordinal Numbers & Verbs of Position (Extended)**|первый, второй... / класть vs. ставить — action of placing objects|⏸️ Paused|
 #### Nb: For each, i use [My own notes 3](My%20own%20notes%203.md)
 ---
 

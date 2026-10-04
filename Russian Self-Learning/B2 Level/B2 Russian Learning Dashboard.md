@@ -7,25 +7,25 @@
 
 |Module|Focus Area|Progress|
 |---|---|---|
-|**19 - Participles (Active)**|**Active Participles**: Present & Past — читающий (reading), читавший (who had read)|🔄 Not Started|
+|**19 - Participles (Active)**|**Active Participles**: Present & Past — читающий (reading), читавший (who had read)|⏸️ Paused|
 |**19.5 - Participles (Passive)**|**Passive Participles**: Present & Past — читаемый (being read), прочитанный (having been read) — short predicative forms|🆕 Not Started|
 |**19.75 - Verbal Adverbs / Gerunds (Деепричастия)**|Imperfective (читая — while reading) and Perfective (прочитав — having read) — replacing subordinate clauses|🆕 Not Started|
-|**20 - Verbs of Motion**|**Direction + Prefix + Aspect nuances** — full prefixed motion system|🔄 Not Started|
-|**21 - Logic**|**Narrative Sequences**: Background (imperfective) vs. Foreground (perfective)|🔄 Not Started|
+|**20 - Verbs of Motion**|**Direction + Prefix + Aspect nuances** — full prefixed motion system|⏸️ Paused|
+|**21 - Logic**|**Narrative Sequences**: Background (imperfective) vs. Foreground (perfective)|⏸️ Paused|
 |**21.5 - Indirect Speech (Base)**|Reported speech: tense shift, pronoun shift, conjunctions что / чтобы / ли — foundation before C1 aspectual concordance|🆕 Not Started|
 |**21.75 - Discourse Connectors (Written)**|однако, тем не менее, следовательно, таким образом, в частности — structuring written argumentation|🆕 Not Started|
-|**22 - Hypotheticals**|**Unreal Conditionals**: Counterfactuals — если бы он знал... / Я бы сделал...|🔄 Not Started|
+|**22 - Hypotheticals**|**Unreal Conditionals**: Counterfactuals — если бы он знал... / Я бы сделал...|⏸️ Paused|
 |**22.5 - Aspect in Imperatives & Infinitives**|Aspectual choice in commands (Читай! vs. Прочитай!) and with modal/phase verbs (начать, кончить, продолжать)|🆕 Not Started|
 |**22.75 - Causative Constructions**|заставить, велеть, попросить, разрешить + infinitive — "make/ask/allow someone to do something"|🆕 Not Started|
-|**23 - Numerals**|**Advanced Declensions**: 1 to 1000 in all cases|🔄 Not Started|
-|**24 - Voice**|**Passive Voice**: Full construction with Instrumental agent (Книга написана автором)|🔄 Not Started|
+|**23 - Numerals**|**Advanced Declensions**: 1 to 1000 in all cases|⏸️ Paused|
+|**24 - Voice**|**Passive Voice**: Full construction with Instrumental agent (Книга написана автором)|⏸️ Paused|
 |**24.1 - Impersonal Constructions (Advanced)**|нельзя, следует, оказывается, получается, приходится — high-frequency in formal and journalistic texts|🆕 Not Started|
 |**24.2 - Journalistic & Academic Style**|Nominalized genitives (решение вопроса повышения цен), passive nominalizations — core of the texts you are targeting|🆕 Not Started|
-|**24.25 - Nuance Particles**|же (emphasis), ли (whether), бы (conditional) — sounding natural|🔄 Not Started|
+|**24.25 - Nuance Particles**|же (emphasis), ли (whether), бы (conditional) — sounding natural|⏸️ Paused|
 |**24.3 - Synonyms & Register Variants**|Distinguishing between synonyms by register: идти / шествовать / плестись — choosing the right level of language|🆕 Not Started|
-|**24.5 - Figurative Motion Verbs**|Metaphorical uses: это тебе идёт (it suits you), время идёт (time passes)|🔄 Not Started|
-|**24.75 - Collective Numerals**|двое, трое, четверо — used for groups of people and offspring|🔄 Not Started|
-|**24.9 - Comprehensive Punctuation**|Comma before что and который — Russian punctuation rules (structural, not rhetorical)|🔄 Not Started|
+|**24.5 - Figurative Motion Verbs**|Metaphorical uses: это тебе идёт (it suits you), время идёт (time passes)|⏸️ Paused|
+|**24.75 - Collective Numerals**|двое, трое, четверо — used for groups of people and offspring|⏸️ Paused|
+|**24.9 - Comprehensive Punctuation**|Comma before что and который — Russian punctuation rules (structural, not rhetorical)|⏸️ Paused|
 Nb: For each, i use [My own notes 4](My%20own%20notes%204.md)
 
 ---

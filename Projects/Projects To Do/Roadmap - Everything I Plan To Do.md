@@ -20,7 +20,7 @@
 | Financial Market Intelligence | In progress | [Financial Market](../Financial%20Market%20Daily&Monthly%20Intelligence/README.md) | Data schema, n8n workflow deployment, prompt validation for the Saturday report |
 | Cyber Intelligence Newsletter | In progress | [n8n Cyber Newsletter](../n8n%20projects%20%28automations%29/n8n%20AI%20Cyber%20Newletter%20AI-built/README.md) | Weekly global cyber edition on top of the Monday/Wednesday/Friday ones |
 | Instagram Messages Analytics | Done, rerunnable | [Instagram Messages Analytics](../Instagram%20Messages%20Analytics/Instagram%20Messages%20Analytics.md) | Finish the last voice messages, maybe a small dashboard |
-| Public interest dating app | Idea | [Projects To Do](README.md) | Test the idea on a small scale first |
+| Public-interest meeting platform | Idea | [See section 6](#6-idea-public-interest-meeting-platform) | Test the idea on a small scale first |
 
 ---
 ## 2) Self-Learning topics not written yet
@@ -110,3 +110,25 @@
 - Harvard open classroom on Data Science
 - Family office (business and patrimony)
 - Same method as Instagram Messages Analytics for WhatsApp / Telegram exports, support chats and call recordings
+
+---
+## 6) Idea: public-interest meeting platform
+
+**The idea:** a non-commercial platform that helps people meet in real life, with a public-interest goal: reduce loneliness and the mismatches created by apps that live on advertising and paid features.
+
+**Principles I would not give up**
+- No advertising and no paid boosts inside the app.
+- A self-sufficient model, based on stable and predictable resources instead of ad revenue.
+- Verified identities and verified pictures, to keep the platform safe.
+- Private conversations, and a simple way to report inappropriate content.
+- Inactive accounts are closed after a long absence, to keep the community alive.
+- Balanced access between groups, managed with a waiting list.
+
+**Open questions**
+- How to finance it: public funding alone will probably not be enough, an association status may be needed.
+- How to keep the balanced access rule fair, because it can be seen as indirect discrimination.
+- How to handle a large amount of personal data in a way that respects RGPD.
+- What to offer users who get few matches, in a way that is useful and respectful.
+- How to avoid any misuse of such a platform by public authorities.
+
+**Next step:** test the concept on a small scale first (one city, or one large company where people do not know each other), to find the limits and a first compromise.

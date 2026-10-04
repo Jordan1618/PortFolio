@@ -65,10 +65,6 @@ Everything planned or paused (including the empty folders) is listed in one plac
 
 **KaramelIA YouTube Link :** https://www.youtube.com/@KaramelIa_Music
 
-### 🇷🇺 [Russian Self-Learning](Russian%20Self-Learning/README.md)
-
-Learning Russian was never a career move, it was something that interested me. I wanted proof I could hold a structured discipline on something nobody is paying or grading me for. It is paused for now, because I focus on other projects, but I did learn some: the A1 foundations are done and the full A1 to C2 roadmap is mapped for when I have time.
-
 ### 🧠 [Self-Learning By Myself (Core Knowledge Vault)](Self-Learning%20By%20Myself/README.md)
 
 The closest thing I have to a personal curriculum, organized around what I actually want to get good at:
@@ -102,7 +98,7 @@ The receipts. Supporting files, screenshots, and references that back up everyth
 A hand-shaped, open-source library, nothing fancier than that. Reusable frameworks and prompt systems I put together so anyone, including future me, can actually pick them up and use them, not just admire them.
 
 A few examples of my best Skills for AI :
-- [Portfolio Tech Notes](Skills%20&%20MasterPrompts/Skills/Portfolio%20Tech%20Notes.md): writes my vault documentation in three fixed formats (Course, Cheat Sheet, README)
+- [Portfolio Tech Notes](Skills%20&%20MasterPrompts/Skills/Portfolio%20Tech%20Notes.md): writes my vault documentation in three fixed formats (Course, Cheat Sheet, README) and corrects my English
 - [Self-Help Book Learning](Skills%20&%20MasterPrompts/Skills/Self-Help%20Book%20Learning.md): learn a book by practicing real situations, not by reading a summary
 - [English Notes Skill](Skills%20&%20MasterPrompts/Skills/English%20Notes%20Skill.md): corrects my English and tracks my mistakes in [Mistakes Learned](English%20Self-Learning/Mistakes%20Learned.md)
 - Instagram Messages Analytics skills: two private skills I wrote for that project, not published
@@ -114,6 +110,13 @@ A few examples of my best Skills for AI :
 - **EU-Compliant AI Infrastructure:** Learning to deploy AI infrastructure that actually holds up against RGPD and NIS2, not just technically capable but properly compliant.
 - **Deep Understanding:** No blind copy-pasting. Every config line, script, or registry switch is understood, and documented. It takes time, but it's always worth it.
 - **Where I'm Headed:** All of this is building toward a VIE or a well-paid real job in my path if I can get there, applying these skills for real.
+
+---
+## 🌱 Personal / Side Learning
+
+### 🇷🇺 [Russian Self-Learning](Russian%20Self-Learning/README.md)
+
+Learning Russian was never a career move, it was something that interested me. I wanted proof I could hold a structured discipline on something nobody is paying or grading me for. It is paused for now, because I focus on other projects, but I did learn some: the A1 foundations are done and the full A1 to C2 roadmap is mapped for when I have time.
 
 --- 
 ## Summary

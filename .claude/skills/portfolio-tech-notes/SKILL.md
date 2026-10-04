@@ -1,13 +1,13 @@
 ---
 name: portfolio-tech-notes
-description: Writes IT/sysadmin/scripting documentation for Jordan's Obsidian portfolio vault, in one of three fixed formats — "Course" (a step-by-step narrative note about something he just learned or debugged), "Cheat Sheet" (a short bullet-point reference list), or "README" (an index/overview page for a vault folder). Use this skill whenever Jordan asks to write up, document, or turn a conversation into a course, a cheat sheet, portfolio notes, a README, or vault notes about an IT topic — even if he just says "fais-moi un doc là-dessus", "note ça", "cheat sheet sur X", or similar, without naming the format explicitly. Also use to shorten, simplify, or reformat existing course/cheat sheet/README drafts to match this style, and to advise where a new note should live in his vault. Does NOT cover English-text correction — that's the english-correction skill.
+description: Writes IT/sysadmin/scripting documentation for Jordan's Obsidian portfolio vault, in one of three fixed formats — "Course" (a step-by-step narrative note about something he just learned or debugged), "Cheat Sheet" (a short bullet-point reference list), or "README" (an index/overview page for a vault folder). Use this skill whenever Jordan asks to write up, document, or turn a conversation into a course, a cheat sheet, portfolio notes, a README, or vault notes about an IT topic — even if he just says "fais-moi un doc là-dessus", "note ça", "cheat sheet sur X", or similar, without naming the format explicitly. Also use to shorten, simplify, or reformat existing course/cheat sheet/README drafts to match this style, and to advise where a new note should live in his vault. Also corrects Jordan's English text (grammar, prepositions, word choice, word order), explains each fix, saves a lesson per mistake under "English Self-Learning" and logs it in Mistakes Learned and Vocabulary, whenever he asks to correct, check or proofread English text, or asks "why" about an English mistake.
 ---
 
 # Portfolio Tech Notes
 
 Generates Jordan's IT portfolio documentation in English, matching the exact tone and structure of his existing vault. He has corrected this format multiple times — treat the rules below as firm, not stylistic suggestions.
 
-## Hard constraints (apply to all 3 formats)
+## Hard constraints (apply to the 3 writing formats, not to English correction)
 
 - Always English, regardless of the language Jordan writes the request in.
 - Simple, student-level vocabulary. Short sentences.
@@ -20,6 +20,7 @@ Generates Jordan's IT portfolio documentation in English, matching the exact ton
 - "Fais-moi un doc / note ça / documente ça" about something just done or debugged → **Course**.
 - "Cheat sheet sur X / liste-moi les commandes" → **Cheat Sheet**.
 - "Fais-moi le README de ce dossier / index cette section" → **README**.
+- "Corrige mon anglais / corrige comme tout à l'heure / pourquoi apply to et pas apply on" → **English correction** (Part B). Skip Steps 1 to 4 below and follow `references/english-correction.md` instead, in full, in order.
 - If genuinely ambiguous, ask Jordan rather than guessing.
 
 ## Step 1 — read the right reference file
@@ -27,6 +28,7 @@ Generates Jordan's IT portfolio documentation in English, matching the exact ton
 - Course → `references/course-format.md`
 - Cheat Sheet → `references/cheatsheet-format.md`
 - README → `references/readme-format.md` (has 2 tiers — read the "Which tier?" section first)
+- English correction → `references/english-correction.md`
 
 Read the matching reference file in full before writing. Follow its structure exactly.
 
@@ -47,7 +49,7 @@ Read the matching reference file in full before writing. Follow its structure ex
 Vault folder map:
 
 - `AI Server` — AI server project notes (Tier B README candidate)
-- `English Self-Learning` — English study notes (owned by the english-correction skill, not this one)
+- `English Self-Learning` — English study notes (written by the English correction mode, not by the 3 writing formats)
 - `FreeLance Activity` — freelance/business notes
 - `My Own Tools - Cheat Sheets` — tool docs and cheat sheets (Tier A README)
 - `Pièces jointes` — attachments, not documentation
