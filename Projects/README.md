@@ -16,6 +16,8 @@ This space centralizes everything I'm actively building outside of my day job & 
 
 ## Summary :
 
+- [AI Server](AI%20Server/README.md)
+- [FreeLance Activity](FreeLance%20Activity/README.md)
 - [Financial Project](Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
 - [KaramelIA](KaramelIa/README.md)
 - [n8n Projects](n8n%20projects%20%28automations%29/README.md)
