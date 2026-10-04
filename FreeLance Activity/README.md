@@ -20,6 +20,6 @@ This directory centralizes my personal research, technical comprehensions and id
 
 ## Summary
 
-- [PolyProject1](FreeLance%20Activity/PolyProject1/README.md)
+- [PolyProject1](PolyProject1/README.md)
 
 --- 

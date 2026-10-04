@@ -3,7 +3,7 @@
 
 ## Main Topics
 
-This space centralizes everything I'm actively building outside of my day job & my [Freelance activity](FreeLance%20Activity/README.md) : creative production, automation experiments, financial exploration, and the stack of ideas I don't want to lose.
+This space centralizes everything I'm actively building outside of my day job & my [Freelance activity](../FreeLance%20Activity/README.md) : creative production, automation experiments, financial exploration, and the stack of ideas I don't want to lose.
 
 ---
 
@@ -16,7 +16,9 @@ This space centralizes everything I'm actively building outside of my day job & 
 
 ## Summary :
 
-- [Financial Project](Projects/Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
-- [KaramelIA](Projects/KaramelIa/README.md)
-- [n8n Projects](Projects/n8n%20projects%20(automations)/README.md)
-- [Futures Projects Or Ideas](Projects/Projects%20To%20Do/README.md)
+- [Financial Project](Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
+- [KaramelIA](KaramelIa/README.md)
+- [n8n Projects](n8n%20projects%20%28automations%29/README.md)
+- [Futures Projects Or Ideas](Projects%20To%20Do/README.md)
+- [Instagram Messages Analytics](Instagram%20Messages%20Analytics/Instagram%20Messages%20Analytics.md)
+- [Roadmap - Everything I Plan To Do](Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)

@@ -51,7 +51,7 @@ Vault folder map:
 - `FreeLance Activity` — freelance/business notes
 - `My Own Tools - Cheat Sheets` — tool docs and cheat sheets (Tier A README)
 - `Pièces jointes` — attachments, not documentation
-- `Projects` — project folders (Karamella, n8n, PolyProject1, etc. — usually Tier B README)
+- `Projects` — project folders (KaramelIa, n8n, PolyProject1, etc. — usually Tier B README)
 - `Russian Self-Learning` — Russian study notes
 - `Self-Learning By Myself (0-6)` — general self-learning topics (Tier A README)
 - `Skills & MasterPrompts` — skill documentation (this folder)

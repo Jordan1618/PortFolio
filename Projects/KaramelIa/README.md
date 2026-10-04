@@ -13,10 +13,10 @@
 	
 `##Method` : 
 	
-- I describe a feeling or a cinematic climax quote and let my prompts generate for me video, music and image prompts. I gather the AI-generated content in CapCut and i publish the final music mix on Youtube in less than 1Hour [Released mixes and singles](Released%20mixes%20and%20singles.md)
+- I describe a feeling or a cinematic climax quote and let my prompts generate for me video, music and image prompts. I gather the AI-generated content in CapCut and i publish the final music mix on Youtube in less than 1Hour [Released mixes and singles](Calendar/Released%20mixes%20and%20singles.md)
 	
 - I use [Project Evolution and Documentation](Project%20Evolution%20and%20Documentation.md) as an improvement and logging journal
 	
 `##Next Steps` : 
 	
-- I want to automatize with n8n these things to reduce the idea to publish time by 2 or 3 and learning usefull skills, see [Description of my Workflow](Description%20of%20my%20Workflow.md)
+- I want to automatize with n8n these things to reduce the idea to publish time by 2 or 3 and learning usefull skills, see [Description of my Workflow](n8n%20KaramelIa%20Workflow/Description%20of%20my%20Workflow.md)

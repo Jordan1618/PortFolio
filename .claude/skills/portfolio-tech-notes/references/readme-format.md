@@ -5,7 +5,7 @@ A README is the index/overview page for a folder in Jordan's vault. It never con
 ## Which tier?
 
 - **Tier A, Index README**: the folder just organizes a set of existing Course / Cheat Sheet / Tool notes. No architecture of its own, nothing was "built". Examples: `My Own Tools - Cheat Sheets`, `Self-Learning By Myself`, `4 - Scripting & Automation`.
-- **Tier B, Project README**: the folder documents an actual project/build with its own tech stack and, usually, several linked "parts". Examples: `AI Server`, and likely future entries under `Projects` (Karamella, n8n projects) or `PolyProject1`.
+- **Tier B, Project README**: the folder documents an actual project/build with its own tech stack and, usually, several linked "parts". Examples: `AI Server`, and likely future entries under `Projects` (KaramelIa, n8n projects) or `PolyProject1`.
 
 If genuinely unsure which one fits, ask Jordan rather than guessing. Don't inflate a simple topic folder into a fake "project" README, and don't flatten a real build into a plain link list.
 

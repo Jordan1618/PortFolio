@@ -14,4 +14,4 @@ This directory centralizes my understanding of compliance frameworks and how the
 
 ## Summary
 
-- NOTHING FOR NOW / MAYBE LATER
+- Nothing written yet on purpose: NIS2 and RGPD are planned, see the [Roadmap](../../Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)

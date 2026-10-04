@@ -18,10 +18,20 @@ This space tracks my English self-study journey: structured courses, vocabulary 
 
 ## Summary
 
-- [Within and its cousins](Within%20and%20its%20cousins.md)
+- [Within and its cousins](Prepositions/Within%20and%20its%20cousins.md)
+- [Whether](Prepositions/Whether.md)
 - [Mistakes Learned](Mistakes%20Learned.md)
+
+## Lessons by category
+
+- Prepositions: [Whether](Prepositions/Whether.md), [Within and its cousins](Prepositions/Within%20and%20its%20cousins.md), [share with, not share to](Prepositions/share%20with%2C%20not%20share%20to.md)
+- Word formation & derivation: [technologic vs technological](Word%20Formation%20%26%20Derivation/technologic%20vs%20technological.md)
+- Word order: [this whole README and point A to point Z](Word%20Order/this%20whole%20README%20and%20point%20A%20to%20point%20Z.md)
+- Verb structure & conjugation: [gerund as subject](Verb%20Structure%20%26%20Conjugation/gerund%20as%20subject.md), [present after when](Verb%20Structure%20%26%20Conjugation/present%20after%20when.md)
+- Technical vocabulary: [sur mesure vs on-mesure](Technical%20Vocabulary/sur%20mesure%20vs%20on-mesure.md)
+- Articles & countable nouns: [uncountable nouns, articles and plurals](Articles%20%26%20Countable%20Nouns/uncountable%20nouns%2C%20articles%20and%20plurals.md)
 
 ## Big pillars
 
-- [Vocabulary](English%20Self-Learning/Vocabulary.md)
+- [Vocabulary](Vocabulary.md)
 - [Mistakes Learned](Mistakes%20Learned.md)

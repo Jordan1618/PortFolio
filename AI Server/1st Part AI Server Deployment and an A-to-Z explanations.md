@@ -291,7 +291,7 @@
 	http://IP_ACTUELLE:3000
 - Go to the connexion page of Open WebUI and switch off API Open AI Compatible + Go to API Ollama and put in the URL section : http://ollama:11434
 
-![](Pasted%20image%2020260608172826.png)
+![](../Pi%C3%A8ces%20jointes/Pasted%20image%2020260608172826.png)
 
 
 ## **Step 4 : Creating daemon + Check Different Status NodeExporter / Prometheus / Grafana
@@ -473,4 +473,4 @@
 - Any container has a right on the host
 	- docker inspect $(docker ps -q) | grep -i docker.sock || echo "Secured : No socket leaks found"
 
-The next part is in [2) AI Server Automated AI-CyberAgent logs analyzer](2)%20AI%20Server%20Automated%20AI-CyberAgent%20logs%20analyzer.md)
+The next part is in [2nd Part AI Server Automated AI-CyberAgent logs analyzer](2nd%20Part%20AI%20Server%20Automated%20AI-CyberAgent%20logs%20analyzer.md)

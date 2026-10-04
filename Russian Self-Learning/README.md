@@ -12,17 +12,17 @@ Having mastered English, I am now tackling a new alphabet for its mental stimula
 ## Method:
 I follow a rigorous self-study system based on five pillars: **Grammar, Conjugation, Orthography, Pronunciation, and Daily Usage**. I transform raw data into atomic Markdown summaries to master sentence logic and word stress. My progress is tracked via a "X Vocabulary words" challenge with an AI audit every 30 words on all previous words.
 So i have 6 different levels with their own test and [Planning](Planning.md) : 
-- A1 [A1 Russian Learning Dashboard](A1%20Russian%20Learning%20Dashboard.md)
-- A2 [A2 Russian Learning Dashboard](A2%20Russian%20Learning%20Dashboard.md)
-- B1 [B1 Russian Learning Dashboard](B1%20Russian%20Learning%20Dashboard.md)
-- B2 [B2 Russian Learning Dashboard](B2%20Russian%20Learning%20Dashboard.md)
-- C1 [C1 Russian Learning Dashboard](C1%20Russian%20Learning%20Dashboard.md)
-- C2 [C2 Russian Learning Dashboard](C2%20Russian%20Learning%20Dashboard.md)
+- A1 [A1 Russian Learning Dashboard](A1%20Level/A1%20Russian%20Learning%20Dashboard.md)
+- A2 [A2 Russian Learning Dashboard](A2%20Level/A2%20Russian%20Learning%20Dashboard.md)
+- B1 [B1 Russian Learning Dashboard](B1%20Level/B1%20Russian%20Learning%20Dashboard.md)
+- B2 [B2 Russian Learning Dashboard](B2%20Level/B2%20Russian%20Learning%20Dashboard.md)
+- C1 [C1 Russian Learning Dashboard](C1%20Level/C1%20Russian%20Learning%20Dashboard.md)
+- C2 [C2 Russian Learning Dashboard](C2%20Level/C2%20Russian%20Learning%20Dashboard.md)
 
 ## Next Steps:
 * **Goal:** Reach a B1/B2 proficiency level by December 2026.
 * [ ] Being able to have a natural discussion
-* [ ] Master [A1](A1%20Russian%20Learning%20Dashboard.md) through [C1](C1%20Russian%20Learning%20Dashboard.md) milestones
+* [ ] Master [A1](A1%20Level/A1%20Russian%20Learning%20Dashboard.md) through [C1](C1%20Level/C1%20Russian%20Learning%20Dashboard.md) milestones
 * [ ] Understand more russian people and the Eastern Europe Culture
 * [ ] Leverage this linguistic mastery for some professionnal opportunities linked to that skill
 
@@ -30,9 +30,9 @@ So i have 6 different levels with their own test and [Planning](Planning.md) :
 
 ## Summary
 
-- [AI Test To Pass A1](Russian%20Self-Learning/A1%20Level/AI%20Test%20To%20Pass.md)
-- [AI Test To Pass A2](Russian%20Self-Learning/A2%20Level/AI%20Test%20To%20Pass.md)
-- [AI Test To Pass B1](Russian%20Self-Learning/B1%20Level/AI%20Test%20To%20Pass.md)
-- [AI Test To Pass B2](Russian%20Self-Learning/B2%20Level/AI%20Test%20To%20Pass.md)
-- [AI Test To Pass C1](Russian%20Self-Learning/C1%20Level/AI%20Test%20To%20Pass.md)
-- [AI Test To Pass C2](Russian%20Self-Learning/C2%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass A1](A1%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass A2](A2%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass B1](B1%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass B2](B2%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass C1](C1%20Level/AI%20Test%20To%20Pass.md)
+- [AI Test To Pass C2](C2%20Level/AI%20Test%20To%20Pass.md)

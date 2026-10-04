@@ -1,3 +1,5 @@
+[Full roadmap: everything I plan to do](Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)
+
 # **1) Just a thinking list :
 
 - Public interest dating app :
