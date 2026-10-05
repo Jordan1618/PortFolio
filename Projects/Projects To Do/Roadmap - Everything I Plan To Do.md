@@ -17,10 +17,26 @@
 |---|---|---|---|
 | AI Server (logs analyzer) | In progress | [AI Server](../AI%20Server/README.md) | Windows agent deployment (4th part), Windows event logs into Loki |
 | KaramelIa | In progress | [KaramelIa](../KaramelIa/README.md) | Automate the publishing flow with n8n, music distribution, TikTok and Instagram accounts |
-| Financial Market Intelligence | In progress | [Financial Market](../Financial%20Market%20Daily&Monthly%20Intelligence/README.md) | Data schema, n8n workflow deployment, prompt validation for the Saturday report |
-| Cyber Intelligence Newsletter | In progress | [n8n Cyber Newsletter](../n8n%20projects%20%28automations%29/n8n%20AI%20Cyber%20Newletter%20AI-built/README.md) | Weekly global cyber edition on top of the Monday/Wednesday/Friday ones |
+| Financial Market Intelligence | Planned | No folder yet | Data schema, n8n workflow deployment, prompt validation for the Saturday report |
+| Cyber Intelligence Newsletter (n8n) | Planned | No folder yet | Weekly global cyber edition on top of the Monday/Wednesday/Friday ones |
 | Instagram Messages Analytics | Done, rerunnable | [Instagram Messages Analytics](../Instagram%20Messages%20Analytics/Instagram%20Messages%20Analytics.md) | Finish the last voice messages, maybe a small dashboard |
 | Public-interest meeting platform | Idea | [See section 6](#6-idea-public-interest-meeting-platform) | Test the idea on a small scale first |
+
+
+### Not started (only a name for now, no folder on purpose)
+- Auto PortFolio adder for my YouTube last watched videos
+- Automated Market Studies by AI FOSS
+- HTB CTF
+- Idea Aggregator For Companies
+- PromptShelves
+- Public Interest and Ethical Dating App (see [section 6](#6-idea-public-interest-meeting-platform))
+- WorldCyberWatch
+- Financial Market Daily & Monthly Intelligence
+- n8n Automation Lab (cross-project workflows)
+- n8n: Cyber Intelligence Newsletter (AI-built)
+- n8n: Cyber Threat Intelligence
+- n8n: Next Idea to Come
+- n8n: YoutubeWrapped
 
 ---
 ## 2) Self-Learning topics not written yet

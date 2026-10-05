@@ -18,10 +18,9 @@ This space centralizes everything I'm actively building outside of my day job & 
 
 - [AI Server](AI%20Server/README.md)
 - [FreeLance Activity](FreeLance%20Activity/README.md)
-- [Financial Project](Financial%20Market%20Daily&Monthly%20Intelligence/README.md)
 - [KaramelIA](KaramelIa/README.md)
+- [Comprendre pour tous](ComprendrePourTous/README.md)
 - [Site Vitrine Artisan Carreleur](Site%20Vitrine%20Artisan%20Carreleur/Site%20Vitrine%20Artisan%20Carreleur.md)
-- [n8n Projects](n8n%20projects%20%28automations%29/README.md)
 - [Futures Projects Or Ideas](Projects%20To%20Do/README.md)
 - [Instagram Messages Analytics](Instagram%20Messages%20Analytics/Instagram%20Messages%20Analytics.md)
 - [Roadmap - Everything I Plan To Do](Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)

@@ -59,9 +59,9 @@ A few examples taken from my repo :
 
 ### 📊 [Projects](Projects/README.md)
 
-A mix of practical and personal: numbers that have to be right (Financial Market Intelligence), automations I'd rather build once than repeat by hand, a data project on my own messages (Instagram Messages Analytics), and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
+A mix of practical and personal: a free, sourced and open website that explains the body, emotions and relationships ([Comprendre pour tous](Projects/ComprendrePourTous/README.md), 15 guides, public code), a showcase website for a tile layer ([Site Vitrine](Projects/Site%20Vitrine%20Artisan%20Carreleur/Site%20Vitrine%20Artisan%20Carreleur.md)), a data project on my own messages (Instagram Messages Analytics), and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
 
-Everything planned or paused (including the empty folders) is listed in one place: [Roadmap - Everything I Plan To Do](Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md).
+Everything planned or paused (Financial Market Intelligence, the n8n projects and the others, with no empty folders on purpose) is listed in one place: [Roadmap - Everything I Plan To Do](Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md).
 
 **KaramelIA YouTube Link :** https://www.youtube.com/@KaramelIa_Music
 
