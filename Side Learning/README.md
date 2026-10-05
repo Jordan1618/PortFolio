@@ -12,5 +12,6 @@ This directory centralizes my language learning: English (active, the whole vaul
 
 - [English Self-Learning](English%20Self-Learning/README.md)
 - [Russian Self-Learning](Russian%20Self-Learning/README.md) (paused)
+- [Sport Program and Weekly Planning](Sport%20Program/Sport%20Program%20and%20Weekly%20Planning.md)
 
 ---

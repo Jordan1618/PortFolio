@@ -9,6 +9,8 @@
 * [PowerShell Fundamental Knowledge](PowerShell%20Fundamental%20Knowledge.md)
 * [Windows 11 Bypassing](Windows%2011%20Bypassing.md)
 * [Linux Script Auto-updates](Linux%20Script%20Auto-updates.md)
+* [Discord DVR - Exporting a Discord Channel](Discord%20DVR%20-%20Exporting%20a%20Discord%20Channel.md)
+* [MSKLC - Custom Keyboard Layout](MSKLC%20-%20Custom%20Keyboard%20Layout.md)
 
 ## Complementary Documentation :
 
