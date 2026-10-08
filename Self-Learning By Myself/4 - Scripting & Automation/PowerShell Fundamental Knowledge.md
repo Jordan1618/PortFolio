@@ -30,7 +30,7 @@
 - source = '''
 	.hostname = get_hostname!()   # Récupère dynamiquement le nom de la machine.
 	.source_os = "windows"        # Ajoute un tag fixe pour identifier l'OS.
-	.site = "saint-chamond"       # Ajoute un tag fixe pour identifier le site géographique.
+	.site = "site-01"       # Ajoute un tag fixe pour identifier le site géographique.
 	
 	# Détermination du type de log basé sur le nom du canal
 	.log_type = if exists(.channel) {

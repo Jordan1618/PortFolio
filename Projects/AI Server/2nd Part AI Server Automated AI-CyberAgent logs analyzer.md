@@ -180,7 +180,7 @@
 		    ports:
 		      - "4000:4000"
 		    environment:
-		      - LITELLM_MASTER_KEY=ma-cle-ia-2026
+		      - LITELLM_MASTER_KEY=YOUR_LITELLM_MASTER_KEY
 		    networks:
 		      - ai-internal
 		    volumes:
@@ -201,7 +201,7 @@
 		      - "3000:8080"
 		    environment:
 		      - OPENAI_API_BASE_URL=http://litellm:4000/v1
-		      - OPENAI_API_KEY=ma-cle-ia-2026
+		      - OPENAI_API_KEY=YOUR_LITELLM_MASTER_KEY
 		      - WEBUI_AUTH=true
 		    networks:
 		      - ai-internal
@@ -223,7 +223,7 @@
 		    environment:
 		      - N8N_BASIC_AUTH_ACTIVE=true
 		      - N8N_BASIC_AUTH_USER=admin
-		      - N8N_BASIC_AUTH_PASSWORD=password_test_n8n
+		      - N8N_BASIC_AUTH_PASSWORD=YOUR_N8N_PASSWORD
 		      - GENERIC_TIMEZONE=Europe/Paris
 		      - N8N_PROXY_HOPS=1
 		      - WEBHOOK_URL=https://X.X.X.X:8443/

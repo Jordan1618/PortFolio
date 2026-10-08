@@ -64,7 +64,7 @@ services:
     ports:
       - "4000:4000"
     environment:
-      - LITELLM_MASTER_KEY=ma-cle-ia-2026
+      - LITELLM_MASTER_KEY=YOUR_LITELLM_MASTER_KEY
     networks:
       - ai-internal
     volumes:
@@ -85,7 +85,7 @@ services:
       - "3000:8080"
     environment:
       - OPENAI_API_BASE_URL=http://litellm:4000/v1
-      - OPENAI_API_KEY=ma-cle-ia-2026
+      - OPENAI_API_KEY=YOUR_LITELLM_MASTER_KEY
       - WEBUI_AUTH=true
     networks:
       - ai-internal
@@ -107,7 +107,7 @@ services:
     environment:
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=admin
-      - N8N_BASIC_AUTH_PASSWORD=password_test_n8n
+      - N8N_BASIC_AUTH_PASSWORD=YOUR_N8N_PASSWORD
       - GENERIC_TIMEZONE=Europe/Paris
       - N8N_PROXY_HOPS=1
       - WEBHOOK_URL=[https://X.X.X.X:8443/](https://X.X.X.X:8443/)
@@ -187,7 +187,7 @@ services:
     restart: unless-stopped
     environment:
       - GF_SERVER_HTTP_PORT=3001
-      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_SECURITY_ADMIN_PASSWORD=YOUR_GRAFANA_PASSWORD
     volumes:
       - grafana-storage:/var/lib/grafana
     network_mode: host
@@ -448,7 +448,7 @@ address = "0.0.0.0:9598"
     
 - **Query Parameters**:
     
-    - `query`: `{site="saint-chamond"} | json | level=~"warning|error|critical" or log_type="generic"` _(Extracts both cyber-alerts and inventory streams simultaneously)._
+    - `query`: `{site="site-01"} | json | level=~"warning|error|critical" or log_type="generic"` _(Extracts both cyber-alerts and inventory streams simultaneously)._
         
     - `start`: `{{ Math.floor((Date.now() - 15 * 60 * 1000) / 1000) }}000000000`
         

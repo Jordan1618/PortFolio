@@ -61,7 +61,7 @@ A few examples taken from my repo :
 
 A mix of practical and personal: a free, sourced and open website that explains the body, emotions and relationships ([Comprendre pour tous](Projects/ComprendrePourTous/README.md), 15 guides, public code), a showcase website for a tile layer ([Site Vitrine](Projects/Site%20Vitrine%20Artisan%20Carreleur/Site%20Vitrine%20Artisan%20Carreleur.md)), a data project on my own messages (Instagram Messages Analytics), and a to-do list of ideas I haven't started yet, honestly the folder that scares me the most. **KaramelIa** is in here too: it started as a small experiment with AI music tools, and it's slowly become a real project, with its own visual identity and production process.
 
-Everything planned or paused (Financial Market Intelligence, the n8n projects and the others, with no empty folders on purpose) is listed in one place: [Roadmap - Everything I Plan To Do](Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md).
+Everything planned or paused (Financial Market Intelligence, the n8n projects and the others, with no empty folders on purpose) is listed in one place: [Roadmap - Everything I Plan To Do](Projects/Z%20-%20Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md).
 
 **KaramelIA YouTube Link :** https://www.youtube.com/@KaramelIa_Music
 
@@ -74,7 +74,7 @@ The closest thing I have to a personal curriculum, organized around what I actua
 - **Security and anonymity**, because understanding how to break something is the only way to defend it
 - **Scripting and automation**, because I like that. Automating everything is a key skill and I want to learn how to make it mine + it's a proof of work
 - **Digital identity**, because it is necessary in today's world
-- **Compliance (RGPD, NIS2)**, because that's exactly what I want to become : The person who knows how the engine turns and legally and efficiently. *This folder is still empty on purpose, it is planned in the [Roadmap](Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)*
+- **Compliance (RGPD, NIS2)**, because that's exactly what I want to become : The person who knows how the engine turns and legally and efficiently. *This folder is still empty on purpose, it is planned in the [Roadmap](Projects/Z%20-%20Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)*
 - *And underneath all of it, a running library of whatever I've already learned or still want to, wherever curiosity decides to point next*
 
 ## 🛠️ Technical Skills & Tools Stack
@@ -127,7 +127,7 @@ Learning Russian was never a career move, it was something that interested me. I
 - [My Tools And Cheat Sheets](Tools%20&%20Skills/My%20Own%20Tools%20-%20Cheat%20Sheets/README.md)
 - [Pièces jointes](Pi%C3%A8ces%20jointes/README.md)
 - [Projects](Projects/README.md)
-- [Roadmap - Everything I Plan To Do](Projects/Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)
+- [Roadmap - Everything I Plan To Do](Projects/Z%20-%20Projects%20To%20Do/Roadmap%20-%20Everything%20I%20Plan%20To%20Do.md)
 - [Russian Self-Learning](Side%20Learning/Russian%20Self-Learning/README.md)
 - [Self-Learning By Myself](Self-Learning%20By%20Myself/README.md)
 - [Skills & MasterPrompts](Tools%20&%20Skills/Skills%20&%20MasterPrompts/README.md)

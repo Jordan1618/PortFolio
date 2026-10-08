@@ -48,7 +48,7 @@ Read the matching reference file in full before writing. Follow its structure ex
 
 Vault folder map:
 
-- `Projects/` — everything built: `AI Server`, `FreeLance Activity` (PolyProject1), `KaramelIa`, `ComprendrePourTous`, `Site Vitrine Artisan Carreleur`, `Instagram Messages Analytics`, `Projects To Do` (roadmap, also lists the projects not started, which have no folder on purpose). Usually Tier B README
+- `Projects/` — everything built: `AI Server`, `FreeLance Activity` (PolyProject1), `KaramelIa`, `ComprendrePourTous`, `Site Vitrine Artisan Carreleur`, `Instagram Messages Analytics`, `Z - Projects To Do` (roadmap, also lists the projects not started, which have no folder on purpose). Usually Tier B README
 - `Tools & Skills/` — `My Own Tools - Cheat Sheets` (tool docs and cheat sheets, Tier A README) and `Skills & MasterPrompts` (skill documentation)
 - `Self-Learning By Myself/` (0-6) — general self-learning topics (Tier A README)
 - `Side Learning/` — `English Self-Learning` (written by the English correction mode, not by the 3 writing formats) and `Russian Self-Learning`

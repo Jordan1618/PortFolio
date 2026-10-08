@@ -20,6 +20,6 @@ This directory centralizes my personal research, technical comprehensions and id
 
 ## Summary
 
-- [PolyProject1](PolyProject1/README.md)
+- [Polywise](../Polywise1/README.md)
 
 --- 

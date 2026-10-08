@@ -135,7 +135,7 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 		source = '''
 		.hostname = get_hostname!()
 		.source_os = "windows"
-		.site = "saint-chamond"
+		.site = "site-01"
 		
 		.log_type = if exists(.channel) {
 		  ch = downcase(to_string!(.channel))
@@ -166,7 +166,7 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 		source = '''
 		.hostname = get_hostname!()
 		.source_os = "windows"
-		.site = "saint-chamond"
+		.site = "site-01"
 		if !exists(.timestamp) { .timestamp = now() }
 		if !exists(.level) { .level = "info" }
 		if !exists(.message) { .message = "inventaire" }
@@ -235,7 +235,7 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 		source = '''
 		.hostname = get_hostname!()
 		.source_os = "windows"
-		.site = "saint-chamond"
+		.site = "site-01"
 		
 		.log_type = if exists(.channel) {
 		  ch = downcase(to_string!(.channel))
@@ -266,7 +266,7 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 		source = '''
 		.hostname = get_hostname!()
 		.source_os = "windows"
-		.site = "saint-chamond"
+		.site = "site-01"
 		if !exists(.timestamp) { .timestamp = now() }
 		if !exists(.level) { .level = "info" }
 		if !exists(.message) { .message = "inventaire" }
@@ -315,7 +315,7 @@ Before any problem, I copied each config file (docker/config/systemd/cron) in [I
 	$ts = (Get-Date).ToUniversalTime().ToString("o")
 	function Send-Block {
 	    param([string]$LogType, [string]$Level, [string]$Msg, $Data)
-	    $body = @{ hostname=$hostname; source_os="windows"; site="saint-chamond"; log_type=$LogType; level=$Level; message=$Msg; timestamp=$ts; data=$Data } | ConvertTo-Json -Depth 8 -Compress
+	    $body = @{ hostname=$hostname; source_os="windows"; site="site-01"; log_type=$LogType; level=$Level; message=$Msg; timestamp=$ts; data=$Data } | ConvertTo-Json -Depth 8 -Compress
 	    try { Invoke-RestMethod -Uri $vectorLocal -Method POST -Body $body -ContentType "application/json" -TimeoutSec 15; Write-Host "[OK] $LogType envoyé" }
 	    catch { Write-Warning "[ERREUR] $LogType : $_" }
 	}

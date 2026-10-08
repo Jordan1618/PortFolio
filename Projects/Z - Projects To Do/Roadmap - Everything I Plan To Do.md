@@ -19,6 +19,7 @@
 | KaramelIa | In progress | [KaramelIa](../KaramelIa/README.md) | Automate the publishing flow with n8n, music distribution, TikTok and Instagram accounts |
 | Financial Market Intelligence | Planned | No folder yet | Data schema, n8n workflow deployment, prompt validation for the Saturday report |
 | Cyber Intelligence Newsletter (n8n) | Planned | No folder yet | Weekly global cyber edition on top of the Monday/Wednesday/Friday ones |
+| Projet AG (PEA, AGs, networking) | In progress | [Projet AG](../Projet%20AG/Projet%20AG%20-%20Project%20Overview.md) | First AGs in spring, monthly report, contacts from events |
 | Instagram Messages Analytics | Done, rerunnable | [Instagram Messages Analytics](../Instagram%20Messages%20Analytics/Instagram%20Messages%20Analytics.md) | Finish the last voice messages, maybe a small dashboard |
 | Public-interest meeting platform | Idea | [See section 6](#6-idea-public-interest-meeting-platform) | Test the idea on a small scale first |
 

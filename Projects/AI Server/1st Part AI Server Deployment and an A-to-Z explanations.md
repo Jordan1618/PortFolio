@@ -108,7 +108,7 @@
 		    environment:
 		      - N8N_BASIC_AUTH_ACTIVE=true
 		      - N8N_BASIC_AUTH_USER=admin
-			  - N8N_BASIC_AUTH_PASSWORD=HEPHEPPASTOUCHE
+			  - N8N_BASIC_AUTH_PASSWORD=YOUR_N8N_PASSWORD
 		      - N8N_HOST=localhost
 		      - N8N_PORT=5678
 		      - GENERIC_TIMEZONE=Europe/Paris
@@ -203,7 +203,7 @@
 			    ports:
 			      - "4000:4000"
 			    environment:
-			      - LITELLM_MASTER_KEY=ma-cle-ia-2026
+			      - LITELLM_MASTER_KEY=YOUR_LITELLM_MASTER_KEY
 			    networks:
 			      - ai-internal
 			    volumes:
@@ -224,7 +224,7 @@
 			      - "3000:8080"
 			    environment:
 			      - OPENAI_API_BASE_URL=http://litellm:4000/v1
-			      - OPENAI_API_KEY=ma-cle-ia-2026
+			      - OPENAI_API_KEY=YOUR_LITELLM_MASTER_KEY
 			      - WEBUI_AUTH=true
 			    networks:
 			      - ai-internal
@@ -246,7 +246,7 @@
 			    environment:
 			      - N8N_BASIC_AUTH_ACTIVE=true
 			      - N8N_BASIC_AUTH_USER=admin
-			      - N8N_BASIC_AUTH_PASSWORD=password_test_n8n
+			      - N8N_BASIC_AUTH_PASSWORD=YOUR_N8N_PASSWORD
 			      - GENERIC_TIMEZONE=Europe/Paris
 			    networks:
 			      - ai-internal
@@ -446,7 +446,7 @@
 - The authentification is running, routing too, OpenAI format respected
 	- curl http://localhost:4000/v1/chat/completions \
 		  -H "Content-Type: application/json" \
-		  -H "Authorization: Bearer ma-cle-ia-2026" \
+		  -H "Authorization: Bearer YOUR_LITELLM_MASTER_KEY" \
 		  -d '{
 		    "model": "mistral-large",
 		    "messages": [{"role": "user", "content": "Test de connexion"}]
